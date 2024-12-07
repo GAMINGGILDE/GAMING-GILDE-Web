@@ -1,21 +1,242 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-padding-top: 25rem;
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #010b14;
+}
+
+.navbar {
+  background: rgba(0,0,0,.4);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  transition: 2s;
+}
+
+.alert {
+  background: rgba(100,50,255,.4);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  transition: 2s;
+}
+
+.logo {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0,1));
+}
+
+.header::before {
+  content: "";
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.linear-text {
+  background-color: rgb(23, 252, 3);
+  background-image: linear-gradient(to right, #ffc524, #ff6817);
+  /*background-color: rgb(19, 115, 217); */
+  /*background-image: linear-gradient(to right, #2493ef, #a855f7); */
+  color: transparent;
+  background-clip: text;
+}
+
+.linear-button {
+  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  border: 1px solid white;
+}
+
+.sub-text {
+  color: rgba(255,255,255,.66);
+}
+
+.bg-sub {
+  background-color: rgba(255,255,255,.15);
+}
+
+.border-bottom {
+  border-bottom: .1px solid rgba(255,255,255,.25);
+}
+
+.card-background {
+  background-color: rgba(255,255,255,.1);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+}
+
+.card-background:hover {
+  box-shadow: inset 0px 0px 0px 1px rgba(222, 123, 47,1);
+}
+
+.card-background-linear {
+  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+}
+
+
+.card-background-linear:hover {
+  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+}
+
+.card-background-primary {
+  background-image: linear-gradient(180deg,rgba(255, 197, 36,.62) 0%, rgba(255, 104, 23,0.2) 100%);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+}
+
+/*
+.bg-primary {
+  background-color: rgba(17, 108, 212,.25);
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+}
+ */
+
+.card-inner-primary:hover {
+  box-shadow: inset 0px 0px 0px 1.5px rgba(255,255,255, 1);
+  transition: .5s;
+  border-radius: 15px;
+  background-color: transparent;
+  z-index: 99 !important;
+}
+
+.card-inner {
+  box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 1%, rgba(12,12,12, .1) 100%);
+  background-color: transparent;
+}
+
+.card-inner:hover {
+  box-shadow: inset 0px 0px 0px 1px rgba(222, 123, 47,1);
+}
+
+.card-inner-total {
+  box-shadow: inset 2px 2px 1px 1px rgba(255,255,255,.1);
+  border-radius: 15px;
+  background-image: linear-gradient(0deg,rgba(1, 11, 20,1) 1%, rgba(12,12,12, 1) 100%);
+  background-color: #010b14;
+}
+
+
+
+
+.bounce {
+  animation: bounce 8s ease-in-out infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+
+.img-wrap {
+  position: relative;
+}
+
+.img-wrap:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: linear-gradient(180deg,rgba(17, 108, 212,.0) 0%, rgba(0,0,0,.8) 100%);
+  border-radius: 5px;
+}
+
+
+
+
+.img-wrap:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(9, 31, 51, .6) 0%, rgba(1, 11, 20, 1) 100%) !important;
+}
+
+
+.img-wrap-black:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0,.5) 50%, rgba(0, 0, 0, 0.95) 100%) !important;
+}
+
+.parallax {
+  position: relative;
+  background-image: url("https://asset.gecdesigns.com/img/wallpapers/beautiful-magical-misty-mountains-reflection-river-ultra-hd-wallpaper-4k-sr10012420-1706505766369-cover.webp");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 10rem;
+}
+
+.parallax:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(9, 31, 51, .5) 0%, rgba(1, 11, 20, 1) 100%) !important;
+}
+
+
+/* Container des Scroll-Indikators */
+.scrollIndicatorContainer {
+  position: fixed;
+  top: 0;
+  right: 20px; /* Abstand vom rechten Rand */
+  width: 10px;
+  height: 100%;
+  background-color: transparent; /* Transparenten Hintergrund */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+
+/* Scroll-Indikator */
+.scrollIndicator {
+  width: 100%;
+  background: linear-gradient(to bottom, #ffc524, #ff6817); /* Farbverlauf von #ffc524 zu #ff6817 */
+  border-radius: 5px;
+  transition: height 0.2s ease-out; /* sanfte Animation */
 }

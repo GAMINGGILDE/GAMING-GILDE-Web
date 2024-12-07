@@ -1,0 +1,47 @@
+import {useEffect, useRef, useState} from "react";
+import anime from "animejs";
+
+export const DiscordFrame = () => {
+    const elementRef = useRef(null);
+    const [hasAnimated, setHasAnimated] = useState(false);
+
+    const startAnimation = () => {
+        if (hasAnimated) return;
+
+        anime({
+            targets: elementRef.current,
+            translateX: [150, 0],
+            easing: 'easeOutExpo',
+            opacity: 1,
+            duration: 3000,
+        });
+
+        setHasAnimated(true);
+    }
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting && !hasAnimated) {
+                    observer.unobserve(entries[0].target);
+                    startAnimation();
+                }
+            },
+            {
+                threshold: .75, // 75% des Elementes erreicht
+                rootMargin: '100px 0px', // Bereich Vergrößerung, in dem das Element erkannt wird
+            }
+        );
+
+        if (elementRef.current) {
+            observer.observe(elementRef.current as Element);
+        }
+    }, [hasAnimated]);
+
+    return (
+        <div ref={elementRef} style={{ opacity: 0 }}>
+            <iframe title="Discord-Widget" src="https://discord.com/widget?id=991419109298417734&amp;theme=dark" className="w-full"
+                    height="400" frameBorder="0"></iframe>
+        </div>
+    )
+}
