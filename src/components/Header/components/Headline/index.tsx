@@ -15,11 +15,11 @@ export const Headline = (props: HeadlineInterface) => {
             {props.image && props.image}
 
             {props.preTitle && (
-                <p className="w-[100%] mb-0 m-auto lg:w-[75%] text-white font-extrabold uppercase text-md lg:text-xl break-words">{props.preTitle}</p>
+                <p className="w-[100%] mb-0 m-auto lg:w-[75%] text-white tracking-wider font-semibold uppercase text-md lg:text-xl break-words">{props.preTitle}</p>
             )}
 
             {props.title && (
-                <h1 className="primary-text text-md lg:text-md font-semibold break-words">{props.title}</h1>
+                <h1 className="primary-text text-md lg:text-md font-bold break-words">{props.title}</h1>
             )}
 
             <div className="mt-2 lg:mt-2">

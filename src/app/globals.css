@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background: rgba(0,0,0,.4);
+  background: rgba(15, 52, 90,.2);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   transition: 2s;
@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0,1));
+  filter: drop-shadow(0px 0px 5px rgba(15, 52, 90,1));
 }
 
 .header::before {
@@ -42,7 +42,7 @@ body {
 
 .linear-text {
   background-color: rgb(23, 252, 3);
-  background-image: linear-gradient(to right, #ffc524, #ff6817);
+  background-image: linear-gradient(to right, #ffab2c, #bd4836);
   /*background-color: rgb(19, 115, 217); */
   /*background-image: linear-gradient(to right, #2493ef, #a855f7); */
   color: transparent;
@@ -77,20 +77,20 @@ body {
 }
 
 .card-background-linear {
-  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  background-image: linear-gradient(to right, #ffab2c, #bd4836);
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
   border-radius: 15px;
 }
 
 
 .card-background-linear:hover {
-  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  background-image: linear-gradient(to right, #bd4836, #ffab2c);
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
   border-radius: 15px;
 }
 
 .card-background-primary {
-  background-image: linear-gradient(180deg,rgba(255, 197, 36,.62) 0%, rgba(255, 104, 23,0.2) 100%);
+  background-image: linear-gradient(180deg,rgba(255, 171, 44,.62) 0%, rgba(189, 72, 54,0.2) 100%);
   box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,.1);
   border-radius: 15px;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .card-inner:hover {
-  box-shadow: inset 0px 0px 0px 1px rgba(222, 123, 47,1);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 171, 44,1);
 }
 
 .card-inner-total {
@@ -236,7 +236,7 @@ body {
 /* Scroll-Indikator */
 .scrollIndicator {
   width: 100%;
-  background: linear-gradient(to bottom, #ffc524, #ff6817); /* Farbverlauf von #ffc524 zu #ff6817 */
+  background: linear-gradient(to bottom, #ffab2c, #bd4836); /* Farbverlauf von #ffc524 zu #ff6817 */
   border-radius: 5px;
   transition: height 0.2s ease-out; /* sanfte Animation */
 }

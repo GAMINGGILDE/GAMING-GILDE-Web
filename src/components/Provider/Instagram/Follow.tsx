@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Instagram from "../../../assets/iPhone Mockup new.png";
+import Instagram from "../../../assets/logo.png";
 import React from "react";
 import Link from "next/link";
 
@@ -20,14 +20,14 @@ export const InstagramFollow = () => {
                                 height={100}
                                 priority={true}
                                 unoptimized={true}
-                                className="min-w-[100%] h-[30rem] px-7 relative bottom-32"
+                                className="w-[85%] h-[27rem] px-7 relative bottom-32"
                                 style={{ objectFit: 'cover' }}
                             />
                         </div>
                         <div className="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-10">
-                            <p className="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">Weitere spannende Einblicke</p>
-                            <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gemeinsam Spaß beim spielen.</h1>
-                            <Link target="_blank" href="#!" className="text-xs lg:text-base underline">Zum Kartell gelangen</Link>
+                            <p className="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">Schau dir gerne auch unsere</p>
+                            <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Entstehungsgeschichte an</h1>
+                            <Link target="_blank" href="#!" className="text-xs lg:text-base underline">Zur Geschichte gelangen</Link>
                         </div>
                         <div className="col-span-12 block lg:hidden lg:col-span-6 pb-1">
                             <Image

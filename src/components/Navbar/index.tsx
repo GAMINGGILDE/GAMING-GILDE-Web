@@ -2,7 +2,7 @@
 import React, {useEffect, useState} from "react";
 import Link from "next/link";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/ack-logo-schatten.png";
 import Image from "next/image";
 
 export const Navbar = () => {
@@ -33,27 +33,27 @@ export const Navbar = () => {
                         </svg>
                     </button>
                     <div className={`${!isShow ? 'hidden' : 'block'} w-full lg:block lg:w-auto`} id="navbar-default">
-                        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg lg:flex-row md:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0">
+                        <ul className="font-medium uppercase flex flex-col p-4 md:p-0 mt-4 rounded-lg lg:flex-row md:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0">
                             <li>
                                 <Link href="/"
                                       onClick={() => setShow(false)}
-                                      className="block py-2 px-3 text-white rounded hover:bg-transparent md:border-0 hover:text-primary p-0 bg-transparent"
+                                      className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
                                       aria-current="page">Startseite</Link>
                             </li>
                             <li>
                                 <Link href="/#prices"
                                       onClick={() => setShow(false)}
-                                      className="block py-2 px-3 text-white rounded hover:bg-transparent md:border-0 hover:text-primary p-0 bg-transparent">
+                                      className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
                                     Gameserver
                                 </Link>
                             </li>
                             <li>
                                 <a href="#!"
-                                   className="block py-2 px-3 text-white rounded hover:bg-transparent md:border-0 hover:text-primary p-0 bg-transparent">Event</a>
+                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">Event</a>
                             </li>
                             <li>
                                 <a href="#!"
-                                   className="block py-2 px-3 text-white rounded hover:bg-transparent md:border-0 hover:text-primary p-0 bg-transparent">Geschichte</a>
+                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">Geschichte</a>
                             </li>
                         </ul>
                     </div>

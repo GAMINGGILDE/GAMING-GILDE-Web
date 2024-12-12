@@ -41,7 +41,7 @@ export const DiscordFrame = () => {
     return (
         <div ref={elementRef} style={{ opacity: 0 }}>
             <iframe title="Discord-Widget" src="https://discord.com/widget?id=991419109298417734&amp;theme=dark" className="w-full"
-                    height="400" frameBorder="0"></iframe>
+                    height="600" frameBorder="0"></iframe>
         </div>
     )
 }

@@ -1,9 +1,9 @@
 "use client";
 
-import Logo from "../../assets/logo.png";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import {ParagraphIcon} from "../Icon/ParagraphIcon";
+import {PrivacyIcon} from "../Icon/PrivacyIcon";
 
 export const Footer = () => {
 
@@ -12,21 +12,20 @@ export const Footer = () => {
             <div className="mt-5 text-white container m-auto px-10">
 
                 <div className="my-24">
-                    <div className="flex justify-center lg:justify-between flex-wrap">
-                        <div className="flex flex-row items-center">
-                            <Image src={Logo} width="100px" loader={(loader) => `${loader.src}`} height="auto" className="w-[100px] logo my-auto" alt="ANTI Corona Kartell Logo"  />
-                            <h1 className="linear-text text-xl font-bold ml-10" style={{ letterSpacing: '3px' }}>
-                                ANTI-CORONA
-                            </h1>
-                            <h1 className="text-xl ml-2 font-extralight text-white" style={{ letterSpacing: '3px' }}>KARTELL</h1>
-                        </div>
+                    <div className="flex justify-center lg:justify-between flex-wrap font-extralight text-xs">
+                        <p>Copyright &copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten</p>
 
-                        <div className="flex font-extralight justify-center text-xs items-center">
+                        <div className="flex justify-center items-center">
                             <div className="mx-2">
-                                <Link href="/imprint">Impressum</Link>
+                                <Link href="/imprint">
+                                    <ParagraphIcon className="w-5 h-5 fill-white" />
+                                </Link>
                             </div>
-                            <p className="mx-2">Datenschutz</p>
-                            <p className="mx-2">AGB</p>
+                            <div className="mx-2">
+                                <Link href="/privacy">
+                                    <PrivacyIcon className="w-5 h-5 fill-white" />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
