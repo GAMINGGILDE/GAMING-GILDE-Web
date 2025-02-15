@@ -4,7 +4,7 @@ import Image from "next/image";
 import PreviewImage from "../../assets/ACK-Background-2.jpg";
 import PreviewImage2 from "../../assets/Age 2 Startscreen.png";
 import PreviewImage3 from "../../assets/ACK-Background-3.jpg";
-import React, {useEffect, useState} from "react";
+import React, {useCallback, useEffect, useState} from "react";
 import Link from "next/link";
 import {Headline} from "./components/Headline/index";
 
@@ -12,38 +12,38 @@ export const Header = () => {
     const [image, setImage] = useState<string | null>(PreviewImage);
 
     useEffect(() => {
-        const random = Math.floor(Math.random() * 3) + 1;
-
-        switch (random) {
-            case 1:
-                setImage(PreviewImage);
-                return;
-            case 2:
-                setImage(PreviewImage2);
-                return;
-            case 3:
-                setImage(PreviewImage3);
-                return;
-        }
+        const images = [PreviewImage, PreviewImage2, PreviewImage3];
+        const randomIndex = Math.floor(Math.random() * images.length);
+        setImage(images[randomIndex]);
     }, []);
+
+    const RenderImage = useCallback(() => {
+        if (!image) {
+            return <></>;
+        }
+
+        return (
+            <div className="absolute top-0" style={{ zIndex: -1 }}>
+                <div className="img-wrap">
+                    <Image
+                        loader={(loader) => `${loader.src}`}
+                        width={1000}
+                        height={1000}
+                        className="w-full"
+                        priority={true}
+                        unoptimized={true}
+                        src={image}
+                        alt={"header preview"}
+                        style={{ borderRadius: '10px' }}
+                    />
+                </div>
+            </div>
+        )
+    }, [image])
 
     return (
         <>
-            {image && (
-                <div className="absolute top-0" style={{ zIndex: -1 }}>
-                    <div className="img-wrap">
-                        <Image
-                            loader={(loader) => `${loader.src}`}
-                            width={1000}
-                            height={1000}
-                            className="w-full"
-                            src={image}
-                            alt={"header preview"}
-                            style={{ borderRadius: '10px' }}
-                        />
-                    </div>
-                </div>
-            )}
+            <RenderImage />
 
             <Headline
                 preTitle={"Gaming Community"}

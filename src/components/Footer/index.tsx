@@ -13,7 +13,7 @@ export const Footer = () => {
 
                 <div className="my-24">
                     <div className="flex justify-center lg:justify-between flex-wrap font-extralight text-xs">
-                        <p>Copyright &copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten</p>
+                        <p>&copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten</p>
 
                         <div className="flex justify-center items-center">
                             <div className="mx-2">

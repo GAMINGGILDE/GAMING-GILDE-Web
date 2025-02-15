@@ -1,11 +1,10 @@
 "use client"
 
-import Link from "next/link";
 import {DiscordFrame} from "../../../IFrame/DiscordFrame";
 
 export const SearchEnd = () => {
     return (
-        <div className="container m-auto p-5">
+        <div className="container m-auto p-5 mt-16">
             <div className="grid grid-cols-12 items-center">
                 <div className="col-span-12 lg:col-span-8 mb-3">
                     <p className="linear-text text-xs lg:text-base uppercase">Betrete jetzt unseren Discord</p>

@@ -20,7 +20,7 @@ export const AboutUs = () => {
                         <Card
                             isRight={false}
                             className="opacity-0"
-                            icon={<Image src={Logo} alt={"logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
+                            icon={<Image src={Logo} priority={true} unoptimized={true} alt={"logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
                             title={"Spaß"}
                             subTitle={"Das ANTI-CORONA-KARTELL ist eine junge Gaming-Community. Von Gamern für Gamer. Wir streben nicht nach Likes, Klicks oder Profit. Wir wollen einfach nur in einem positiven Umfeld gemeinsam Spaß beim Spielen haben."}
                         />
@@ -38,7 +38,7 @@ export const AboutUs = () => {
                         <Card
                             isRight={true}
                             className="opacity-0"
-                            icon={<Image src={LogoVirus} alt={"virus logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
+                            icon={<Image src={LogoVirus} priority={true} unoptimized={true} alt={"virus logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
                             title={"Beitreten"}
                             subTitle={"Wenn die Verwendung von Discord für dich neu ist, solltest du dich ggf. jetzt mit den Grundlagen vertraut machen. Ansonsten leg einfach los und tritt dem ANTI-CORONA-KARTELL bei und finde Gleichgesinnte zum Spielen."}
                         />

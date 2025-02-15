@@ -12,7 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "#ffab2c",
-        primaryHover: "#bd4836"
+        primaryHover: "#bd4836",
+        primaryDark: "#050912",
       },
     },
   },
