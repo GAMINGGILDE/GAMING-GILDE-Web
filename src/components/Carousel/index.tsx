@@ -33,7 +33,7 @@ export const Carousel = () => {
     };
 
     return (
-        <div className="relative w-full h-[600px] overflow-hidden">
+        <div className="relative w-full h-[380px]">
             {/* Carousel Container */}
             <div className="relative w-full h-[380px] mx-auto flex items-center justify-center">
                 {/* Previous Image */}
@@ -80,7 +80,7 @@ export const Carousel = () => {
             </div>
 
             {/* Navigation Buttons */}
-            <div className="absolute top-1/2 left-0 transform -translate-y-1/2">
+            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 flex justify-center items-center h-full">
                 <button
                     onClick={() => moveToSelected("prev")}
                     className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"
@@ -101,7 +101,7 @@ export const Carousel = () => {
                     </svg>
                 </button>
             </div>
-            <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
+            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex justify-center items-center h-full">
                 <button
                     onClick={() => moveToSelected("next")}
                     className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"

@@ -5,10 +5,9 @@ import PreviewImage from "../../assets/ACK-Background-2.jpg";
 import PreviewImage2 from "../../assets/Age 2 Startscreen.png";
 import PreviewImage3 from "../../assets/ACK-Background-3.jpg";
 import React, {useCallback, useEffect, useState} from "react";
-import Link from "next/link";
 import {Headline} from "./components/Headline/index";
 
-export const Header = () => {
+export const Header = ({ noText }: { noText?: boolean }) => {
     const [image, setImage] = useState<string | null>(PreviewImage);
 
     useEffect(() => {
@@ -46,9 +45,9 @@ export const Header = () => {
             <RenderImage />
 
             <Headline
-                preTitle={"Gaming Community"}
-                subTitle={<p className="uppercase"><span className="linear-text font-bold text-6xl lg:text-7xl">ANTI-CORONA-KARTELL</span></p>}
-                text={<>Eine junge Gaming-Community, für gemeinsamen Spaß beim Spielen</>}
+                preTitle={noText ? "" : "Gaming Community"}
+                subTitle={noText ? <></> : <p className="uppercase"><span className="linear-text font-bold text-6xl lg:text-7xl">ANTI-CORONA-KARTELL</span></p>}
+                text={noText ? <></> : <>Eine junge Gaming-Community, für gemeinsamen Spaß beim Spielen</>}
             >
             </Headline>
         </>
