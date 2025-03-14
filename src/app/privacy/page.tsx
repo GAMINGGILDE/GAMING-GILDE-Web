@@ -1,10 +1,17 @@
+"use client";
+
+import React from "react";
+import {Header} from "../../components/Header/index";
+
 export default function Datenschutz() {
     return (
-        <section className="mt-[15rem] px-3 lg:px-0 w-[100%] m-auto lg:w-[75%] mb-[10rem] text-white">
-            <div className="max-w-4xl mx-auto space-y-10">
+        <section className="">
+            <Header />
+
+            <div className="max-w-4xl mx-auto space-y-10 mt-[15rem] px-3 lg:px-0 w-[100%] m-auto lg:w-[75%] mb-[5rem] text-white">
                 {/* Header */}
                 <header className="space-y-4">
-                    <h1 className="text-3xl font-bold">Datenschutzerklärung</h1>
+                    <h1 className="text-3xl font-bold linear-text">Datenschutzerklärung</h1>
                     <p className="text-gray-300">
                         Diese Datenschutzerklärung klärt dich über Art, Umfang und Zweck der Verarbeitung
                         personenbezogener Daten auf.

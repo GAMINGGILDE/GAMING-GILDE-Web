@@ -38,33 +38,26 @@ export const Carousel = () => {
             <div className="relative w-full h-[380px] mx-auto flex items-center justify-center">
                 {/* Previous Image */}
                 <div
-                    className={`absolute left-0 w-[320px] h-[320px] transition-all duration-500 transform ${
+                    className={`absolute left-0 w-[320px] h-[320px] transition-all duration-300 transform ${
                         isTransitioning ? "scale-90 opacity-50" : "scale-90 opacity-100"
                     }`}
                 >
                     <div className="w-full h-full relative overflow-hidden">
-                        <img
-                            src={images[(selectedIndex - 1 + images.length) % images.length].src}
-                            alt="Previous"
-                            className="object-cover w-full h-full"
-                        />
-                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+                        <CarouselImage image={images[(selectedIndex - 1 + images.length) % images.length].src} />
+                        <div className="absolute top-0 left-0 w-full h-full opacity-30" />
                     </div>
                 </div>
 
                 {/* Current Image */}
                 <div
-                    className={`absolute z-10 w-[320px] h-[320px] transition-all duration-500 transform ${
+                    className={`absolute z-10 w-[320px] h-[320px] transition-all duration-300 transform ${
                         isTransitioning ? "scale-100 opacity-100" : "scale-100 opacity-100"
                     }`}
                 >
                     <div className="w-full h-full relative overflow-hidden">
-                        <img
-                            src={images[selectedIndex].src}
-                            alt="Current"
-                            className="object-cover w-full h-full"
-                        />
-                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+                        <CarouselImage image={images[selectedIndex].src} />
+
+                        <div className="absolute top-0 left-0 w-full h-full opacity-30" />
                         <div className="absolute top-1/2 left-1/2 text-center text-white transform -translate-x-1/2 -translate-y-1/2 text-xl">
                             {images[selectedIndex].alt}
                         </div>
@@ -73,19 +66,17 @@ export const Carousel = () => {
 
                 {/* Next Image */}
                 <div
-                    className={`absolute right-0 w-[320px] h-[320px] transition-all duration-500 transform ${
+                    className={`absolute right-0 w-[320px] h-[320px] transition-all duration-300 transform ${
                         isTransitioning ? "scale-90 opacity-50" : "scale-90 opacity-100"
                     }`}
                 >
                     <div className="w-full h-full relative overflow-hidden">
-                        <img
-                            src={images[(selectedIndex + 1) % images.length].src}
-                            alt="Next"
-                            className="object-cover w-full h-full"
-                        />
-                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+                        <CarouselImage image={images[(selectedIndex + 1) % images.length].src} />
+
+                        <div className="absolute top-0 left-0 w-full h-full opacity-30" />
                     </div>
                 </div>
+
             </div>
 
             {/* Navigation Buttons */}
@@ -102,9 +93,9 @@ export const Carousel = () => {
                         className="w-8 h-8"
                     >
                         <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M15 19l-7-7 7-7"
                         />
                     </svg>
@@ -123,9 +114,9 @@ export const Carousel = () => {
                         className="w-8 h-8"
                     >
                         <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M9 5l7 7-7 7"
                         />
                     </svg>
@@ -134,5 +125,35 @@ export const Carousel = () => {
         </div>
     );
 };
+
+const CarouselImage = ({ image }: { image: string; }) => {
+    return (
+        <div
+            className="relative inline-block"
+            style={{
+                width: '100%', // Du kannst die Größe nach Bedarf anpassen
+                height: '100%', // Du kannst die Höhe nach Bedarf anpassen
+            }}
+        >
+            <div
+                className="absolute inset-0 bg-primary"
+                style={{
+                    clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
+                    border: '8px solid #ffab2c',
+                    padding: '2px',
+                }}
+            >
+                <img
+                    src={image}
+                    alt="Previous"
+                    className="object-cover w-full h-full"
+                    style={{
+                        clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)', // Clipping nur auf das Bild anwenden
+                    }}
+                />
+            </div>
+        </div>
+    )
+}
 
 export default Carousel;
