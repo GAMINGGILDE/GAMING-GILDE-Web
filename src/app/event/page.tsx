@@ -1,7 +1,6 @@
 import {Carousel} from "../../components/Carousel/index";
 import {Header} from "../../components/Header/index";
 
-
 const EventPage = () => {
 
     return (
