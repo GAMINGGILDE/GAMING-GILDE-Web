@@ -1,8 +1,7 @@
-"use client";  // React 18 feature to enable use of React in Next.js 13+
+"use client";
 
 import React, { useState } from "react";
 
-// Bild-Daten (Beispiel)
 const images = [
     { src: "https://i.postimg.cc/1X5zGSHT/storyintro1.jpg", alt: "IMG1" },
     { src: "https://i.postimg.cc/yxQ8nGpN/storyintro2.jpg", alt: "IMG2" },
@@ -28,8 +27,8 @@ export const Carousel = () => {
                     (prevIndex) => (prevIndex - 1 + images.length) % images.length
                 );
             }
-            setIsTransitioning(false); // Setzt die Transition zurück, wenn der Wechsel abgeschlossen ist
-        }, 500); // Dauer der Animation (ms)
+            setIsTransitioning(false);
+        }, 500);
     };
 
     return (
@@ -131,8 +130,8 @@ const CarouselImage = ({ image }: { image: string; }) => {
         <div
             className="relative inline-block"
             style={{
-                width: '100%', // Du kannst die Größe nach Bedarf anpassen
-                height: '100%', // Du kannst die Höhe nach Bedarf anpassen
+                width: '100%',
+                height: '100%',
             }}
         >
             <div
