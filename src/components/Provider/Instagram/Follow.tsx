@@ -27,7 +27,7 @@ export const InstagramFollow = () => {
                         <div className="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-10">
                             <p className="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">Schau dir gerne auch unsere</p>
                             <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gameserver an</h1>
-                            <Link target="_blank" href="#!" className="text-xs lg:text-base underline">Mehr erfahren</Link>
+                            <Link target="_blank" href="https://anti-corona-kartell.de/gameserver" className="text-xs lg:text-base underline">Mehr erfahren</Link>
                         </div>
                         <div className="col-span-12 block lg:hidden lg:col-span-6 pb-1">
                             <Image

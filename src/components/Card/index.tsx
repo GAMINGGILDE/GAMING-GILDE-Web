@@ -56,7 +56,8 @@ export const Card = (props: CardInterface) => {
     }, [hasAnimated]);
 
     return (
-        <div ref={elementRef} style={typeof props.isRight === "boolean" ? { opacity: 0 } : null} className={`${props.isPrimary ? 'card-background-primary card-inner-primary' : 'card-background'} cursor-pointer p-1 text-white ${props.className}`}>
+        <div ref={elementRef} style={typeof props.isRight === "boolean" ? {opacity: 0} : null}
+             className={`${props.isPrimary ? 'card-background-primary card-inner-primary' : 'card-background'} cursor-pointer p-1 text-white ${props.className}`}>
             <div className={`card-inner relative p-4 ${props?.innerClassName ? props.innerClassName : 'lg:p-10'}`}>
                 {props.isPrimary ? (
                     <div className="grid grid-cols-12">

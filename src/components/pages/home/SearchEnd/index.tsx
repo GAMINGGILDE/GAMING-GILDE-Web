@@ -1,6 +1,7 @@
 "use client"
 
 import {DiscordFrame} from "../../../IFrame/DiscordFrame";
+import React from "react";
 
 export const SearchEnd = () => {
     return (
@@ -8,27 +9,33 @@ export const SearchEnd = () => {
             <div className="grid grid-cols-12 items-center">
                 <div className="col-span-12 lg:col-span-8 mb-3">
                     <p className="linear-text text-xs lg:text-base uppercase">Betrete jetzt unseren Discord</p>
-                    <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">Der Discord-Server, <br />den du gesucht hast.</h1>
+                    <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">Das bekommst du bei uns
+                        geboten:</h1>
                     <p className="text-white font-thin mt-4 mb-7">
-                        Auf unserem Discord-Server findest du mannigfaltige Informationen <br />
-                        zu Games und Hardware (📰). <br />
-                        Audio-Kanale zu den verschiedensten Spielen sind am 🎮-Symbol zu erkennen. <br />
-                        Für Games, für die es keinen dedizierten Audio-Kanal gibt, <br />
-                        verwende den Audio-Kanal 'Sonstige'. <br />
-                        Auf Anfrage können auch gerne weitere dedizierte Audio-Kanäle für deine <br />
-                        Lieblingsspiele bereitgestellt werden.
-
-                        <br /><br />
-
-                        Vom Anti-Corona-Kartell gehostete Gameserver sind am 🌐-Symbol zu erkennen, <br />
-                        als auch das von unserem Partner Minecraft Gilde gehostete Minecraft. <br />
-                        Wenn du der gerne mal wieder Minecraft wie zu Anfangszeiten spielen willst, <br />
-                        wird dir dort ein sehr vanilla-naher Server mit wenigen <br />
-                        Plugins und Einschränkungen geboten.
+                        Unser Discord-Server bietet dir News zu Games und Hardware, du kannst dich zu einer<br/>Vielzahl
+                        an Spielen mit Gleichgesinnten treffen und dich mit ihnen zu Themen rund ums<br/>Gaming
+                        austauschen. Wir bieten kostenfrei unsere Lifetime Gameserver für Minecraft<br/>und Eco an,
+                        sowie wechselnde temporäre Gameserver für weitere Spiele.<br/>Also jede Menge Abwechslung und
+                        Spaß mit Spielen garantiert!
+                        <br/><br/>
+                        Zudem kannst du durch uns <a href="https://zap-hosting.com/anticoronakartellbanner"
+                                                     className="text-blue-400 underline ml-1">20%
+                        Rabatt</a>auf einen eigenen Gameserver bei unserm<br/>Hoster
+                        <a href="https://zap-hosting.com/anticoronakartellbanner">Zap-Hosting</a> bekommen. Wenn du
+                        schon immer Herr über einen eigenen<br/>Gameserver ein wolltest,
+                        ist das die Gelegenheit. Bei Umsetzung und Konfiguration<br/>gibt's von uns auch gerne
+                        Unterstützung, falls das für dich Neuland sein sollte.
+                        <br/><br/>
+                        Wie wäre es dazu noch mit einem eigenen Kanal auf unserem Discord-Server?<br/>Anstatt sich den
+                        Aufwand zu einem Discord-Server selbst aufzuerlegen, stellen wir<br/>dir zu deinem eigenen
+                        Gameserver auch eine eigene Kategorie zur Verfügung,<br/>damit du zu deinem neuem Gameserver von
+                        unserer Community profitieren kannst.
+                        <br/><br/>
+                        Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-4 lg:mt-0 mt-7">
-                    <DiscordFrame />
+                    <DiscordFrame/>
                 </div>
             </div>
         </div>

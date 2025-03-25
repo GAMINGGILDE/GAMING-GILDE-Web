@@ -3,14 +3,16 @@
 import Link from "next/link";
 import {Modal} from "../Modal/index";
 import React, {useState} from "react";
+import Image from "next/image";
 
 interface GameServerCardInterface {
     title: string;
+    image: string | unknown;
     children: React.ReactNode;
     cardText: React.ReactNode;
 }
 
-export const GameServerCard = ({ title, children, cardText }: GameServerCardInterface) => {
+export const GameServerCard = ({ title, children, cardText, image }: GameServerCardInterface) => {
     const [isShowModal, setShowModal] = useState<boolean>(false);
 
     return (
@@ -27,7 +29,33 @@ export const GameServerCard = ({ title, children, cardText }: GameServerCardInte
                             </div>
                         </div>
 
-                        <p className="mb-5 text-xs">{cardText}</p>
+                        <div className="mb-5">
+                           <div className="grid grid-cols-12">
+                               <div className="col-span-12 lg:col-span-6 mx-auto lg:hidden block mb-7">
+                                   <Image
+                                       src={image}
+                                       alt={"gameserver preview"}
+                                       className="max-h-[5rem] object-contain"
+                                       width={100}
+                                       height={100}
+                                       loader={(loader) => loader.src}
+                                   />
+                               </div>
+                               <div className="col-span-12 lg:col-span-6 text-xs">
+                                   {cardText}
+                               </div>
+                               <div className="col-span-12 lg:col-span-6 mx-auto lg:block hidden">
+                                   <Image
+                                       src={image}
+                                       alt={"gameserver preview"}
+                                       className="max-h-[5rem] object-contain"
+                                       width={100}
+                                       height={100}
+                                       loader={(loader) => loader.src}
+                                   />
+                               </div>
+                           </div>
+                        </div>
 
                         <div className="flex">
                             <div className="bg-primary px-5 text-center py-0.5 rounded-full flex items-center">

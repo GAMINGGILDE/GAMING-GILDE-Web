@@ -2,19 +2,18 @@
 
 import Image from "next/image";
 import PreviewImage from "../../assets/ACK-Background-2.jpg";
-import PreviewImage2 from "../../assets/Age 2 Startscreen.png";
-import PreviewImage3 from "../../assets/ACK-Background-3.jpg";
 import React, {useCallback, useEffect, useState} from "react";
 import {Headline} from "./components/Headline/index";
 
-export const Header = ({ noText }: { noText?: boolean }) => {
+export const Header = ({ noText, previews }: { noText?: boolean; previews: string[] | unknown[] }) => {
     const [image, setImage] = useState<string | null>(PreviewImage);
 
     useEffect(() => {
-        const images = [PreviewImage, PreviewImage2, PreviewImage3];
-        const randomIndex = Math.floor(Math.random() * images.length);
-        setImage(images[randomIndex]);
-    }, []);
+        if (previews) {
+            const randomIndex = Math.floor(Math.random() * previews.length);
+            setImage(previews[randomIndex]);
+        }
+    }, [previews]);
 
     const RenderImage = useCallback(() => {
         if (!image) {

@@ -8,11 +8,13 @@ export default function Home() {
     <div>
       <Header />
 
-      <AboutUs />
+        <div className="max-w-[1280px] mx-auto">
+            <AboutUs />
 
-      <SearchEnd />
+            <SearchEnd />
 
-      <InstagramFollow />
+            <InstagramFollow />
+        </div>
     </div>
   );
 }
