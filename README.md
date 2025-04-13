@@ -72,3 +72,16 @@ Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
     <Carousel/>
 </div> */}
 ```
+
+Änderungen von GitLap abrufen (via Terminal):
+
+```
+git pull
+```
+
+Änderung auf GitLap hochladen (Commits):
+
+```
+[STRG]+[K]
+```
+Commit-Massage hinzufügen und dann auf Push klicken zum Übertragen.
