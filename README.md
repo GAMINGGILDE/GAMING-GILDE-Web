@@ -85,3 +85,4 @@ git pull
 [STRG]+[K]
 ```
 Commit-Massage hinzufügen und dann auf Push klicken zum Übertragen.
+Wenn "versemmelt", dann via Terminal Command 'git push' erneut lostreten.
