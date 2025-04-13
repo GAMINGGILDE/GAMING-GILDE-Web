@@ -18,7 +18,7 @@ export const SearchEnd = () => {
                         sowie wechselnde temporäre Gameserver für weitere Spiele.<br/>Also jede Menge Abwechslung und
                         Spaß mit Spielen garantiert!
                         <br/><br/>
-                        Zudem kannst du durch uns <a className="text-primary underline" href="https://zap-hosting.com/anticoronakartellbanner">20% Rabatt</a> auf einen eigenen Gameserver bei unserm Hoster <a href="https://zap-hosting.com/anticoronakartellbanner">Zap-Hosting</a> bekommen. Wenn du
+                        Zudem kannst du durch uns <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner">20% Rabatt</a> auf einen eigenen Gameserver bei unserm Hoster <a href="https://zap-hosting.com/anticoronakartellbanner">Zap-Hosting</a> bekommen. Wenn du
                         schon immer Herr über einen eigenen Gameserver ein wolltest,
                         ist das die Gelegenheit. Bei Umsetzung und Konfiguration gibt's von uns auch gerne
                         Unterstützung, falls das für dich Neuland sein sollte.

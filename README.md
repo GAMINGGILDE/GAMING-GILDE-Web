@@ -84,5 +84,12 @@ git pull
 ```
 [STRG]+[K]
 ```
+
 Commit-Massage hinzufügen und dann auf Push klicken zum Übertragen.
 Wenn "versemmelt", dann via Terminal Command 'git push' erneut lostreten.
+
+Beispiel zum Link einfügen:
+
+```
+<a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner">20% Rabatt</a>
+```
