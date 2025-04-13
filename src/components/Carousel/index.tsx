@@ -1,13 +1,14 @@
 "use client";
 
-import React, { useState } from "react";
+import React, {useState} from "react";
+import Link from "next/link";
 
 const images = [
-    { src: "https://i.postimg.cc/1X5zGSHT/storyintro1.jpg", alt: "IMG1" },
-    { src: "https://i.postimg.cc/yxQ8nGpN/storyintro2.jpg", alt: "IMG2" },
-    { src: "https://i.postimg.cc/mZ8kbcZG/storyintro3.jpg", alt: "IMG3" },
-    { src: "https://i.postimg.cc/kXH5bkt1/storyintro4.jpg", alt: "IMG4" },
-    { src: "https://i.postimg.cc/8Pc5s1sf/storyintro5.jpg", alt: "IMG5" },
+    { src: "https://i.postimg.cc/1X5zGSHT/storyintro1.jpg", alt: "IMG1", link: "https://google.de" },
+    { src: "https://i.postimg.cc/yxQ8nGpN/storyintro2.jpg", alt: "IMG2", link: "https://google.de" },
+    { src: "https://i.postimg.cc/mZ8kbcZG/storyintro3.jpg", alt: "IMG3", link: "https://google.de" },
+    { src: "https://i.postimg.cc/kXH5bkt1/storyintro4.jpg", alt: "IMG4", link: "https://google.de" },
+    { src: "https://i.postimg.cc/8Pc5s1sf/storyintro5.jpg", alt: "IMG5", link: "https://google.de" },
 ];
 
 export const Carousel = () => {
@@ -36,32 +37,42 @@ export const Carousel = () => {
             {/* Carousel Container */}
             <div className="relative w-full h-[380px] mx-auto flex items-center justify-center">
                 {/* Previous Image */}
-                <div
-                    className={`absolute left-0 w-[320px] h-[320px] transition-all duration-300 transform ${
-                        isTransitioning ? "scale-90 opacity-50" : "scale-90 opacity-100"
-                    }`}
-                >
-                    <div className="w-full h-full relative overflow-hidden">
-                        <CarouselImage image={images[(selectedIndex - 1 + images.length) % images.length].src} />
-                        <div className="absolute top-0 left-0 w-full h-full opacity-30" />
-                    </div>
-                </div>
+                   <div
+                       className={`absolute left-0 w-[320px] h-[320px] transition-all duration-300 transform ${
+                           isTransitioning ? "scale-90 opacity-50" : "scale-90 opacity-100"
+                       }`}
+                   >
+                         <Link href={images[(selectedIndex - 1 + images.length) % images.length].link}>
+                           <div className="w-full h-full relative overflow-hidden">
+                               <CarouselImage
+                                   link={images[(selectedIndex - 1 + images.length) % images.length].link}
+                                   image={images[(selectedIndex - 1 + images.length) % images.length].src}
+                               />
+                               <div className="absolute top-0 left-0 w-full h-full opacity-30" />
+                           </div>
+                        </Link>
+                   </div>
 
                 {/* Current Image */}
-                <div
-                    className={`absolute z-10 w-[320px] h-[320px] transition-all duration-300 transform ${
-                        isTransitioning ? "scale-100 opacity-100" : "scale-100 opacity-100"
-                    }`}
-                >
-                    <div className="w-full h-full relative overflow-hidden">
-                        <CarouselImage image={images[selectedIndex].src} />
+                    <div
+                        className={`absolute z-10 w-[320px] h-[320px] transition-all duration-300 transform ${
+                            isTransitioning ? "scale-100 opacity-100" : "scale-100 opacity-100"
+                        }`}
+                    >
+                         <Link href={images[selectedIndex].link}>
+                            <div className="w-full h-full relative overflow-hidden">
+                                <CarouselImage
+                                    image={images[selectedIndex].src}
+                                    link={images[selectedIndex].link}
+                                />
 
-                        <div className="absolute top-0 left-0 w-full h-full opacity-30" />
-                        <div className="absolute top-1/2 left-1/2 text-center text-white transform -translate-x-1/2 -translate-y-1/2 text-xl">
-                            {images[selectedIndex].alt}
-                        </div>
+                                <div className="absolute top-0 left-0 w-full h-full opacity-30" />
+                                <div className="absolute top-1/2 left-1/2 text-center text-white transform -translate-x-1/2 -translate-y-1/2 text-xl">
+                                    {images[selectedIndex].alt}
+                                </div>
+                            </div>
+                        </Link>
                     </div>
-                </div>
 
                 {/* Next Image */}
                 <div
@@ -69,17 +80,22 @@ export const Carousel = () => {
                         isTransitioning ? "scale-90 opacity-50" : "scale-90 opacity-100"
                     }`}
                 >
+                    <Link href={images[(selectedIndex + 1) % images.length].link}>
                     <div className="w-full h-full relative overflow-hidden">
-                        <CarouselImage image={images[(selectedIndex + 1) % images.length].src} />
+                        <CarouselImage
+                            image={images[(selectedIndex + 1) % images.length].src}
+                            link={images[(selectedIndex + 1) % images.length].link}
+                        />
 
                         <div className="absolute top-0 left-0 w-full h-full opacity-30" />
                     </div>
+                </Link>
                 </div>
 
             </div>
 
             {/* Navigation Buttons */}
-            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 flex justify-center items-center h-full">
+            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 flex justify-center items-center h-full z-50">
                 <button
                     onClick={() => moveToSelected("prev")}
                     className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"
@@ -100,7 +116,7 @@ export const Carousel = () => {
                     </svg>
                 </button>
             </div>
-            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex justify-center items-center h-full">
+            <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex justify-center items-center h-full z-50">
                 <button
                     onClick={() => moveToSelected("next")}
                     className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"
@@ -125,7 +141,7 @@ export const Carousel = () => {
     );
 };
 
-const CarouselImage = ({ image }: { image: string; }) => {
+const CarouselImage = ({ image, link }: { image: string; link?: string }) => {
     return (
         <div
             className="relative inline-block"

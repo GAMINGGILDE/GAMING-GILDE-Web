@@ -17,8 +17,8 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className={`fixed w-full z-20 border-bottom top-0 start-0 ${isShow && 'navbar'} ${isFixed && 'navbar'}`}>
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 px-8">
+            <nav style={{ zIndex: 99 }} className={`fixed w-full border-bottom top-0 start-0 ${isShow && 'navbar'} ${isFixed && 'navbar'}`}>
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3">
                     <a href="/" className="flex items-center">
                         <Image src={Logo} width="10" loader={(loader) => `${loader.src}`} priority={true}
                                unoptimized={true} height="auto" className="w-[75px]" alt="Anti-corona-kartell Logo"  />

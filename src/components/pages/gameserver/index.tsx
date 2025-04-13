@@ -2,14 +2,16 @@
 
 import {GameServerCard} from "../../Card/GameServerCard";
 import React from "react";
-import Hosting from "../../../assets/images.jpeg";
+import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import {Header} from "../../Header/index";
 
 import TestImage from "../../../assets/ack-logo-schatten.png";
-import PreviewImage from "../../../assets/ACK-Background-2.jpg";
-import PreviewImage2 from "../../../assets/Age 2 Startscreen.png";
-import PreviewImage3 from "../../../assets/ACK-Background-3.jpg";
+import TestImage2 from "../../../assets/logo.png";
+
+import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
+import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
+import PreviewImage3 from "../../../assets/gameserver-bg-valheim.webp";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 
@@ -25,14 +27,14 @@ export const GameServer = () => {
                             <h2 className="linear-text font-medium uppercase text-sm">ANTI-CORONA-KARTELL</h2>
 
                             <div className="flex flex-row m-0 p-0 uppercase mt-3 pr-5">
-                                <h1 className="font-semibold text-2xl lg:text-6xl">GAME</h1>
-                                <h1 className="linear-text font-semibold text-2xl lg:text-6xl">SERVER</h1>
+                                <h1 className="font-bold text-2xl lg:text-7xl tracking-widest m-0">GAME</h1>
+                                <h1 className="linear-text font-bold text-2xl lg:text-7xl tracking-widest m-0">SERVER</h1>
                             </div>
 
                         </div>
                         <div className="col-span-12 lg:col-span-4">
                             <p className="mt-8 font-light">Hey, cool, dass du uns gefunden hast!<br/>
-                                Schau dich doch einfach mal bei uns um und finde heraus, ob wir ein gutes Match sind.
+                                Schau dich doch einfach mal bei uns um und finde heraus, ob wir ein gutes Match sind.<br/>
                                 Wir freuen uns auf dich.
                             </p>
 
@@ -54,11 +56,9 @@ export const GameServer = () => {
                         image={TestImage}
                         cardText={
                             <>
-                                <p>Name: Anti-Corona-Kartell</p>
-                                <p>IP-Adresse: eco.anti-corona-kartell.de (193.203.238.158:3000)</p>
-                                <p>Spezialisierungsaufbau: Niedrig</p>
-                                <p>Meteor: Ja</p>
-                                <p>Mods: Easy Mining, Easy Logging, Global Currency, Bonus stars at the start</p>
+                                <p><strong>Name:</strong> Anti-Corona-Kartell</p>
+                                <p><strong>IP-Adresse:</strong> eco.anti-corona-kartell.de (193.203.238.158:3000)</p>
+                                <p>Komm, und Rette die Welt!</p>
                             </>
                         }
                     >
@@ -113,12 +113,12 @@ export const GameServer = () => {
 
                     <GameServerCard
                         title={"Minecraft"}
-                        image={TestImage}
+                        image={TestImage2}
                         cardText={
                             <>
-                                <p>Name: Minecraft-Gilde</p>
-                                <p>IP-Adresse: minecraft-gilde.de (85.13.131.175)</p>
-                                <p>Text...</p>
+                                <p><strong>Name:</strong> Minecraft-Gilde</p>
+                                <p><strong>IP-Adresse:</strong> minecraft-gilde.de (85.13.131.175)</p>
+                                <p>Der kleine Langzeit Vanilla-Server mit ❤</p>
                             </>
                         }
                     >
@@ -145,9 +145,9 @@ export const GameServer = () => {
                         image={TestImage}
                         cardText={
                             <>
-                                <p>Name: ANTI-CORONA-KARTELL</p>
-                                <p>IP-Adresse: valheim.anti-corona-kartell.de:27000 (5.249.161.244:27000)</p>
-                                <p>Kennwort: Ja Text...</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>IP-Adresse:</strong> valheim.anti-corona-kartell.de:27000 (5.249.161.244:27000)</p>
+                                <p><strong>Kennwort:</strong> Findest du über unseren Discord.</p>
                             </>
                         }
                     >

@@ -1,10 +1,13 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 interface DividerInterface {
-    title: string;
-    children: React.ReactNode;
+    texts: DividerItemInterface[];
 }
+
+interface DividerItemInterface { title: string; subTitle: string };
 
 interface DividerButtonInterface {
     title?: string;
@@ -17,16 +20,25 @@ export const DividerButton = ({ link, title }: DividerButtonInterface) => (
     </Link>
 )
 
-export const Divider = (props: DividerInterface) => {
+export const Divider = ({ texts }: DividerInterface) => {
+    const [text, setText] = useState<DividerItemInterface | null>(texts[0]);
+
+    useEffect(() => {
+        if (texts) {
+            const randomIndex = Math.floor(Math.random() * texts.length);
+            setText(texts[randomIndex]);
+        }
+    }, [texts]);
+
     return (
        <div className="relative my-32">
            <div className="py-7 px-10 lg:px-20 parallax">
            </div>
 
            <div className="absolute inset-0 my-12">
-               <p className="text-2xl font-bold text-white lg:mb-0 mb-5 text-center" style={{ zIndex: 99 }}>
-                   Lust auf Minecraft wie zu Anfangszeiten? <br />
-                   Dann auf geht's zur Minecraft Gilde!
+               <p className="text-base lg:text-2xl font-bold text-white lg:mb-0 mb-5 text-center" style={{ zIndex: 99 }}>
+                   <span>{text?.title}</span> <br />
+                   <span>{text?.subTitle}</span>
                </p>
            </div>
        </div>

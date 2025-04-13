@@ -2,11 +2,11 @@
 
 import {Header} from "../../Header/index";
 import React from "react";
-import PreviewImage from "../../../assets/ACK-Background-2.jpg";
-import PreviewImage2 from "../../../assets/Age 2 Startscreen.png";
-import PreviewImage3 from "../../../assets/ACK-Background-3.jpg";
+import PreviewImage from "../../../assets/geschichte-bg-aoe2-1.webp";
+import PreviewImage1 from "../../../assets/geschichte-bg-aoe2-2.webp";
+import PreviewImage2 from "../../../assets/geschichte-bg-aoe2-3.webp";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3];
+const previews = [PreviewImage, PreviewImage1, PreviewImage2];
 
 export const History = () => {
     return (
@@ -26,7 +26,7 @@ export const History = () => {
                     </div>
                 </div>
 
-                <div className="my-32 text-white tracking-wider w-[100%] m-auto lg:w-[75%]">
+                <div className="my-32 text-white tracking-wider w-[100%] m-auto">
                     <p className="text-lg mb-10">
                         Der Begriff bzw. Name <strong>ANTI-CORONA-KARTELL</strong> entstand während der <a
                         href="https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland">Corona-Pandemie</a>.
@@ -43,7 +43,7 @@ export const History = () => {
 
                     <p className="text-lg mb-10">
                         Die Gründungsmitglieder:
-                        <ul className="list-disc list-inside">
+                        <ul className="list-disc list-inside m-4">
                             <li><a href="https://steamcommunity.com/id/schiroky">Bodycount</a> | <a
                                 href="https://www.xbox.com/de-DE/play/user/S%20C%20H%20I%20R%20O%20K%20Y">Claus</a></li>
                             <li><a href="https://steamcommunity.com/id/lestructor">Lestructor</a> | <a
@@ -71,10 +71,7 @@ export const History = () => {
                         gerne mal rein und lass ein Abo da.
                     </p>
                     <p className="text-lg mb-10">
-                        Willst du keinen unserer Events mehr verpassen? Dann werde Mitglied beim <a
-                        href="https://discord.anti-corona-kartell.de">ANTI-CORONA-KARTELL</a>
-                        und/oder unserem Partner-Server <a
-                        href="https://discord.minecraft-gilde.de">Minecraft Gilde</a>.
+                        Willst du keinen unserer Events mehr verpassen? Dann werde Mitglied beim <a href="https://discord.anti-corona-kartell.de">ANTI-CORONA-KARTELL</a> und/oder unserem Partner-Server <a href="https://discord.minecraft-gilde.de">Minecraft Gilde</a>.
                     </p>
                 </div>
 

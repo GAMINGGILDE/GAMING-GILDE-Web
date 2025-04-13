@@ -16,16 +16,24 @@ export const Footer = () => {
                         <p>&copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten</p>
 
                         <div className="flex justify-center items-center">
+
                             <div className="mx-2">
-                                <Link href="/imprint">
-                                    <ParagraphIcon className="w-5 h-5 fill-white" />
+                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" title="YouTube" target="_blank">
+                                    <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
+
+                            <div className="mx-2">
+                                <Link href="/impressum" title="Impressum">
+                                    <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
                             <div className="mx-2">
-                                <Link href="/privacy">
-                                    <PrivacyIcon className="w-5 h-5 fill-white" />
+                                <Link href="/datenschutz" title="Datenschutz">
+                                    <PrivacyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
+
                         </div>
                     </div>
                 </div>

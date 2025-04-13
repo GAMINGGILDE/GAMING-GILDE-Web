@@ -30,7 +30,7 @@ export const Modal = ({ isShow, setShow, title, children }: ModalInterface) => {
             onClick={handleBackdropClick}
             className="fixed inset-0 z-50 flex justify-center items-center w-full h-full bg-opacity-50 backdrop-blur-md"
         >
-            <div className="relative modal p-4 w-full max-w-2xl max-h-full rounded-lg shadow-sm">
+            <div className="relative modal overflow-auto p-4 w-full max-w-2xl max-h-full rounded-lg shadow-sm">
                 <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600 border-gray-200">
                     <h3 className="text-xl font-semibold text-white">
                         {title}

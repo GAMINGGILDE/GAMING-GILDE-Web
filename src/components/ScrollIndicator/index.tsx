@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 
 export const ScrollIndicator = () => {
     const [scrollPercent, setScrollPercent] = useState(0);

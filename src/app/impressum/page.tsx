@@ -4,10 +4,10 @@ import React from "react";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import {Header} from "../../components/Header/index";
-import PreviewImage from "../../assets/ACK-Background-2.jpg";
-import PreviewImage2 from "../../assets/Age 2 Startscreen.png";
-import PreviewImage3 from "../../assets/ACK-Background-3.jpg";
+import {Header} from "@/components/Header";
+import PreviewImage from "../../assets/impressum-bg-games.webp";
+import PreviewImage2 from "../../assets/index-bg-1.webp";
+import PreviewImage3 from "../../assets/index-bg-4.webp";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 
@@ -16,9 +16,9 @@ export default function Imprint() {
         <div>
             <Header previews={previews} noText/>
 
-            <div className="mt-[15rem] max-w-[1280px] mx-auto px-3 lg:px-0 w-[100%] m-auto lg:w-[75%] mb-[10rem]">
+            <div className="mt-[15rem] max-w-[1280px] mx-auto px-3 lg:px-0 w-[100%] m-auto mb-[10rem]">
                 <div className="text-center">
-                    <h1 className="text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-semibold break-words">Impressum</h1>
+                    <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-semibold break-words">Impressum</h1>
                 </div>
 
                 <div className="mt-10 text-white">
@@ -34,51 +34,40 @@ export default function Imprint() {
                                 unoptimized={true}
                                 loader={(loader) => `${loader.src}`}
                             />
-                            <h1 className="font-semibold text-xl">
+                            <h1 className="font-semibold text-sm text-center lg:text-xl">
                                 <span className="text-primary">ANTI-CORONA-KARTELL</span></h1>
                         </div>
-                        <div className="mt-10">
-                            <h1 className="text-sm mb-4">Dieses Impressum gilt auch für die Darstellung <br/>des
-                                ANTI-CORONA-KARTELLs auf:</h1>
+                        <div className="mt-10 lg:mt-0">
+                            <h1 className="text-sm mb-4">Dieses Impressum gilt auch für die Darstellung des ANTI-CORONA-KARTELLs auf:</h1>
 
                             <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">YouTube</p>
-                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" className="font-extralight">Hier
-                                    klicken</Link>
+                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" className="font-extralight">Hier klicken</Link>
                             </div>
                             <div className="bg-sub opacity-50 py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Discord</p>
-                                <Link href="https://discord.anti-corona-kartell.de" className="font-extralight">Hier
-                                    klicken</Link>
+                                <Link href="https://discord.anti-corona-kartell.de" className="font-extralight">Hier klicken</Link>
                             </div>
                             <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Steam</p>
-                                <Link href="https://steamcommunity.com/groups/A-C-KARTELL"
-                                      className="font-extralight"> Hier klicken</Link>
+                                <Link href="https://steamcommunity.com/groups/A-C-KARTELL" className="font-extralight"> Hier klicken</Link>
                             </div>
                             <div className="bg-sub opacity-50 py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Bluesky</p>
-                                <Link href="https://bsky.app/profile/anti-corona-kartell.de"
-                                      className="font-extralight">hier klicken</Link>
+                                <Link href="https://bsky.app/profile/anti-corona-kartell.de" className="font-extralight">hier klicken</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="mt-10">
-                        <h1 className="text-2xl mb-3">Diese private Homepage wird betrieben von (Angaben gemäß §5 <a
-                            href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html"
-                            className="text-blue-400 underline ml-1">DDG</a>):</h1>
-                        <p className="sub-text font-extralight"><strong>Websitebetreiber</strong></p>
-                        <p className="sub-text font-extralight">Claus Schiroky</p>
-                        <p className="sub-text font-extralight">E-Mail: <a
-                            href="mailto:webmaster@anti-corona-kartell.de"
-                            className="text-blue-400 underline ml-1">webmaster@anti-corona-kartell.de</a></p>
+                        <h1 className="text-2xl mb-3">Angaben gemäß §5 <a href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html">DDG</a>:</h1>
+                        <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
+                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a href="mailto:webmaster@anti-corona-kartell.de">webmaster@anti-corona-kartell.de</a></p>
 
                         <div className="mt-5">
                             <p className="sub-text font-extralight"><strong>Datenschutz & Cookies</strong></p>
-                            <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere
-                                <a href="https://anti-corona-kartell.de/datenschutz.htm">Datenschutzbestimmungen</a> erläutern,
-                                welche persönlichen Daten von ihnen erhoben
+                            <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a href="https://anti-corona-kartell.de/datenschutz.htm">Datenschutzbestimmungen</a> erläutern,
+                                welche persönlichen Daten von <Link href="#!" className="hover:text-primary hover:underline">ihnen erhoben</Link>
                                 werden und wie sie von uns verwendet werden. Bei weiteren Fragen zum Datenschutz
                                 wenden sie sich bitte an den Websitebetreiber.</p>
                         </div>

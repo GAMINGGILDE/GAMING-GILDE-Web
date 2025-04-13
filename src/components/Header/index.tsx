@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import PreviewImage from "../../assets/ACK-Background-2.jpg";
+import PreviewImage from "../../assets/index-bg-3.webp";
 import React, {useCallback, useEffect, useState} from "react";
 import {Headline} from "./components/Headline/index";
 

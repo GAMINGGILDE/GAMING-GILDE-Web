@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type {Metadata} from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import {Navbar} from "../components/Navbar/index";
@@ -46,9 +46,10 @@ export default function RootLayout({
           {children}
         </div>
 
-        <Divider title={"assd"}>
-          <DividerButton title={"Mehr erfahren"} link={"#!"} />
-        </Divider>
+        <Divider texts={[
+          { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur Minecraft Gilde!" },
+          { title: "Lust auf Minecraft wie zu Anfangszeiten? 2", subTitle: "Dann auf geht's zur Minecraft Gilde! 2" }
+        ]} />
 
         <Footer />
       </body>

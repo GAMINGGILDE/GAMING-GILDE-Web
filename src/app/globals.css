@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
   scroll-padding-top: 25rem;
   scroll-behavior: smooth;
@@ -212,8 +213,7 @@ body {
 
 .parallax {
   position: relative;
-  background-image: url("https://asset.gecdesigns.com/img/wallpapers/beautiful-magical-misty-mountains-reflection-river-ultra-hd-wallpaper-4k-sr10012420-1706505766369-cover.webp");
-
+  background-image: url("../assets/Minecraft-Bg-1.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

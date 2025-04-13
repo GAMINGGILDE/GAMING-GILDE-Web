@@ -1,13 +1,14 @@
 # Next.js App Deployment
 
-Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu deployen.
+Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu
+deployen.
 
 ## Voraussetzungen
 
 Stelle sicher, dass du die folgenden Versionen von Node.js und Yarn installiert hast:
 
-- **Node.js** v20.18
-- **Yarn** v1.22
+- [**Node.js** v20.18](https://nodejs.org/en/download):
+- [**Yarn** v1.22](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 Du kannst deine aktuelle Version mit folgenden Befehlen überprüfen:
 
@@ -16,26 +17,58 @@ node -v
 yarn -v
 ```
 
-Als IDE wurde zum entwickeln phpstom benutzt
+Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
+Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
+Verwendung*).
 
 ## Deployment
 
-1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln
+1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
+
 ```bash
 git clone https://gitlab.com/julienobarowski1/anti-corona.git anti-corona-kartell-website
 cd anti-corona-kartell-website
 ```
 
 2. #### Abhängigkeiten installieren
+
 ```bash
 yarn install
 ```
 
 3. #### Next.js Build-Prozess
+
 ```bash
 yarn build
 ```
 
 4. #### Deployment
-Lade den Inhalt des Ordners out auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen werden.
 
+Lade den Inhalt des Ordners 'out' auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen
+werden.
+
+## Testing
+
+Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website in Vorschau betrachtet
+werden kann:
+
+```bash
+yarn dev
+```
+
+Der lokale Webserver kann via [STRG]+[C] beendet werden.
+
+## Tipps zum Editieren
+
+Verwende folgende Syntax zur Erstellung von Links zum Öffnen in neuem Tab:
+
+```
+<a href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">Zap-Hosting</a>
+```
+Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
+
+```
+{/* <div className="sm:mx-10 lg:mx-20">
+    <Carousel/>
+</div> */}
+```
