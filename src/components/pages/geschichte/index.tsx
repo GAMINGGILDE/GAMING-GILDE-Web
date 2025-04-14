@@ -28,10 +28,9 @@ export const History = () => {
 
                 <div className="my-32 text-white tracking-wider w-[100%] m-auto">
                     <p className="text-lg mb-10">
-                        Der Begriff bzw. Name <strong>ANTI-CORONA-KARTELL</strong> entstand während der <a
-                        href="https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland">Corona-Pandemie</a>.
+                        Der Begriff bzw. Name 'ANTI-CORONA-KARTELL' entstand während der <a className="text-primary hover:underline" href="https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland target=_blank">Corona-Pandemie</a>.
                         In dieser Zeit fand sich eine kleine Gruppe an Gamern regelmäßig zum Spielen in Age of Empires
-                        II zusammen und die Lobby immer mit besagtem Namen. In einer Zeit, in der es untersagt war,
+                        II zusammen und benannte die Lobby immer mit besagtem Namen. In einer Zeit, in der es untersagt war,
                         außerhäusliche Freizeitaktivitäten auszuüben. Für uns als Gamer vermag das nicht tragisch
                         erscheinen. Aber wir trafen uns im privaten Umfeld sonst auch immer wieder und haben das in der
                         Zeit der Pandemie vermisst. Darum haben wir den Entschluss gefasst, dass wenn wir die Pandemie
@@ -44,17 +43,13 @@ export const History = () => {
                     <p className="text-lg mb-10">
                         Die Gründungsmitglieder:
                         <ul className="list-disc list-inside m-4">
-                            <li><a href="https://steamcommunity.com/id/schiroky">Bodycount</a> | <a
-                                href="https://www.xbox.com/de-DE/play/user/S%20C%20H%20I%20R%20O%20K%20Y">Claus</a></li>
-                            <li><a href="https://steamcommunity.com/id/lestructor">Lestructor</a> | <a
-                                href="https://www.xbox.com/de-DE/play/user/QuickChrissi">Christian</a></li>
-                            <li><a href="https://steamcommunity.com/profiles/76561197969468353">Matcauthon</a> | <a
-                                href="https://www.xbox.com/de-DE/play/user/horcan">Uwe</a></li>
-                            <li><a href="https://steamcommunity.com/profiles/76561198041298471">Psycho92sly</a> | <a
-                                href="https://www.xbox.com/de-DE/play/user/Psycho92sly">Psycho92sly</a></li>
-                            <li><a href="https://steamcommunity.com/profiles/76561198053398911">Sansa49</a> | <a
-                                href="https://www.xbox.com/de-DE/play/user/sansa49">Sansa49</a></li>
+                            <li><a className="text-primary hover:underline" href="https://steamcommunity.com/id/lestructor" target="_blank">Lestructor</a> | <a className="text-primary hover:underline" href="https://www.xbox.com/de-DE/play/user/QuickChrissi" target="_blank">Christian</a></li>
+                            <li><a className="text-primary hover:underline" href="https://steamcommunity.com/profiles/76561197969468353" target="_blank">Matcauthon</a> | <a className="text-primary hover:underline" href="https://www.xbox.com/de-DE/play/user/horcan" target="_blank">Uwe</a></li>
+                            <li><a className="text-primary hover:underline" href="https://steamcommunity.com/profiles/76561198041298471" target="_blank">Psycho92sly</a> | <a className="text-primary hover:underline" href="https://www.xbox.com/de-DE/play/user/Psycho92sly" target="_blank">Georg</a></li>
+                            <li><a className="text-primary hover:underline" href="https://steamcommunity.com/profiles/76561198053398911" target="_blank">Sansa49</a> | <a className="text-primary hover:underline" href="https://www.xbox.com/de-DE/play/user/sansa49" target="_blank">Olaf</a></li>
+                            <li><a className="text-primary hover:underline" href="https://steamcommunity.com/id/schiroky" target="_blank">SCHIROKY</a> | <a className="text-primary hover:underline" href="https://www.xbox.com/de-DE/play/user/S%20C%20H%20I%20R%20O%20K%20Y" target="_blank">Claus</a></li>
                         </ul>
+
                     </p>
                     <p className="text-lg mb-10">
                         Beim ersten Treffen (2022) haben wir uns kulinarisch bei einem ausgiebigen mexikanischen Essen
@@ -66,15 +61,16 @@ export const History = () => {
                         der Isar unternommen und dabei eine mobile Spielekonsole (GameLix) verlost.
                     </p>
                     <p className="text-lg mb-10">
-                        Zu einigen Events sind ein paar Videosequenzen auf unserem <a
-                        href="https://www.youtube.com/@Anti-Corona-Kartell">YouTube-Kanal</a> veröffentlicht. Schau
+                        Zu einigen Events sind ein paar Videosequenzen auf unserem <a className="text-primary hover:underline" href="https://www.youtube.com/@Anti-Corona-Kartell" target="_blank">YouTube-Kanal</a> veröffentlicht. Schau
                         gerne mal rein und lass ein Abo da.
                     </p>
+
+
+
                     <p className="text-lg mb-10">
-                        Willst du keinen unserer Events mehr verpassen? Dann werde Mitglied beim <a href="https://discord.anti-corona-kartell.de">ANTI-CORONA-KARTELL</a> und/oder unserem Partner-Server <a href="https://discord.minecraft-gilde.de">Minecraft Gilde</a>.
+                        Willst du keinen unserer Events mehr verpassen? Dann werde Mitglied beim <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">ANTI-CORONA-KARTELL</a> und/oder unserem Partner-Server <a className="text-primary hover:underline" href="https://discord.minecraft-gilde.de" target="_blank">Minecraft Gilde</a>.
                     </p>
                 </div>
-
             </div>
         </div>
     )

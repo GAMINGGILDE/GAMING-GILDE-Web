@@ -42,19 +42,19 @@ export default function Imprint() {
 
                             <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">YouTube</p>
-                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" className="font-extralight">Hier klicken</Link>
+                                <a className="text-primary hover:underline" href="https://www.youtube.com/@Anti-Corona-Kartell" target="_blank">Hier klicken</a>
                             </div>
-                            <div className="bg-sub opacity-50 py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
+                            <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Discord</p>
-                                <Link href="https://discord.anti-corona-kartell.de" className="font-extralight">Hier klicken</Link>
+                                <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Hier klicken</a>
                             </div>
                             <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Steam</p>
-                                <Link href="https://steamcommunity.com/groups/A-C-KARTELL" className="font-extralight"> Hier klicken</Link>
+                                <a className="text-primary hover:underline" href="https://steamcommunity.com/groups/A-C-KARTELL" target="_blank">Hier klicken</a>
                             </div>
-                            <div className="bg-sub opacity-50 py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
+                            <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
                                 <p className="font-semibold">Bluesky</p>
-                                <Link href="https://bsky.app/profile/anti-corona-kartell.de" className="font-extralight">hier klicken</Link>
+                                <a className="text-primary hover:underline" href="https://bsky.app/profile/anti-corona-kartell.de" target="_blank">Hier klicken</a>
                             </div>
                         </div>
                     </div>
@@ -62,13 +62,11 @@ export default function Imprint() {
                     <div className="mt-10">
                         <h1 className="text-2xl mb-3">Angaben gemäß §5 <a href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html">DDG</a>:</h1>
                         <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
-                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a href="mailto:webmaster@anti-corona-kartell.de">webmaster@anti-corona-kartell.de</a></p>
-
-                        <div className="mt-5">
+                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a className="text-primary hover:underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a></p>
+                      <div className="mt-5">
                             <p className="sub-text font-extralight"><strong>Datenschutz & Cookies</strong></p>
-                            <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a href="https://anti-corona-kartell.de/datenschutz.htm">Datenschutzbestimmungen</a> erläutern,
-                                welche persönlichen Daten von <Link href="#!" className="hover:text-primary hover:underline">ihnen erhoben</Link>
-                                werden und wie sie von uns verwendet werden. Bei weiteren Fragen zum Datenschutz
+                            <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a className="text-primary hover:underline" href="../datenschutz" >Datenschutzbestimmungen</a> erläutern,
+                                welche persönlichen Daten von ihnen erhoben werden und wie sie von uns verwendet werden. Bei weiteren Fragen zum Datenschutz
                                 wenden sie sich bitte an den Websitebetreiber.</p>
                         </div>
 

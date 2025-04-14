@@ -12,13 +12,13 @@ export const SearchEnd = () => {
                     <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">Das bekommst du bei uns
                         geboten:</h1>
                     <p className="text-white font-thin mt-4 mb-7">
-                        Unser Discord-Server bietet dir News zu Games und Hardware, du kannst dich zu einer Vielzahl
+                        Unser Discord-Server bietet dir aktuelle News zu Games und Hardware, du kannst dich zu einer Vielzahl
                         an Spielen mit Gleichgesinnten treffen und dich mit ihnen zu Themen rund ums Gaming
                         austauschen. Wir bieten kostenfrei unsere Lifetime Gameserver für Minecraft und Eco an,
-                        sowie wechselnde temporäre Gameserver für weitere Spiele.<br/>Also jede Menge Abwechslung und
+                        sowie wechselnde Gameserver mit weiteren Spielen.<br/>Also jede Menge Abwechslung und
                         Spaß mit Spielen garantiert!
                         <br/><br/>
-                        Zudem kannst du durch uns <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner">20% Rabatt</a> auf einen eigenen Gameserver bei unserm Hoster <a href="https://zap-hosting.com/anticoronakartellbanner">Zap-Hosting</a> bekommen. Wenn du
+                        Zudem kannst du durch uns <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">20% Rabatt</a> auf einen eigenen Gameserver bei unserm Hoster bekommen. Wenn du
                         schon immer Herr über einen eigenen Gameserver ein wolltest,
                         ist das die Gelegenheit. Bei Umsetzung und Konfiguration gibt's von uns auch gerne
                         Unterstützung, falls das für dich Neuland sein sollte.

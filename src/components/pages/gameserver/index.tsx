@@ -6,8 +6,9 @@ import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import {Header} from "../../Header/index";
 
-import TestImage from "../../../assets/ack-logo-schatten.png";
-import TestImage2 from "../../../assets/logo.png";
+import EcoImage from "../../../assets/gamesesrver-eco.webp";
+import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
+import ValheimImage from "../../../assets/gameserver-valheim.webp";
 
 import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
@@ -53,7 +54,7 @@ export const GameServer = () => {
 
                     <GameServerCard
                         title={"Eco"}
-                        image={TestImage}
+                        image={EcoImage}
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Anti-Corona-Kartell</p>
@@ -113,7 +114,7 @@ export const GameServer = () => {
 
                     <GameServerCard
                         title={"Minecraft"}
-                        image={TestImage2}
+                        image={MinecraftImage}
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Minecraft-Gilde</p>
@@ -142,7 +143,7 @@ export const GameServer = () => {
 
                     <GameServerCard
                         title={"Valheim"}
-                        image={TestImage}
+                        image={ValheimImage}
                         cardText={
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>

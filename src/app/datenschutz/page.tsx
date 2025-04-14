@@ -36,8 +36,7 @@ export default function Datenschutz() {
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Websitebetreiber</h2>
                     <p className="leading-relaxed">
-                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (<a
-                        href="https://dsgvo-gesetz.de">DSGVO</a>) und anderer nationaler
+                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (<a className="text-primary hover:underline" href="https://dsgvo-gesetz.de" target="_blank">DSGVO</a>) und anderer nationaler
                         Datenschutzgesetze ist: Claus Schiroky.
                     </p>
                 </div>
@@ -98,7 +97,7 @@ export default function Datenschutz() {
 
                 {/* Paragraph 4 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">4. Rechtsgrundlagen</h2>
+                    <h2 className="text-2xl font-semibold">Rechtsgrundlagen</h2>
                     <p className="leading-relaxed">
                         Die Verarbeitung erfolgt auf Basis deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO),
                         zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b
@@ -134,7 +133,7 @@ export default function Datenschutz() {
                         unterliegt den folgenden geltenden Datenschutzerklärungen der jeweiligen Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a href="https://www.ionos.de/hilfe/datenschutz">Ionos</a></li>
+                        <li><a className="text-primary hover:underline" href="https://www.ionos.de/hilfe/datenschutz" target="_blank">Ionos</a></li>
                     </ul>
                 </div>
 
@@ -167,10 +166,10 @@ export default function Datenschutz() {
                         der Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a href="https://policies.google.com/privacy?hl=de">Google</a></li>
-                        <li><a href="https://discord.com/privacy">Discord</a></li>
-                        <li><a href="https://store.steampowered.com/privacy_agreement/?l=german">Steam (Valve)</a></li>
-                        <li><a href="https://bsky.social/about/support/privacy-policy">Bluesky</a></li>
+                        <li><a className="text-primary hover:underline" href="https://policies.google.com/privacy?hl=de" target="_blank">Google</a></li>
+                        <li><a className="text-primary hover:underline" href="https://discord.com/privacy" target="_blank">Discord</a></li>
+                        <li><a className="text-primary hover:underline" href="https://store.steampowered.com/privacy_agreement/?l=german" target="_blank">Steam</a></li>
+                        <li><a className="text-primary hover:underline" href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
                     </ul>
                     <p className="leading-relaxed">
                         Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, weise ich darauf

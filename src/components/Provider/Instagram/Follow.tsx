@@ -27,15 +27,8 @@ export const InstagramFollow = () => {
                         <div className="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-10">
                             <p className="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">Schau dir gerne auch unsere</p>
                             <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gameserver an</h1>
-
-
-                            <p className="primary-text text-xs lg:text-base mb-1 lg:mb-2">Das ANTI-CORONA-KARTELL als auch unser Partner Minecraft Gilde betreiben eigene Gameserver zu Spielen die sich im Laufe der Zeit etabliert haben. Allen voran Minecraft und Eco, welche als Lifetime-Gameserver betrieben werden.</p>
-
-
-                            <Link href="/gameserver" className="text-xs lg:text-base">Mehr erfahren</Link>
-
-
-
+                            <p className="primary-text text-xs lg:text-base mb-1 lg:mb-2">Das ANTI-CORONA-KARTELL und unser Partner Minecraft Gilde betreiben eigene Lifetime Gameserver.</p>
+                            <a className="text-primary hover:underline" href="/gameserver">Mehr erfahren</a>
                         </div>
                         <div className="col-span-12 block lg:hidden lg:col-span-6 pb-1">
                             <Image

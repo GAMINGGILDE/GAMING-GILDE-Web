@@ -7,7 +7,7 @@ interface DividerInterface {
     texts: DividerItemInterface[];
 }
 
-interface DividerItemInterface { title: string; subTitle: string };
+interface DividerItemInterface { title: string; subTitle: string }
 
 interface DividerButtonInterface {
     title?: string;
