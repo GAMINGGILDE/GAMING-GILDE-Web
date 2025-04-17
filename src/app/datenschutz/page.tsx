@@ -36,7 +36,9 @@ export default function Datenschutz() {
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Websitebetreiber</h2>
                     <p className="leading-relaxed">
-                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (<a className="text-primary hover:underline" href="https://dsgvo-gesetz.de" target="_blank">DSGVO</a>) und anderer nationaler
+                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (<a
+                        className="text-primary hover:underline" href="https://dsgvo-gesetz.de"
+                        target="_blank">DSGVO</a>) und anderer nationaler
                         Datenschutzgesetze ist: Claus Schiroky.
                     </p>
                 </div>
@@ -133,7 +135,8 @@ export default function Datenschutz() {
                         unterliegt den folgenden geltenden Datenschutzerklärungen der jeweiligen Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a className="text-primary hover:underline" href="https://www.ionos.de/hilfe/datenschutz" target="_blank">Ionos</a></li>
+                        <li><a className="text-primary hover:underline" href="https://www.ionos.de/hilfe/datenschutz"
+                               target="_blank">Ionos</a></li>
                     </ul>
                 </div>
 
@@ -166,10 +169,15 @@ export default function Datenschutz() {
                         der Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a className="text-primary hover:underline" href="https://policies.google.com/privacy?hl=de" target="_blank">Google</a></li>
-                        <li><a className="text-primary hover:underline" href="https://discord.com/privacy" target="_blank">Discord</a></li>
-                        <li><a className="text-primary hover:underline" href="https://store.steampowered.com/privacy_agreement/?l=german" target="_blank">Steam</a></li>
-                        <li><a className="text-primary hover:underline" href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
+                        <li><a className="text-primary hover:underline" href="https://policies.google.com/privacy?hl=de"
+                               target="_blank">Google</a></li>
+                        <li><a className="text-primary hover:underline" href="https://discord.com/privacy"
+                               target="_blank">Discord</a></li>
+                        <li><a className="text-primary hover:underline"
+                               href="https://store.steampowered.com/privacy_agreement/?l=german"
+                               target="_blank">Steam</a></li>
+                        <li><a className="text-primary hover:underline"
+                               href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
                     </ul>
                     <p className="leading-relaxed">
                         Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, weise ich darauf
@@ -180,6 +188,16 @@ export default function Datenschutz() {
                 </div>
 
                 {/* Paragraph 8 */}
+                <div className="space-y-2">
+                    <h2 className="text-2xl font-semibold">Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
+                    <p className="leading-relaxed">
+                        Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden
+                        wir auf dieser Website „Google Web Fonts“ der Google LLC (1600 Amphitheatre Parkway, Mountain
+                        View, CA 94043, USA; nachfolgend „Google“) zur Darstellung von Schriften. Weitere Informationen zu Google Web Fonts finden Sie <a className="text-primary hover:underline" href="https://developers.google.com/fonts/faq" target="_blank">hier</a>.
+                    </p>
+                </div>
+
+                {/* Paragraph 9 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Erfassung und Verarbeitung personenbezogener Daten</h2>
                     <p className="leading-relaxed">
@@ -199,7 +217,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 9 */}
+                {/* Paragraph 10 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Kontaktformular</h2>
                     <p className="leading-relaxed">
@@ -213,7 +231,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 10 */}
+                {/* Paragraph 11 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Umgang mit Kontaktdaten</h2>
                     <p className="leading-relaxed">
@@ -224,7 +242,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 11 */}
+                {/* Paragraph 12 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Rechte des Nutzers</h2>
                     <p className="leading-relaxed">
@@ -237,7 +255,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 12 */}
+                {/* Paragraph 13 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Löschung von Daten</h2>
                     <p className="leading-relaxed">
@@ -251,7 +269,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 13 */}
+                {/* Paragraph 14 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Änderung unserer Datenschutzbestimmungen</h2>
                     <p className="leading-relaxed">
@@ -262,7 +280,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 14 */}
+                {/* Paragraph 15 */}
                 <div className="space-y-2">
                     <h2 className="text-2xl font-semibold">Widerspruchsrecht</h2>
                     <p className="leading-relaxed">

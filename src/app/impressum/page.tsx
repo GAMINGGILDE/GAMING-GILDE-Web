@@ -3,7 +3,6 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
-import Link from "next/link";
 import {Header} from "@/components/Header";
 import PreviewImage from "../../assets/impressum-bg-games.webp";
 import PreviewImage2 from "../../assets/index-bg-1.webp";
@@ -18,7 +17,7 @@ export default function Imprint() {
 
             <div className="mt-[15rem] max-w-[1280px] mx-auto px-3 lg:px-0 w-[100%] m-auto mb-[10rem]">
                 <div className="text-center">
-                    <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-semibold break-words">Impressum</h1>
+                    <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-bold break-words">Impressum</h1>
                 </div>
 
                 <div className="mt-10 text-white">
@@ -60,7 +59,7 @@ export default function Imprint() {
                     </div>
 
                     <div className="mt-10">
-                        <h1 className="text-2xl mb-3">Angaben gemäß §5 <a href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html">DDG</a>:</h1>
+                        <h1 className="text-2xl mb-3">Angaben gemäß §5 <a className="text-primary hover:underline" href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html" target="_blank">DDG</a>:</h1>
                         <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
                         <p className="sub-text font-extralight"><strong>E-Mail: </strong><a className="text-primary hover:underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a></p>
                       <div className="mt-5">
