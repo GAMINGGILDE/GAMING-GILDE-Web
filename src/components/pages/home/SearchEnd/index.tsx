@@ -19,7 +19,7 @@ export const SearchEnd = () => {
                         Spaß mit Spielen garantiert!
                         <br/><br/>
                         Zudem kannst du durch uns <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">20% Rabatt</a> auf einen eigenen Gameserver bei unserm Hoster bekommen. Wenn du
-                        schon immer Herr über einen eigenen Gameserver ein wolltest,
+                        schon immer Herr über einen eigenen Gameserver sein wolltest,
                         ist das die Gelegenheit. Bei Umsetzung und Konfiguration gibt's von uns auch gerne
                         Unterstützung, falls das für dich Neuland sein sollte.
                         <br/><br/>
@@ -28,7 +28,7 @@ export const SearchEnd = () => {
                         Gameserver auch eine eigene Kategorie zur Verfügung, damit du zu deinem neuem Gameserver von
                         unserer Community profitieren kannst.
                         <br/><br/>
-                        Komm und steig mit ein beim ANTI-CORONA-KARTELL!
+                        Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
                     </p>
                 </div>
                 <div className="col-span-12 lg:col-span-4 lg:mt-0 mt-7">
