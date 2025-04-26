@@ -38,7 +38,7 @@ export const GameServer = () => {
     return (
         <div>
             <Header previews={previews} noText/>
-            {isShow && <Alert message={"Die Adresse wurde in den Zwischenablagen kopiert"} />}
+            {isShow && <Alert message={"Die Adresse wurde in die Zwischenablage kopiert"}/>}
 
             <div className="px-10 lg:px-0 mt-40 max-w-[1280px] mx-auto">
                 <div className="relative block text-white">
@@ -54,7 +54,8 @@ export const GameServer = () => {
                         </div>
                         <div className="col-span-12 lg:col-span-4">
                             <p className="mt-8 font-light">Hey, cool, dass du uns gefunden hast!<br/>
-                                Schau dich doch einfach mal bei uns um und finde heraus, ob wir ein gutes Match sind.<br/>
+                                Schau dich doch einfach mal bei uns um und finde heraus, ob wir ein gutes Match
+                                sind.<br/>
                                 Wir freuen uns auf dich.
                             </p>
 
@@ -74,17 +75,17 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Eco"}
                         image={EcoImage}
-                        onClick={() => copyLink("193.203.238.158:3000")}
+                        onClick={() => copyLink("eco.anti-corona-kartell.de")}
                         button={
                             <>
-                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light text-white">Adresse</p>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Adresse kopieren</p>
                             </>
                         }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Anti-Corona-Kartell</p>
-                                <p><strong>IP-Adresse:</strong> eco.anti-corona-kartell.de (193.203.238.158:3000)</p>
+                                <p><strong>Adresse:</strong> eco.anti-corona-kartell.de</p>
                                 <p>Komm, und Rette die Welt!</p>
                             </>
                         }
@@ -141,18 +142,18 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Minecraft"}
                         image={MinecraftImage}
-                        onClick={() => copyLink("85.13.131.175")}
+                        onClick={() => copyLink("minecraft-gilde.de")}
                         button={
                             <>
-                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light text-white">Adresse</p>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Adresse kopieren</p>
                             </>
                         }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Minecraft-Gilde</p>
-                                <p><strong>IP-Adresse:</strong> minecraft-gilde.de (85.13.131.175)</p>
-                                <p>Der kleine Langzeit Vanilla-Server mit ❤</p>
+                                <p><strong>Adresse:</strong> minecraft-gilde.de</p>
+                                <p>Erster Deutscher FOLIA Vanilla-Server!</p>
                             </>
                         }
                     >
@@ -171,6 +172,16 @@ export const GameServer = () => {
                                 stattgefunden und ist auch in Zukunft nicht geplant. Der Server ist auf Langzeit
                                 ausgelegt – deine Bauwerke bleiben dauerhaft erhalten.
                             </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Seit Mai 2025 ist die Minecraft Gilde der erste deutschsprachige Server auf <a
+                                className="text-primary hover:underline" href="https://papermc.io/software/folia"
+                                target="_blank">Folia</a>-Basis. Durch die Verlagerung von Aufgaben in parallele Threads
+                                bietet Folia eine deutlich bessere Performance – besonders bei vielen Spielern oder
+                                Entitäten. Lag ist nicht mehr global, sondern regional begrenzt. So laufen
+                                Redstone-Maschinen, Farmen und auch die Spawnraten nahezu wie im Singleplayer. Auch bei
+                                hoher Serverlast bleibt das Gameplay flüssig – mit hohen Sichtweiten, stabilen Tickraten
+                                und ohne Einschränkungen für Technik oder Bauprojekte.
+                            </p>
                         </>
                     </GameServerCard>
 
@@ -180,15 +191,15 @@ export const GameServer = () => {
                         onClick={() => copyLink("5.249.161.244:27000")}
                         button={
                             <>
-                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light text-white">Adresse</p>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">IP kopieren</p>
                             </>
                         }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>IP-Adresse:</strong> valheim.anti-corona-kartell.de:27000 (5.249.161.244:27000)</p>
-                                <p><strong>Kennwort:</strong> Findest du über unseren Discord.</p>
+                                <p><strong>IP-Adresse:</strong> 5.249.161.244:27000</p>
+                                <p><strong>Kennwort:</strong> Findest du in Discord.</p>
                             </>
                         }
                     >
