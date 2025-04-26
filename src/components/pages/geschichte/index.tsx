@@ -15,11 +15,11 @@ export const History = () => {
 
             <div className="px-10 mt-32 max-w-[1280px] mx-auto">
                 <div className="relative block text-white text-center">
-                    <div className="flex flex-wrap justify-center m-0 p-0 gap-x-10 uppercase">
-                        <h1 className="w-full text-4xl sm:text-6xl lg:text-[13rem] font-bold tracking-widest m-0 leading-none">Unsere</h1>
-                        <h1
-                            className="text-4xl linear-text sm:text-6xl lg:text-[8rem] font-bold tracking-widest m-0 leading-none"
+                    <div className="flex flex-wrap justify-center m-0 p-0 gap-x-5 uppercase">
 
+                        <h1 className="text-2xl sm:text-4xl lg:text-[4rem] xl:text-[6rem] font-bold tracking-widest m-0 lg:leading-none">Unsere</h1>
+                        <h1
+                            className="text-2xl linear-text sm:text-4xl lg:text-[4rem] xl:text-[6rem] font-bold tracking-widest m-0 lg:leading-none"
                         >
                             Geschichte
                         </h1>

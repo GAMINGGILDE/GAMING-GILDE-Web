@@ -22,14 +22,9 @@ export const GameServerCard = ({ title, children, cardText, image }: GameServerC
                     <div className="card-inner card-inner--blue relative p-4 cursor-pointer text-white">
                         <div className="flex justify-between items-center mb-3">
                             <h2 className="text-lg lg:text-xl font-semibold uppercase break-words">{title}</h2>
-
-                            <div className="bg-primary px-5 py-1 text-white text-center rounded-full flex items-center">
-                                <i className="fa fa-cog text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light">TEST</p>
-                            </div>
                         </div>
 
-                        <div className="mb-5">
+                        <div className="mb-3">
                            <div className="grid grid-cols-12">
                                <div className="col-span-12 lg:col-span-6 mx-auto lg:hidden block mb-7">
                                    <Image
@@ -60,11 +55,6 @@ export const GameServerCard = ({ title, children, cardText, image }: GameServerC
                         <div className="flex">
                             <div className="bg-primary px-5 text-center py-0.5 rounded-full flex items-center">
                                 <i className="fa fa-location-dot text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light text-white">#Test</p>
-                            </div>
-
-                            <div className="bg-primary px-5 py-0.5 text-center mx-2 rounded-full flex items-center">
-                                <i className="fa fa-business-time text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
                                 <p className="text-sm font-light text-white">#Test</p>
                             </div>
                         </div>
