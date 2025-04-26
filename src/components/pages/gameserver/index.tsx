@@ -1,7 +1,7 @@
 "use client";
 
 import {GameServerCard} from "../../Card/GameServerCard";
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import {Header} from "../../Header/index";
@@ -13,13 +13,32 @@ import ValheimImage from "../../../assets/gameserver-valheim.webp";
 import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-valheim.webp";
+import Alert from "../../Alert/index";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 
 export const GameServer = () => {
+    const [isShow, setShow] = useState<boolean>(false);
+
+    const copyLink = async (link: string) => {
+        await navigator.clipboard.writeText(link);
+        setShow(true);
+    };
+
+    useEffect(() => {
+        if (isShow) {
+            const timer = setTimeout(() => {
+                setShow(false);
+            }, 3000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [isShow])
+
     return (
         <div>
             <Header previews={previews} noText/>
+            {isShow && <Alert message={"Die Adresse wurde in den Zwischenablagen kopiert"} />}
 
             <div className="px-10 lg:px-0 mt-40 max-w-[1280px] mx-auto">
                 <div className="relative block text-white">
@@ -55,6 +74,13 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Eco"}
                         image={EcoImage}
+                        onClick={() => copyLink("193.203.238.158:3000")}
+                        button={
+                            <>
+                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
+                                <p className="text-sm font-light text-white">Adresse</p>
+                            </>
+                        }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Anti-Corona-Kartell</p>
@@ -115,6 +141,13 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Minecraft"}
                         image={MinecraftImage}
+                        onClick={() => copyLink("85.13.131.175")}
+                        button={
+                            <>
+                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
+                                <p className="text-sm font-light text-white">Adresse</p>
+                            </>
+                        }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> Minecraft-Gilde</p>
@@ -144,6 +177,13 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Valheim"}
                         image={ValheimImage}
+                        onClick={() => copyLink("5.249.161.244:27000")}
+                        button={
+                            <>
+                                <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
+                                <p className="text-sm font-light text-white">Adresse</p>
+                            </>
+                        }
                         cardText={
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>

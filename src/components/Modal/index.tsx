@@ -28,6 +28,7 @@ export const Modal = ({ isShow, setShow, title, children }: ModalInterface) => {
             aria-hidden="true"
             // Event-Listener für den Klick außerhalb des Modals
             onClick={handleBackdropClick}
+            style={{ zIndex: 9999 }}
             className="fixed inset-0 z-50 flex justify-center items-center w-full h-full bg-opacity-50 backdrop-blur-md"
         >
             <div className="relative modal overflow-auto p-4 w-full max-w-2xl max-h-full rounded-lg shadow-sm">

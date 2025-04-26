@@ -8,11 +8,13 @@ import Image from "next/image";
 interface GameServerCardInterface {
     title: string;
     image: string | unknown;
+    onClick?: () => void;
     children: React.ReactNode;
     cardText: React.ReactNode;
+    button: React.ReactNode;
 }
 
-export const GameServerCard = ({ title, children, cardText, image }: GameServerCardInterface) => {
+export const GameServerCard = ({ title, children, cardText, image, onClick, button }: GameServerCardInterface) => {
     const [isShowModal, setShowModal] = useState<boolean>(false);
 
     return (
@@ -53,9 +55,8 @@ export const GameServerCard = ({ title, children, cardText, image }: GameServerC
                         </div>
 
                         <div className="flex">
-                            <div className="bg-primary px-5 text-center py-0.5 rounded-full flex items-center">
-                                <i className="fa fa-location-dot text-white text-sm mr-2" style={{ fontSize: '.75rem' }} />
-                                <p className="text-sm font-light text-white">#Test</p>
+                            <div onClick={onClick} className="bg-primary px-5 text-center py-0.5 rounded-full flex items-center">
+                                {button}
                             </div>
                         </div>
 
