@@ -25,7 +25,7 @@ export default function Imprint() {
                         <div className="relative">
                             <Image
                                 src={Logo}
-                                className="w-[12.5rem]"
+                                className="w-[12.5rem] mx-auto"
                                 alt={"anti-corona-kartell logo"}
                                 width={1000}
                                 height={1000}
@@ -33,8 +33,7 @@ export default function Imprint() {
                                 unoptimized={true}
                                 loader={(loader) => `${loader.src}`}
                             />
-                            <h1 className="font-semibold text-sm text-center lg:text-xl">
-                                <span className="text-primary">ANTI-CORONA-KARTELL</span></h1>
+                            <h1 className="font-semibold text-sm text-center lg:text-lg"><span className="text-primary">ANTI-CORONA-KARTELL</span></h1>
                         </div>
                         <div className="mt-10 lg:mt-0">
                             <h1 className="text-sm mb-4">Dieses Impressum gilt auch für die Darstellung des ANTI-CORONA-KARTELLs auf:</h1>

@@ -9,10 +9,10 @@ Weitere Features:
 
 Bugs:
 - Auf Gameserver: die Titel der Games (Eco, Minecraft, etc.) werden auf mobile vom Logo überdeckt
-- Beim Impressum ist der Text unter dem Logo nicht mehr zentriert. Text hier bitte auch etwas kleiner und wieder
-    zentriert.
-- Footer Socialmedia Icons hinzufügen
-- Abstände Navigation zum Inhalt der Seite checken
 - Gameserver buttons Kopieraktion hinzufügen (nur einer soll unten sichtbar sein - andere entfernen). Button mit
   kleinem Image vorweg auf Link/Ketten-Symbol ändern.
 
+- Abstände Navigation zum Inhalt der Seite checken (check)
+- Beim Impressum ist der Text unter dem Logo nicht mehr zentriert. Text hier bitte auch etwas kleiner und wieder
+  zentriert. (check)
+- Footer Socialmedia Icons hinzufügen (check)

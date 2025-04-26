@@ -21,7 +21,7 @@ export const GameServer = () => {
         <div>
             <Header previews={previews} noText/>
 
-            <div className="px-10 mt-40 max-w-[1280px] mx-auto">
+            <div className="px-10 lg:px-0 mt-40 max-w-[1280px] mx-auto">
                 <div className="relative block text-white">
                     <div className="grid grid-cols-12 gap-x-0 lg:gap-x-10">
                         <div className="col-span-12 lg:col-span-8">

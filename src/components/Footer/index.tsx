@@ -4,6 +4,10 @@ import Link from "next/link";
 import React from "react";
 import {ParagraphIcon} from "../Icon/ParagraphIcon";
 import {PrivacyIcon} from "../Icon/PrivacyIcon";
+import {BlueSkyIcon} from "../Icon/Socialmedia/BlueSkyIcon";
+import {YouTubeIcon} from "../Icon/Socialmedia/YouTubeIcon";
+import {DiscordIcon} from "../Icon/Socialmedia/DiscordIcon";
+import {SteamIcon} from "../Icon/Socialmedia/SteamIcon";
 
 export const Footer = () => {
 
@@ -18,11 +22,25 @@ export const Footer = () => {
                         <div className="flex justify-center items-center">
 
                             <div className="mx-2">
-                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" title="YouTube" target="_blank">
-                                    <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                <Link href="/datenschutz" title="BlueSky">
+                                    <SteamIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
-
+                            <div className="mx-2">
+                                <Link href="/datenschutz" title="BlueSky">
+                                    <DiscordIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
+                            <div className="mx-2">
+                                <Link href="/datenschutz" title="BlueSky">
+                                    <BlueSkyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
+                            <div className="mx-2">
+                                <Link href="https://www.youtube.com/@Anti-Corona-Kartell" title="YouTube" target="_blank">
+                                    <YouTubeIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
                             <div className="mx-2">
                                 <Link href="/impressum" title="Impressum">
                                     <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary"/>

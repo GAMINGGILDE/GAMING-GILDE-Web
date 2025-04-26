@@ -13,7 +13,7 @@ export const History = () => {
         <div>
             <Header previews={previews} noText/>
 
-            <div className="px-10 mt-32 max-w-[1280px] mx-auto">
+            <div className="px-10 lg:px-0 mt-32 max-w-[1280px] mx-auto">
                 <div className="relative block text-white text-center">
                     <div className="flex flex-wrap justify-center m-0 p-0 gap-x-5 uppercase">
 
