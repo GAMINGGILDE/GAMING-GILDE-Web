@@ -16,7 +16,7 @@ export const AboutUs = () => {
             <div className="mt-10 container mx-auto">
                 <div className="grid grid-cols-12">
                     <div className="col-span-12 lg:col-span-4 text-left m-3">
-                        <Link href={"https://discord.gg/anti-corona-kartell"} target={"_blank"}>
+                        <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 isRight={false}
                                 className="opacity-0"
@@ -28,7 +28,7 @@ export const AboutUs = () => {
                     </div>
 
                     <div className="col-span-12 lg:col-span-4 text-left m-3">
-                        <Link href={"https://discord.gg/anti-corona-kartell"} target={"_blank"}>
+                        <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 icon={<CommunicateIcon className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" />}
                                 title={"Kommunikation"}
@@ -39,7 +39,7 @@ export const AboutUs = () => {
                     </div>
 
                     <div className="col-span-12 lg:col-span-4 text-left m-3">
-                        <Link href={"https://discord.gg/anti-corona-kartell"} target={"_blank"}>
+                        <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 isRight={true}
                                 className="opacity-0"
