@@ -9,6 +9,10 @@ Weitere Features:
 
 Bugs:
 - Auf Gameserver: die Titel der Games (Eco, Minecraft, etc.) werden auf mobile vom Logo überdeckt
+  - Kann ich nicht reproduzieren. Hast du evtl ein Screenshot für mich per Email?
+
+
+
 
 - Abstände Navigation zum Inhalt der Seite checken (check)
 - Beim Impressum ist der Text unter dem Logo nicht mehr zentriert. Text hier bitte auch etwas kleiner und wieder
