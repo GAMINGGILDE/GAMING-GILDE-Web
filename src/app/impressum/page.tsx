@@ -60,7 +60,7 @@ export default function Imprint() {
                     <div className="mt-5">
                         <h1 className="text-2xl mb-3">Angaben gemäß §5 <a className="text-primary hover:underline" href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html" target="_blank">DDG</a>:</h1>
                         <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
-                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a className="text-primary hover:underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a></p>
+                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a className="text-primary underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a></p>
                       <div className="mt-10">
                             <h2 className="text-2xs font-semibold">Datenschutz & Cookies</h2>
                             <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a className="text-primary hover:underline" href="../datenschutz" >Datenschutzbestimmungen</a> erläutern,

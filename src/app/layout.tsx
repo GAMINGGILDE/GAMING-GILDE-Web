@@ -47,8 +47,8 @@ export default function RootLayout({
         </div>
 
         <Divider texts={[
-          { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur <a href=\"https://minecraft-gilde.de\" target=\"_blank\">Minecraft Gilde</a>!" },
-          { title: "Minecraft Spielkammeraden gesucht?", subTitle: "Dann komm zur <a href=\"https://minecraft-gilde.de\" target=\"_blank\">Minecraft Gilde</a>!" }
+          { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary' target='_blank'>Minecraft Gilde</a>!" },
+          { title: "Minecraft Spielkammeraden gesucht?", subTitle: "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary' target='_blank'>Minecraft Gilde</a>!" }
         ]} />
         <Footer />
       </body>

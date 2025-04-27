@@ -38,7 +38,7 @@ export const Divider = ({ texts }: DividerInterface) => {
            <div className="absolute inset-0 my-12">
                <p className="text-base lg:text-2xl font-bold text-white lg:mb-0 mb-5 text-center" style={{ zIndex: 99 }}>
                    <span>{text?.title}</span> <br />
-                   <span>{text?.subTitle}</span>
+                   <span dangerouslySetInnerHTML={{ __html: text?.subTitle }} />
                </p>
            </div>
        </div>

@@ -14,6 +14,7 @@ import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-valheim.webp";
 import Alert from "../../Alert/index";
+import Link from "next/link";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 
@@ -59,10 +60,11 @@ export const GameServer = () => {
                                 Wir freuen uns auf dich.
                             </p>
 
-                            <button
-                                className="block mt-7 py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover">
+                            <Link href="https://discord.anti-corona-kartell.de"
+                                  target="_blank"
+                                className="inline-block mt-7 py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover">
                                 Zu unserem Discord
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
