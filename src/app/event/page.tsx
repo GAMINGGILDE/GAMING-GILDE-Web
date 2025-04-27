@@ -31,6 +31,7 @@ const EventPage = () => {
                 {/* <div className="sm:mx-10 lg:mx-20">
                     <Carousel />
                 </div> */}
+
             </div>
         </div>
     )

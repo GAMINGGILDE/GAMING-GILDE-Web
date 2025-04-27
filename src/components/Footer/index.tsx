@@ -17,7 +17,7 @@ export const Footer = () => {
 
                 <div className="my-24">
                     <div className="flex justify-center lg:justify-between flex-wrap font-extralight text-xs">
-                        <p>&copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten</p>
+                        <p>&copy;{new Date().getFullYear()} Claus Schiroky. Alle Rechte vorbehalten.</p>
 
                         <div className="flex justify-center items-center">
 
@@ -38,20 +38,24 @@ export const Footer = () => {
                                     <BlueSkyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
+
                             <div className="mx-2">
                                 <Link href="https://www.youtube.com/@Anti-Corona-Kartell" title="YouTube" target="_blank">
                                     <YouTubeIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
+
                             <div className="mx-2">
                                 <Link href="/impressum" title="Impressum">
                                     <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
+
                             <div className="mx-2">
                                 <Link href="/datenschutz" title="Datenschutz">
                                     <PrivacyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
+
                             </div>
 
                         </div>

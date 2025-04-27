@@ -26,5 +26,5 @@ Weitere Features:
 
 
 - Seite Events:
-  Ich bekomme die drei Grafiken nicht nebeneinander - Hilfe. Zudem soll ein Link auf jede Grafik.
+  Ich bekomme die drei Grafiken nicht nebeneinander - Hilfe.
   Der Abstand zum Text unter der letzten Grafik soll etwas größer sein.

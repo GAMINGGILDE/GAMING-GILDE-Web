@@ -6,6 +6,8 @@ import ImageLevelProgram from "../../../assets/Level_Programm.webp"
 import ImageLevelAreas from "../../../assets/Level_Areas.webp"
 import ImageLevelMitmachen from "../../../assets/Level_Mitmachen.webp"
 import Image from "next/image";
+import Link from "next/link";
+import {SteamIcon} from "@/components/Icon/Socialmedia/SteamIcon";
 
 export const TextContent = () => {
 
@@ -21,37 +23,42 @@ export const TextContent = () => {
             </p>
 
             <div className="mt-10">
-                <Image
-                    src={ImageLevelProgram}
-                    alt={"image preview"}
-                    className="w-1/4"
-                    width={1000}
-                    height={1000}
-                    loader={(loader) => loader.src}
-                />
-
+                <Link href="https://www.levelup-salzburg.at/programm/" target="_blank">
+                    <Image
+                        src={ImageLevelProgram}
+                        alt={"Programm"}
+                        className="w-1/4"
+                        width={509}
+                        height={599}
+                        loader={(loader) => loader.src}
+                    />
+                </Link>
             </div>
 
             <div className="mt-10">
-                <Image
-                    src={ImageLevelAreas}
-                    alt={"image preview"}
-                    className="w-1/4"
-                    width={1000}
-                    height={1000}
-                    loader={(loader) => loader.src}
-                />
+                <Link href="https://www.levelup-salzburg.at/areas/" target="_blank">
+                    <Image
+                        src={ImageLevelAreas}
+                        alt={"Areas"}
+                        className="w-1/4"
+                        width={509}
+                        height={599}
+                        loader={(loader) => loader.src}
+                    />
+                </Link>
             </div>
 
             <div className="mt-10">
-                <Image
-                    src={ImageLevelMitmachen}
-                    alt={"image preview"}
-                    className="w-1/4"
-                    width={1000}
-                    height={1000}
-                    loader={(loader) => loader.src}
-                />
+                <Link href="https://www.levelup-salzburg.at/mitmachen/" target="_blank">
+                    <Image
+                        src={ImageLevelMitmachen}
+                        alt={"Mitmachen"}
+                        className="w-1/4"
+                        width={509}
+                        height={599}
+                        loader={(loader) => loader.src}
+                    />
+                </Link>
             </div>
 
             <p className="text-base lg:text-lg mb-4">
