@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, {useEffect, useRef} from "react";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import {Header} from "@/components/Header";
@@ -11,6 +11,24 @@ import PreviewImage3 from "../../assets/index-bg-4.webp";
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 
 export default function Imprint() {
+    const emailRef = useRef<HTMLSpanElement | null>(null);
+
+    useEffect(() => {
+        if (emailRef.current) {
+            const domain = 'anti-corona-kartell.de';
+            const email = 'webmaster@' + domain;
+
+            const link = document.createElement('a');
+            link.href = `mailto:${email}`;
+            link.target = '_blank';
+            link.className = 'text-primary underline';
+            link.textContent = email;
+
+            emailRef.current!.innerHTML = '';
+            emailRef.current!.appendChild(link);
+        }
+    }, [emailRef]);
+
     return (
         <div>
             <Header previews={previews} noText/>
@@ -60,7 +78,7 @@ export default function Imprint() {
                     <div className="mt-5">
                         <h1 className="text-2xl mb-3">Angaben gemäß §5 <a className="text-primary hover:underline" href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html" target="_blank">DDG</a>:</h1>
                         <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
-                        <p className="sub-text font-extralight"><strong>E-Mail: </strong><a className="text-primary underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a></p>
+                        <div className="sub-text font-extralight"><strong>E-Mail: </strong><span ref={emailRef} /></div>
                       <div className="mt-10">
                             <h2 className="text-2xs font-semibold">Datenschutz & Cookies</h2>
                             <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a className="text-primary hover:underline" href="../datenschutz" >Datenschutzbestimmungen</a> erläutern,
