@@ -23,3 +23,8 @@ Weitere Features:
   Oder: die beigefügten Icons (siehe asset-Ordner: Bluesky.svg, discord.svg, steam.svg und yourtube.svg) für Discrod, Steam, Bluesky und YouTube verwenden.
   
   Die Icons natürlich dann bitte auch farblich so wie Impressum und Datenschutz.
+
+
+- Seite Events:
+  Ich bekomme die drei Grafiken nicht nebeneinander - Hilfe. Zudem soll ein Link auf jede Grafik.
+  Der Abstand zum Text unter der letzten Grafik soll etwas größer sein.
