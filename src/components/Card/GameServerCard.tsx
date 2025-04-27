@@ -38,7 +38,7 @@ export const GameServerCard = ({ title, children, cardText, image, onClick, butt
                                        loader={(loader) => loader.src}
                                    />
                                </div>
-                               <div className="col-span-12 lg:col-span-6 text-xs">
+                               <div className="col-span-12 lg:col-span-6 text-xm">
                                    {cardText}
                                </div>
                                <div className="col-span-12 lg:col-span-6 mx-auto lg:block hidden">

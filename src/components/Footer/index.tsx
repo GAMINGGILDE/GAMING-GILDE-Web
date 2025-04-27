@@ -22,15 +22,17 @@ export const Footer = () => {
                         <div className="flex justify-center items-center">
 
                             <div className="mx-2">
-                                <Link href="https://steamcommunity.com/groups/A-C-KARTELL" title="Steam" target="_blank">
-                                    <SteamIcon className="w-5 h-5 fill-white hover:fill-primary"/>
-                                </Link>
-                            </div>
-                            <div className="mx-2">
                                 <Link href="https://discord.anti-corona-kartell.de" title="Discord" target="_blank">
                                     <DiscordIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
+
+                            <div className="mx-2">
+                                <Link href="https://steamcommunity.com/groups/A-C-KARTELL" title="Steam" target="_blank">
+                                    <SteamIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
+
                             <div className="mx-2">
                                 <Link href="https://bsky.app/profile/anti-corona-kartell.de" title="Bluesky" target="_blank">
                                     <BlueSkyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
