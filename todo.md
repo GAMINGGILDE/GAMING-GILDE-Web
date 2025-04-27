@@ -7,8 +7,3 @@ Weitere Features:
 - Hilfe: ich bekomme im Divider (Layout.tsx) die Links nicht hin.
 
 
-Bugs:
-- Auf Gameserver: die Titel der Games (Eco, Minecraft, etc.) werden auf mobile vom Logo überdeckt
-  - Kann ich nicht reproduzieren. Hast du evtl ein Screenshot für mich per Email?
-    - Gehe ich heute später an.
-
