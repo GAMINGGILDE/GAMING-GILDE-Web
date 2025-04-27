@@ -45,7 +45,7 @@ export const GameServerCard = ({ title, children, cardText, image, onClick, butt
                                    <Image
                                        src={image}
                                        alt={"gameserver preview"}
-                                       className="max-h-[5rem] object-contain"
+                                       className="max-h-[5rem] w-[10rem] object-contain rounded-lg"
                                        width={100}
                                        height={100}
                                        loader={(loader) => loader.src}
