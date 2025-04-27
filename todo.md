@@ -17,11 +17,6 @@ Weitere Features:
     Das oder so ähnlich sollte bitte auch für die E-Mail Adresse hier Anwendung finden.
 
 
-- Bitte die Game-Images in den Kacheln auf Gameserver größer. Klasse wären auch runde Ecken.
-  - Ist mir immer noch zu klein. Ich hatte mir das so vorgestellt:
-    ![img.png](img.png)
-
-
 - Icons im Footer:
   Entweder: den Style der Icons für Datenschutz und Impressum auf das Design der anderen Icons ändern. Wenn du was vergleichbares für die beiden findest, wäre das auch ok.
   
