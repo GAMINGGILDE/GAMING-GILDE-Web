@@ -7,12 +7,11 @@ import ImageLevelAreas from "../../../assets/Level_Areas.webp"
 import ImageLevelMitmachen from "../../../assets/Level_Mitmachen.webp"
 import Image from "next/image";
 import Link from "next/link";
-import {SteamIcon} from "@/components/Icon/Socialmedia/SteamIcon";
 
 export const TextContent = () => {
 
     return(
-        <div className="my-32 text-white tracking-wider w-[100%] m-auto">
+        <div className="my-20 text-white tracking-wider w-[100%] m-auto">
             <p className="text-xl lg:text-2xl lg:text-4xl font-bold mb-4 uppercase linear-text">LEVEL UP</p>
             <p className="text-base lg:text-lg mb-4">
                 <strong>Unsere Community aus Minecraft-Gilde und ANTI-CORONA-KARTELL trifft sich auf der LEVEL UP in Salzburg.</strong>
@@ -28,7 +27,7 @@ export const TextContent = () => {
                         <Image
                             src={ImageLevelProgram}
                             alt={"Programm"}
-                            className="w-full"
+                            className="w-[390px]"
                             width={1000}
                             height={1000}
                             loader={(loader) => loader.src}
@@ -41,7 +40,7 @@ export const TextContent = () => {
                         <Image
                             src={ImageLevelAreas}
                             alt={"Areas"}
-                            className="w-full"
+                            className="w-[390px]"
                             width={1000}
                             height={1000}
                             loader={(loader) => loader.src}
@@ -54,7 +53,7 @@ export const TextContent = () => {
                         <Image
                             src={ImageLevelMitmachen}
                             alt={"Mitmachen"}
-                            className="w-full"
+                            className="w-[390px]"
                             width={1000}
                             height={1000}
                             loader={(loader) => loader.src}
@@ -64,7 +63,7 @@ export const TextContent = () => {
             </div>
 
             <p className="text-base lg:text-lg mb-4">
-                Wer mit dabei sein will, sollte sich fix sein Ticket sichern. Wir treffen uns pünktlich vor Ort. Datum und Uhrzeit zu diesem Event findest du auf unserem <a className="text-primary hover:underline" href="https://discord.gg/bZNM4NkJ?event=1349716724106399775" target="_blank">Discord</a>. Kontakt und Koordination vor Ort dann über die mobile Discord-App.
+                Wer mit dabei sein will, sollte sich fix sein Ticket sichern. Wir treffen uns pünktlich vor Ort. Datum und Uhrzeit zu diesem Event findest du auf unserem <a className="text-primary hover:underline" href="https://discord.gg/bZNM4NkJ?event=1349716724106399775" target="_blank">Discord Server</a>. Kontakt und Koordination managen wir dann vor Ort über die <a className="text-primary hover:underline" href="https://discord.com/download" target="_blank">Discord App</a>.
             </p>
 
         </div>

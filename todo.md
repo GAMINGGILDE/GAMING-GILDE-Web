@@ -1,30 +1,15 @@
+# Top! Genial! Das Endergebnis begeistert mich! :-)
 
-Weitere Features:
-- E-Mail-Adresse im Impressum "maskieren" bitte.
-  - Die ist maskiert oder irre ich mich?
-  - Nö, im Code steht die direkt (auslesbar) drin:
-    ```
-    <a className="text-primary underline" href="mailto:webmaster@anti-corona-kartell.de" target="_blank">webmaster@anti-corona-kartell.de</a>
-    ```
-    Um für Web Crawler, Scanner etc. das Auslesen der E-Mail-Adresse (von wegen mit Spam zugeschüttet zu werden) zu verhindern, hatte ich früher folgendes verwendet:
-    ```
-    <script TYPE="text/javascript">
-      emailE = 'anti-corona-kartell.de'
-      emailE = ('webmaster' + '@' + emailE)
-      document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
-    </script>
-    ```
-    Das oder so ähnlich sollte bitte auch für die E-Mail Adresse hier Anwendung finden.
+Etwas Finetuning habe ich noch betrieben und kleine Änderungen eingepflegt. Die Seite geht so erst mal online.
 
+**Zwei Wünsche hätte ich da noch:**
 
-- Icons im Footer:
-  Entweder: den Style der Icons für Datenschutz und Impressum auf das Design der anderen Icons ändern. Wenn du was vergleichbares für die beiden findest, wäre das auch ok.
-  
-  Oder: die beigefügten Icons (siehe asset-Ordner: Bluesky.svg, discord.svg, steam.svg und yourtube.svg) für Discrod, Steam, Bluesky und YouTube verwenden.
-  
-  Die Icons natürlich dann bitte auch farblich so wie Impressum und Datenschutz.
+In der Fusszeile hätte ich gerne noch einen Link auf meinen Namen - zu meiner persönlichen Homepage.
+Nur hier nicht farblich dargestellt. Es soll unauffällig sein und nur der Mauscursor soll sich beim Hoovern ändern.
 
+Zudem fände ich es schöner, wenn auf mobilen Geräten (aka iPhone) in der Fusszeile Copyright-Information und Text dann
+übereinander stünden. Also "Alle Rechte vorbehalten." unter "©2025 Claus Schiroky." steht.
 
-- Seite Events:
-  Ich bekomme die drei Grafiken nicht nebeneinander - Hilfe.
-  Der Abstand zum Text unter der letzten Grafik soll etwas größer sein.
+Kannst du mir diese Gefallen noch tun?
+
+Gerne können wir uns die Tage auch noch mal via Teams treffen. Ich möchte dir auf alle Fälle auch noch persönlich Feedback geben.

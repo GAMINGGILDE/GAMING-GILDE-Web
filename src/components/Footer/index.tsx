@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, {useEffect} from "react";
 import {ParagraphIcon} from "../Icon/ParagraphIcon";
 import {PrivacyIcon} from "../Icon/PrivacyIcon";
 import {BlueSkyIcon} from "../Icon/Socialmedia/BlueSkyIcon";

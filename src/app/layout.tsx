@@ -18,7 +18,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "ANTI-CORONA-KARTELL",
-  description: "ANTI-CORONA-KARTELL Webseite",
+  description: "ANTI-CORONA-KARTELL Webseite. Eine Gaming-Community von Gamern für Gamer.",
 };
 
 export default function RootLayout({
@@ -47,9 +47,11 @@ export default function RootLayout({
         </div>
 
         <Divider texts={[
-          { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary' target='_blank'>Minecraft Gilde</a>!" },
-          { title: "Minecraft Spielkammeraden gesucht?", subTitle: "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary' target='_blank'>Minecraft Gilde</a>!" }
+          { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" },
+          { title: "Minecraft Spielkammeraden gesucht?", subTitle: "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" },
+          { title: "Deutschlands erster Minecraft Server auf Folia-Basis:", subTitle: "<a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" }
         ]} />
+
         <Footer />
       </body>
     </html>

@@ -70,8 +70,8 @@ export const GameServer = () => {
                 </div>
 
 
-                <div className="mt-40 my-20">
-                    <h1 className="text-lg lg:text-5xl font-semibold text-center mb-10 text-white">Finde hier die besten
+                <div className="mt-30 my-20">
+                    <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">Finde hier unsere besten
                         Gameserver</h1>
 
                     <GameServerCard
@@ -153,7 +153,7 @@ export const GameServer = () => {
                         }
                         cardText={
                             <>
-                                <p><strong>Name:</strong> Minecraft-Gilde</p>
+                                <p><strong>Name:</strong> Minecraft Gilde</p>
                                 <p><strong>Adresse:</strong> minecraft-gilde.de</p>
                                 <p>Erster Deutscher FOLIA Vanilla-Server!</p>
                             </>
@@ -218,27 +218,29 @@ export const GameServer = () => {
                     </GameServerCard>
                 </div>
 
-
                 <div className="space-y-2 mt-10 text-white">
-                    <h2 className="text-2xl font-semibold">
+                    <h2 className="text-xl lg:text-2xl lg:text-3xl font-smibold mb-4 uppercase linear-text">
                         20% auf deinen eigenen Gameserver
                     </h2>
 
                     <p>Wir hosten alle unsere Gameserver bei Zap-Hosting. Durch unsere Zusammenarbeit mit Zap-Hosting
-                        bekommst du 20% Rabatt auf deinen eigenen Gameserver! Auf die gesamte Laufzeit aller
-                        Produkte.</p>
+                        bekommst du <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">20% Rabatt</a> auf deinen eigenen Gameserver!
+                    </p>
+                    <p>Auf die gesamte Laufzeit aller Produkte.</p>
                 </div>
 
-                <div className="my-12">
-                    <Image
-                        src={Hosting}
-                        alt={"hosting"}
-                        width={1000}
-                        height={1000}
-                        className="w-full"
-                        priority={true}
-                        loader={(loader) => `${loader.src}`}
-                    />
+                <div className="my-5">
+                    <Link href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">
+                        <Image
+                            src={Hosting}
+                            alt={"hosting"}
+                            width={1000}
+                            height={1000}
+                            className="w-[800px]"
+                            priority={true}
+                            loader={(loader) => `${loader.src}`}
+                        />
+                    </Link>
                 </div>
 
                 <div className="text-white space-y-5">
@@ -249,6 +251,7 @@ export const GameServer = () => {
                     <p>Verwende den folgenden Rabatt-Code, um dir die 20% bei deiner Buchung zu sichern:
                         <strong> schiroky-a-6751</strong>.</p>
                 </div>
+
             </div>
         </div>
     )
