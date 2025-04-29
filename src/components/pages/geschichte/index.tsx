@@ -28,7 +28,7 @@ export const History = () => {
 
                 <div className="my-32 text-white tracking-wider w-[100%] m-auto">
                     <p className="text-lg mb-5">
-                        Der Begriff bzw. Name 'ANTI-CORONA-KARTELL' entstand während der <a className="text-primary hover:underline" href="https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Deutschland target=_blank">Corona-Pandemie</a>.
+                        Der Begriff bzw. Name 'ANTI-CORONA-KARTELL' entstand während der Corona-Pandemie.
                         In dieser Zeit fand sich eine kleine Gruppe an Gamern regelmäßig zum Spielen in Age of Empires
                         II zusammen und benannte die Lobby immer mit besagtem Namen. In einer Zeit, in der es untersagt war
                         außerhäusliche Freizeitaktivitäten auszuüben. Für uns als Gamer vermag das nicht tragisch
@@ -65,10 +65,18 @@ export const History = () => {
                         gerne mal rein und lass ein Abo da.
                     </p>
 
+                    <p className="text-lg mb-5">
+                        Im Zuge weiterer Zusammenarbeit ist im April 2024 das ANTI-CORONA-KARTELL eine Partnerschaft mit der Minecraft Gilde eingegangen, welche heute fester Bestandteil unserer Gaming Community ist. Sie bietet Minecraft-Begeisterten den ersten Deutschen Minecraft Server auf Basis von Folia und damit stabile Tickraten mit bester Performance.
+                    </p>
+
+                    <p className="text-lg mb-5">
+                        Gemeinsam sind wir Garant für jede Menge Spaß und Abwechslung beim Gaming.
+                    </p>
+
 
 
                     <p className="text-lg mb-5">
-                        Wenn du keinen unserer Events mehr verpassen willst, dann werde noch heute Mitglied beim <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">ANTI-CORONA-KARTELL</a> und unserem Partner-Server, der <a className="text-primary hover:underline" href="https://discord.minecraft-gilde.de" target="_blank">Minecraft Gilde</a>.
+                        Wenn du keinen unserer Events mehr verpassen willst und auch ein Teil unserer Geschichte werden willst, dann werde noch heute Mitglied beim <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">ANTI-CORONA-KARTELL</a> und unserem Partner, der <a className="text-primary hover:underline" href="https://discord.minecraft-gilde.de" target="_blank">Minecraft Gilde</a>.
                     </p>
                 </div>
             </div>
