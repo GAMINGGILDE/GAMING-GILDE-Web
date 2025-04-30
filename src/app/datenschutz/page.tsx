@@ -2,10 +2,10 @@
 
 import React from "react";
 import {Header} from "@/components/Header";
-import PreviewImage from "../../assets/impressum-bg-1.webp";
-import PreviewImage2 from "../../assets/impressum-bg-2.webp";
-import PreviewImage3 from "../../assets/impressum-bg-3.webp";
-import PreviewImage4 from "../../assets/impressum-bg-4.webp";
+import PreviewImage from "../../assets/datenschutz-bg-1.webp";
+import PreviewImage2 from "../../assets/datenschutz-bg-2.webp";
+import PreviewImage3 from "../../assets/datenschutz-bg-3.webp";
+import PreviewImage4 from "../../assets/datenschutz-bg-4.webp";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
 
