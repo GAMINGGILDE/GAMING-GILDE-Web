@@ -4,11 +4,12 @@ import React, {useEffect, useRef} from "react";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import {Header} from "@/components/Header";
-import PreviewImage from "../../assets/impressum-bg-games.webp";
-import PreviewImage2 from "../../assets/index-bg-1.webp";
-import PreviewImage3 from "../../assets/index-bg-4.webp";
+import PreviewImage from "../../assets/impressum-bg-1.webp";
+import PreviewImage2 from "../../assets/impressum-bg-2.webp";
+import PreviewImage3 from "../../assets/impressum-bg-3.webp";
+import PreviewImage4 from "../../assets/impressum-bg-4.webp";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3];
+const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
 
 export default function Imprint() {
     const emailRef = useRef<HTMLSpanElement | null>(null);
