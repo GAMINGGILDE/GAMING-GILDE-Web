@@ -15,9 +15,9 @@ export default function Datenschutz() {
             <Header previews={previews} noText/>
 
             <div
-                className="max-w-[1280px] mx-auto space-y-10 mt-[15rem] px-3 lg:px-0 w-[100%] m-auto mb-[5rem] text-white">
+                className="max-w-[1280px] mx-auto space-y-5 mt-[15rem] px-3 lg:px-0 w-[100%] m-auto mb-[5rem] text-white">
                 {/* Header */}
-                <header className="space-y-4">
+                <header className="space-y-6">
                     <h1 className="text-xl lg:text-3xl font-bold linear-text">Datenschutzerklärung</h1>
                     <p className="text-gray-300">
                         Diese Datenschutzerklärung soll die Nutzer dieser privaten Website über die Art, den Umfang und
@@ -28,25 +28,23 @@ export default function Datenschutz() {
                         Änderungen an dieser Datenschutzerklärung vorgenommen werden können, empfehlen wir Ihnen sich
                         die Datenschutzerklärung in regelmäßigen Abständen wieder durchzulesen. Definitionen der
                         verwendeten Begriffe (z. B. "personenbezogene Daten" oder "Verarbeitung") finden Sie in Art. 4
-                        DSGVO.
+                        <a className="text-primary hover:underline" href="https://dsgvo-gesetz.de" target="_blank"> DSGVO</a>.
                     </p>
                 </header>
 
                 {/* Paragraph 1 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Websitebetreiber</h2>
-                    <p className="leading-relaxed">
-                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (<a
-                        className="text-primary hover:underline" href="https://dsgvo-gesetz.de"
-                        target="_blank">DSGVO</a>) und anderer nationaler
+                    <h2 className="text-2xs font-semibold">Websitebetreiber</h2>
+                    <p className="sub-text font-light ">
+                        Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (DSGVO) und anderer nationaler
                         Datenschutzgesetze ist: Claus Schiroky.
                     </p>
                 </div>
 
                 {/* Paragraph 2 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
+                    <p className="sub-text font-light">
                         Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur Übersendung von
                         nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen.
                         Der Betreiber der Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten
@@ -56,8 +54,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 3 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Cookies</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Cookies</h2>
+                    <p className="sub-text font-light">
                         Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“, um das Internetangebot
                         nutzerfreundlicher, effektiver und sicherer zu gestalten. Cookies sind kleine Textdateien. Sie
                         unterstützen die Darstellung unserer Webseite und helfen Ihnen, sich auf unserer Webseite zu
@@ -68,14 +66,14 @@ export default function Datenschutz() {
                         eingeschränkt arbeiten. Diese werden zur technischen Sitzungssteuerung im temporären Speicher
                         des Webbrowsers bzw. auf der Festplatte des Besuchers der Internetseite abgelegt.
                     </p>
-                    <p className="leading-relaxed">
+                    <p className="sub-text font-light">
                         Unter anderem speichern wir auf Ihrer Festplatte so genannte Session-Cookies, die nur für die
                         Dauer Ihres Besuches auf unserer Webseite Gültigkeit besitzen. Diese werden benötigt, um Sie
                         nach erfolgreicher Anmeldung im geschützten Bereich für die gesamte Dauer Ihres Besuches zu
                         identifizieren und zu autorisieren. Nach Ende Ihres Besuches werden diese Cookies automatisch
                         von Ihrer Festplatte wieder gelöscht.
                     </p>
-                    <p className="leading-relaxed">
+                    <p className="sub-text font-light">
                         Das Speichern von Cookies können Besucher von Internetseiten durch bestimmte
                         Browser-Einstellungen verhindern. In der Regel lässt sich der Webbrowser auch so einstellen,
                         dass dieser beim Besucher der Internetseite vor dem Setzen von Cookies nachfragt, ob er
@@ -86,12 +84,12 @@ export default function Datenschutz() {
                         Funktionen unserer Webseite möglicherweise nicht funktionieren, wenn Sie die Verwendung von
                         Cookies deaktiviert haben.
                     </p>
-                    <p className="leading-relaxed">
+                    <p className="sub-text font-light">
                         Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu
                         übertragen. Anhand der in Cookies enthaltenen Informationen können wir Ihnen die Navigation
                         erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
                     </p>
-                    <p className="leading-relaxed">
+                    <p className="sub-text font-light">
                         In keinem Fall werden die von uns erfassten Daten an Dritte weitergegeben oder ohne Ihre
                         Einwilligung eine Verknüpfung mit personenbezogenen Daten hergestellt.
                     </p>
@@ -99,8 +97,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 4 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Rechtsgrundlagen</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Rechtsgrundlagen</h2>
+                    <p className="sub-text font-light">
                         Die Verarbeitung erfolgt auf Basis deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO),
                         zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b
                         DSGVO) sowie zur Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs. 1 lit. c DSGVO).
@@ -111,8 +109,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 5 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Verschlüsselung</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Verschlüsselung</h2>
+                    <p className="sub-text font-light">
                         Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, wird nach aktuellen Stand der
                         Technik ein entsprechendes SSL- bzw. TLS-Verschlüsselungsverfahren verwendet. Eine
                         verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von “http://”
@@ -124,8 +122,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 6 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Zugriffsdaten</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Zugriffsdaten</h2>
+                    <p className="sub-text font-light ">
                         Ihre Daten werden zum einen dadurch erhoben, dass Sie mir diese mitteilen. Hierbei kann es sich
                         z. B. um Daten handeln, die Sie mir per E-Mail senden. Um Ihren Besuch so benutzerfreundlich wie
                         möglich zu gestalten und sämtliche verfügbaren Funktionen anbieten zu können wird ein Teil der
@@ -135,15 +133,15 @@ export default function Datenschutz() {
                         unterliegt den folgenden geltenden Datenschutzerklärungen der jeweiligen Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a className="text-primary hover:underline" href="https://www.ionos.de/hilfe/datenschutz"
+                        <li><a className="font-light text-primary hover:underline" href="https://www.ionos.de/hilfe/datenschutz"
                                target="_blank">Ionos</a></li>
                     </ul>
                 </div>
 
                 {/* Paragraph 7 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Onlinepräsenzen</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Onlinepräsenzen</h2>
+                    <p className="sub-text font-light">
                         Der Websitebetreiber unterhält auch Onlinepräsenzen innerhalb sozialer Netzwerke und
                         Plattformen, um mit den dort aktiven Nutzern zu kommunizieren. Ich weise darauf hin, dass dabei
                         Daten der Nutzer außerhalb des Raumes der Europäischen Union verarbeitet werden können.
@@ -169,17 +167,17 @@ export default function Datenschutz() {
                         der Anbieter:
                     </p>
                     <ul className="list-disc list-inside m-4">
-                        <li><a className="text-primary hover:underline" href="https://policies.google.com/privacy?hl=de"
+                        <li><a className="font-light text-primary hover:underline" href="https://policies.google.com/privacy?hl=de"
                                target="_blank">Google</a></li>
-                        <li><a className="text-primary hover:underline" href="https://discord.com/privacy"
+                        <li><a className="font-light text-primary hover:underline" href="https://discord.com/privacy"
                                target="_blank">Discord</a></li>
-                        <li><a className="text-primary hover:underline"
+                        <li><a className="font-light text-primary hover:underline"
                                href="https://store.steampowered.com/privacy_agreement/?l=german"
                                target="_blank">Steam</a></li>
-                        <li><a className="text-primary hover:underline"
+                        <li><a className="font-light text-primary hover:underline"
                                href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
                     </ul>
-                    <p className="leading-relaxed">
+                    <p className="sub-text font-light">
                         Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, weise ich darauf
                         hin, dass diese am effektivsten bei den Anbietern geltend gemacht werden können. Nur die
                         Anbieter haben jeweils Zugriff auf die Daten der Nutzer und können direkt entsprechende
@@ -189,8 +187,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 8 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
+                    <p className="sub-text font-light">
                         Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden
                         wir auf dieser Website „Google Web Fonts“ der Google LLC (1600 Amphitheatre Parkway, Mountain
                         View, CA 94043, USA; nachfolgend „Google“) zur Darstellung von Schriften. Weitere Informationen zu Google Web Fonts finden Sie <a className="text-primary hover:underline" href="https://developers.google.com/fonts/faq" target="_blank">hier</a>.
@@ -199,8 +197,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 9 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Erfassung und Verarbeitung personenbezogener Daten</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Erfassung und Verarbeitung personenbezogener Daten</h2>
+                    <p className="sub-text font-light">
                         Der Websitebetreiber erhebt, nutzt und gibt Ihre personenbezogenen Daten nur dann weiter, wenn
                         dies im gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung einwilligen. Als
                         personenbezogene Daten gelten sämtliche Informationen, welche dazu dienen, Ihre Person zu
@@ -219,8 +217,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 10 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Kontaktformular</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xa font-semibold">Kontaktformular</h2>
+                    <p className="sub-text font-light">
                         Treten Sie bzgl. Fragen jeglicher Art per E-Mail oder Kontaktformular mit uns in Kontakt,
                         erteilen Sie uns zum Zwecke der Kontaktaufnahme Ihre freiwillige Einwilligung. Hierfür ist die
                         Angabe einer validen E-Mail-Adresse erforderlich. Diese dient der Zuordnung der Anfrage und der
@@ -233,8 +231,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 11 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Umgang mit Kontaktdaten</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Umgang mit Kontaktdaten</h2>
+                    <p className="sub-text font-light">
                         Nehmen Sie mit uns als Websitebetreiber durch die angebotenen Kontaktmöglichkeiten Verbindung
                         auf, werden Ihre Angaben gespeichert, damit auf diese zur Bearbeitung und Beantwortung Ihrer
                         Anfrage zurückgegriffen werden kann. Ohne Ihre Einwilligung werden diese Daten nicht an Dritte
@@ -244,8 +242,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 12 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Rechte des Nutzers</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Rechte des Nutzers</h2>
+                    <p className="sub-text font-light">
                         Sie haben als Nutzer das Recht, auf Antrag eine kostenlose Auskunft darüber zu erhalten, welche
                         personenbezogenen Daten über Sie gespeichert wurden. Sie haben außerdem das Recht auf
                         Berichtigung falscher Daten und auf die Verarbeitungseinschränkung oder Löschung Ihrer
@@ -257,8 +255,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 13 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Löschung von Daten</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Löschung von Daten</h2>
+                    <p className="sub-text font-light">
                         Sofern Ihr Wunsch nicht mit einer gesetzlichen Pflicht zur Aufbewahrung von Daten (z. B.
                         Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Löschung Ihrer Daten. Von uns
                         gespeicherte Daten werden, sollten sie für ihre Zweckbestimmung nicht mehr vonnöten sein und es
@@ -271,8 +269,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 14 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Änderung unserer Datenschutzbestimmungen</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Änderung unserer Datenschutzbestimmungen</h2>
+                    <p className="sub-text font-light">
                         Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den
                         aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der
                         Datenschutzerklärung umzusetzen, z. B. bei der Einführung neuer Services. Für Ihren erneuten
@@ -282,8 +280,8 @@ export default function Datenschutz() {
 
                 {/* Paragraph 15 */}
                 <div className="space-y-2">
-                    <h2 className="text-2xl font-semibold">Widerspruchsrecht</h2>
-                    <p className="leading-relaxed">
+                    <h2 className="text-2xs font-semibold">Widerspruchsrecht</h2>
+                    <p className="sub-text font-light">
                         Nutzer dieser Webseite können von ihrem Widerspruchsrecht Gebrauch machen und der Verarbeitung
                         ihrer personenbezogenen Daten zu jeder Zeit widersprechen. Wenn Sie eine Berichtigung, Sperrung,
                         Löschung oder Auskunft über die zu Ihrer Person gespeicherten personenbezogenen Daten wünschen
