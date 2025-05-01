@@ -8,8 +8,9 @@ import PreviewImage from "../../assets/impressum-bg-1.webp";
 import PreviewImage2 from "../../assets/impressum-bg-2.webp";
 import PreviewImage3 from "../../assets/impressum-bg-3.webp";
 import PreviewImage4 from "../../assets/impressum-bg-4.webp";
+import PreviewImage5 from "../../assets/impressum-bg-5.webp";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
+const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
 export default function Imprint() {
     const emailRef = useRef<HTMLSpanElement | null>(null);
