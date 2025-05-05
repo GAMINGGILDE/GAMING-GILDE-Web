@@ -41,7 +41,7 @@ export const GameServer = () => {
             <Header previews={previews} noText/>
             {isShow && <Alert message={"Die Adresse wurde in die Zwischenablage kopiert"}/>}
 
-            <div className="px-10 lg:px-0 mt-40 max-w-[1280px] mx-auto">
+            <div className="px-10 xl:px-0 mt-40 max-w-[1280px] mx-auto">
                 <div className="relative block text-white">
                     <div className="grid grid-cols-12 gap-x-0 lg:gap-x-10">
                         <div className="col-span-12 lg:col-span-8">

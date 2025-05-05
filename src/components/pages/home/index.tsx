@@ -10,12 +10,12 @@ import Link from "next/link";
 
 export const AboutUs = () => {
     return (
-        <div className="mt-52 text-center">
+        <div className="mt-52">
             <h1 className="linear-text text-xl lg:text-3xl font-semibold text-center uppercase">Wenn wir uns vorstellen dürfen</h1>
 
             <div className="mt-10 container mx-auto">
-                <div className="grid grid-cols-12">
-                    <div className="col-span-12 lg:col-span-4 text-left m-3">
+                <div className="grid grid-cols-12 gap-10">
+                    <div className="col-span-12 lg:col-span-4 text-left">
                         <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 isRight={false}
@@ -27,7 +27,7 @@ export const AboutUs = () => {
                         </Link>
                     </div>
 
-                    <div className="col-span-12 lg:col-span-4 text-left m-3">
+                    <div className="col-span-12 lg:col-span-4 text-left">
                         <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 icon={<CommunicateIcon className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" />}
@@ -38,7 +38,7 @@ export const AboutUs = () => {
                         </Link>
                     </div>
 
-                    <div className="col-span-12 lg:col-span-4 text-left m-3">
+                    <div className="col-span-12 lg:col-span-4 text-left">
                         <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card
                                 isRight={true}

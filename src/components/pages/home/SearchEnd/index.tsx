@@ -5,7 +5,7 @@ import React from "react";
 
 export const SearchEnd = () => {
     return (
-        <div className="container m-auto p-5 mt-16">
+        <div className="container m-auto mt-16">
             <div className="grid grid-cols-12 items-center lg:gap-x-10">
                 <div className="col-span-12 lg:col-span-8 mb-3">
                     <p className="linear-text text-xs lg:text-base uppercase">Betrete jetzt unseren Discord</p>
