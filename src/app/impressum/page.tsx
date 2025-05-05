@@ -4,11 +4,13 @@ import React, {useEffect, useRef} from "react";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import {Header} from "@/components/Header";
-import PreviewImage from "../../assets/impressum-bg-games.webp";
-import PreviewImage2 from "../../assets/index-bg-1.webp";
-import PreviewImage3 from "../../assets/index-bg-4.webp";
+import PreviewImage from "../../assets/impressum-bg-1.webp";
+import PreviewImage2 from "../../assets/impressum-bg-2.webp";
+import PreviewImage3 from "../../assets/impressum-bg-3.webp";
+import PreviewImage4 from "../../assets/impressum-bg-4.webp";
+import PreviewImage5 from "../../assets/impressum-bg-5.webp";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3];
+const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
 export default function Imprint() {
     const emailRef = useRef<HTMLSpanElement | null>(null);
@@ -21,7 +23,7 @@ export default function Imprint() {
             const link = document.createElement('a');
             link.href = `mailto:${email}`;
             link.target = '_blank';
-            link.className = 'text-primary underline';
+            link.className = 'text-primary underline font-light';
             link.textContent = email;
 
             emailRef.current!.innerHTML = '';
@@ -77,18 +79,18 @@ export default function Imprint() {
 
                     <div className="mt-5">
                         <h1 className="text-2xl mb-3">Angaben gemäß §5 <a className="text-primary hover:underline" href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html" target="_blank">DDG</a>:</h1>
-                        <p className="sub-text font-extralight"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
-                        <div className="sub-text font-extralight"><strong>E-Mail: </strong><span ref={emailRef} /></div>
+                        <p className="sub-text font-light"><strong>Websitebetreiber: </strong>Claus Schiroky</p>
+                        <div className="sub-text font-light"><strong>E-Mail: </strong><span ref={emailRef} /></div>
                       <div className="mt-10">
                             <h2 className="text-2xs font-semibold">Datenschutz & Cookies</h2>
-                            <p className="sub-text font-extralight">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a className="text-primary hover:underline" href="../datenschutz" >Datenschutzbestimmungen</a> erläutern,
+                            <p className="sub-text font-light mt-2">Ihre Privatsphäre ist uns sehr wichtig. Unsere <a className="text-primary hover:underline" href="../datenschutz" >Datenschutzbestimmungen</a> erläutern,
                                 welche persönlichen Daten von ihnen erhoben werden und wie sie von uns verwendet werden. Bei weiteren Fragen zum Datenschutz
                                 wenden sie sich bitte an den Websitebetreiber.</p>
                         </div>
 
                         <div className="mt-5">
                             <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
-                            <p className="sub-text font-extralight">Der Nutzung von im Rahmen der oben genannten
+                            <p className="sub-text font-light" mt-2>Der Nutzung von im Rahmen der oben genannten
                                 veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter
                                 Werbung und Informationsmaterialien wird hiermit widersprochen. Der Betreiber der
                                 Seiten behält sich ausdrücklich rechtliche Schritte im Falle der unverlangten
@@ -97,7 +99,7 @@ export default function Imprint() {
 
                         <div className="mt-5">
                             <h2 className="text-2xs font-semibold">Haftungsausschluss</h2>
-                            <p className="sub-text font-extralight">Alle Angaben und Inhalte dieses Angebotes wurden
+                            <p className="sub-text font-light mt-2">Alle Angaben und Inhalte dieses Angebotes wurden
                                 sorgfältig erstellt und geprüft. Der Websitebetreiber ist bemüht, das Angebot
                                 aktuell, vollständig und frei von inhaltlichen Fehlern anzubieten. Dennoch kann
                                 trotz größter Sorgfalt das Auftreten von Fehlern nicht völlig ausgeschlossen werden,
@@ -114,7 +116,7 @@ export default function Imprint() {
 
                         <div className="mt-5">
                             <h2 className="text-2xs font-semibold">Urheberrecht</h2>
-                            <p className="sub-text font-extralight">Alle auf dieser Website genannten Produktnamen,
+                            <p className="sub-text font-light mt-2">Alle auf dieser Website genannten Produktnamen,
                                 Produktbezeichnungen und Logos sind eingetragene Warenzeichen und Eigentum der
                                 jeweiligen Rechteinhaber. Sämtliche Texte, Bilder und andere veröffentlichten
                                 Informationen unterliegen, sofern nicht anders gekennzeichnet, dem Copyright des
