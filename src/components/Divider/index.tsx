@@ -5,6 +5,7 @@ import React, {useEffect, useState} from "react";
 
 interface DividerInterface {
     texts: DividerItemInterface[];
+    images: { src: string }[];
 }
 
 interface DividerItemInterface { title: string; subTitle: string }
@@ -20,20 +21,23 @@ export const DividerButton = ({ link, title }: DividerButtonInterface) => (
     </Link>
 )
 
-export const Divider = ({ texts }: DividerInterface) => {
+export const Divider = ({ texts, images }: DividerInterface) => {
     const [text, setText] = useState<DividerItemInterface | null>(texts[0]);
+    const [image, setImage] = useState<string | null>(images[0].src);
 
     useEffect(() => {
         if (texts) {
             const randomIndex = Math.floor(Math.random() * texts.length);
+            const randomImageIndex = Math.floor(Math.random() * images.length);
+
             setText(texts[randomIndex]);
+            setImage(images[randomImageIndex].src);
         }
     }, [texts]);
 
     return (
        <div className="relative my-32">
-           <div className="py-7 px-10 lg:px-20 parallax">
-           </div>
+           <div style={{ backgroundImage: `url(${image})` }} className="py-7 px-10 lg:px-20 parallax"></div>
 
            <div className="absolute inset-0 my-12">
                <p className="text-base lg:text-2xl font-bold text-white lg:mb-0 mb-5 text-center" style={{ zIndex: 99 }}>

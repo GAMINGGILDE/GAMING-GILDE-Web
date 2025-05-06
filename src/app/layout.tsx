@@ -3,7 +3,11 @@ import localFont from "next/font/local";
 import "./globals.css";
 import {Navbar} from "../components/Navbar/index";
 import {Footer} from "../components/Footer/index";
-import {Divider, DividerButton} from "../components/Divider/index";
+import {Divider} from "../components/Divider/index";
+import PreviewImage from "../assets/Minecraft-Bg-0.webp";
+import PreviewImage2 from "../assets/Minecraft-Bg-1.webp";
+import PreviewImage3 from "../assets/Minecraft-Bg-2.webp";
+import PreviewImage4 from "../assets/Minecraft-Bg-3.webp";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +24,8 @@ export const metadata: Metadata = {
   title: "ANTI-CORONA-KARTELL",
   description: "ANTI-CORONA-KARTELL Webseite. Eine Gaming-Community von Gamern für Gamer.",
 };
+
+const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
 
 export default function RootLayout({
   children,
@@ -46,7 +52,9 @@ export default function RootLayout({
           {children}
         </div>
 
-        <Divider texts={[
+        <Divider
+            images={previews}
+            texts={[
           { title: "Lust auf Minecraft wie zu Anfangszeiten?", subTitle: "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" },
           { title: "Minecraft Spielkammeraden gesucht?", subTitle: "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" },
           { title: "Deutschlands erster Minecraft Server auf Folia-Basis:", subTitle: "<a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!" }
