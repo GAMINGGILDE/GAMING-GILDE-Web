@@ -14,7 +14,7 @@ export const AboutUs = () => {
             <h1 className="linear-text text-xl lg:text-3xl font-semibold text-center uppercase">Wenn wir uns vorstellen dürfen</h1>
 
             <div className="mt-10 container mx-auto">
-                <div className="grid grid-cols-12 gap-10">
+                <div className="grid grid-cols-12 gap-5 lg:gap-10">
                     <div className="col-span-12 lg:col-span-4 text-left">
                         <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
                             <Card

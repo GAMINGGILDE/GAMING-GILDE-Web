@@ -23,7 +23,7 @@ export default function Home() {
     <div>
       <Header previews={previews} />
 
-        <div className="max-w-[1280px] mx-auto xl:px-0 px-10">
+        <div className="max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10">
             <AboutUs />
 
             <SearchEnd />

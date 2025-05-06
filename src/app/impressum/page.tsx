@@ -35,7 +35,7 @@ export default function Imprint() {
         <div>
             <Header previews={previews} noText/>
 
-            <div className="mt-[15rem] max-w-[1280px] mx-auto px-10 xl:px-0 w-[100%] m-auto mb-[10rem]">
+            <div className="mt-[15rem] max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10 w-[100%] m-auto mb-[10rem]">
                 <div className="text-center">
                     <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-bold break-words">Impressum</h1>
                 </div>

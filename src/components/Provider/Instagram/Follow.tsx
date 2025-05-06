@@ -3,11 +3,10 @@
 import Image from "next/image";
 import Instagram from "../../../assets/logo.png";
 import React from "react";
-import Link from "next/link";
 
 export const InstagramFollow = () => {
     return (
-        <div className="container px-10 lg:px-0 pb-10 m-auto">
+        <div className="container pb-10 m-auto">
             <div className="card-background-primary card-inner-primary mt-44">
                 <div className="card-inner text-white">
                     <div className="grid grid-cols-12">
