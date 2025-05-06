@@ -155,7 +155,7 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> Minecraft Gilde</p>
                                 <p><strong>Adresse:</strong> minecraft-gilde.de</p>
-                                <p>Erster Deutscher FOLIA Vanilla-Server!</p>
+                                <p>Erster Deutsche FOLIA Vanilla-Server!</p>
                             </>
                         }
                     >
@@ -165,7 +165,7 @@ export const GameServer = () => {
                                 Minecraft!
                             </p>
                             <p className="text-base leading-relaxed text-gray-500">
-                                Die Minecraft Gilde ist ein deutscher Vanilla-Server, der sich ganz auf das pure
+                                Die <a className="text-primary hover:underline" href="https://minecraft-gilde.de" target="_blank">Minecraft Gilde</a> ist ein deutscher Vanilla-Server, der sich ganz auf das pure
                                 Survival- und Freebuild-Erlebnis konzentriert. Hier gibt es keine Minigames, kein
                                 Citybuild und keine anderen Ablenkungen – du spielst Minecraft in seiner
                                 ursprünglichsten Form. Der Fokus liegt auf echtem Vanilla-Survival-Gameplay. Als neuer
