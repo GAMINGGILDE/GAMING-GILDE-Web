@@ -176,6 +176,8 @@ export default function Datenschutz() {
                                target="_blank">Steam</a></li>
                         <li><a className="font-light text-primary hover:underline"
                                href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
+                        <li><a className="font-light text-primary hover:underline"
+                               href="https://www.twitch.tv/p/de-de/legal/privacy-notice" target="_blank">Twitch</a></li>
                     </ul>
                     <p className="sub-text font-light">
                         Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, weise ich darauf

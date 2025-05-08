@@ -74,6 +74,10 @@ export default function Imprint() {
                                 <p className="font-semibold">Bluesky</p>
                                 <a className="text-primary hover:underline" href="https://bsky.app/profile/anti-corona-kartell.de" target="_blank">Hier klicken</a>
                             </div>
+                            <div className="bg-sub py-2 px-5 my-4 rounded-lg flex justify-between w-[18rem]">
+                                <p className="font-semibold">Twitch</p>
+                                <a className="text-primary hover:underline" href="https://www.twitch.tv/anti_corona_kartell" target="_blank">Hier klicken</a>
+                            </div>
                         </div>
                     </div>
 

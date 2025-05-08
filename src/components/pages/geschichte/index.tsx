@@ -26,7 +26,7 @@ export const History = () => {
                     </div>
                 </div>
 
-                <div className="my-20 text-white tracking-wider w-[100%] m-auto">
+                <div className="my-20 text-white w-[100%] m-auto">
                     <p className="text-lg mb-5">
                         Der Begriff bzw. Name 'ANTI-CORONA-KARTELL' entstand während der Corona-Pandemie.
                         In dieser Zeit fand sich eine kleine Gruppe an Gamern regelmäßig zum Spielen in Age of Empires

@@ -11,7 +11,7 @@ import Link from "next/link";
 export const TextContent = () => {
 
     return(
-        <div className="my-20 text-white tracking-wider w-[100%] m-auto">
+        <div className="my-20 text-white w-[100%] m-auto">
             <p className="text-xl lg:text-2xl lg:text-4xl font-bold mb-4 uppercase linear-text">LEVEL UP</p>
             <p className="text-base lg:text-lg mb-4">
                 <strong>Unsere Community aus Minecraft-Gilde und ANTI-CORONA-KARTELL trifft sich auf der LEVEL UP in Salzburg.</strong>
