@@ -7,8 +7,8 @@ deployen.
 
 Stelle sicher, dass du die folgenden Versionen von Node.js und Yarn installiert hast:
 
-- [**Node.js** v22.15](https://nodejs.org/en/download):
-- [**Yarn** v1.22](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- [**Node.js** v22.15](https://nodejs.org/en/download)
+- [**Yarn** v4.9.1](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
 Du kannst deine aktuelle Version mit folgenden Befehlen überprüfen:
 
