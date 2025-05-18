@@ -91,13 +91,22 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF</p>
-                                <p>Lüfte das Geheimnis des uralten Kerns.</p>
+                                <p><strong>Benötigte Mods:</strong> Chat Commands, Chest Labels.</p>
                             </>
                         }
                     >
                         <>
                             <p className="text-base leading-relaxed text-gray-500">
+                                <strong>Lüfte das Geheimnis des uralten Kerns</strong>
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
                                 Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu lüften.
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                <strong>Benötigte Mods:</strong> <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chatcommands3#description" target="_blank">Chat Commands</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chestlabels#description" target="_blank">Chest Labels</a>.
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Um sich auf den Gameserver zu verbinden, muss du die Mods über das Menü 'MODS' in Core Keeper installieren bzw. abonieren.
                             </p>
                         </>
                     </GameServerCard>
