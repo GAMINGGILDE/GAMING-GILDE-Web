@@ -6,13 +6,16 @@ import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import {Header} from "../../Header/index";
 
-import EcoImage from "../../../assets/gamesesrver-eco.webp";
+import EcoImage from "../../../assets/gameserver-eco.webp";
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
+import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
+import EnshroudedImage from "../../../assets/gameserver-enshrouded.webp";
 import ValheimImage from "../../../assets/gameserver-valheim.webp";
 
 import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
-import PreviewImage3 from "../../../assets/gameserver-bg-valheim.webp";
+import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
+
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
@@ -73,6 +76,31 @@ export const GameServer = () => {
                 <div className="mt-30 my-20">
                     <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">Finde hier unsere besten
                         Gameserver</h1>
+
+                    <GameServerCard
+                        title={"Core Keeper"}
+                        image={CoreKeeperImage}
+                        onClick={() => copyLink("2ihUSCz22aiuhRP8X3LUNHTrGJKF")}
+                        button={
+                            <>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">ID kopieren</p>
+                            </>
+                        }
+                        cardText={
+                            <>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF</p>
+                                <p>Lüfte das Geheimnis des uralten Kerns.</p>
+                            </>
+                        }
+                    >
+                        <>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu lüften.
+                            </p>
+                        </>
+                    </GameServerCard>
 
                     <GameServerCard
                         title={"Eco"}
@@ -142,6 +170,40 @@ export const GameServer = () => {
                     </GameServerCard>
 
                     <GameServerCard
+                        title={"Ab 1. Juni: Enshrouded"}
+                        image={EnshroudedImage}
+                        onClick={() => copyLink("Der Server startet am 1. Juni.")}
+                        button={
+                            <>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Keine IP</p>
+                            </>
+                        }
+                        cardText={
+                            <>
+                                <p><strong>Name:</strong> -</p>
+                                <p><strong>IP-Adresse:</strong> -</p>
+                                <p>Erwache und überlebe das Grauen des verderben bringenden Nebels.</p>
+                            </>
+                        }
+                    >
+                        <>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Das Reich Embervale ist verloren. In ihrer Gier nach magischer Kraft haben deine Vorfahren eine Seuche freigesetzt, welche die Welt vernichtet hat.
+                                Enshrouded ist ein Spiel, in dem es ums Überleben und Herstellen geht, ein Action-RPG-Kampfspiel, das sich auf einem weitläufigen voxelbasierten Kontinent abspielt. Auf deiner Reise durch die Berge und Wüsten dieser offenen Welt kannst du deinen Weg frei wählen und dein eigenes Schicksal formen.
+                                Entzünde die alte Macht der Flamme und füge die Fragmente einer Geschichte zusammen, die sich unter der Oberfläche entfaltet.
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                <strong>ÜBERLEBE DEN SHROUD</strong>
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Am Anfang hast du nichts außer deinen Willen, in der Wildnis zu überleben. Du musst dich durch die verfallenen Reste eines verlorenen Königreichs kämpfen und die Bestien abwehren, die es auf dein Fleisch abgesehen haben.
+                                Durchquere Wälder, Höhlen, Verliese, suche nach geheimem Wissen und Schätzen. Werde stärker, um dich in den Shroud zu wagen und den Kampf zu den Schrecken der Tiefe zurückzubringen.
+                            </p>
+                        </>
+                    </GameServerCard>
+
+                    <GameServerCard
                         title={"Minecraft"}
                         image={MinecraftImage}
                         onClick={() => copyLink("minecraft-gilde.de")}
@@ -155,7 +217,7 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> Minecraft Gilde</p>
                                 <p><strong>Adresse:</strong> minecraft-gilde.de</p>
-                                <p>Erster Deutsche FOLIA Vanilla-Server!</p>
+                                <p>Erster deutscher FOLIA Vanilla-Server!</p>
                             </>
                         }
                     >
@@ -216,6 +278,7 @@ export const GameServer = () => {
                             </p>
                         </>
                     </GameServerCard>
+
                 </div>
 
                 <div className="space-y-2 mt-10 text-white">
