@@ -91,7 +91,7 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF</p>
-                                <p><strong>Benötigte Mods:</strong> Chat Commands, Chest Labels.</p>
+                                <p><strong>Achtung:</strong> Es werden MODS benötigt, um sich zu verbinden.</p>
                             </>
                         }
                     >
@@ -103,10 +103,12 @@ export const GameServer = () => {
                                 Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu lüften.
                             </p>
                             <p className="text-base leading-relaxed text-gray-500">
-                                <strong>Benötigte Mods:</strong> <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chatcommands3#description" target="_blank">Chat Commands</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chestlabels#description" target="_blank">Chest Labels</a>.
+                                <strong>Benötigte Mods: </strong>
+                                <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chatcommands3#description" target="_blank">Chat Commands</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/chestlabels#description" target="_blank"> Chest Labels</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/core-lib#description" target="_blank"> CoreLib</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/corelibcommands#description" target="_blank"> CoreLib.Commands</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/coreliblocalization#description" target="_blank"> CoreLib.Localization</a>, <a className="text-primary hover:underline" href="https://mod.io/g/corekeeper/m/corelibrewiredextension#description" target="_blank"> CoreLib.RewiredExtension</a>.
                             </p>
                             <p className="text-base leading-relaxed text-gray-500">
-                                Um sich auf den Gameserver zu verbinden, muss du die Mods über das Menü 'MODS' in Core Keeper installieren bzw. abonieren.
+                                Um sich zum Gameserver zu verbinden, müssen die Mods über das Menü 'MODS' in Core
+                                Keeper installiert bzw. abonniert werden.
                             </p>
                         </>
                     </GameServerCard>
@@ -123,7 +125,7 @@ export const GameServer = () => {
                         }
                         cardText={
                             <>
-                                <p><strong>Name:</strong> Anti-Corona-Kartell</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Adresse:</strong> eco.anti-corona-kartell.de</p>
                                 <p>Komm, und Rette die Welt!</p>
                             </>
