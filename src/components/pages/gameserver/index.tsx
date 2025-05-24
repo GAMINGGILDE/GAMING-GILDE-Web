@@ -181,19 +181,19 @@ export const GameServer = () => {
                     </GameServerCard>
 
                     <GameServerCard
-                        title={"Ab 1. Juni: Enshrouded"}
+                        title={"Enshrouded"}
                         image={EnshroudedImage}
-                        onClick={() => copyLink("Der Server startet am 1. Juni.")}
+                        onClick={() => copyLink("134.255.227.212:15005")}
                         button={
                             <>
                                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                                <p className="text-sm font-light text-white">Keine IP</p>
+                                <p className="text-sm font-light text-white">IP Kopieren</p>
                             </>
                         }
                         cardText={
                             <>
-                                <p><strong>Name:</strong> -</p>
-                                <p><strong>IP-Adresse:</strong> -</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>IP-Adresse:</strong> 134.255.227.212:15005</p>
                                 <p>Erwache und überlebe das Grauen des verderben bringenden Nebels.</p>
                             </>
                         }
