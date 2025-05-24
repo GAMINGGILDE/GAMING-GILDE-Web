@@ -15,11 +15,12 @@ import ValheimImage from "../../../assets/gameserver-valheim.webp";
 import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
+import PreviewImage4 from "../../../assets/gameserver-bg-enshrouded.png";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3];
+const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
