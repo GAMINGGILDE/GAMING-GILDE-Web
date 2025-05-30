@@ -10,9 +10,9 @@ import EcoImage from "../../../assets/gameserver-eco.webp";
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import EnshroudedImage from "../../../assets/gameserver-enshrouded.webp";
-import ValheimImage from "../../../assets/gameserver-valheim.webp";
+{/* import ValheimImage from "../../../assets/gameserver-valheim.webp"; */}
 
-import PreviewImage from "../../../assets/gameserver-bg-minecraft.webp";
+import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-enshrouded.png";
@@ -20,7 +20,7 @@ import PreviewImage4 from "../../../assets/gameserver-bg-enshrouded.png";
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
@@ -257,36 +257,6 @@ export const GameServer = () => {
                                 Redstone-Maschinen, Farmen und auch die Spawnraten nahezu wie im Singleplayer. Auch bei
                                 hoher Serverlast bleibt das Gameplay flüssig – mit hohen Sichtweiten, stabilen Tickraten
                                 und ohne Einschränkungen für Technik oder Bauprojekte.
-                            </p>
-                        </>
-                    </GameServerCard>
-
-                    <GameServerCard
-                        title={"Valheim"}
-                        image={ValheimImage}
-                        onClick={() => copyLink("5.249.161.244:27000")}
-                        button={
-                            <>
-                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                                <p className="text-sm font-light text-white">IP kopieren</p>
-                            </>
-                        }
-                        cardText={
-                            <>
-                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>IP-Adresse:</strong> 5.249.161.244:27000</p>
-                                <p><strong>Kennwort:</strong> Findest du in Discord.</p>
-                            </>
-                        }
-                    >
-                        <>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Bei Valheim handelt es sich um ein herausforderndes Open-World Erkundungs- und
-                                Survivalspiel, inspiriert von der Kultur der Wikinger. Hier stellt man sich mit bis zu
-                                10 Spielern via Multiplayer beim Kämpfen, Bauen und Erobern den Widrigkeiten einer
-                                offenen Welt, die von Kreaturen des Chaos und uralten Feinden der Götter geplagt ist.
-                                Ziel ist es dem Göttervater Odin dabei zu helfen, seine Feinde zu besiegen und die
-                                Ordnung in Valheim wiederherzustellen.
                             </p>
                         </>
                     </GameServerCard>
