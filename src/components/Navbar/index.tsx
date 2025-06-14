@@ -50,11 +50,18 @@ export const Navbar = () => {
                             </li>
                             <li>
                                 <a href="/event"
-                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">Event</a>
+                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                    Event</a>
                             </li>
                             <li>
                                 <a href="/geschichte"
-                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">Geschichte</a>
+                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                    Geschichte</a>
+                            </li>
+                            <li>
+                                <a href="https://stats.uptimerobot.com/Oi3qPIUsWb" target="_blank"
+                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                    Status</a>
                             </li>
                         </ul>
                     </div>
