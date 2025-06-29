@@ -18,7 +18,7 @@ export const TextContent = () => {
             </p>
 
             <p className="text-base lg:text-lg mb-4">
-                Schau gerne später mal wieder vorbei oder komm auf unserem <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Discord-Server</a>, um kein Event mehr zu verpassen.
+                Schau gerne später mal wieder vorbei oder komm auf unseren <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Discord-Server</a>, um kein Event mehr zu verpassen.
             </p>
 
             <p className="text-base lg:text-lg mb-4">
