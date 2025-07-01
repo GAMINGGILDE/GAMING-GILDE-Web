@@ -14,7 +14,7 @@ export const SearchEnd = () => {
                     <p className="text-white font-thin mt-4 mb-7">
                         Unser Discord-Server bietet dir aktuelle News zu Games und Hardware, du kannst dich zu einer Vielzahl
                         an Spielen mit Gleichgesinnten treffen und dich mit ihnen zu Themen rund ums Gaming
-                        austauschen. Wir bieten kostenfrei unsere Lifetime Gameserver für Minecraft und Eco an,
+                        austauschen. Wir bieten kostenfrei unsere Lifetime Gameserver für Eco, Minecraft und Core Keeper an,
                         sowie wechselnde Gameserver mit weiteren Spielen.<br/>Also jede Menge Abwechslung und
                         Spaß mit Spielen garantiert!
                         <br/><br/>
