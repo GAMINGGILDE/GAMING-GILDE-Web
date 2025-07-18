@@ -9,6 +9,7 @@ import {YouTubeIcon} from "../Icon/Socialmedia/YouTubeIcon";
 import {DiscordIcon} from "../Icon/Socialmedia/DiscordIcon";
 import {TwitchIcon} from "../Icon/Socialmedia/TwitchIcon";
 import {SteamIcon} from "../Icon/Socialmedia/SteamIcon";
+import {TikTokIcon} from "../Icon/Socialmedia/TikTokIcon";
 
 export const Footer = () => {
 
@@ -25,6 +26,12 @@ export const Footer = () => {
                             <div className="mx-2">
                                 <Link href="https://discord.anti-corona-kartell.de" title="Discord" target="_blank">
                                     <DiscordIcon className="w-5 h-5 fill-white hover:fill-primary"/>
+                                </Link>
+                            </div>
+
+                            <div className="mx-2">
+                                <Link href="https://www.tiktok.com/@anticoronakartell" title="TikTok" target="_blank">
+                                    <TikTokIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
 
