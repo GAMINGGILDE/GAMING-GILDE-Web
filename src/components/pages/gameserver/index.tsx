@@ -6,14 +6,13 @@ import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import {Header} from "../../Header/index";
 
-import EcoImage from "../../../assets/gameserver-eco.webp";
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import EnshroudedImage from "../../../assets/gameserver-enshrouded.webp";
-{/* import ValheimImage from "../../../assets/gameserver-valheim.webp"; */}
+import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
-import PreviewImage2 from "../../../assets/gameserver-bg-eco.webp";
+import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-enshrouded.png";
 
@@ -115,9 +114,9 @@ export const GameServer = () => {
                     </GameServerCard>
 
                     <GameServerCard
-                        title={"Eco"}
-                        image={EcoImage}
-                        onClick={() => copyLink("eco.anti-corona-kartell.de")}
+                        title={"Satisfactory"}
+                        image={SatisfactoryImage}
+                        onClick={() => copyLink("satisfactory.anti-corona-kartell.de")}
                         button={
                             <>
                                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
@@ -127,56 +126,14 @@ export const GameServer = () => {
                         cardText={
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>Adresse:</strong> eco.anti-corona-kartell.de</p>
-                                <p>Komm, und Rette die Welt!</p>
+                                <p><strong>Adresse:</strong> satisfactory.anti-corona-kartell.de</p>
+                                <p>Komm, und betrete den Fließbandhimmel!</p>
                             </>
                         }
                     >
                         <>
                             <p className="text-base leading-relaxed text-gray-500">
-                                In Eco baut man eine Zivilisation in einem simulierten Ökosystem auf. Eco ist ein
-                                Online-Spiel, bei dem die Spieler*innen zusammenarbeiten, um eine Zivilisation in einer
-                                Welt aufzubauen, in der alles, was sie tun, die Umwelt beeinflusst.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Damit nicht genug, kreist um diese Welt zudem ein Meteor, der in absehbarer Zeit auf den
-                                Planeten einschlagen wird und damit die Zivilisation auslöscht. Das gilt es zu final zu
-                                verhindern, ohne dabei vorher die Welt durch die eigenen Umwelteinflüsse zu zerstören.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Erreichen kann man das, indem man die Zivilisation vor dem Einschlag so weit entwickelt,
-                                dass diese den Meteor per Laserwaffe zerstören kann.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                <strong>Vorgaben und Spielprinzip</strong>
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Die Vorgaben in der Welt sind so einfach gehalten
-                                (Collaboration=Low), dass wirklich jeder Gamer in kurzer Zeit alle verfügbaren
-                                Fähigkeiten und Professionen (Berufe) und vollständig ausbilden kann.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Jeder Gamer startet mit seinem Heimatstätten-Anspruchsteil mit 20 Grundstücks-Urkunden,
-                                anstatt nur 9 und mit jeder erlernten neuen Fähigkeit erhält man 5 Grundstücks-Urkunden
-                                und einen zusätzlichen „Outpost Claim Stake“, der wiederum 20 Grundstücke beanspruchen
-                                kann.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Die Tragekapazität für Gegenstände ist verfünffacht. Dazu ist das Gewicht von
-                                Gegenständen verringert (Faktor 0.3), damit man mehr tragen kann. Die Reichweite der
-                                Lager ist auf die fünffache Entfernung wie regulär erhöht und die Kapazität von
-                                Treibstoffen ist verdoppelt.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Für das Gründen einer Stadt genügt ein Gamer, für ein Land braucht man 2 und für einen
-                                Staat 3 Gamer.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Mit diesen erleichternden Einstellungen ist es ohne Frage jedem Gamer möglich die
-                                Entwicklung der Zivilisation ggf. sogar allein voranzutreiben.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Bereit? Dann komm, steig mit ein und rette die Welt!
+                                Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
                             </p>
                         </>
                     </GameServerCard>
