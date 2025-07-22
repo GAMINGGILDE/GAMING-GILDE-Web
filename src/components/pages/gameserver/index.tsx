@@ -116,7 +116,7 @@ export const GameServer = () => {
                     <GameServerCard
                         title={"Satisfactory"}
                         image={SatisfactoryImage}
-                        onClick={() => copyLink("satisfactory.anti-corona-kartell.de")}
+                        onClick={() => copyLink("193.203.238.158:7778")}
                         button={
                             <>
                                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
@@ -126,7 +126,7 @@ export const GameServer = () => {
                         cardText={
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>Adresse:</strong> satisfactory.anti-corona-kartell.de</p>
+                                <p><strong>Adresse:</strong> 193.203.238.158:7778</p>
                                 <p>Komm, und betrete den Fließbandhimmel!</p>
                             </>
                         }
