@@ -2,11 +2,16 @@
 
 import React from "react";
 
-{/* import ImageLevelProgram from "../../../assets/Level_Programm.webp" */}
-{/* import ImageLevelAreas from "../../../assets/Level_Areas.webp" */}
-{/* import ImageLevelMitmachen from "../../../assets/Level_Mitmachen.webp" */}
-{/* import Image from "next/image"; */}
-{/* import Link from "next/link"; */}
+import ImageWeihenstephan1 from "../../../assets/Weihenstephan-1.webp"
+import ImageWeihenstephan2 from "../../../assets/Weihenstephan-2.webp"
+import ImageWeihenstephan3 from "../../../assets/Weihenstephan-3.webp"
+
+import ImageCineplex1 from "../../../assets/Cineplex1.webp"
+import ImageCineplex2 from "../../../assets/Cineplex2.webp"
+import ImageCineplex3 from "../../../assets/Cineplex3.webp"
+
+import Image from "next/image";
+import Link from "next/link";
 
 export const TextContent = () => {
 
@@ -41,6 +46,47 @@ export const TextContent = () => {
             <p className="text-base lg:text-lg mb-4">
                 Bajuwarenstr. 5, 85375 Neufahrn. Idealerweise seid ihr um 8:45 Uhr am Kino.
             </p>
+
+            <div className="flex justify-between w-full items-center mt-10 mb-10">
+                <div>
+                    <Link href="https://www.cineplex.de/infos/games-auf-der-leinwand/1281/neufahrn/" target="_blank">
+                        <Image
+                            src={ImageCineplex1}
+                            alt={"Programm"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+
+                <div>
+                    <Link href="https://www.cineplex.de/infos/anfahrt-und-oeffnungszeiten/neufahrn/" target="_blank">
+                        <Image
+                            src={ImageCineplex2}
+                            alt={"Areas"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+
+                <div>
+                    <Link href="https://www.cineplex.de/programm/neufahrn/" target="_blank">
+                        <Image
+                            src={ImageCineplex3}
+                            alt={"Mitmachen"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+            </div>
 
             <p className="text-base lg:text-lg mb-4">
                 <strong>Wie lange kann gespielt werden?</strong>
@@ -86,12 +132,50 @@ export const TextContent = () => {
                 <strong>Wichtig: </strong>Wenn du beim Essen mit dabei sein willst, musst du dich bitte in Discord über den <a className="text-primary hover:underline" href="https://discord.gg/AzBXMJrF?event=1404402385027334275" target="_blank">betreffenden Event</a> als „Interessiert“ anmelden, damit wir bei der Reservierung genügend Sitzplätze gewährleisten können.
             </p>
 
-            <p className="text-base lg:text-lg mb-12">
+            <div className="flex justify-between w-full items-center mt-10 mb-10">
+                <div>
+                    <Link href="https://www.braeustueberl-weihenstephan.de/index.html" target="_blank">
+                        <Image
+                            src={ImageWeihenstephan1}
+                            alt={"Programm"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+
+                <div>
+                    <Link href="https://www.braeustueberl-weihenstephan.de/fotogalerie.html" target="_blank">
+                        <Image
+                            src={ImageWeihenstephan2}
+                            alt={"Areas"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+
+                <div>
+                    <Link href="https://www.braeustueberl-weihenstephan.de/ueberuns.html#obazde" target="_blank">
+                        <Image
+                            src={ImageWeihenstephan3}
+                            alt={"Mitmachen"}
+                            className="w-[390px]"
+                            width={1000}
+                            height={1000}
+                            loader={(loader) => loader.src}
+                        />
+                    </Link>
+                </div>
+            </div>
+
+            <p className="text-base lg:text-lg mb-14">
                 Bis dahin: Happy Gaming!
             </p>
-
-
-
 
             {/* <p className="text-base lg:text-lg mb-0">
                 Schau gerne später wieder vorbei oder komm auf unseren <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Discord-Server</a>, um kein Event mehr zu verpassen.
@@ -132,47 +216,6 @@ export const TextContent = () => {
             <p className="text-base lg:text-lg mb-4">
                 Schau dir auch gerne ein paar Videos vergangener Events auf unserem <a className="text-primary hover:underline" href="https://www.youtube.com/@Anti-Corona-Kartell/videos" target="_blank">YouTube-Kanal</a> an 😎.
             </p>
-
-            {/* <div className="flex justify-between w-full items-center mt-10 mb-10">
-                <div>
-                    <Link href="https://www.levelup-salzburg.at/programm/" target="_blank">
-                        <Image
-                            src={ImageLevelProgram}
-                            alt={"Programm"}
-                            className="w-[390px]"
-                            width={1000}
-                            height={1000}
-                            loader={(loader) => loader.src}
-                        />
-                    </Link>
-                </div>
-
-                <div>
-                    <Link href="https://www.levelup-salzburg.at/areas/" target="_blank">
-                        <Image
-                            src={ImageLevelAreas}
-                            alt={"Areas"}
-                            className="w-[390px]"
-                            width={1000}
-                            height={1000}
-                            loader={(loader) => loader.src}
-                        />
-                    </Link>
-                </div>
-
-                <div>
-                    <Link href="https://www.levelup-salzburg.at/mitmachen/" target="_blank">
-                        <Image
-                            src={ImageLevelMitmachen}
-                            alt={"Mitmachen"}
-                            className="w-[390px]"
-                            width={1000}
-                            height={1000}
-                            loader={(loader) => loader.src}
-                        />
-                    </Link>
-                </div>
-            </div> */}
 
         </div>
     )
