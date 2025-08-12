@@ -33,7 +33,7 @@ export const TextContent = () => {
             </p>
 
             <p className="text-base lg:text-lg mb-4">
-                Obendrein erhält jeder Teilnehmer*in ein limitiertes Überraschungspaket als Erinnerung für den Event.
+                Obendrein erhält jeder Teilnehmer*in ein <i>limitiertes Überraschungspaket</i><sup>1</sup> als Erinnerung für den Event.
             </p>
 
             <p className="text-base lg:text-lg mb-4">
@@ -213,8 +213,12 @@ export const TextContent = () => {
                 Bei diesem Retro-Event am 24. November 2024 haben die Mitglieder des Anti-Corona-Kartells gemeinsam ein bunt gemischtes Potpourri an Games aus unterschiedlichsten Genres und Zeitalter in einem Kino auf er großen Leinwand gespielt.
             </p>
 
-            <p className="text-base lg:text-lg mb-4">
+            <p className="text-base lg:text-lg mb-14">
                 Schau dir auch gerne ein paar Videos vergangener Events auf unserem <a className="text-primary hover:underline" href="https://www.youtube.com/@Anti-Corona-Kartell/videos" target="_blank">YouTube-Kanal</a> an 😎.
+            </p>
+
+            <p className="text-base lg:text-xs mb-4">
+                <sup>1</sup> Begrenzte Verfügbarkeit. Eine Barauszahlung des Sachpreises ist ausgeschlossen.
             </p>
 
         </div>
