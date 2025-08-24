@@ -8,13 +8,13 @@ import {Header} from "../../Header/index";
 
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
-import EnshroudedImage from "../../../assets/gameserver-enshrouded.webp";
+import ScumImage from "../../../assets/gameserver-scum.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
-import PreviewImage4 from "../../../assets/gameserver-bg-enshrouded.png";
+import PreviewImage4 from "../../../assets/gameserver-bg-scum.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
@@ -139,9 +139,9 @@ export const GameServer = () => {
                     </GameServerCard>
 
                     <GameServerCard
-                        title={"Enshrouded"}
-                        image={EnshroudedImage}
-                        onClick={() => copyLink("134.255.227.212:15005")}
+                        title={"SCUM"}
+                        image={ScumImage}
+                        onClick={() => copyLink("134.255.218.155:27004")}
                         button={
                             <>
                                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
@@ -152,22 +152,13 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>IP-Adresse:</strong> 134.255.227.212:15005</p>
-                                <p>Erwache und überlebe das Grauen des verderben bringenden Nebels.</p>
+                                <p>Plündere, crafte und gehe den ständigen Bedrohungen für dein Leben aus dem Weg.</p>
                             </>
                         }
                     >
                         <>
                             <p className="text-base leading-relaxed text-gray-500">
-                                Das Reich Embervale ist verloren. In ihrer Gier nach magischer Kraft haben deine Vorfahren eine Seuche freigesetzt, welche die Welt vernichtet hat.
-                                Enshrouded ist ein Spiel, in dem es ums Überleben und Herstellen geht, ein Action-RPG-Kampfspiel, das sich auf einem weitläufigen voxelbasierten Kontinent abspielt. Auf deiner Reise durch die Berge und Wüsten dieser offenen Welt kannst du deinen Weg frei wählen und dein eigenes Schicksal formen.
-                                Entzünde die alte Macht der Flamme und füge die Fragmente einer Geschichte zusammen, die sich unter der Oberfläche entfaltet.
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                <strong>ÜBERLEBE DEN SHROUD</strong>
-                            </p>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Am Anfang hast du nichts außer deinen Willen, in der Wildnis zu überleben. Du musst dich durch die verfallenen Reste eines verlorenen Königreichs kämpfen und die Bestien abwehren, die es auf dein Fleisch abgesehen haben.
-                                Durchquere Wälder, Höhlen, Verliese, suche nach geheimem Wissen und Schätzen. Werde stärker, um dich in den Shroud zu wagen und den Kampf zu den Schrecken der Tiefe zurückzubringen.
+                                Die beispiellosen Möglichkeiten der Charakteranpassung und des Fortschritts sind deine ultimativen Survival-Werkzeuge.
                             </p>
                         </>
                     </GameServerCard>
