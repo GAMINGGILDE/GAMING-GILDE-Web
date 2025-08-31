@@ -152,6 +152,7 @@ export const GameServer = () => {
                             <>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>IP-Adresse:</strong> 134.255.227.212:15005</p>
+                                <p><strong>Kennwort:</strong> Findest du auf unserem Discord.</p>
                                 <p>Plündere, crafte und gehe den ständigen Bedrohungen für dein Leben aus dem Weg.</p>
                             </>
                         }

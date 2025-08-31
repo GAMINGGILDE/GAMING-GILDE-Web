@@ -25,7 +25,7 @@ export const SearchEnd = () => {
                         <br/><br/>
                         Wie wäre es dazu noch mit einem eigenen Kanal auf unserem Discord-Server? Anstatt sich den
                         Aufwand zu einem Discord-Server selbst aufzuerlegen, stellen wir dir zu deinem eigenen
-                        Gameserver auch eine eigene Kategorie zur Verfügung, damit du zu deinem neuem Gameserver von
+                        Gameserver auch einen eigenen Kanal zur Verfügung, damit du zu deinem neuem Gameserver von
                         unserer Community profitieren kannst.
                         <br/><br/>
                         Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
