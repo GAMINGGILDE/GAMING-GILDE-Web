@@ -22,7 +22,7 @@ export const AboutUs = () => {
                                 className="opacity-0"
                                 icon={<Image src={Logo} priority={true} unoptimized={true} alt={"logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
                                 title={"Spaß"}
-                                subTitle={"Das ANTI-CORONA-KARTELL ist eine junge Gaming-Community. Von Gamern für Gamer. Wir streben nicht nach Klicks oder Profit. Wir wollen einfach nur in einem positiven Umfeld gemeinsam Spaß beim Spielen haben."}
+                                subTitle={"Wir ist eine junge Gaming-Community. Von Gamern für Gamer. Wir streben nicht nach Klicks oder Profit. Wir wollen einfach nur in einem positiven Umfeld gemeinsam Spaß beim Spielen haben. Dazu sind wir immer auf der Suche nach neuen Spielgefährten*innen."}
                             />
                         </Link>
                     </div>

@@ -28,6 +28,7 @@ export const SearchEnd = () => {
                         Gameserver auch einen eigenen Kanal zur Verfügung, damit du zu deinem neuem Gameserver von
                         unserer Community profitieren kannst.
                         <br/><br/>
+                        Wir immer auf der Suche nach neuen Spielkammeraden*innen.<br/>
                         Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
                     </p>
                 </div>
