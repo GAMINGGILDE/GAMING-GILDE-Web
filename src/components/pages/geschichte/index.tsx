@@ -28,16 +28,7 @@ export const History = () => {
 
                 <div className="my-20 text-white w-[100%] m-auto">
                     <p className="text-lg mb-5">
-                        Der Begriff bzw. Name 'ANTI-CORONA-KARTELL' entstand während der Corona-Pandemie.
-                        In dieser Zeit fand sich eine kleine Gruppe an Gamern regelmäßig zum Spielen in Age of Empires
-                        II zusammen und benannte die Lobby immer mit besagtem Namen. In einer Zeit, in der es untersagt war
-                        außerhäusliche Freizeitaktivitäten auszuüben. Für uns als Gamer vermag das nicht tragisch
-                        erscheinen. Aber wir trafen uns sonst auch immer wieder und haben das in der
-                        Zeit der Pandemie vermisst. Darum haben wir den Entschluss gefasst, dass wenn wir die Pandemie
-                        hinter uns gebracht haben, dass wir uns alle wieder persönlich treffen werden, um das Nachzuholen
-                        was uns einst genommen war. Für diesen Event und diese Gruppe brauchten wir nur noch einen
-                        passenden Namen. Einen Namen, der unseren Protest zu den Umständen der Corona-Pandemie zum
-                        Ausdruck brachte und so entstand das ANTI-CORONA-KARTELL.
+                        Das ANTI-CORONA-KARTELL entstand während der Corona-Pandemie, als sich eine kleine Gruppe Gamer regelmäßig in Age of Empires II trafen und ihre Lobby so benannten. In der Zeit eingeschränkter Freizeitmöglichkeiten war das gemeinsame Online-Spiel ein Ersatz für persönliche Treffen, die wir schmerzlich vermissten. Nach der Pandemie beschlossen wir uns wieder persönlich zu treffen und gaben unserer Gruppe einen Namen, der unseren Protest zu den damaligen Umständen symbolisierte: ANTI-CORONA-KARTELL.
                     </p>
 
                     <p className="text-lg mb-5">
@@ -55,7 +46,7 @@ export const History = () => {
                         Beim ersten Treffen (2022) haben wir uns kulinarisch bei einem ausgiebigen mexikanischen Essen
                         getroffen und mit mobilen Spielekonsolen (Nintendo Switch) unserm Hobby gefrönt. Unser erstes
                         Treffen kam so gut bei den Teilnehmern an, dass wir uns entschieden haben, das Treffen des
-                        Anti-Corona-Kartells fortan jedes Jahr zu wiederholen. Für das zweite Treffen (2023) haben wir
+                        ANTI-CORONA-KARTELLs fortan jedes Jahr zu wiederholen. Für das zweite Treffen (2023) haben wir
                         uns regional einen ganzen Kinosaal gemietet und uns auf der großen Leinwand mit Spielen auf
                         einer XBOX 360 ausgetobt. Für das dritte Treffen (2024) haben wir eine idyllische Floßfahrt auf
                         der Isar unternommen und dabei eine mobile Spielekonsole (GameLix) verlost.
