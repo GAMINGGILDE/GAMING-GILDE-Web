@@ -3,7 +3,7 @@ import React from "react";
 export const TikTokIcon = ({ ...props }) => (
     <svg
         {...props}
-        viewBox="0 0 209.215 211.492"
+        viewBox="0 0 310 345"
         xmlns="http://www.w3.org/2000/svg"
     >
         <g>
