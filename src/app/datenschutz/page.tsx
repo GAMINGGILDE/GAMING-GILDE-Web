@@ -172,8 +172,8 @@ export default function Datenschutz() {
                         <li><a className="font-light text-primary hover:underline" href="https://discord.com/privacy"
                                target="_blank">Discord</a></li>
                         <li><a className="font-light text-primary hover:underline"
-                               href="https://store.steampowered.com/privacy_agreement/?l=german"
-                               target="_blank">Steam</a></li>
+                               href="https://www.tiktok.com/legal/page/eea/privacy-policy/de"
+                               target="_blank">TikTok</a></li>
                         <li><a className="font-light text-primary hover:underline"
                                href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
                         <li><a className="font-light text-primary hover:underline"

@@ -239,7 +239,7 @@ export const GameServer = () => {
 
                 <div className="text-white space-y-5">
                     <p>Wenn du schon immer der Admin deines eigenen Gameservers sein wolltest, ist das die Gelegenheit.
-                        Gerne stellen wir dir dazu auf unserem Discord-Server eine eigene Kategorie zur Verfügung, damit
+                        Gerne stellen wir dir dazu auf unserem Discord-Server einen eigenen Kanal zur Verfügung, damit
                         du zu deinem neuem Gameserver von unserer Reichweite und Spielern profitieren kannst.</p>
 
                     <p>Verwende den folgenden Rabatt-Code, um dir die 20% bei deiner Buchung zu sichern:
