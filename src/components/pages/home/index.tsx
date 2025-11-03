@@ -24,7 +24,7 @@ export const AboutUs = () => {
                                 title={"Spaß"}
                                 subTitle={"Wir ist eine junge Gaming-Community. Von" +
                                     " Gamern für Gamer. Wir streben nicht nach" +
-                                    " Klicks oder Profit. Wir wollen einfach nur in" +
+                                    " Ruhm oder Profit. Wir wollen einfach nur in" +
                                     " einem positiven Umfeld gemeinsam Spaß" +
                                     " beim Spielen haben. Dazu sind wir immer auf" +
                                     " der Suche nach neuen Spielgefährten*innen."}
