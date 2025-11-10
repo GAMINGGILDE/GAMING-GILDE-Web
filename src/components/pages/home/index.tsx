@@ -22,7 +22,7 @@ export const AboutUs = () => {
                                 className="opacity-0"
                                 icon={<Image src={Logo} priority={true} unoptimized={true} alt={"logo"} width={100} height={100} className="w-[10rem] fill-white mr-3 absolute top-0 left-0 opacity-10" loader={(loader) => `${loader.src}`} />}
                                 title={"Spaß"}
-                                subTitle={"Wir ist eine junge Gaming-Community. Von" +
+                                subTitle={"Wir sind eine junge Gaming-Community. Von" +
                                     " Gamern für Gamer. Wir streben nicht nach" +
                                     " Ruhm oder Profit. Wir wollen einfach nur in" +
                                     " einem positiven Umfeld gemeinsam Spaß" +
