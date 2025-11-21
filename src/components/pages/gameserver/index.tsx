@@ -8,18 +8,16 @@ import {Header} from "../../Header/index";
 
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
-import ScumImage from "../../../assets/gameserver-scum.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
-import PreviewImage4 from "../../../assets/gameserver-bg-scum.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
@@ -134,32 +132,6 @@ export const GameServer = () => {
                         <>
                             <p className="text-base leading-relaxed text-gray-500">
                                 Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
-                            </p>
-                        </>
-                    </GameServerCard>
-
-                    <GameServerCard
-                        title={"SCUM"}
-                        image={ScumImage}
-                        onClick={() => copyLink("134.255.218.155:27004")}
-                        button={
-                            <>
-                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                                <p className="text-sm font-light text-white">IP Kopieren</p>
-                            </>
-                        }
-                        cardText={
-                            <>
-                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>IP-Adresse:</strong> 134.255.227.212:15005</p>
-                                <p><strong>Kennwort:</strong> Findest du auf unserem Discord.</p>
-                                <p>Plündere, crafte und gehe den ständigen Bedrohungen für dein Leben aus dem Weg.</p>
-                            </>
-                        }
-                    >
-                        <>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Die beispiellosen Möglichkeiten der Charakteranpassung und des Fortschritts sind deine ultimativen Survival-Werkzeuge.
                             </p>
                         </>
                     </GameServerCard>
