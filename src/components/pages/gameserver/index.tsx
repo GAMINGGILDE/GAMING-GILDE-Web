@@ -9,15 +9,19 @@ import {Header} from "../../Header/index";
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
+import EnshroudedImage from "../../../assets/gameserver-enshrouded.webp";
+import MoriaImage from "../../../assets/gameserver-moria.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
+import PreviewImage4 from "../../../assets/gameserver-enshrouded.webp";
+import PreviewImage5 from "../../../assets/gameserver-moria.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage1, PreviewImage2, PreviewImage3];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
@@ -70,10 +74,34 @@ export const GameServer = () => {
                     </div>
                 </div>
 
-
                 <div className="mt-30 my-20">
                     <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">Finde hier unsere besten
                         Gameserver</h1>
+
+                    <GameServerCard
+                        title={"Return to Moria"}
+                        image={MoriaImage}
+                        onClick={() => copyLink("D-NQVCJD-RYSL8W")}
+                        button={
+                            <>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Einladungs-Link kopieren</p>
+                            </>
+                        }
+                        cardText={
+                            <>
+                                <p>Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern.</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>Einladungs-Link:</strong> D-NQVCJD-RYSL8W</p>
+                            </>
+                        }
+                    >
+                        <>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Das einzige Survival-Crafting-Game im Vierten Zeitalter von Mittelerde™. Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern. Kundschafte, werke und baue als Solo-Abenteurer oder mit bis zu sieben weiteren Gefährten im Koop-Modus.
+                            </p>
+                        </>
+                    </GameServerCard>
 
                     <GameServerCard
                         title={"Core Keeper"}
@@ -87,6 +115,7 @@ export const GameServer = () => {
                         }
                         cardText={
                             <>
+                                <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF</p>
                                 <p><strong>Achtung:</strong> Es werden MODS benötigt, um sich zu verbinden.</p>
@@ -123,9 +152,9 @@ export const GameServer = () => {
                         }
                         cardText={
                             <>
+                                <p>Komm, und betrete den Fließbandhimmel!</p>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Adresse:</strong> 193.203.238.158:7778</p>
-                                <p>Komm, und betrete den Fließbandhimmel!</p>
                             </>
                         }
                     >
@@ -148,9 +177,9 @@ export const GameServer = () => {
                         }
                         cardText={
                             <>
+                                <p>Erster deutscher FOLIA Vanilla-Server!</p>
                                 <p><strong>Name:</strong> Minecraft Gilde</p>
                                 <p><strong>Adresse:</strong> minecraft-gilde.de</p>
-                                <p>Erster deutscher FOLIA Vanilla-Server!</p>
                             </>
                         }
                     >
