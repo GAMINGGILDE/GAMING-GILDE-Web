@@ -79,6 +79,34 @@ export const GameServer = () => {
                         Gameserver</h1>
 
                     <GameServerCard
+                        title={"Enshrouded"}
+                        image={EnshroudedImage}
+                        onClick={() => copyLink("enshrouded.anti-corona-kartell.de")}
+                        button={
+                            <>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Adresse kopieren</p>
+                            </>
+                        }
+                        cardText={
+                            <>
+                                <p>Erwache und überlebe das Grauen des verderben bringenden Nebels.</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>Adresse:</strong> enshrouded.anti-corona-kartell.de</p>
+                            </>
+                        }
+                    >
+                        <>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Du bist Flameborn, die letzte Hoffnung eines sterbenden Volks. Erwache und überlebe das Grauen des verderben bringenden Nebels. Brich in eine gewaltige Welt auf, überwinde mächtige Bosse, baue prachtvolle Hallen und gehe deinen Weg in diesem Koop-Survival-Action-RPG für bis zu 16 Spieler.
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Um sich ins Spiel zu verbinden, benötigst du ein Passwort. Dieses findest du auf unserem <a className="text-primary hover:underline" href="https://discord.com/channels/991419109298417734/1383360419439054858" target="_blank"> Discord Server</a>.
+                            </p>
+                        </>
+                    </GameServerCard>
+
+                    <GameServerCard
                         title={"Return to Moria"}
                         image={MoriaImage}
                         onClick={() => copyLink("D-NQVCJD-RYSL8W")}
