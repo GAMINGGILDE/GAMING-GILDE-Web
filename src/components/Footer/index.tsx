@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, {useEffect} from "react";
 import {ParagraphIcon} from "../Icon/ParagraphIcon";
 import {PrivacyIcon} from "../Icon/PrivacyIcon";
-import {BlueSkyIcon} from "../Icon/Socialmedia/BlueSkyIcon";
 import {YouTubeIcon} from "../Icon/Socialmedia/YouTubeIcon";
 import {DiscordIcon} from "../Icon/Socialmedia/DiscordIcon";
 import {TwitchIcon} from "../Icon/Socialmedia/TwitchIcon";
@@ -37,12 +36,6 @@ export const Footer = () => {
                             <div className="mx-2">
                                 <Link href="https://www.twitch.tv/anti_corona_kartell" title="Twitch" target="_blank">
                                     <TwitchIcon className="w-5 h-5 fill-white hover:fill-primary"/>
-                                </Link>
-                            </div>
-
-                            <div className="mx-2">
-                                <Link href="https://bsky.app/profile/anti-corona-kartell.de" title="Bluesky" target="_blank">
-                                    <BlueSkyIcon className="w-5 h-5 fill-white hover:fill-primary"/>
                                 </Link>
                             </div>
 

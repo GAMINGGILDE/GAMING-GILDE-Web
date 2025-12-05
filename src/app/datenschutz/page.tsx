@@ -175,8 +175,6 @@ export default function Datenschutz() {
                                href="https://www.tiktok.com/legal/page/eea/privacy-policy/de"
                                target="_blank">TikTok</a></li>
                         <li><a className="font-light text-primary hover:underline"
-                               href="https://bsky.social/about/support/privacy-policy" target="_blank">Bluesky</a></li>
-                        <li><a className="font-light text-primary hover:underline"
                                href="https://www.twitch.tv/p/de-de/legal/privacy-notice" target="_blank">Twitch</a></li>
                     </ul>
                     <p className="sub-text font-light">
