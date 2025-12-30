@@ -118,7 +118,7 @@ export const GameServer = () => {
                                 <p>Starte die Motoren und lass es Krachen!</p>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Adresse:</strong> 194.62.157.159:30100</p>
-                                <p><strong>Passwort:</strong> Findest du auf unserem Discord-Server</p>
+                                <p><strong>Passwort:</strong> Findest du auf unserem Discord-Server.</p>
                             </>
                         }
                     >
