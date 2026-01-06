@@ -94,7 +94,6 @@ export const GameServer = () => {
                                 <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Adresse:</strong> 194.62.157.159:26900</p>
-                                <p><strong>Passwort:</strong> Findest du auf unserem Discord-Server.</p>
                             </>
                         }
                     >
