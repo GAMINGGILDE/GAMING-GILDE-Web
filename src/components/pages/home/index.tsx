@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export const AboutUs = () => {
     return (
-        <div className="mt-52">
+        <div className="mt-24">
             <h1 className="linear-text text-xl lg:text-3xl font-semibold text-center uppercase">Wenn wir uns vorstellen dürfen</h1>
 
             <div className="mt-10 container mx-auto">
