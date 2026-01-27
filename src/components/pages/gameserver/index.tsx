@@ -12,6 +12,7 @@ import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import Wreckfest2Image from "../../../assets/gameserver-wreckfest2.webp";
 import MoriaImage from "../../../assets/gameserver-moria.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
+import HytaleImage from "../../../assets/gameserver-hytale.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
@@ -19,11 +20,12 @@ import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-moria.webp";
 import PreviewImage5 from "../../../assets/gameserver-bg-wreckfest2.webp";
 import PreviewImage6 from "../../../assets/gameserver-bg-7Days.webp";
+import PreviewImage7 from "../../../assets/gameserver-bg-hytale.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5, PreviewImage6];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5, PreviewImage6, PreviewImage7];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
@@ -78,6 +80,38 @@ export const GameServer = () => {
 
                 <div className="mt-30 my-20">
                     <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">Finde hier unsere besten Gameserver</h1>
+
+                    <GameServerCard
+                        title={"Hytale"}
+                        image={HytaleImage}
+                        onClick={() => copyLink("194.62.157.159:5520")}
+                        button={
+                            <>
+                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                                <p className="text-sm font-light text-white">Adresse kopieren</p>
+                            </>
+                        }
+                        cardText={
+                            <>
+                                <p>Steig ein, hinterlasse deine Spuren und helfe, die Welt gemeinsam zu gestalten!</p>
+                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
+                                <p><strong>Adresse:</strong> 194.62.157.159:5520</p>
+                                <p><strong>Hinweis:</strong> Es werden einige serverseitige MODs verwendet.</p>
+                            </>
+                        }
+                    >
+                        <>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                Begeben Sie sich auf ein Abenteuer, das sowohl für die Gestaltung als auch für das Spielen geschaffen wurde. Hytale verbindet die Freiheit einer Sandbox mit der Dynamik eines Rollenspiels: Erkunden Sie eine prozedural generierte Welt voller Dungeons, Geheimnisse und einer Vielzahl von Kreaturen und gestalten Sie sie dann Block für Block.
+                            </p>
+                            <p className="text-base leading-relaxed text-gray-500">
+                                <strong>Verwendete Mods: </strong>
+                                <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/essentials-core" target="_blank">Essentials Core</a>, <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/bettermap" target="_blank"> BetterMap</a>, <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/gravestones" target="_blank">Gravestones</a>, <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/luckperms" target="_blank"> LuckPerms</a>, <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/no-teleporters-limit" target="_blank"> Extended Teleporters</a>, <a className="text-primary hover:underline" href="https://www.curseforge.com/hytale/mods/simple-claims" target="_blank"> Simple Claims</a>.
+                            </p>
+
+
+                        </>
+                    </GameServerCard>
 
                     <GameServerCard
                         title={"7 Days to Die"}
@@ -169,7 +203,7 @@ export const GameServer = () => {
                                 <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
                                 <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
                                 <p><strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF</p>
-                                <p><strong>Achtung:</strong> Es werden MODS benötigt, um sich zu verbinden.</p>
+                                <p><strong>Achtung:</strong> Es werden MODs benötigt, um sich zu verbinden.</p>
                             </>
                         }
                     >
