@@ -10,22 +10,20 @@ import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import Wreckfest2Image from "../../../assets/gameserver-wreckfest2.webp";
-import MoriaImage from "../../../assets/gameserver-moria.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
 import HytaleImage from "../../../assets/gameserver-hytale.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
-import PreviewImage4 from "../../../assets/gameserver-moria.webp";
-import PreviewImage5 from "../../../assets/gameserver-bg-wreckfest2.webp";
-import PreviewImage6 from "../../../assets/gameserver-bg-7Days.webp";
-import PreviewImage7 from "../../../assets/gameserver-bg-hytale.webp";
+import PreviewImage4 from "../../../assets/gameserver-bg-wreckfest2.webp";
+import PreviewImage5 from "../../../assets/gameserver-bg-7Days.webp";
+import PreviewImage6 from "../../../assets/gameserver-bg-hytale.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5, PreviewImage6, PreviewImage7];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5, PreviewImage6];
 
 export const GameServer = () => {
     const [isShow, setShow] = useState<boolean>(false);
@@ -134,31 +132,6 @@ export const GameServer = () => {
                         <>
                             <p className="text-base leading-relaxed text-gray-500">
                                 7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter, Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen Vorreiter der Zombie-Survival-Sandbox-RPGs.
-                            </p>
-                        </>
-                    </GameServerCard>
-
-                    <GameServerCard
-                        title={"Return to Moria"}
-                        image={MoriaImage}
-                        onClick={() => copyLink("D-NQVCJD-RYSL8W")}
-                        button={
-                            <>
-                                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                                <p className="text-sm font-light text-white">Einladungs-Link kopieren</p>
-                            </>
-                        }
-                        cardText={
-                            <>
-                                <p>Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern.</p>
-                                <p><strong>Name:</strong> ANTI-CORONA-KARTELL</p>
-                                <p><strong>Einladungs-Link:</strong> D-NQVCJD-RYSL8W</p>
-                            </>
-                        }
-                    >
-                        <>
-                            <p className="text-base leading-relaxed text-gray-500">
-                                Das einzige Survival-Crafting-Game im Vierten Zeitalter von Mittelerde™. Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern. Kundschafte, werke und baue als Solo-Abenteurer oder mit bis zu sieben weiteren Gefährten im Koop-Modus.
                             </p>
                         </>
                     </GameServerCard>
