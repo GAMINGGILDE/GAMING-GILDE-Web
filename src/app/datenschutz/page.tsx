@@ -139,6 +139,21 @@ export default function Datenschutz() {
 
                 {/* Paragraph 8 */}
                 <div className="space-y-2">
+                    <h2 className="text-2xs font-semibold">Verwendung von Scriptbibliotheken (Google Webfonts & Font Awesome)</h2>
+                    <p className="sub-text font-light">
+                        Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden wir auf dieser Website unter anderem „Google Web Fonts“ der Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; nachfolgend „Google“) sowie das Icon-Framework „Font Awesome“, das über ein externes Skript (Content Delivery Network) eingebunden wird.
+                    </p>
+                    <p className="sub-text font-light">
+                        Beim Aufruf unserer Seiten wird eine Verbindung zu den Servern dieser Anbieter hergestellt. Hierdurch können personenbezogene Daten, insbesondere Ihre IP-Adresse sowie technische Informationen zu Ihrem Browser und Endgerät, an die jeweiligen Anbieter übertragen werden. Dabei kann es auch zu einer Übermittlung von Daten in Drittländer, insbesondere die USA, kommen, in denen kein mit der EU vergleichbares Datenschutzniveau besteht. Die Nutzung dieser Schrift- und Icon-Bibliotheken erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote und basiert auf unserem berechtigten Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO.
+                    </p>
+                    <p className="sub-text font-light">
+                        Weitere Informationen zu Google Web Fonts finden Sie unter <a className="font-light text-primary hover:underline" href="https://developers.google.com/fonts/faq" target="_blank">https://developers.google.com/fonts/faq</a> und in der Datenschutzerklärung von Google: <a className="font-light text-primary hover:underline" href="https://www.google.com/policies/privacy" target="_blank">https://www.google.com/policies/privacy</a>.
+                    </p>
+
+                </div>
+
+                {/* Paragraph 9 */}
+                <div className="space-y-2">
                     <h2 className="text-2xs font-semibold">Erfassung und Verarbeitung personenbezogener Daten</h2>
                     <p className="sub-text font-light">
                         Wir erheben, nutzen und geben Ihre personenbezogenen Daten nur dann weiter, wenn dies im gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung einwilligen. Als personenbezogene Daten gelten sämtliche Informationen, welche dazu dienen, Ihre Person zu bestimmen und welche zu Ihnen zurückverfolgt werden können – also beispielsweise Ihr Name, Ihre E-Mail-Adresse oder Telefonnummer. Diese Website können Sie auch besuchen, ohne Angaben zu Ihrer Person zu machen.
@@ -148,7 +163,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 9 */}
+                {/* Paragraph 10 */}
                 <div className="space-y-2">
                     <h2 className="text-2xa font-semibold">Umgang mit Kontaktdaten</h2>
                     <p className="sub-text font-light">
@@ -156,7 +171,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 10 */}
+                {/* Paragraph 11 */}
                 <div className="space-y-2">
                     <h2 className="text-2xs font-semibold">Rechte des Nutzers</h2>
                     <p className="sub-text font-light">
@@ -169,7 +184,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 11 */}
+                {/* Paragraph 12 */}
                 <div className="space-y-2">
                     <h2 className="text-2xs font-semibold">Löschung von Daten</h2>
                     <p className="sub-text font-light">
@@ -183,7 +198,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 12 */}
+                {/* Paragraph 13 */}
                 <div className="space-y-2">
                     <h2 className="text-2xs font-semibold">Änderung unserer Datenschutzbestimmungen</h2>
                     <p className="sub-text font-light">
@@ -194,7 +209,7 @@ export default function Datenschutz() {
                     </p>
                 </div>
 
-                {/* Paragraph 13 */}
+                {/* Paragraph 14 */}
                 <div className="space-y-2">
                     <h2 className="text-2xs font-semibold">Widerspruchsrecht</h2>
                     <p className="sub-text font-light">
