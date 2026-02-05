@@ -1,7 +1,6 @@
 "use client";
 
 import React, {useEffect, useRef} from "react";
-import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import {Header} from "@/components/Header";
 import PreviewImage from "../../assets/impressum-bg-1.webp";
@@ -44,14 +43,13 @@ export default function Imprint() {
                     <div className="flex justify-center lg:justify-between flex-wrap lg:p-0 p-10 gap-10">
                         <div className="relative">
                             <Image
-                                src={Logo}
+                                src="/logo.png"
                                 className="w-[12.5rem] mx-auto"
                                 alt={"anti-corona-kartell logo"}
                                 width={1000}
                                 height={1000}
                                 priority={true}
                                 unoptimized={true}
-                                loader={(loader) => `${loader.src}`}
                             />
                             <h1 className="font-semibold text-sm text-center lg:text-lg"><span className="text-primary">ANTI-CORONA-KARTELL</span></h1>
                         </div>

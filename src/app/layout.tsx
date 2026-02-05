@@ -4,6 +4,9 @@ import "./globals.css";
 import {Navbar} from "../components/Navbar/index";
 import {Footer} from "../components/Footer/index";
 import {Divider} from "../components/Divider/index";
+import {JsonLd} from "../components/SEO/JsonLd";
+import {buildDefaultJsonLdGraph} from "../lib/jsonld";
+import {site} from "../lib/site";
 import PreviewImage from "../assets/Minecraft-Bg-0.webp";
 import PreviewImage2 from "../assets/Minecraft-Bg-1.webp";
 import PreviewImage3 from "../assets/Minecraft-Bg-2.webp";
@@ -21,8 +24,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ANTI-CORONA-KARTELL",
-  description: "ANTI-CORONA-KARTELL Webseite. Eine Gaming-Community von Gamern für Gamer.",
+  title: site.name,
+  description: site.description,
 };
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
@@ -41,6 +44,9 @@ export default function RootLayout({
             crossOrigin="anonymous" referrerPolicy="no-referrer"/>
 
       <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet" />
+
+      {/* JSON-LD Structured Data (global) */}
+      <JsonLd id="ld-default" data={buildDefaultJsonLdGraph()} />
     </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

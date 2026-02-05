@@ -2,7 +2,6 @@
 import React, {useEffect, useState} from "react";
 import Link from "next/link";
 
-import Logo from "../../assets/logo.png";
 import Image from "next/image";
 
 export const Navbar = () => {
@@ -20,8 +19,15 @@ export const Navbar = () => {
             <nav style={{ zIndex: 99 }} className={`fixed w-full px-5 border-bottom top-0 start-0 ${isShow && 'navbar'} ${isFixed && 'navbar'}`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3">
                     <a href="/" className="flex items-center">
-                        <Image src={Logo} width="10" loader={(loader) => `${loader.src}`} priority={true}
-                               unoptimized={true} height="auto" className="w-[75px]" alt="Anti-corona-kartell Logo"  />
+                        <Image
+                          src="/logo.png"
+                          width={75}
+                          height={75}
+                          priority={true}
+                          unoptimized={true}
+                          className="w-[75px]"
+                          alt="Anti-corona-kartell Logo"
+                        />
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button"
                             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 hover:text-white transition ease-in-out duration-300 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:bg-primary"
