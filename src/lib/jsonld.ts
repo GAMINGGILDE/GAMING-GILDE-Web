@@ -36,7 +36,6 @@ export function buildWebSiteJsonLd(): JsonLd {
     "@id": `${site.url}/#website`,
     url: site.url,
     name: site.name,
-    description: site.description,
     inLanguage: site.locale,
     publisher: { "@id": `${site.url}/#organization` },
   };
@@ -83,9 +82,27 @@ export function buildGraphJsonLd(nodes: JsonLd[]): JsonLd {
   };
 }
 
-/**
- * Standard-Graph für alle Seiten (global).
- */
+//Standard-Graph für alle Seiten (global).
 export function buildDefaultJsonLdGraph(): JsonLd {
-  return buildGraphJsonLd([buildOrganizationJsonLd(), buildWebSiteJsonLd()]);
+  return buildGraphJsonLd([
+    buildOrganizationJsonLd(),
+    buildWebSiteJsonLd(),
+    buildWebPageJsonLd({
+      path: "/",
+      title: site.name,
+      description: site.description,
+    }),
+
+    {/*
+    buildBreadcrumbJsonLd({
+      items: [
+        {
+          name: site.name,
+          path: "/",
+        },
+      ],
+    }),
+    */}
+
+  ]);
 }
