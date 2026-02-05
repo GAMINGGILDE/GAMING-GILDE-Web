@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Instagram from "../../../assets/logo.png";
+import Instagram from "../../../../public/logo.png";
 import React from "react";
 
 export const InstagramFollow = () => {

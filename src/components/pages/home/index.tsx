@@ -4,7 +4,7 @@ import {Card} from "../../Card/index";
 import {CommunicateIcon} from "../../Icon/CommunicateIcon";
 import Image from "next/image";
 
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../../public/logo.png";
 import LogoVirus from "../../../assets/ack-logo-schatten.png";
 import Link from "next/link";
 
