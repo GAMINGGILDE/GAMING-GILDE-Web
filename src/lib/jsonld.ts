@@ -12,7 +12,6 @@ export function buildOrganizationJsonLd(): JsonLd {
     "@id": `${site.url}/#organization`,
     name: site.name,
     url: site.url,
-    //logo: absUrl(site.logoPath),
     logo: {
       "@type": "ImageObject",
       "url": "https://anti-corona-kartell.de/logo.png",
