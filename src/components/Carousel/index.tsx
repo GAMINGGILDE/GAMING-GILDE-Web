@@ -22,7 +22,7 @@ export const Carousel = () => {
     const [isTransitioning, setIsTransitioning] = useState(false);
 
     // Funktion zum Navigieren der Bilder
-    const moveToSelected = (direction) => {
+    const moveToSelected = (direction: 'next' | 'prev') => {
         if (isTransitioning) return; // Verhindert das mehrfach schnelle Wechseln
         setIsTransitioning(true);
 
