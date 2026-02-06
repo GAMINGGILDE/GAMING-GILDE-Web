@@ -4,11 +4,17 @@ import React, {useState} from "react";
 import Link from "next/link";
 
 const images = [
-    { src: "https://i.postimg.cc/1X5zGSHT/storyintro1.jpg", alt: "IMG1", link: "https://google.de" },
-    { src: "https://i.postimg.cc/yxQ8nGpN/storyintro2.jpg", alt: "IMG2", link: "https://google.de" },
-    { src: "https://i.postimg.cc/mZ8kbcZG/storyintro3.jpg", alt: "IMG3", link: "https://google.de" },
-    { src: "https://i.postimg.cc/kXH5bkt1/storyintro4.jpg", alt: "IMG4", link: "https://google.de" },
-    { src: "https://i.postimg.cc/8Pc5s1sf/storyintro5.jpg", alt: "IMG5", link: "https://google.de" },
+    { src: "https://anti-corona-kartell.de/public/event26-Hauptbahnhof.jpg", alt: "Hauptbahnhof", link: "https://www.bahnhof.de/nuernberg-hbf" },
+    { src: "https://anti-corona-kartell.de/public/event26-Mauthalle.jpg", alt: "Handwerkerhof", link: "https://www.nuernberg.de/internet/handwerkerhof/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Lorenzkirche.jpg", alt: "Mauthalle", link: "https://www.nuernberg.de/internet/stadtportal/mauthalle.html" },
+    { src: "https://anti-corona-kartell.de/public/event26-Lorenzkirche.jpg", alt: "Lorenzkirche", link: "https://lorenzkirche.de/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Hlg-Geist-Spital.jpg", alt: "Heilig Geist Spital", link: "https://www.heilig-geist-spital.de/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Hauptmarkt.jpg", alt: "Hauptmarkt", link: "https://www.nuernberg.de/internet/stadtportal/schoener_brunnen.html" },
+    { src: "https://anti-corona-kartell.de/public/event26-Bratwursthaeusle.jpg", alt: "Bratwurst Häusle", link: "https://bratwursthaeuslenuernberg.de/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Kaiserburg.jpg", alt: "Kaiserburg", link: "https://www.kaiserburg-nuernberg.de/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Duererhaus.jpg", alt: "Dürerhaus", link: "https://museen.nuernberg.de/duererhaus/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Henkersteg.jpg", alt: "Henkersteg", link: "https://www.nuernberg.de/internet/stadtportal/henkersteg_weinstadel.html" },
+    { src: "https://anti-corona-kartell.de/public/event26-Bratwurst-Roeslein.jpg", alt: "Bratwurst Röslein", link: "https://www.bratwurst-roeslein.de/de/" },
 ];
 
 export const Carousel = () => {
