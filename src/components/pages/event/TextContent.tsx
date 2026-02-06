@@ -39,7 +39,7 @@ export const TextContent = () => {
             </p>
 
             <p className="sub-text font-light mb-4">
-                <strong>Wichtig:</strong> Wenn du mit dabei sein willst, musst du dich bitte auf unserem Discord Server im betreffenden Event als „Interessiert“ anmelden, damit wir bei der Reservierung genügend Sitzplätze gewährleisten können.
+                <strong>Wichtig:</strong> Wenn du mit dabei sein willst, musst du dich bitte auf unserem Discord Server im <a className="text-primary hover:underline" href="https://discord.com/events/991419109298417734/1469352806711562383" target="_blank">betreffenden Event</a> als „Interessiert“ anmelden, damit wir bei der Reservierung genügend Sitzplätze gewährleisten können.
             </p>
 
             <p className="sub-text font-light mb-4">

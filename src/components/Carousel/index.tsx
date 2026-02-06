@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const images = [
     { src: "https://anti-corona-kartell.de/public/event26-Hauptbahnhof.jpg", alt: "Hauptbahnhof", link: "https://www.bahnhof.de/nuernberg-hbf" },
-    { src: "https://anti-corona-kartell.de/public/event26-Mauthalle.jpg", alt: "Handwerkerhof", link: "https://www.nuernberg.de/internet/handwerkerhof/" },
-    { src: "https://anti-corona-kartell.de/public/event26-Lorenzkirche.jpg", alt: "Mauthalle", link: "https://www.nuernberg.de/internet/stadtportal/mauthalle.html" },
+    { src: "https://anti-corona-kartell.de/public/event26-Handwerkerhof.jpg", alt: "Handwerkerhof", link: "https://www.nuernberg.de/internet/handwerkerhof/" },
+    { src: "https://anti-corona-kartell.de/public/event26-Mauthalle.jpg", alt: "Mauthalle", link: "https://www.nuernberg.de/internet/stadtportal/mauthalle.html" },
     { src: "https://anti-corona-kartell.de/public/event26-Lorenzkirche.jpg", alt: "Lorenzkirche", link: "https://lorenzkirche.de/" },
     { src: "https://anti-corona-kartell.de/public/event26-Hlg-Geist-Spital.jpg", alt: "Heilig Geist Spital", link: "https://www.heilig-geist-spital.de/" },
     { src: "https://anti-corona-kartell.de/public/event26-Hauptmarkt.jpg", alt: "Hauptmarkt", link: "https://www.nuernberg.de/internet/stadtportal/schoener_brunnen.html" },
