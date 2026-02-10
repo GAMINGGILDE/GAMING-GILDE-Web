@@ -43,6 +43,10 @@ export const TextContent = () => {
             </p>
 
             <p className="sub-text font-light mb-4">
+                <strong>Anmeldeschluss:</strong> 26. Februar.
+            </p>
+
+            <p className="sub-text font-light mb-4">
                 Wir freuen uns schon jetzt auf einen großartigen Tag und darauf, dass du auch mit dabei bist.
             </p>
 
