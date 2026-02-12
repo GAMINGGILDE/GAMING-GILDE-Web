@@ -1,7 +1,10 @@
-# Next.js App Deployment
+# ANTI-CORONA-KARTELL Website
 
-Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu
-deployen.
+Die Webseite basiert auf WebStrom als IDE und Next.js, plus Yarn.
+
+## Next.js App Deployment
+
+Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu veröffentlichen.
 
 ## Voraussetzungen
 
