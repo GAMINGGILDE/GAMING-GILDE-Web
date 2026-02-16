@@ -22,7 +22,7 @@ yarn -v
 
 Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
 Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
-Verwendung*).
+Verwendung*). Visual Studio Code funktioniert natürlich ebensogut.
 
 ## Deployment
 
