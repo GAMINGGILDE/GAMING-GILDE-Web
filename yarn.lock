@@ -438,6 +438,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "abbrev@npm:^3.0.0":
   version: 3.0.1
   resolution: "abbrev@npm:3.0.1"
@@ -452,10 +453,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> parent of 823992a (Merge pull request #11 from ANTI-CORONA-KARTELL/renovate/animejs-4.x)
 "animejs@npm:^3.2.2":
   version: 3.2.2
   resolution: "animejs@npm:3.2.2"
   checksum: 10c0/f43dfcc0c743a2774e76fbfcb16a22350da7104f413d9d1b85c48128b0c078090642809deb631e21dfa0a40651111be39d9d7f694c9c1b70d8637ce8b6d63116
+<<<<<<< HEAD
   languageName: node
   linkType: hard
 
@@ -486,6 +490,8 @@ __metadata:
   version: 6.2.1
   resolution: "ansi-styles@npm:6.2.1"
   checksum: 10c0/5d1ec38c123984bcedd996eac680d548f31828bd679a66db2bdf11844634dde55fec3efa9c6bb1d89056a5e79c1ac540c4c784d592ea1d25028a92227d2f2d5c
+=======
+>>>>>>> parent of 823992a (Merge pull request #11 from ANTI-CORONA-KARTELL/renovate/animejs-4.x)
   languageName: node
   linkType: hard
 
