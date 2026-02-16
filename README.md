@@ -20,8 +20,7 @@ node -v
 yarn -v
 ```
 
-Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
-Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
+Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt. Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
 Verwendung*). Visual Studio Code funktioniert natürlich ebensogut.
 
 ## Deployment
@@ -81,13 +80,13 @@ Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
 </div> */}
 ```
 
-Änderungen von GitLap abrufen (via Terminal):
+Änderungen von Guthub abrufen (via Terminal):
 
 ```
 git pull
 ```
 
-Änderung auf GitLap hochladen (Commits):
+Änderung auf Github hochladen (Commits):
 
 ```
 [STRG]+[K]
