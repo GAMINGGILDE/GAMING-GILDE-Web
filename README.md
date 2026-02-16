@@ -1,10 +1,7 @@
-# ANTI-CORONA-KARTELL Website
+# Next.js App Deployment
 
-Die Webseite basiert auf WebStrom als IDE und Next.js, plus Yarn.
-
-## Next.js App Deployment
-
-Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu veröffentlichen.
+Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu
+deployen.
 
 ## Voraussetzungen
 
@@ -20,16 +17,17 @@ node -v
 yarn -v
 ```
 
-Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt. Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
-Verwendung*). Visual Studio Code funktioniert natürlich ebensogut.
+Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
+Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
+Verwendung*).
 
 ## Deployment
 
 1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
 
 ```bash
-git clone https://github.com/schiroky/ANTI-CORONA-KARTELL-Web ANTI-CORONA-KARTELL-Web
-cd anti-corona-kartell-web
+git clone https://gitlab.com/julienobarowski1/anti-corona.git anti-corona-kartell-website
+cd anti-corona-kartell-website
 ```
 
 2. #### Abhängigkeiten installieren
@@ -80,13 +78,13 @@ Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
 </div> */}
 ```
 
-Änderungen von Guthub abrufen (via Terminal):
+Änderungen von GitLap abrufen (via Terminal):
 
 ```
 git pull
 ```
 
-Änderung auf Github hochladen (Commits):
+Änderung auf GitLap hochladen (Commits):
 
 ```
 [STRG]+[K]
