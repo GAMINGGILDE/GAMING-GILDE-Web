@@ -2,13 +2,25 @@
 
 import React from "react";
 import { Carousel } from "@/components/Carousel";
-{/*  import ImageWeihenstephan1 from "../../../assets/Weihenstephan-1.webp"; */}
-{/* import ImageCineplex1 from "../../../assets/Cineplex1.webp"; */}
-{/* import ImageCineplex2 from "../../../assets/Cineplex2.webp"; */}
-{/* import ImageCineplex3 from "../../../assets/Cineplex3.webp"; */}
+{
+  /*  import ImageWeihenstephan1 from "../../../assets/Weihenstephan-1.webp"; */
+}
+{
+  /* import ImageCineplex1 from "../../../assets/Cineplex1.webp"; */
+}
+{
+  /* import ImageCineplex2 from "../../../assets/Cineplex2.webp"; */
+}
+{
+  /* import ImageCineplex3 from "../../../assets/Cineplex3.webp"; */
+}
 
-{/* import Image from "next/image"; */}
-{/* import Link from "next/link"; */}
+{
+  /* import Image from "next/image"; */
+}
+{
+  /* import Link from "next/link"; */
+}
 
 export const TextContent = () => {
   return (

@@ -47,7 +47,7 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
 
-          {/*  <link
+        {/*  <link
           href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
           rel="stylesheet"
         /> */}
