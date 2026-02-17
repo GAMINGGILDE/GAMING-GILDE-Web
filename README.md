@@ -18,8 +18,10 @@ yarn -v
 ```
 
 Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
-Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (_kostenlos für nicht-kommerzielle
-Verwendung_).
+Alternativ verwende diese IDEs:
+
+[![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)](https://www.jetbrains.com/webstorm)
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](https://code.visualstudio.com/download)
 
 ## Deployment
 
