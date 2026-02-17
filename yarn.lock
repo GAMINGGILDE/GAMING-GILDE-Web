@@ -1241,10 +1241,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"animejs@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "animejs@npm:3.2.2"
-  checksum: 10c0/f43dfcc0c743a2774e76fbfcb16a22350da7104f413d9d1b85c48128b0c078090642809deb631e21dfa0a40651111be39d9d7f694c9c1b70d8637ce8b6d63116
+"animejs@npm:^4.0.0":
+  version: 4.3.6
+  resolution: "animejs@npm:4.3.6"
+  checksum: 10c0/d430ce275ba175c67c8c9a1f4d6c6c7df2ab374f062f895fa928016c9a6865801f4c6b11210718c6b87ff1c63d0ed5ef2405325a47fa0e8bcf4850754be09adb
   languageName: node
   linkType: hard
 
@@ -1266,7 +1266,7 @@ __metadata:
     "@types/node": "npm:^24"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
-    animejs: "npm:^3.2.2"
+    animejs: "npm:^4.0.0"
     eslint: "npm:^9"
     eslint-config-next: "npm:^16.1.6"
     eslint-config-prettier: "npm:^10.1.8"
