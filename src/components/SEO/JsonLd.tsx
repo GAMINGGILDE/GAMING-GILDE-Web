@@ -6,13 +6,7 @@ import React from "react";
  * Wichtig: immer JSON.stringify verwenden (kein Template-String),
  * damit keine Sonderzeichen/Quotes kaputt gehen.
  */
-export function JsonLd({
-  data,
-  id,
-}: {
-  data: Record<string, unknown>;
-  id?: string;
-}) {
+export function JsonLd({ data, id }: { data: Record<string, unknown>; id?: string }) {
   return (
     <script
       id={id}
