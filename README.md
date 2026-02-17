@@ -18,18 +18,16 @@ yarn -v
 ```
 
 Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
-Alternativ verwende diese IDEs:
-
-[![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)](https://www.jetbrains.com/webstorm)
-[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](https://code.visualstudio.com/download)
+Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
+Verwendung*).
 
 ## Deployment
 
 1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
 
 ```bash
-git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
-cd anti-corona-kartell-web
+git clone https://gitlab.com/julienobarowski1/anti-corona.git anti-corona-kartell-website
+cd anti-corona-kartell-website
 ```
 
 2. #### Abhängigkeiten installieren

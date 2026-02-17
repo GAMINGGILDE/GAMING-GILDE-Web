@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 type JsonLd = Record<string, unknown>;
 
 const absUrl = (pathOrUrl: string) =>
-  pathOrUrl.startsWith("http") ? pathOrUrl : `${site.url}${pathOrUrl}`;
+    pathOrUrl.startsWith("http") ? pathOrUrl : `${site.url}${pathOrUrl}`;
 
 //Organization JSON-LD (für Brand/Publisher).
 export function buildOrganizationJsonLd(): JsonLd {
@@ -14,17 +14,17 @@ export function buildOrganizationJsonLd(): JsonLd {
     url: site.url,
     logo: {
       "@type": "ImageObject",
-      url: "https://anti-corona-kartell.de/logo.png",
-      width: 394,
-      height: 380,
+      "url": "https://anti-corona-kartell.de/logo.png",
+      "width": 394,
+      "height": 380
     },
     sameAs: [...site.sameAs],
     contactPoint: {
       "@type": "ContactPoint",
-      contactType: "customer service",
-      email: "webmaster@anti-corona-kartell.de",
-      url: "https://discord.anti-corona-kartell.de",
-      availableLanguage: "de",
+      "contactType": "customer service",
+      "email": "webmaster@anti-corona-kartell.de",
+      "url": "https://discord.anti-corona-kartell.de",
+      "availableLanguage": "de",
     },
   };
 }
@@ -93,8 +93,7 @@ export function buildDefaultJsonLdGraph(): JsonLd {
       description: site.description,
     }),
 
-    {
-      /*
+    {/*
     buildBreadcrumbJsonLd({
       items: [
         {
@@ -103,7 +102,7 @@ export function buildDefaultJsonLdGraph(): JsonLd {
         },
       ],
     }),
-    */
-    },
+    */}
+
   ]);
 }
