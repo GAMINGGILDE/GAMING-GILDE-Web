@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import anime from "animejs";
+import { animate } from "animejs";
 
 export const DiscordFrame = () => {
   const elementRef = useRef(null);
@@ -7,9 +7,9 @@ export const DiscordFrame = () => {
 
   const startAnimation = () => {
     if (hasAnimated) return;
+    if (!elementRef.current) return;
 
-    anime({
-      targets: elementRef.current,
+    animate(elementRef.current, {
       translateX: [150, 0],
       easing: "easeOutExpo",
       opacity: 1,
