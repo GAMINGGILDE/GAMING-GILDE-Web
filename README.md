@@ -28,8 +28,8 @@ Alternativ verwende diese IDEs:
 1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
 
 ```bash
-git clone https://gitlab.com/julienobarowski1/anti-corona.git anti-corona-kartell-website
-cd anti-corona-kartell-website
+git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
+cd anti-corona-kartell-web
 ```
 
 2. #### Abhängigkeiten installieren
