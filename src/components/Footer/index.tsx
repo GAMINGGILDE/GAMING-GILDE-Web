@@ -1,14 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import React, { useEffect } from "react";
-import { ParagraphIcon } from "../Icon/ParagraphIcon";
-import { PrivacyIcon } from "../Icon/PrivacyIcon";
-import { YouTubeIcon } from "../Icon/Socialmedia/YouTubeIcon";
-import { DiscordIcon } from "../Icon/Socialmedia/DiscordIcon";
-import { TwitchIcon } from "../Icon/Socialmedia/TwitchIcon";
-import { TikTokIcon } from "../Icon/Socialmedia/TikTokIcon";
-import { GitHubIcon } from "../Icon/Socialmedia/GitHubIcon";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLock,
+  FaSection,
+  FaTiktok,
+  FaTwitch,
+  FaYoutube,
+} from "react-icons/fa6";
 
 export const Footer = () => {
   return (
@@ -27,7 +28,7 @@ export const Footer = () => {
             <div className="flex justify-center items-center">
               <div className="mx-2">
                 <Link href="https://discord.anti-corona-kartell.de" title="Discord" target="_blank">
-                  <DiscordIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <FaDiscord className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
@@ -37,7 +38,7 @@ export const Footer = () => {
                   title="TikTok"
                   target="_blank"
                 >
-                  <TikTokIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <FaTiktok className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
@@ -47,7 +48,7 @@ export const Footer = () => {
                   title="Twitch"
                   target="_blank"
                 >
-                  <TwitchIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <FaTwitch className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
@@ -57,29 +58,25 @@ export const Footer = () => {
                   title="YouTube"
                   target="_blank"
                 >
-                  <YouTubeIcon className="w-6 h-6 fill-white hover:fill-primary" />
+                  <FaYoutube className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
-                <Link
-                    href="https://github.com/ANTI-CORONA-KARTELL"
-                    title="GitHub"
-                    target="_blank"
-                >
-                  <GitHubIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                <Link href="https://github.com/ANTI-CORONA-KARTELL" title="GitHub" target="_blank">
+                  <FaGithub className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
                 <Link href="/impressum" title="Impressum">
-                  <ParagraphIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <FaSection className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
                 <Link href="/datenschutz" title="Datenschutz">
-                  <PrivacyIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <FaLock className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
             </div>

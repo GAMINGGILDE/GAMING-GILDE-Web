@@ -1,9 +1,8 @@
 "use client";
 
 import { Card } from "../../Card/index";
-import { CommunicateIcon } from "../../Icon/CommunicateIcon";
+import { FaDiscord } from "react-icons/fa6";
 import Image from "next/image";
-
 import Logo from "../../../../public/logo.png";
 import LogoVirus from "../../../assets/ack-logo-schatten.png";
 import Link from "next/link";
@@ -51,7 +50,7 @@ export const AboutUs = () => {
             <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
               <Card
                 icon={
-                  <CommunicateIcon className="w-40 fill-white mr-3 absolute top-0 left-0 opacity-10" />
+                  <FaDiscord className="w-40 h-40 fill-white mr-3 absolute top-0 left-0 opacity-10" />
                 }
                 title={"Kommunikation"}
                 subTitle={
