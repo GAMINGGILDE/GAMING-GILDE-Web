@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import anime from "animejs";
+import { animate } from "animejs";
 
 interface CardInterface {
   title: string;
@@ -20,9 +20,9 @@ export const Card = (props: CardInterface) => {
 
   const startAnimation = () => {
     if (hasAnimated) return;
+    if (!elementRef.current) return;
 
-    anime({
-      targets: elementRef.current,
+    animate(elementRef.current, {
       translateX: [props.isRight ? 150 : -150, 0],
       easing: "easeOutExpo",
       opacity: 1,
@@ -58,7 +58,7 @@ export const Card = (props: CardInterface) => {
   return (
     <div
       ref={elementRef}
-      style={typeof props.isRight === "boolean" ? { opacity: 0 } : null}
+      style={typeof props.isRight === "boolean" ? { opacity: 0 } : undefined}
       className={`${props.isPrimary ? "card-background-primary" : "card-background"} lg:min-h-80 cursor-pointer p-1 text-white ${props.className}`}
     >
       <div className={` relative p-4 ${props?.innerClassName ? props.innerClassName : "lg:p-10"}`}>

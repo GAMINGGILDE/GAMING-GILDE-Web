@@ -217,50 +217,24 @@ export default function Datenschutz() {
             entsprechende Maßnahmen ergreifen und Auskünfte geben.
           </p>
         </div>
-
         {/* Paragraph 8 */}
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">
-            Verwendung von Scriptbibliotheken (Google Webfonts & Font Awesome)
-          </h2>
+          <h2 className="text-2xs font-semibold">Verwendung von Schrift- und Icon-Bibliotheken</h2>
           <p className="sub-text font-light">
-            Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen,
-            verwenden wir auf dieser Website unter anderem „Google Web Fonts“ der Google LLC (1600
-            Amphitheatre Parkway, Mountain View, CA 94043, USA; nachfolgend „Google“) sowie das
-            Icon-Framework „Font Awesome“, das über ein externes Skript (Content Delivery Network)
-            eingebunden wird.
+            Zur einheitlichen und ansprechenden Darstellung verwenden wir Schriftarten und Icons,
+            die lokal innerhalb unseres Webprojekts eingebunden sind.
           </p>
           <p className="sub-text font-light">
-            Beim Aufruf unserer Seiten wird eine Verbindung zu den Servern dieser Anbieter
-            hergestellt. Hierdurch können personenbezogene Daten, insbesondere Ihre IP-Adresse sowie
-            technische Informationen zu Ihrem Browser und Endgerät, an die jeweiligen Anbieter
-            übertragen werden. Dabei kann es auch zu einer Übermittlung von Daten in Drittländer,
-            insbesondere die USA, kommen, in denen kein mit der EU vergleichbares Datenschutzniveau
-            besteht. Die Nutzung dieser Schrift- und Icon-Bibliotheken erfolgt im Interesse einer
-            einheitlichen und ansprechenden Darstellung unserer Online-Angebote und basiert auf
-            unserem berechtigten Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO.
+            Für diese lokal eingebundenen Ressourcen erfolgt beim Aufruf unserer Website keine
+            zusätzliche Verbindung zu externen Bibliotheks-CDNs (z. B. für Icons oder Webfonts).
+            Eine Übermittlung personenbezogener Daten an externe Anbieter allein durch die Nutzung
+            dieser Schrift- und Icon-Bibliotheken findet daher nicht statt.
           </p>
           <p className="sub-text font-light">
-            Weitere Informationen zu Google Web Fonts finden Sie unter{" "}
-            <a
-              className="font-light text-primary hover:underline"
-              href="https://developers.google.com/fonts/faq"
-              target="_blank"
-            >
-              https://developers.google.com/fonts/faq
-            </a>{" "}
-            und in der Datenschutzerklärung von Google:{" "}
-            <a
-              className="font-light text-primary hover:underline"
-              href="https://www.google.com/policies/privacy"
-              target="_blank"
-            >
-              https://www.google.com/policies/privacy
-            </a>
-            .
+            Rechtsgrundlage ist unser berechtigtes Interesse an einer konsistenten Darstellung
+            unserer Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
           </p>
         </div>
-
         {/* Paragraph 9 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">
