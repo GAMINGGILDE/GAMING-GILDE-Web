@@ -18,8 +18,8 @@ yarn -v
 ```
 
 Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
-Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (*kostenlos für nicht-kommerzielle
-Verwendung*).
+Alternativ kann auch [WebStorm](https://www.jetbrains.com/webstorm) verwendet werden (_kostenlos für nicht-kommerzielle
+Verwendung_).
 
 ## Deployment
 
