@@ -8,6 +8,7 @@ import { YouTubeIcon } from "../Icon/Socialmedia/YouTubeIcon";
 import { DiscordIcon } from "../Icon/Socialmedia/DiscordIcon";
 import { TwitchIcon } from "../Icon/Socialmedia/TwitchIcon";
 import { TikTokIcon } from "../Icon/Socialmedia/TikTokIcon";
+import { GitHubIcon } from "../Icon/Socialmedia/GitHubIcon";
 
 export const Footer = () => {
   return (
@@ -56,7 +57,17 @@ export const Footer = () => {
                   title="YouTube"
                   target="_blank"
                 >
-                  <YouTubeIcon className="w-5 h-5 fill-white hover:fill-primary" />
+                  <YouTubeIcon className="w-6 h-6 fill-white hover:fill-primary" />
+                </Link>
+              </div>
+
+              <div className="mx-2">
+                <Link
+                    href="https://github.com/ANTI-CORONA-KARTELL"
+                    title="GitHub"
+                    target="_blank"
+                >
+                  <GitHubIcon className="w-5 h-5 fill-white hover:fill-primary" />
                 </Link>
               </div>
 
