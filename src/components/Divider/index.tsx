@@ -16,7 +16,7 @@ interface DividerButtonInterface {
 }
 
 export const DividerButton = ({ link, title }: DividerButtonInterface) => (
-    <Link href={link} className="border-2 text-white uppercase tracking-wider text-sm font-bold border-primary py-2.5 px-10 rounded-sm bg-transparent hover:bg-primary transition-all duration-300">
+    <Link href={link} className="border-2 text-white uppercase tracking-wider text-sm font-bold border-primary py-2.5 px-10 rounded-xs bg-transparent hover:bg-primary transition-all duration-300">
         {title}
     </Link>
 )

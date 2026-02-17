@@ -104,7 +104,7 @@ export const Carousel = () => {
             <div className="absolute top-1/2 left-0 transform -translate-y-1/2 flex justify-center items-center h-full z-50">
                 <button
                     onClick={() => moveToSelected("prev")}
-                    className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"
+                    className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-hidden"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +125,7 @@ export const Carousel = () => {
             <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex justify-center items-center h-full z-50">
                 <button
                     onClick={() => moveToSelected("next")}
-                    className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-none"
+                    className="bg-transparent border-none text-white p-4 hover:scale-125 transition-all shadow-lg rounded-full hover:bg-gray-800 hover:text-green-400 focus:outline-hidden"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

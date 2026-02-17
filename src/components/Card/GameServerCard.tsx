@@ -23,7 +23,7 @@ export const GameServerCard = ({ title, children, cardText, image, onClick, butt
                 <Link href={"#!"} onClick={() => setShowModal(!isShowModal)}>
                     <div className="card-inner card-inner--blue relative p-4 cursor-pointer text-white">
                         <div className="flex justify-between items-center mb-3 lg:hidden block">
-                            <h2 className="text-lg lg:text-xl font-semibold uppercase break-words">{title}</h2>
+                            <h2 className="text-lg lg:text-xl font-semibold uppercase wrap-break-word">{title}</h2>
                         </div>
 
                        <div className="grid grid-cols-12">
@@ -39,7 +39,7 @@ export const GameServerCard = ({ title, children, cardText, image, onClick, butt
                            </div>
                            <div className="col-span-12 lg:col-span-6 text-xm">
                                <div className="flex justify-between items-center mb-3 lg:block hidden">
-                                   <h2 className="text-lg lg:text-xl font-semibold uppercase break-words">{title}</h2>
+                                   <h2 className="text-lg lg:text-xl font-semibold uppercase wrap-break-word">{title}</h2>
                                </div>
 
                                {cardText}
@@ -54,7 +54,7 @@ export const GameServerCard = ({ title, children, cardText, image, onClick, butt
                                <Image
                                    src={image}
                                    alt={"gameserver preview"}
-                                   className="w-[17.5rem] object-contain rounded-lg"
+                                   className="w-70 object-contain rounded-lg"
                                    width={100}
                                    height={100}
                                    loader={(loader) => loader.src}

@@ -54,7 +54,7 @@ export default function RootLayout({
 
         <Navbar />
 
-        <div className="mb-[10rem]">
+        <div className="mb-40">
           {children}
         </div>
 

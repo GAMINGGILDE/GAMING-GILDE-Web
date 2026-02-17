@@ -34,9 +34,9 @@ export default function Imprint() {
         <div>
             <Header previews={previews} noText/>
 
-            <div className="mt-[15rem] max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10 w-[100%] m-auto mb-[10rem]">
+            <div className="mt-60 max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10 w-full m-auto mb-40">
                 <div className="text-center">
-                    <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-bold break-words">Impressum</h1>
+                    <h1 className="text-xl md:text-6xl lg:text-7xl tracking-widest linear-text uppercase text-white font-bold wrap-break-word">Impressum</h1>
                 </div>
 
                 <div className="mt-10 text-white">
@@ -44,7 +44,7 @@ export default function Imprint() {
                         <div className="relative">
                             <Image
                                 src="/logo.png"
-                                className="w-[12.5rem] mx-auto"
+                                className="w-50 mx-auto"
                                 alt={"anti-corona-kartell logo"}
                                 width={1000}
                                 height={1000}

@@ -10,7 +10,7 @@ export const InstagramFollow = () => {
             <div className="card-background-primary card-inner-primary mt-44">
                 <div className="card-inner text-white">
                     <div className="grid grid-cols-12">
-                        <div className="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-[18rem]">
+                        <div className="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-72">
                             <Image
                                 src={Instagram}
                                 alt={"Instagram"}
@@ -19,7 +19,7 @@ export const InstagramFollow = () => {
                                 height={100}
                                 priority={true}
                                 unoptimized={true}
-                                className="w-[85%] h-[27rem] px-7 relative bottom-32"
+                                className="w-[85%] h-108 px-7 relative bottom-32"
                                 style={{ objectFit: 'contain' }}
                             />
                         </div>
@@ -38,7 +38,7 @@ export const InstagramFollow = () => {
                                 height={100}
                                 priority={true}
                                 unoptimized={true}
-                                className="w-[100rem] h-[10rem] md:h-[15rem] relative"
+                                className="w-400 h-40 md:h-60 relative"
                                 style={{ objectFit: 'cover', objectPosition: 'top' }}
                             />
                         </div>

@@ -17,7 +17,7 @@ export const Navbar = () => {
     return (
         <>
             <nav style={{ zIndex: 99 }} className={`fixed w-full px-5 border-bottom top-0 start-0 ${isShow && 'navbar'} ${isFixed && 'navbar'}`}>
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-3">
+                <div className="max-w-(--breakpoint-xl) flex flex-wrap items-center justify-between mx-auto py-3">
                     <a href="/" className="flex items-center">
                         <Image
                           src="/logo.png"
@@ -30,7 +30,7 @@ export const Navbar = () => {
                         />
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 hover:text-white transition ease-in-out duration-300 rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 hover:bg-primary"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 hover:text-white transition ease-in-out duration-300 rounded-lg lg:hidden focus:outline-hidden focus:ring-2 focus:ring-gray-200 hover:bg-primary"
                             aria-controls="navbar-default" aria-expanded="false" onClick={() => setShow(!isShow)}>
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -44,24 +44,24 @@ export const Navbar = () => {
                             <li>
                                 <Link href="/"
                                       onClick={() => setShow(false)}
-                                      className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
+                                      className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
                                       aria-current="page">Startseite</Link>
                             </li>
                             <li>
                                 <Link href="/gameserver"
                                       onClick={() => setShow(false)}
-                                      className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                      className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
                                     Gameserver
                                 </Link>
                             </li>
                             <li>
                                 <a href="/event"
-                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                   className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
                                     Event</a>
                             </li>
                             <li>
                                 <a href="/geschichte"
-                                   className="block py-2 px-3 text-primary rounded hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
+                                   className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent">
                                     Geschichte</a>
                             </li>
                         </ul>

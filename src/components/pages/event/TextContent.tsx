@@ -16,7 +16,7 @@ import Link from "next/link";
 export const TextContent = () => {
 
     return(
-        <div className="my-20 text-white w-[100%] m-auto">
+        <div className="my-20 text-white w-full m-auto">
 
             {/*  <p className="text-base lg:text-lg mb-5">
                 Schau gerne später wieder vorbei oder komm auf unseren <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Discord-Server</a>, um kein Event mehr zu verpassen.

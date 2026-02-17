@@ -15,7 +15,7 @@ export default function Datenschutz() {
             <Header previews={previews} noText/>
 
             <div
-                className="max-w-[1280px] mx-auto space-y-5 mt-[15rem] xl:px-0 px-5 md:px-10 w-[100%] m-auto mb-[5rem] text-white">
+                className="max-w-[1280px] mx-auto space-y-5 mt-60 xl:px-0 px-5 md:px-10 w-full m-auto mb-20 text-white">
                 {/* Header */}
                 <header className="space-y-6">
                     <h1 className="text-xl lg:text-3xl font-bold linear-text">Datenschutzerklärung</h1>
