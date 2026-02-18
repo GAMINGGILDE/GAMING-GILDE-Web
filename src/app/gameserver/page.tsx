@@ -1,5 +1,7 @@
-import { GameServer } from "../../components/pages/gameserver/index";
+import {GameServer} from "../../components/pages/gameserver/index";
 
 export default function GameServerPage() {
-  return <GameServer />;
+    return (
+        <GameServer />
+    )
 }
