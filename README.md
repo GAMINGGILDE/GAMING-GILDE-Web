@@ -1,4 +1,7 @@
-# Next.js App Deployment
+# ANTI-CORONA-KARTELL Web
+
+**Das Repository der privaten Website des ANTI-CORONA-KARTELLs.**
+
 
 Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu
 deployen.
