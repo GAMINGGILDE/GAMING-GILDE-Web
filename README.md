@@ -49,6 +49,8 @@ Besteht schon ein lokal geklontest Repository, können die Dependencies zu Yarn 
 yarn up
 ```
 
+> **Tipp:** Mit dem Terminal Befehl: ```yarn info``` können die Versionen aller bestehenden Dependencies ausgegeben werden.
+
 ## Testing
 
 Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website via Browser-Vorschau überprüft werden kann:
@@ -71,8 +73,8 @@ Die fertige Webseite wird im Projekt im Ordner 'Out' gespeichert.
 
 ## Deployment
 
-Lade den Inhalt des Ordners 'out' auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen
-werden.
+Lade den Inhalt des Ordners 'out' auf deinen Webspace. Ich verwende dazu [FileZilla](https://filezilla-project.org/download.php?type=client).<br>
+Alle Dateien im out-Ordner müssen auf den Server übertragen werden.
 
 ## Tipps zum Editieren
 
