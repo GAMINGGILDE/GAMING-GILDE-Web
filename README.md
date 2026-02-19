@@ -17,71 +17,62 @@ Dieses Dokument beschreibt in Kürze die notwendigen Schritte, um die Website zu
 
 Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten installiert hast:
 
-* [![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current)
-* [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-* [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org)
-* [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download)
+[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current)  [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable)  [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org)  [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download)
 
 Aktuell installierte Versionen können im Terminal der verwendeten IDE mit folgenden Befehlen ausgegeben werden:
 
-```bash
-node -v
-yarn -v
-git -v
-github
-```
+```node -v```, ```yarn -v```, ```git -v``` und ```github```
+
 Mit dem Aufruf des letzteren Befehls wird die aktuell installierte Version von GitHub Desktop geöffent.<br>
 Wähle darin das Menü 'Help' -> 'About GitHub Desktop', dann 'Check for Updates' und installiere etwaige Aktualisierungen.
 
-## GitHub Repository klonen
+## Repository klonen
 
-Um sich den aktuellen Stand von GitHub lokal zu klonen, 
-
-```bash
-git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
-cd anti-corona-kartell-web
-```
-
-### Updating Yarn
-
-
-
-## Deployment
-
-1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
+Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
 
 ```bash
 git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
 cd anti-corona-kartell-web
 ```
 
-2. #### Abhängigkeiten installieren
+## Abhängigkeiten installieren
+
+Um sich die benötigten Dependencies von Yarn in sein Projekt zu installieren, führe folgenden Befehl im Terminal aus:
 
 ```bash
 yarn install
 ```
 
-3. #### Next.js Build-Prozess
+Besteht schon ein lokal geklontest Repository, können die Dependencies zu Yarn mit folgendem Befehl aktualisiert werden:
 
 ```bash
-yarn build
+yarn up
 ```
-
-4. #### Deployment
-
-Lade den Inhalt des Ordners 'out' auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen
-werden.
 
 ## Testing
 
-Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website in Vorschau betrachtet
-werden kann:
+Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website via Browser-Vorschau überprüft werden kann:
 
 ```bash
 yarn dev
 ```
 
-Der lokale Webserver kann via [STRG]+[C] beendet werden.
+Der lokale Webserver kann via [STRG]+[C] wieder beendet werden.
+
+## Build-Prozess
+
+Um die Webseite via Next.js erstellen zu lassen, muss dieser Befehl eingegeben werden:
+
+```bash
+yarn build
+```
+
+Die fertige Webseite wird im Projekt im Ordner 'Out' gespeichert.
+
+## Deployment
+
+Lade den Inhalt des Ordners 'out' auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen
+werden.
 
 ## Tipps zum Editieren
 
