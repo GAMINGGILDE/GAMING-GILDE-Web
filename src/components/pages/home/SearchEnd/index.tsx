@@ -12,16 +12,15 @@ export const SearchEnd = () => {
             Betrete jetzt unseren Discord
           </p>
           <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">
-            Das bekommst du bei uns geboten:
+            Was dich bei uns erwartet:
           </h1>
           <p className="text-white font-thin mt-4 mb-7">
-            Unser Discord-Server bietet dir aktuelle News zu Games und Hardware, du kannst dich zu
-            einer Vielzahl an Spielen mit Gleichgesinnten treffen und dich mit ihnen zu Themen rund
-            ums Gaming austauschen. Wir bieten kostenfrei unsere Lifetime Gameserver für
-            Satisfactory, Minecraft und Core Keeper an, sowie wechselnde Gameserver mit weiteren
-            Spielen.
+            Auf unserem Discord bekommst du aktuelle News zu Games und Hardware, kannst Mitspieler
+            für viele verschiedene Spiele finden und dich rund ums Gaming austauschen. Außerdem
+            stellen wir dir kostenlos unsere Lifetime‑Gameserver für Satisfactory, Minecraft und
+            Core Keeper sowie weitere wechselnde Server für weitere Games bereit.
             <br />
-            Also jede Menge Abwechslung und Spaß mit Spielen garantiert!
+            Also jede Menge Spaß und Abwechslung mit Spielen garantiert!
             <br />
             <br />
             Zudem kannst du durch uns{" "}
@@ -33,18 +32,13 @@ export const SearchEnd = () => {
               20% Rabatt
             </a>{" "}
             auf einen eigenen Gameserver bei unserm Hoster bekommen. Wenn du schon immer Herr über
-            einen eigenen Gameserver sein wolltest, ist das die Gelegenheit. Bei Umsetzung und
-            Konfiguration gibt's von uns auch gerne Unterstützung, falls das für dich Neuland sein
-            sollte.
+            einen eigenen Gameserver sein wolltest, ist das die Gelegenheit.
             <br />
             <br />
-            Wie wäre es dazu noch mit einem eigenen Kanal auf unserem Discord-Server? Anstatt sich
-            den Aufwand zu einem Discord-Server selbst aufzuerlegen, stellen wir dir zu deinem
-            eigenen Gameserver auch einen eigenen Kanal zur Verfügung, damit du zu deinem neuem
-            Gameserver von unserer Community profitieren kannst.
+            Wie wäre es mit deinem eigenen Kanal auf unserem Discord‑Server? Zu deinem Gameserver
+            bekommst du bei uns direkt einen passenden, gemütlichen Platz in der Community, damit du
+            noch leichter Leute findest, die mit dir zusammen zocken, quatschen und Spaß haben.
             <br />
-            <br />
-            Wir sind immer auf der Suche nach neuen Spielkammeraden*innen.
             <br />
             Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
           </p>
