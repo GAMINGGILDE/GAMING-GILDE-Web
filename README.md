@@ -15,15 +15,15 @@ Dieses Dokument beschreibt in Kürze die notwendigen Schritte, um die Website zu
 
 ## Voraussetzungen
 
-Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten installiert hast:
+Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten installiert hast (Git ist hier optional):
 
-[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current)  [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable)  [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org)  [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download)
+[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current)  [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable)  [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download)  [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org) 
 
 Aktuell installierte Versionen können im Terminal der verwendeten IDE mit folgenden Befehlen ausgegeben werden:
 
-```node -v```, ```yarn -v```, ```git -v``` und ```github```
+```node -v```, ```yarn -v``` und ```git -v```
 
-Mit dem Aufruf des letzteren Befehls wird die aktuell installierte Version von GitHub Desktop geöffent.<br>
+Mit dem Aufruf des Befehls ```github``` wird die aktuell installierte Version von GitHub Desktop geöffent.<br>
 Wähle darin das Menü 'Help' -> 'About GitHub Desktop', dann 'Check for Updates' und installiere etwaige Aktualisierungen.
 
 ## Repository klonen
@@ -69,26 +69,31 @@ Um die Webseite via Next.js erstellen zu lassen, muss dieser Befehl eingegeben w
 yarn build
 ```
 
-Die fertige Webseite wird im Projekt im Ordner 'Out' gespeichert.
+Die fertige Webseite wird im Projekt im Ordner 'out' gespeichert.
 
 ## Deployment
 
 Lade den Inhalt des Ordners 'out' auf deinen Webspace. Ich verwende dazu [FileZilla](https://filezilla-project.org/download.php?type=client).<br>
 Alle Dateien im out-Ordner müssen auf den Server übertragen werden.
 
-## Tipps zum Editieren
+## Hilfe & Support
 
-Verwende folgende Syntax zur Erstellung von Links zum Öffnen in neuem Tab:
+Bei Fragen zur Technik oder Verwendung sind hier die betreffenden Anlaufstellen zur Recherche:
+
+[![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://aka.ms/ComplianceUtility/Manual)  [![YarnManual](https://img.shields.io/badge/Yarn%20Documentation-2C8EBB?logo=gitbook&logoColor=white)](https://classic.yarnpkg.com/en/docs)  [![GitHubManual](https://img.shields.io/badge/GitHub%20Desktop%20Dokumentation-black?logo=gitbook&logoColor=white)](https://docs.github.com/de/desktop)  [![GitManual](https://img.shields.io/badge/Git%20Discussions-F05032?logo=gitbook&logoColor=white)](https://github.com/git-for-windows/git/discussions)
+
+## Off-Topic: Tipps zum Editieren
+
+Beispiel-Syntax zur Erstellung von Links zum Öffnen in neuem Tab:
 
 ```
 <a href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">Zap-Hosting</a>
 ```
-
 ```
 <a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">20% Rabatt</a>
 ```
 
-Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
+Beispiel zum Auskommentieren vom Java-Code (JSX-Specific Comment):
 
 ```
 {/* <div className="sm:mx-10 lg:mx-20">
@@ -96,17 +101,21 @@ Beispiel zum Auskommentieren im Java-Code (JSX-Specific Comment):
 </div> */}
 ```
 
-Änderungen von GitLap abrufen (via Terminal):
+Änderungen von GitHub abrufen (via Terminal):
 
 ```
 git pull
 ```
 
-Änderung auf GitLap hochladen (Commits):
+Änderung auf GitHub hochladen/pushen (Commits, WebStorm spezifisch):
 
 ```
 [STRG]+[K]
 ```
 
-Commit-Massage hinzufügen und dann auf Push klicken zum Übertragen.
-Wenn "versemmelt", dann via Terminal Command 'git push' erneut lostreten.
+Regulärer Befehl im Terminal um Änderungen zum GitHub Repository zu übertragen:
+
+```
+git push
+```
+
