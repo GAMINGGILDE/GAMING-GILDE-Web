@@ -9,16 +9,30 @@ export const Navbar = () => {
   const [isShow, setShow] = useState<boolean>(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", (event) => {
-      setFixed(window.scrollY >= 100);
-    });
+    const onScroll = () => {
+      setFixed(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    onScroll();
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
+
+  const navStyle: React.CSSProperties = {
+    zIndex: 99,
+    backgroundColor: isFixed ? "rgba(15, 52, 90, 0.2)" : "transparent",
+    backdropFilter: isFixed ? "saturate(180%) blur(20px)" : "none",
+    WebkitBackdropFilter: isFixed ? "saturate(180%) blur(20px)" : "none",
+  };
 
   return (
     <>
       <nav
-        style={{ zIndex: 99 }}
-        className={`fixed w-full px-5 border-bottom top-0 start-0 ${isShow && "navbar"} ${isFixed && "navbar"}`}
+        style={navStyle}
+        className={`fixed w-full px-5 border-bottom top-0 start-0 transition-all duration-300 ${isFixed ? "shadow-[0_8px_30px_rgba(0,0,0,0.25)]" : ""}`}
       >
         <div className="max-w-(--breakpoint-xl) flex flex-wrap items-center justify-between mx-auto py-3">
           <a href="/" className="flex items-center">
