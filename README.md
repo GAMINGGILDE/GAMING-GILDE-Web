@@ -1,78 +1,64 @@
-# ANTI-CORONA-KARTELL Web
+# Next.js App Deployment
 
-**Das Repository der privaten Website des ANTI-CORONA-KARTELLs.**
-
-Ursprünglich verwendete Entwicklungsumgebung (IDE):
-
-* [![PhpStorm](https://img.shields.io/badge/PhpStorm-000?logo=phpstorm&logoColor=fff)](https://www.jetbrains.com/phpstorm)[![Abo](https://img.shields.io/badge/Kostenpflichiges%20Abonnement-red?)](#)
-
-Als Alternative empfehle ich eine der folgenden IDEs:
-
-* [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](https://code.visualstudio.com/download)[![OpenSourc](https://img.shields.io/badge/Kostenlos%20und%20basierend%20auf%20Open%20Source-green?)](#)
-* [![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)](https://www.jetbrains.com/webstorm)[![Free](https://img.shields.io/badge/Kostenlos%20für%20nichtkommerzielle%20Nutzung-fbfe50?)](#)
-
-Dieses Dokument beschreibt in Kürze die notwendigen Schritte, um die Website zu erstellen und zu veröffentlichen.
+Dieses Dokument beschreibt die Schritte, die notwendig sind, um eine Next.js App zu bauen und auf einem Webserver zu
+deployen.
 
 ## Voraussetzungen
 
-Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten installiert hast:
+Stelle sicher, dass du die folgenden Versionen von Node.js und Yarn installiert hast:
 
-[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current)  [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable)  [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org)  [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download)
+- [**Node.js** v24.13.0](https://nodejs.org/en/download/current)
+- [**Yarn** v4.12](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 
-Aktuell installierte Versionen können im Terminal der verwendeten IDE mit folgenden Befehlen ausgegeben werden:
+Du kannst deine aktuelle Version mit folgenden Befehlen überprüfen:
 
-```node -v```, ```yarn -v```, ```git -v``` und ```github```
+```bash
+node -v
+yarn -v
+```
 
-Mit dem Aufruf des letzteren Befehls wird die aktuell installierte Version von GitHub Desktop geöffent.<br>
-Wähle darin das Menü 'Help' -> 'About GitHub Desktop', dann 'Check for Updates' und installiere etwaige Aktualisierungen.
+Als IDE wurde zum Entwickeln [PhpStorm](https://www.jetbrains.com/phpstorm) benutzt.<br>
+Alternativ verwende diese IDEs:
 
-## Repository klonen
+[![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)](https://www.jetbrains.com/webstorm)
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](https://code.visualstudio.com/download)
 
-Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
+## Deployment
+
+1. #### Projekt (lokal) klonen und in das Projektverzeichnis wechseln (optional)
 
 ```bash
 git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
 cd anti-corona-kartell-web
 ```
 
-## Abhängigkeiten installieren
-
-Um sich die benötigten Dependencies von Yarn in sein Projekt zu installieren, führe folgenden Befehl im Terminal aus:
+2. #### Abhängigkeiten installieren
 
 ```bash
 yarn install
 ```
 
-Besteht schon ein lokal geklontest Repository, können die Dependencies zu Yarn mit folgendem Befehl aktualisiert werden:
-
-```bash
-yarn up
-```
-
-## Testing
-
-Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website via Browser-Vorschau überprüft werden kann:
-
-```bash
-yarn dev
-```
-
-Der lokale Webserver kann via [STRG]+[C] wieder beendet werden.
-
-## Build-Prozess
-
-Um die Webseite via Next.js erstellen zu lassen, muss dieser Befehl eingegeben werden:
+3. #### Next.js Build-Prozess
 
 ```bash
 yarn build
 ```
 
-Die fertige Webseite wird im Projekt im Ordner 'Out' gespeichert.
-
-## Deployment
+4. #### Deployment
 
 Lade den Inhalt des Ordners 'out' auf deinen Webspace. Alle Dateien im out-Ordner müssen auf den Server übertragen
 werden.
+
+## Testing
+
+Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website in Vorschau betrachtet
+werden kann:
+
+```bash
+yarn dev
+```
+
+Der lokale Webserver kann via [STRG]+[C] beendet werden.
 
 ## Tipps zum Editieren
 

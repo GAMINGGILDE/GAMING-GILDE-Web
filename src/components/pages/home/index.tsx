@@ -35,12 +35,12 @@ export const AboutUs = () => {
                 }
                 title={"Spaß"}
                 subTitle={
-                  "Wir sind eine junge Gaming-Community. Von " +
-                  "Gamern für Gamer. Wir sind immer auf der " +
-                  "Suche nach coolen Leuten, die einfach Bock " +
-                  "haben, in einer entspannten, gemütlichen " +
-                  "Runde zusammen zu zocken – komplett ohne " +
-                  "Stress, Ruhm oder Profitgedanken."
+                  "Wir sind eine junge Gaming-Community. Von" +
+                  " Gamern für Gamer. Wir streben nicht nach" +
+                  " Ruhm oder Profit. Wir wollen einfach nur in" +
+                  " einem positiven Umfeld gemeinsam Spaß" +
+                  " beim Spielen haben. Dazu sind wir immer auf" +
+                  " der Suche nach neuen Spielgefährten*innen."
                 }
               />
             </Link>
@@ -52,14 +52,14 @@ export const AboutUs = () => {
                 icon={
                   <FaDiscord className="w-40 h-40 fill-white mr-3 absolute top-0 left-0 opacity-10" />
                 }
-                title={"Quatschen"}
+                title={"Kommunikation"}
                 subTitle={
-                  "Wir betreiben primär einen Discord‑Server, um " +
-                  "unseren Mitgliedern eine kostenlose Plattform " +
-                  "zur lockeren Kommunikation zu ihren " +
-                  "Lieblingsspielen anzubieten und um sich " +
-                  "gemeinsam zu Themen rund ums Gaming " +
-                  "auszutauschen."
+                  "Das ANTI-CORONA-KARTELL betreibt primär" +
+                  " einen Discord-Server, um Spieler*innen zu" +
+                  " ihren Lieblingsgames eine kostenlose" +
+                  " Plattform zur Kommunikation anzubieten und" +
+                  " um sich zu Themen rund ums Gaming" +
+                  " auszutauschen."
                 }
               />
             </Link>
@@ -84,12 +84,12 @@ export const AboutUs = () => {
                 }
                 title={"Beitreten"}
                 subTitle={
-                  "Komm ins ANTI‑CORONA‑KARTELL. Hier wird " +
-                  "Gaming gemeinsam gefeiert. Häng mit einer " +
-                  "entspannten Gaming‑Community ab, die " +
-                  "immer gute Laune auf gute Games und " +
-                  "Gespräche hat und die ihre Lieblingsspiele " +
-                  "genauso feiert wie du. "
+                  "Wenn die Verwendung von Discord für dich" +
+                  " neu ist, solltest du dich ggf. jetzt mit den" +
+                  " Grundlagen vertraut machen. Ansonsten leg" +
+                  " einfach los und tritt dem ANTI-CORONA-" +
+                  "KARTELL bei und finde Gleichgesinnte zum" +
+                  " Spielen."
                 }
               />
             </Link>
