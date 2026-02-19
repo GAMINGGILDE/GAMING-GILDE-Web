@@ -62,7 +62,7 @@ export const Header = ({
             </p>
           )
         }
-        text={noText ? <></> : <>Eine junge Gaming-Community, für gemeinsamen Spaß beim Spielen</>}
+        text={noText ? <></> : <>Eine junge Gaming-Community, für gemeinsamen Spaß beim Zocken</>}
       ></Headline>
     </>
   );
