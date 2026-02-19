@@ -88,8 +88,8 @@ export const AboutUs = () => {
                   "Gaming gemeinsam gefeiert. Häng mit einer " +
                   "entspannten Gaming‑Community ab, die " +
                   "immer gute Laune auf gute Games und " +
-                  "Gespräche hat und die ihre Lieblingsspiele" +
-                  "gemeinsam genauso feiern wie du. "
+                  "Gespräche hat und die ihre Lieblingsspiele " +
+                  "genauso feiert wie du. "
                 }
               />
             </Link>
