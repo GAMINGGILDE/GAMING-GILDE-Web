@@ -43,7 +43,7 @@ Um sich die benötigten Dependencies von Yarn in sein Projekt zu installieren, f
 yarn install
 ```
 
-Besteht schon ein lokal geklontest Repository, können die Dependencies zu Yarn mit folgendem Befehl aktualisiert werden:
+Besteht schon ein lokal geklontes Repository, können die Dependencies zu Yarn mit folgendem Befehl aktualisiert werden:
 
 ```bash
 yarn up
