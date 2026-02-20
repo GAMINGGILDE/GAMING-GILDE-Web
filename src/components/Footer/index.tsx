@@ -70,7 +70,7 @@ export const Footer = () => {
             </div>
 
             <div className="mt-3 lg:mt-0 lg:flex-1 text-right">
-              <Link href="/impressum" title="Impressum" className="hover:text-primary">
+              <Link href="/impressum" title="Impressum" className="mr-4 hover:text-primary">
                 Impressum{" "}
               </Link>
 
