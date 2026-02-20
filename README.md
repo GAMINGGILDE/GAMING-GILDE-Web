@@ -56,9 +56,9 @@ yarn up
 
 ### Renovate Bot
 
-Renovate Bot ist eine GitHub-App die automatisch Abhängigkeiten in Repositories aktualliert, indem  Paketdateien erkannt und bei neuen Versionen selbstständig Pull Requests erstellt:
+Renovate Bot ist eine GitHub-App die automatisch Abhängigkeiten in Repositories aktualliert, indem Paketdateien erkannt und bei neuen Versionen selbstständig Pull Requests erstellt:
 
-* [![RenovateBot](https://img.shields.io/badge/RenovateBot-1A1F6C?logo=renovate&logoColor=fff)](https://github.com/apps/renovate)
+- [![RenovateBot](https://img.shields.io/badge/RenovateBot-1A1F6C?logo=renovate&logoColor=fff)](https://github.com/apps/renovate)
 
 Installation und Verwendung dringend empfohlen.
 
