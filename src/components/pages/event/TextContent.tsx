@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { Carousel } from "@/components/Carousel";
 {
   /*  import ImageWeihenstephan1 from "../../../assets/Weihenstephan-1.webp"; */
 }
@@ -78,10 +77,6 @@ export const TextContent = () => {
         Wir freuen uns schon jetzt auf einen großartigen Tag und darauf, dass du auch mit dabei
         bist.
       </p>
-
-      <div className="sm:mx-10 lg:mx-20">
-        <Carousel />
-      </div>
 
       <p className="text-base lg:text-lg mb-4">
         <strong>VERGANGENE EVENTS:</strong>
