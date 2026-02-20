@@ -4,8 +4,6 @@ import Link from "next/link";
 import {
   FaDiscord,
   FaGithub,
-  FaLock,
-  FaSection,
   FaTiktok,
   FaTwitch,
   FaYoutube,
