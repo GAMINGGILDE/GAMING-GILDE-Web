@@ -24,7 +24,7 @@ export const Modal = ({ isShow, setShow, title, children }: ModalInterface) => {
     <div
       id="static-modal"
       data-modal-backdrop="static"
-      tabIndex="-1"
+      tabIndex={-1}
       aria-hidden="true"
       // Event-Listener für den Klick außerhalb des Modals
       onClick={handleBackdropClick}

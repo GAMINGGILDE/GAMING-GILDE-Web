@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isShow, setShow] = useState<boolean>(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", (event) => {
+    window.addEventListener("scroll", () => {
       setFixed(window.scrollY >= 100);
     });
   }, []);
@@ -18,7 +18,12 @@ export const Navbar = () => {
     <>
       <nav
         style={{ zIndex: 99 }}
-        className={`fixed w-full px-5 border-bottom top-0 start-0 ${isShow && "navbar"} ${isFixed && "navbar"}`}
+        className={[
+          "fixed w-full px-5 border-bottom top-0 start-0",
+          isShow || isFixed ? "navbar" : "",
+        ]
+          .filter(Boolean)
+          .join(" ")}
       >
         <div className="max-w-(--breakpoint-xl) flex flex-wrap items-center justify-between mx-auto py-3">
           <a href="/" className="flex items-center">

@@ -6,7 +6,7 @@ interface HeadlineInterface {
   subTitle: React.ReactNode;
   text: React.ReactNode;
   image?: React.ReactNode;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const Headline = (props: HeadlineInterface) => {

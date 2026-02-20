@@ -4,10 +4,11 @@ import Link from "next/link";
 import { Modal } from "../Modal/index";
 import React, { useState } from "react";
 import Image from "next/image";
+import type { ImageProps } from "next/image";
 
 interface GameServerCardInterface {
   title: string;
-  image: string | unknown;
+  image: ImageProps["src"];
   onClick?: () => void;
   children: React.ReactNode;
   cardText: React.ReactNode;
