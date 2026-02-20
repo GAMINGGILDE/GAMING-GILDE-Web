@@ -70,12 +70,10 @@ export const GameServer = () => {
             </div>
             <div className="col-span-12 lg:col-span-4">
               <p className="mt-8 font-light">
-                Hey, cool, dass du uns gefunden hast!
+                <strong>Nice, dass du uns gefunden hast!</strong>
                 <br />
-                Schau dich doch einfach mal bei uns um und finde heraus, ob wir ein gutes Match
-                sind.
-                <br />
-                Wir freuen uns auf dich.
+                Check mal ab, ob wir dein Vibe sind und ob du hier andocken willst. Wir warten schon
+                auf dich.
               </p>
 
               <Link
@@ -83,7 +81,7 @@ export const GameServer = () => {
                 target="_blank"
                 className="inline-block mt-7 py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover"
               >
-                Zu unserem Discord
+                Discord beitreten
               </Link>
             </div>
           </div>
@@ -91,7 +89,7 @@ export const GameServer = () => {
 
         <div className="mt-30 my-20">
           <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">
-            Finde hier unsere besten Gameserver
+            Unsere aktuellen Gameserver
           </h1>
 
           <GameServerCard
@@ -524,14 +522,12 @@ export const GameServer = () => {
 
         <div className="text-white space-y-5">
           <p>
-            Wenn du schon immer der Admin deines eigenen Gameservers sein wolltest, ist das die
-            Gelegenheit. Gerne stellen wir dir dazu auf unserem Discord-Server einen eigenen Kanal
-            zur Verfügung, damit du zu deinem neuem Gameserver von unserer Reichweite und Spielern
-            profitieren kannst.
+            Eigener Server gefällig? Go for it. Wir geben dir dazu deinen eigenen Discord‑Channel,
+            damit du easy Leute erreichst und direkt loslegen kannst.
           </p>
 
           <p>
-            Verwende den folgenden Rabatt-Code, um dir die 20% bei deiner Buchung zu sichern:
+            Verwende diesen Rabatt-Code, um dir 20% bei deiner Buchung zu sichern:
             <strong> schiroky-a-6751</strong>.
           </p>
         </div>
