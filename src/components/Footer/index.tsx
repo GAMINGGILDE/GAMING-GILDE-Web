@@ -25,7 +25,7 @@ export const Footer = () => {
               . Alle Rechte vorbehalten.
             </p>
 
-            <div className="flex justify-center items-center">
+            <div className="mt-3 lg:mt-0 flex justify-center items-center">
               <div className="mx-2">
                 <Link href="https://discord.anti-corona-kartell.de" title="Discord" target="_blank">
                   <FaDiscord className="w-5 h-5 text-white hover:text-primary" />
