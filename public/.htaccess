@@ -1,16 +1,20 @@
 DirectoryIndex index.html
-Options -MultiViews
 
-RewriteEngine On
-RewriteBase /
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
 
-# Bestehende Dateien/Ordner unveraendert ausliefern
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
+  # Bestehende Dateien/Ordner unveraendert ausliefern
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
 
-# Fuer exportierte Unterseiten ohne Dateiendung auf /index.html mappen
-RewriteRule ^(.+?)/?$ /$1/index.html [L]
+  # Fuer exportierte Unterseiten ohne Dateiendung auf /index.html mappen
+  # Verhindert interne Rewrite-Schleifen bei nicht existierenden Seiten.
+  RewriteCond %{REQUEST_URI} !/index\.html$ [NC]
+  RewriteCond %{REQUEST_URI} !\.[^./]+$ [NC]
+  RewriteRule ^(.+?)/?$ /$1/index.html [L]
+</IfModule>
 
 # Eigene 404-Seite nutzen
 ErrorDocument 404 /404.html
