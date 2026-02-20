@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -9,19 +9,39 @@ export const Navbar = () => {
   const [isShow, setShow] = useState<boolean>(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       setFixed(window.scrollY >= 100);
-    });
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
+  const hasGlassEffect = isShow || isFixed;
+  const navStyle = useMemo(
+    () => ({
+      zIndex: 99,
+      ...(hasGlassEffect
+        ? {
+            background: "rgba(15, 52, 90, 0.2)",
+            backdropFilter: "saturate(180%) blur(20px)",
+            WebkitBackdropFilter: "saturate(180%) blur(20px)",
+            transition: "background 300ms ease, backdrop-filter 300ms ease",
+          }
+        : {}),
+    }),
+    [hasGlassEffect],
+  );
 
   return (
     <>
       <nav
-        style={{ zIndex: 99 }}
-        className={[
-          "fixed w-full px-5 border-bottom top-0 start-0",
-          isShow || isFixed ? "navbar" : "",
-        ]
+        style={navStyle}
+        className={["fixed w-full px-5 border-bottom top-0 start-0", hasGlassEffect ? "navbar" : ""]
           .filter(Boolean)
           .join(" ")}
       >
