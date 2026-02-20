@@ -43,33 +43,37 @@ export default function RootLayout({
         {/* JSON-LD Structured Data (global) */}
         <JsonLd id="ld-default" data={buildDefaultJsonLdGraph()} />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+      >
         <Navbar />
 
         <div className="mb-40">{children}</div>
 
-        <Divider
-          images={previews}
-          texts={[
-            {
-              title: "Lust auf Minecraft wie zu Anfangszeiten?",
-              subTitle:
-                "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-            },
-            {
-              title: "Minecraft Spielkammeraden gesucht?",
-              subTitle:
-                "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-            },
-            {
-              title: "Deutschlands erster Minecraft Server auf Folia-Basis:",
-              subTitle:
-                "<a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-            },
-          ]}
-        />
+        <div className="mt-auto">
+          <Divider
+            images={previews}
+            texts={[
+              {
+                title: "Lust auf Minecraft wie zu Anfangszeiten?",
+                subTitle:
+                  "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
+              },
+              {
+                title: "Minecraft Spielkammeraden gesucht?",
+                subTitle:
+                  "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
+              },
+              {
+                title: "Deutschlands erster Minecraft Server auf Folia-Basis:",
+                subTitle:
+                  "<a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
+              },
+            ]}
+          />
 
-        <Footer />
+          <Footer />
+        </div>
       </body>
     </html>
   );

@@ -1,0 +1,16 @@
+DirectoryIndex index.html
+Options -MultiViews
+
+RewriteEngine On
+RewriteBase /
+
+# Bestehende Dateien/Ordner unveraendert ausliefern
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Fuer exportierte Unterseiten ohne Dateiendung auf /index.html mappen
+RewriteRule ^(.+?)/?$ /$1/index.html [L]
+
+# Eigene 404-Seite nutzen
+ErrorDocument 404 /404.html
