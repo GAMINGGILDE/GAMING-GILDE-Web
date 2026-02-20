@@ -87,7 +87,7 @@ Die für das Paket benötigten Dependencies und deren definierten bzw. benötigt
 
 Bei Fragen zur Technik oder Verwendung sind hier die betreffenden Anlaufstellen zur Recherche:
 
-[![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://aka.ms/ComplianceUtility/Manual) [![YarnManual](https://img.shields.io/badge/Yarn%20Documentation-2C8EBB?logo=gitbook&logoColor=white)](https://classic.yarnpkg.com/en/docs) [![GitHubManual](https://img.shields.io/badge/GitHub%20Desktop%20Dokumentation-black?logo=gitbook&logoColor=white)](https://docs.github.com/de/desktop) [![GitManual](https://img.shields.io/badge/Git%20Discussions-F05032?logo=gitbook&logoColor=white)](https://github.com/git-for-windows/git/discussions)  [![Next.js](https://img.shields.io/badge/Next.js%20Docs-black?logo=gitbook&logoColor=white)](https://nextjs.org/docs)
+[![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://aka.ms/ComplianceUtility/Manual) [![YarnManual](https://img.shields.io/badge/Yarn%20Documentation-2C8EBB?logo=gitbook&logoColor=white)](https://classic.yarnpkg.com/en/docs) [![GitHubManual](https://img.shields.io/badge/GitHub%20Desktop%20Dokumentation-black?logo=gitbook&logoColor=white)](https://docs.github.com/de/desktop) [![GitManual](https://img.shields.io/badge/Git%20Discussions-F05032?logo=gitbook&logoColor=white)](https://github.com/git-for-windows/git/discussions) [![Next.js](https://img.shields.io/badge/Next.js%20Docs-black?logo=gitbook&logoColor=white)](https://nextjs.org/docs)
 
 ## Off-Topic: Tipps zum Editieren
 
