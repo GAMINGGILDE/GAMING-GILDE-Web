@@ -35,8 +35,8 @@ export const History = () => {
             Protest zu den damaligen Umständen symbolisierte: ANTI-CORONA-KARTELL.
           </p>
 
-          <p className="text-lg mb-5">
-            Die Gründungsmitglieder:
+          <div className="text-lg mb-5">
+            <p>Die Gründungsmitglieder:</p>
             <ul className="list-disc list-inside m-4">
               <li>
                 <a
@@ -124,7 +124,7 @@ export const History = () => {
                 </a>
               </li>
             </ul>
-          </p>
+          </div>
           <p className="text-lg mb-5">
             Beim ersten Treffen (2022) haben wir uns kulinarisch bei einem ausgiebigen mexikanischen
             Essen getroffen und mit mobilen Spielekonsolen (Nintendo Switch) unserm Hobby gefrönt.
