@@ -1,13 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  FaDiscord,
-  FaGithub,
-  FaTiktok,
-  FaTwitch,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaTiktok, FaTwitch, FaYoutube } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
