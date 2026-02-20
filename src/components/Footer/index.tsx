@@ -17,7 +17,7 @@ export const Footer = () => {
       <div className="mt-5 text-white container m-auto px-10">
         <div className="my-24">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between flex-wrap font-extralight text-xs">
-            <p className="lg:flex-1 text-left">
+            <p className="lg:flex-1 text-center lg:text-left">
               &copy;{new Date().getFullYear()}{" "}
               <a href="https://schiroky.com" target="_blank">
                 Claus Schiroky{" "}
@@ -69,7 +69,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div className="mt-3 lg:mt-0 lg:flex-1 text-right">
+            <div className="mt-3 lg:mt-0 lg:flex-1 text-center lg:text-right">
               <Link href="/impressum" title="Impressum" className="mr-4 hover:text-primary">
                 Impressum{" "}
               </Link>
