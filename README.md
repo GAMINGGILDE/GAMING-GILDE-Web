@@ -54,6 +54,14 @@ yarn up
 
 > **Tipp:** Mit dem Terminal Befehl: `yarn info` können die Versionen aller bestehenden Dependencies ausgegeben werden.
 
+### Renovate Bot
+
+Renovate Bot ist eine GitHub-App die automatisch Abhängigkeiten in Repositories aktualliert, indem  Paketdateien erkannt und bei neuen Versionen selbstständig Pull Requests erstellt:
+
+* [![RenovateBot](https://img.shields.io/badge/RenovateBot-1A1F6C?logo=renovate&logoColor=fff)](https://github.com/apps/renovate)
+
+Installation und Verwendung dringend empfohlen.
+
 ## Testing
 
 Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website via Browser-Vorschau überprüft werden kann:
