@@ -139,7 +139,7 @@ export default function Imprint() {
 
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
-              <p className="sub-text font-light" mt-2>
+              <p className="sub-text font-light mt-2">
                 Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
                 Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
                 wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich
