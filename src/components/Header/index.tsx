@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import type { ImageProps } from "next/image";
 import PreviewImage from "../../assets/index-bg-3.webp";
 import React, { useCallback, useEffect, useState } from "react";
 import { Headline } from "./components/Headline/index";
@@ -10,22 +11,18 @@ export const Header = ({
   previews,
 }: {
   noText?: boolean;
-  previews: string[] | unknown[];
+  previews: Array<ImageProps["src"]>;
 }) => {
-  const [image, setImage] = useState<string | null>(PreviewImage);
+  const [image, setImage] = useState<ImageProps["src"]>(PreviewImage);
 
   useEffect(() => {
-    if (previews) {
+    if (previews.length > 0) {
       const randomIndex = Math.floor(Math.random() * previews.length);
       setImage(previews[randomIndex]);
     }
   }, [previews]);
 
   const RenderImage = useCallback(() => {
-    if (!image) {
-      return <></>;
-    }
-
     return (
       <div className="absolute top-0" style={{ zIndex: -1 }}>
         <div className="img-wrap">

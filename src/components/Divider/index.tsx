@@ -28,8 +28,8 @@ export const DividerButton = ({ link, title }: DividerButtonInterface) => (
 );
 
 export const Divider = ({ texts, images }: DividerInterface) => {
-  const [text, setText] = useState<DividerItemInterface | null>(texts[0]);
-  const [image, setImage] = useState<string | null>(images[0].src);
+  const [text, setText] = useState<DividerItemInterface | null>(texts[0] ?? null);
+  const [image, setImage] = useState<string | null>(images[0]?.src ?? null);
 
   useEffect(() => {
     if (texts) {
@@ -54,7 +54,7 @@ export const Divider = ({ texts, images }: DividerInterface) => {
           style={{ zIndex: 99 }}
         >
           <span>{text?.title}</span> <br />
-          <span dangerouslySetInnerHTML={{ __html: text?.subTitle }} />
+          <span dangerouslySetInnerHTML={{ __html: text?.subTitle ?? "" }} />
         </p>
       </div>
     </div>
