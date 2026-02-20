@@ -19,7 +19,7 @@ Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten
 
 [![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current) [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff)](https://classic.yarnpkg.com/en/docs/install#windows-stable) [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download) [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org)
 
-**Achtung:** Next.js ist hier eine Ausnahme. Denn  Version 16.x ist noch nicht kompatibel mit den Dependencies diese Projekts.<br>
+**Achtung:** Next.js ist hier eine Ausnahme. Denn Version 16.x ist noch nicht kompatibel mit den Dependencies diese Projekts.<br>
 Also vorerst noch Node.js 15.x latest installieren.
 
 Aktuell installierte Versionen können im Terminal der verwendeten IDE mit folgenden Befehlen ausgegeben werden:
