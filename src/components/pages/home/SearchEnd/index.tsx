@@ -15,15 +15,15 @@ export const SearchEnd = () => {
             Was dich bei uns erwartet:
           </h1>
           <p className="text-white font-thin mt-4 mb-7">
-            Auf unserem Discord bekommst du aktuelle News zu Games und Hardware, kannst Mitspieler
-            für viele verschiedene Spiele finden und dich rund ums Gaming austauschen. Außerdem
-            stellen wir dir kostenlos unsere Lifetime‑Gameserver für Satisfactory, Minecraft und
-            Core Keeper sowie weitere wechselnde Server für weitere Games bereit.
+            Auf unserem Discord bleibst du immer up to date, was Games und Hardware angeht. Finde
+            Mitspieler für eine riesige Auswahl an Games, quatsch mit anderen über alles rund ums
+            Zocken und werde Teil unserer Community. Außerdem bekommst du kostenlosen Zugang zu
+            unseren Gameservern – plus wechselnde Gameserver für neue oder angesagte Titel.
             <br />
             Also jede Menge Spaß und Abwechslung mit Spielen garantiert!
             <br />
             <br />
-            Zudem kannst du durch uns{" "}
+            Durch uns bekommst du{" "}
             <a
               className="text-primary hover:underline"
               href="https://zap-hosting.com/anticoronakartellbanner"
@@ -31,8 +31,8 @@ export const SearchEnd = () => {
             >
               20% Rabatt
             </a>{" "}
-            auf einen eigenen Gameserver bei unserm Hoster bekommen. Wenn du schon immer Herr über
-            einen eigenen Gameserver sein wolltest, ist das die Gelegenheit.
+            auf deinen eigenen Gameserver bei unserem Hoster. Wenn du schon immer deinen eigenen
+            Server kontrollieren wolltest, ist jetzt der perfekte Moment.
             <br />
             <br />
             Wie wäre es mit deinem eigenen Kanal auf unserem Discord‑Server? Zu deinem Gameserver
