@@ -9,16 +9,14 @@ import { Header } from "../../Header/index";
 import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
-import Wreckfest2Image from "../../../assets/gameserver-wreckfest2.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
 import HytaleImage from "../../../assets/gameserver-hytale.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
-import PreviewImage4 from "../../../assets/gameserver-bg-wreckfest2.webp";
-import PreviewImage5 from "../../../assets/gameserver-bg-7Days.webp";
-import PreviewImage6 from "../../../assets/gameserver-bg-hytale.webp";
+import PreviewImage4 from "../../../assets/gameserver-bg-7Days.webp";
+import PreviewImage5 from "../../../assets/gameserver-bg-hytale.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
@@ -29,7 +27,6 @@ const previews = [
   PreviewImage3,
   PreviewImage4,
   PreviewImage5,
-  PreviewImage6,
 ];
 
 export const GameServer = () => {
@@ -248,38 +245,6 @@ export const GameServer = () => {
                 7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
                 Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
                 Vorreiter der Zombie-Survival-Sandbox-RPGs.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Wreckfest 2"}
-            image={Wreckfest2Image}
-            onClick={() => copyLink("194.62.157.159:30100")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Starte die Motoren und lass es Krachen!</p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Adresse:</strong> 194.62.157.159:30100
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Bereit fürs Chaos? Wreckfest ist wieder da mit den besten Vollkontakt-Rennen und
-                totaler Zerstörung! Erlebe Kopf-an-Kopf-Kämpfe, während du die Fahrzeuge deiner
-                Gegner auseinandernimmst. Von den Machern von Wreckfest & FlatOut mit einer
-                verbesserten Physik-Engine!
               </p>
             </>
           </GameServerCard>
