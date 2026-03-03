@@ -17,7 +17,7 @@ const EventPage = () => {
         <div className="relative block text-white text-center">
           <div className="flex flex-row justify-center m-0 p-0 gap-x-2 lg:gap-x-10 uppercase">
             <h1 className="text-2xl sm:text-3xl lg:text-[8rem] font-bold tracking-widest m-0 lg:leading-none">
-              Kein
+              Neuer
             </h1>
             <h1 className="text-2xl linear-text sm:text-3xl lg:text-[8rem] font-bold tracking-widest m-0 lg:leading-none">
               Event

@@ -24,16 +24,58 @@ import React from "react";
 export const TextContent = () => {
   return (
     <div className="my-20 text-white w-full m-auto">
-      <p className="text-base lg:text-lg mb-5">
-        Schau gerne später wieder vorbei oder komm auf unseren{" "}
+      {/*  <p className="text-base lg:text-lg mb-5">
+                Schau gerne später wieder vorbei oder komm auf unseren <a className="text-primary hover:underline" href="https://discord.anti-corona-kartell.de" target="_blank">Discord-Server</a>, um kein Event mehr zu verpassen.
+            </p> */}
+
+      <p className="text-base lg:text-lg mb-4">
+        <strong>
+          <a
+            className="text-primary hover:underline"
+            href="https://www.youtube.com/@Anti-Corona-Kartell/videos"
+            target="_blank"
+          >
+            Community Treffen 2026
+          </a>
+        </strong>
+      </p>
+
+      <p className="sub-text font-bold mb-4">Samstag, 7. März 2025, 9:30 Uhr.</p>
+
+      <p className="sub-text font-light mb-4">
+        Das Treffen der Community steht wieder an. Wir begeben uns auf eine kleine Stadtführung
+        durch die Altstadt von Nürnberg mit abschließender Einkehr zum Mittagessen.
+      </p>
+
+      <p className="sub-text font-light mb-4">
+        Es erwartet euch eine spannende Reise durch Nürnberg bei der ihr einige geschichtliche
+        Hintergründe vermittelt bekommt. Wir starten um <strong>9:30 Uhr</strong> vom Hauptbahnhof
+        in Nürnberg in Richtung Altstadt. Auf dem Weg zur Kaiserburg kreuzen wir einige
+        Sehenswürdigkeiten, um dann gegen <strong>13:00 Uhr</strong> gemeinsam zum Mittagessen
+        fränkische Spezialitäten zu genießen.
+      </p>
+
+      <p className="sub-text font-light mb-4">
+        <strong>Wichtig:</strong> Wenn du mit dabei sein willst, musst du dich bitte auf unserem
+        Discord Server im{" "}
         <a
           className="text-primary hover:underline"
-          href="https://discord.anti-corona-kartell.de"
+          href="https://discord.com/events/991419109298417734/1469352806711562383"
           target="_blank"
         >
-          Discord-Server
-        </a>
-        , um kein Event mehr zu verpassen.
+          betreffenden Event
+        </a>{" "}
+        als „Interessiert“ anmelden, damit wir bei der Reservierung genügend Sitzplätze
+        gewährleisten können.
+      </p>
+
+      <p className="sub-text font-light mb-4">
+        <strong>Anmeldeschluss:</strong> 26. Februar.
+      </p>
+
+      <p className="sub-text font-light mb-4">
+        Wir freuen uns schon jetzt auf einen großartigen Tag und darauf, dass du auch mit dabei
+        bist.
       </p>
 
       <p className="text-base lg:text-lg mb-4">
