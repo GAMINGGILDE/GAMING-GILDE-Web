@@ -21,13 +21,7 @@ import PreviewImage5 from "../../../assets/gameserver-bg-hytale.webp";
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [
-  PreviewImage1,
-  PreviewImage2,
-  PreviewImage3,
-  PreviewImage4,
-  PreviewImage5,
-];
+const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
 export const GameServer = () => {
   const [isShow, setShow] = useState<boolean>(false);
