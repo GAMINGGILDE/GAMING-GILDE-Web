@@ -11,17 +11,26 @@ import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
 import HytaleImage from "../../../assets/gameserver-hytale.webp";
+import ValheimImage from "../../../assets/gameserver-valheim.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-7Days.webp";
 import PreviewImage5 from "../../../assets/gameserver-bg-hytale.webp";
+import PreviewImage6 from "../../../assets/gameserver-bg-valheim.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
 
-const previews = [PreviewImage1, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
+const previews = [
+  PreviewImage1,
+  PreviewImage2,
+  PreviewImage3,
+  PreviewImage4,
+  PreviewImage5,
+  PreviewImage6,
+];
 
 export const GameServer = () => {
   const [isShow, setShow] = useState<boolean>(false);
@@ -82,6 +91,38 @@ export const GameServer = () => {
           <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">
             Unsere aktuellen Gameserver
           </h1>
+
+          <GameServerCard
+            title={"Valheim"}
+            image={ValheimImage}
+            onClick={() => copyLink("194.62.157.159:2456")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Adresse kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>
+                  Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.
+                </p>
+                <p>
+                  <strong>Name:</strong> ANTI-CORONA-KARTELL
+                </p>
+                <p>
+                  <strong>Adresse:</strong> 194.62.157.159:2456
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Ein brutales 1-10 Spieler Multiplayer-Erkundungs- und Survivalspiel in einem
+                prozedural generierten Fegefeuer inspiriert von der Kultur der Wikinger.
+              </p>
+            </>
+          </GameServerCard>
 
           <GameServerCard
             title={"Hytale"}

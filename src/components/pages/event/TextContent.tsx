@@ -44,6 +44,23 @@ export const TextContent = () => {
         <strong>
           <a
             className="text-primary hover:underline"
+            href="https://youtu.be/iPWC_G-8Itk"
+            target="_blank"
+          >
+            Community Treffen 2026
+          </a>
+        </strong>
+      </p>
+      <p className="sub-text font-light mb-4">
+        Unser diesjähriges Festmahl wurde zu einem besonderen Highlight: Vor der malerischen Kulisse
+        Österreichs genossen wir ein stilvolles Grill-Event voller herzlicher Atmosphäre und
+        genussvoller Momente.
+      </p>
+
+      <p className="text-base lg:text-lg mb-0">
+        <strong>
+          <a
+            className="text-primary hover:underline"
             href="https://youtu.be/WxAkHRlCObw?si=1lvA7uV_Lf4XYVh1"
             target="_blank"
           >
