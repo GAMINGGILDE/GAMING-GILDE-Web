@@ -113,6 +113,11 @@ export const GameServer = () => {
                 <p>
                   <strong>Adresse:</strong> 194.62.157.159:2456
                 </p>
+
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
+                </p>
               </>
             }
           >
