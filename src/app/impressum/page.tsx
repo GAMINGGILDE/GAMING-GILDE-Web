@@ -107,7 +107,7 @@ export default function Imprint() {
 
           <div className="mt-5">
             <h1 className="text-2xl mb-3">
-              Angaben gemäß §5{" "}
+              Angaben gemäß § 5{" "}
               <a
                 className="text-primary hover:underline"
                 href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html"
