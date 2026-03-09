@@ -136,7 +136,7 @@ export const GameServer = () => {
             button={
               <>
                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Einladungs-Code kopieren</p>
+                <p className="text-sm font-light text-white">Einladungscode kopieren</p>
               </>
             }
             cardText={
@@ -148,7 +148,7 @@ export const GameServer = () => {
                   <strong>Name:</strong> ANTI-CORONA-KARTELL
                 </p>
                 <p>
-                  <strong>Einladungs-Code:</strong> D-NQVCJD-RYSL8W
+                  <strong>Einladungscode:</strong> D-NQVCJD-RYSL8W
                 </p>
               </>
             }
