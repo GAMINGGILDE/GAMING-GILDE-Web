@@ -10,14 +10,14 @@ import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
-import HytaleImage from "../../../assets/gameserver-hytale.webp";
 import ValheimImage from "../../../assets/gameserver-valheim.webp";
+import MoriaImage from "../../../assets/gameserver-moria.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-7Days.webp";
-import PreviewImage5 from "../../../assets/gameserver-bg-hytale.webp";
+import PreviewImage5 from "../../../assets/gameserver-moria.webp";
 import PreviewImage6 from "../../../assets/gameserver-bg-valheim.webp";
 
 import Alert from "../../Alert/index";
@@ -130,130 +130,35 @@ export const GameServer = () => {
           </GameServerCard>
 
           <GameServerCard
-            title={"Hytale"}
-            image={HytaleImage}
-            onClick={() => copyLink("194.62.157.159:5520")}
+            title={"The Lord of the Rings: Return to Moria"}
+            image={MoriaImage}
+            onClick={() => copyLink("D-NQVCJD-RYSL8W")}
             button={
               <>
                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
+                <p className="text-sm font-light text-white">Einladungs-Code kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>
-                  Steig ein, hinterlasse deine Spuren und helfe, die Welt gemeinsam zu gestalten!
+                  Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern.
                 </p>
                 <p>
                   <strong>Name:</strong> ANTI-CORONA-KARTELL
                 </p>
                 <p>
-                  <strong>Adresse:</strong> 194.62.157.159:5520
-                </p>
-                <p>
-                  <strong>Hinweis:</strong> Es werden einige serverseitige MODs verwendet.
+                  <strong>Einladungs-Code:</strong> D-NQVCJD-RYSL8W
                 </p>
               </>
             }
           >
             <>
               <p className="text-base leading-relaxed text-gray-500">
-                Begeben Sie sich auf ein Abenteuer, das sowohl für die Gestaltung als auch für das
-                Spielen geschaffen wurde. Hytale verbindet die Freiheit einer Sandbox mit der
-                Dynamik eines Rollenspiels: Erkunden Sie eine prozedural generierte Welt voller
-                Dungeons, Geheimnisse und einer Vielzahl von Kreaturen und gestalten Sie sie dann
-                Block für Block.
-              </p>
-              <p className="text-base leading-relaxed text-gray-500">
-                <strong>Verwendete Mods: </strong>
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/essentials-core"
-                  target="_blank"
-                >
-                  Essentials Core
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/bettermap"
-                  target="_blank"
-                >
-                  {" "}
-                  BetterMap
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/gravestones"
-                  target="_blank"
-                >
-                  Gravestones
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/luckperms"
-                  target="_blank"
-                >
-                  {" "}
-                  LuckPerms
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/no-teleporters-limit"
-                  target="_blank"
-                >
-                  {" "}
-                  Extended Teleporters
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/simple-claims"
-                  target="_blank"
-                >
-                  {" "}
-                  Simple Claims
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/repair-anvil"
-                  target="_blank"
-                >
-                  {" "}
-                  Repair Anvil
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/hytame"
-                  target="_blank"
-                >
-                  {" "}
-                  HyTame - Animal Breeding
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/miners-helmet"
-                  target="_blank"
-                >
-                  {" "}
-                  Miners Helmet
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.curseforge.com/hytale/mods/chestrangemod"
-                  target="_blank"
-                >
-                  {" "}
-                  ChestRangeMod
-                </a>
-                .
+                Das einzige Survival-Crafting-Game im Vierten Zeitalter von Mittelerde™. Begib dich
+                auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern. Kundschafte,
+                werke und baue als Solo-Abenteurer oder mit bis zu sieben weiteren Gefährten im
+                Koop-Modus.
               </p>
             </>
           </GameServerCard>
