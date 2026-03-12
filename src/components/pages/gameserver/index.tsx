@@ -93,7 +93,7 @@ export const GameServer = () => {
           </h1>
 
           <GameServerCard
-            title={"Valheim"}
+            title={"Valheim Plus"}
             image={ValheimImage}
             onClick={() => copyLink("194.62.157.159:2456")}
             button={
@@ -112,6 +112,17 @@ export const GameServer = () => {
                 </p>
                 <p>
                   <strong>Adresse:</strong> 194.62.157.159:2456
+                </p>
+
+                <p>
+                  <strong>Mod:</strong>{" "}
+                  <a
+                    className="text-primary hover:underline"
+                    href="https://www.nexusmods.com/valheim/mods/2323"
+                    target="_blank"
+                  >
+                    Valheim Plus
+                  </a>
                 </p>
 
                 <p>
