@@ -59,9 +59,8 @@ export default function Imprint() {
             </div>
             <div className="mt-10 lg:mt-0">
               <h1 className="text-sm mb-4">
-                Dieses Impressum gilt auch für folgende Online-Profile:
+                Du findest uns auch auf den folgenden sozialen Netzwerken:
               </h1>
-
               <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
                 <p className="font-semibold">YouTube</p>
                 <a
@@ -152,6 +151,57 @@ export default function Imprint() {
                 Diese Website stellt Informationen und kostenlose Gameserver für verschiedene Spiele
                 zur Verfügung. Die Nutzung der Server erfolgt freiwillig und unentgeltlich.
               </p>
+            </div>
+
+            <div className="mt-5">
+              <h2 className="text-2xs font-semibold">Geltungsbereich dieses Impressums</h2>
+              <p className="sub-text font-light mt-2">
+                Die Angaben dieses Impressums finden auch Anwendung für unsere folgende
+                Online‑Präsenzen:
+              </p>
+
+              <ul className="list-disc list-inside m-4">
+                <li>
+                  YouTube:{"\u00A0"}
+                  <a
+                    className="font-light text-primary hover:underline"
+                    href="https://www.youtube.com/@Anti-Corona-Kartell"
+                    target="_blank"
+                  >
+                    https://www.youtube.com/@Anti-Corona-Kartell
+                  </a>
+                </li>
+                <li>
+                  Twitch:{"\u00A0"}
+                  <a
+                    className="font-light text-primary hover:underline"
+                    href="https://www.twitch.tv/anti_corona_kartell"
+                    target="_blank"
+                  >
+                    https://www.twitch.tv/anti_corona_kartell
+                  </a>
+                </li>
+                <li>
+                  TikTok:{"\u00A0"}
+                  <a
+                    className="font-light text-primary hover:underline"
+                    href="https://www.tiktok.com/@anticoronakartell"
+                    target="_blank"
+                  >
+                    https://www.tiktok.com/@anticoronakartell
+                  </a>
+                </li>
+                <li>
+                  Discord:{"\u00A0"}
+                  <a
+                    className="font-light text-primary hover:underline"
+                    href="https://discord.anti-corona-kartell.de"
+                    target="_blank"
+                  >
+                    https://discord.anti-corona-kartell.de
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div className="mt-5">
