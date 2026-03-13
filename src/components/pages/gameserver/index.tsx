@@ -2,7 +2,6 @@
 
 import { GameServerCard } from "../../Card/GameServerCard";
 import React, { useEffect, useState } from "react";
-import Hosting from "../../../assets/zap-hosting-banner.jpeg";
 import Image from "next/image";
 import { Header } from "../../Header/index";
 

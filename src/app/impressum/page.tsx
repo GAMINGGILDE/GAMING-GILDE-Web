@@ -59,7 +59,7 @@ export default function Imprint() {
             </div>
             <div className="mt-10 lg:mt-0">
               <h1 className="text-sm mb-4">
-                Dieses Impressum gilt auch für die Darstellung des ANTI-CORONA-KARTELLs auf:
+                Dieses Impressum gilt auch für folgende Online-Profile:
               </h1>
 
               <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
@@ -118,7 +118,7 @@ export default function Imprint() {
               :
             </h1>
             <p className="sub-text font-light">
-              <strong>Claus Schiroky</strong>
+              Claus Schiroky
               <br />
               Ährenweg 6<br />
               85375 Neufahrn
@@ -127,6 +127,24 @@ export default function Imprint() {
               <strong>E-Mail: </strong>
               <span ref={emailRef} />
             </div>
+
+            <h1 className="text-2xl mb-3 mt-5">
+              Verantwortlich für den Inhalt nach § 18 Abs. 2{" "}
+              <a
+                className="text-primary hover:underline"
+                href="https://www.gesetze-bayern.de/Content/Document/MStV/true"
+                target="_blank"
+              >
+                MStV
+              </a>
+              :
+            </h1>
+            <p className="sub-text font-light">
+              Claus Schiroky
+              <br />
+              Ährenweg 6<br />
+              85375 Neufahrn
+            </p>
 
             <div className="mt-10">
               <h2 className="text-2xs font-semibold">Art des Dienstes</h2>
@@ -141,9 +159,9 @@ export default function Imprint() {
               <p className="sub-text font-light mt-2">
                 Ihre Privatsphäre ist uns sehr wichtig. Unsere{" "}
                 <a className="text-primary hover:underline" href="../datenschutz">
-                  Datenschutzbestimmungen
+                  Datenschutzerklärung
                 </a>{" "}
-                erläutern, welche persönlichen Daten von ihnen erhoben werden und wie sie von uns
+                erläutert, welche persönlichen Daten von ihnen erhoben werden und wie sie von uns
                 verwendet werden. Bei weiteren Fragen zum Datenschutz wenden sie sich bitte an den
                 Websitebetreiber.
               </p>
@@ -152,11 +170,9 @@ export default function Imprint() {
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
               <p className="sub-text font-light mt-2">
-                Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
-                Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
-                wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich
-                rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa
-                durch Spam-E-Mails, vor.
+                Der Nutzung der im Impressum veröffentlichten Kontaktdaten zur Übersendung von nicht
+                ausdrücklich angeforderter Werbung wird widersprochen. Rechtliche Schritte bei
+                unverlangter Zusendung von Werbeinformationen bleiben vorbehalten.
               </p>
             </div>
 
