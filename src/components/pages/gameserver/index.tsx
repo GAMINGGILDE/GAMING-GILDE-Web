@@ -113,21 +113,9 @@ export const GameServer = () => {
                 <p>
                   <strong>Adresse:</strong> 194.62.157.159:2456
                 </p>
-
                 <p>
-                  <strong>Mod:</strong>{" "}
-                  <a
-                    className="text-primary hover:underline"
-                    href="https://www.nexusmods.com/valheim/mods/2323"
-                    target="_blank"
-                  >
-                    Valheim Plus
-                  </a>
-                </p>
-
-                <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
-                  Discord-Server.
+                  <strong>Hinweis:</strong> Ein Passwort und ein Mod wird benötigt. Das Passwort ist
+                  auf unserem Discord-Server zu finden.
                 </p>
               </>
             }
@@ -136,6 +124,17 @@ export const GameServer = () => {
               <p className="text-base leading-relaxed text-gray-500">
                 Ein brutales 1-10 Spieler Multiplayer-Erkundungs- und Survivalspiel in einem
                 prozedural generierten Fegefeuer inspiriert von der Kultur der Wikinger.
+              </p>
+
+              <p className="text-base leading-relaxed text-gray-500">
+                <strong>Benötigter Mod: </strong>
+                <a
+                  className="text-primary hover:underline"
+                  href="https://www.nexusmods.com/valheim/mods/2323"
+                  target="_blank"
+                >
+                  Valheim Plus
+                </a>
               </p>
             </>
           </GameServerCard>
@@ -405,52 +404,6 @@ export const GameServer = () => {
               </p>
             </>
           </GameServerCard>
-        </div>
-
-        <div className="space-y-2 mt-10 text-white">
-          <h2 className="text-xl lg:text-2xl lg:text-3xl font-smibold mb-4 uppercase linear-text">
-            20% auf deinen eigenen Gameserver
-          </h2>
-
-          <p>
-            Wir hosten alle unsere Gameserver bei Zap-Hosting. Durch unsere Zusammenarbeit mit
-            Zap-Hosting bekommst du{" "}
-            <a
-              className="text-primary hover:underline"
-              href="https://zap-hosting.com/anticoronakartellbanner"
-              target="_blank"
-            >
-              20% Rabatt
-            </a>{" "}
-            auf deinen eigenen Gameserver!
-          </p>
-          <p>Auf die gesamte Laufzeit aller Produkte.</p>
-        </div>
-
-        <div className="my-5">
-          <Link href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">
-            <Image
-              src={Hosting}
-              alt={"hosting"}
-              width={1000}
-              height={1000}
-              className="w-[800px]"
-              priority={true}
-              loader={(loader) => `${loader.src}`}
-            />
-          </Link>
-        </div>
-
-        <div className="text-white space-y-5">
-          <p>
-            Eigener Server gefällig? Go for it. Wir geben dir dazu deinen eigenen Discord‑Channel,
-            damit du easy Leute erreichst und direkt loslegen kannst.
-          </p>
-
-          <p>
-            Verwende diesen Rabatt-Code, um dir 20% bei deiner Buchung zu sichern:
-            <strong> schiroky-a-6751</strong>.
-          </p>
         </div>
       </div>
     </div>

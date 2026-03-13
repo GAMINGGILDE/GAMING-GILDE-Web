@@ -23,18 +23,6 @@ export const SearchEnd = () => {
             Also jede Menge Spaß und Abwechslung mit Spielen garantiert!
             <br />
             <br />
-            Durch uns bekommst du{" "}
-            <a
-              className="text-primary hover:underline"
-              href="https://zap-hosting.com/anticoronakartellbanner"
-              target="_blank"
-            >
-              20% Rabatt
-            </a>{" "}
-            auf deinen eigenen Gameserver bei unserem Hoster. Wenn du schon immer deinen eigenen
-            Server kontrollieren wolltest, ist jetzt der perfekte Moment.
-            <br />
-            <br />
             Wie wäre es mit deinem eigenen Kanal auf unserem Discord‑Server? Zu deinem Gameserver
             bekommst du bei uns direkt einen passenden, gemütlichen Platz in der Community, damit du
             noch leichter Leute findest, die mit dir zusammen zocken, quatschen und Spaß haben.

@@ -107,7 +107,7 @@ export default function Imprint() {
 
           <div className="mt-5">
             <h1 className="text-2xl mb-3">
-              Angaben gemäß § 5{" "}
+              Anbieterkennzeichnung gemäß § 5{" "}
               <a
                 className="text-primary hover:underline"
                 href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html"
@@ -118,13 +118,25 @@ export default function Imprint() {
               :
             </h1>
             <p className="sub-text font-light">
-              <strong>Websitebetreiber: </strong>Claus Schiroky
+              <strong>Claus Schiroky</strong>
+              <br />
+              Ährenweg 6<br />
+              85375 Neufahrn
             </p>
             <div className="sub-text font-light">
               <strong>E-Mail: </strong>
               <span ref={emailRef} />
             </div>
+
             <div className="mt-10">
+              <h2 className="text-2xs font-semibold">Art des Dienstes</h2>
+              <p className="sub-text font-light mt-2">
+                Diese Website stellt Informationen und kostenlose Gameserver für verschiedene Spiele
+                zur Verfügung. Die Nutzung der Server erfolgt freiwillig und unentgeltlich.
+              </p>
+            </div>
+
+            <div className="mt-5">
               <h2 className="text-2xs font-semibold">Datenschutz & Cookies</h2>
               <p className="sub-text font-light mt-2">
                 Ihre Privatsphäre ist uns sehr wichtig. Unsere{" "}
