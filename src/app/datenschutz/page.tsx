@@ -19,78 +19,58 @@ export default function Datenschutz() {
         <header className="space-y-6">
           <h1 className="text-xl lg:text-3xl font-bold linear-text">Datenschutzerklärung</h1>
           <p className="text-gray-300">
-            Diese Datenschutzerklärung soll die Nutzer dieser privaten Website über die Art, den
-            Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den
-            genannten Websitebetreiber informieren. Der Websitebetreiber nimmt Ihren Datenschutz
-            sehr ernst und behandelt Ihre personenbezogenen Daten vertraulich und entsprechend der
-            gesetzlichen Vorschriften. Da durch neue Technologien und die ständige Weiterentwicklung
-            dieser Webseite Änderungen an dieser Datenschutzerklärung vorgenommen werden können,
-            empfehlen wir Ihnen sich die Datenschutzerklärung in regelmäßigen Abständen wieder
-            durchzulesen. Definitionen der verwendeten Begriffe (z. B. "personenbezogene Daten" oder
-            "Verarbeitung") finden Sie in Art. 4
+            Diese Datenschutzerklärung informiert die Nutzer dieser Website über Art, Umfang und
+            Zweck der Erhebung und Verarbeitung personenbezogener Daten durch den Websitebetreiber.
+            Wir nehmen den Schutz Ihrer Daten sehr ernst und behandeln personenbezogene Daten
+            vertraulich und entsprechend der gesetzlichen Vorschriften der{"\u00A0"}
             <a
               className="text-primary hover:underline"
               href="https://dsgvo-gesetz.de"
               target="_blank"
             >
-              {" "}
               DSGVO
             </a>
             .
           </p>
         </header>
 
-        {/* Paragraph 1 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Websitebetreiber</h2>
           <p className="sub-text font-light ">
             Verantwortlicher im Sinne der EU-Datenschutzgrundverordnung (DSGVO) und anderer
-            nationaler Datenschutzgesetze ist: Claus Schiroky.
+            nationaler Datenschutzgesetze ist:
+          </p>
+
+          <p className="sub-text font-light">
+            Claus Schiroky
+            <br />
+            Ährenweg 6<br />
+            85375 Neufahrn
+            <br />
+            E-Mail:{" "}
+            <a
+              className="text-primary hover:underline"
+              href="email:webmaster@anti-corona-kartell.de"
+              target="_blank"
+            >
+              webmaster@anti-corona-kartell.de
+            </a>
           </p>
         </div>
 
-        {/* Paragraph 2 */}
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
+          <h2 className="text-2xs font-semibold">Allgemeine Hinweise zur Datenverarbeitung</h2>
           <p className="sub-text font-light">
-            Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
-            Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
-            wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich rechtliche
-            Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch
-            Spam-E-Mails, vor.
+            Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung einer
+            funktionsfähigen Website, unserer Inhalte und Leistungen (z. B. Gameserver) erforderlich
+            ist.
+          </p>
+          <p className="sub-text font-light">
+            <strong>Rechtsgrundlagen gemäß Art. 6 DSGVO:</strong> Art. 6 Abs. 1 lit. f –
+            berechtigtes Interesse (z. B. technische Sicherheit).
           </p>
         </div>
 
-        {/* Paragraph 3 */}
-        <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Cookies</h2>
-          <p className="sub-text font-light">
-            Unsere Website ist überwiegend statisch aufgebaut und setzt selbst keine eigenen
-            Tracking- oder Analyse-Cookies ein. Durch uns als Websitebetreiber findet keine
-            Erstellung personenbezogener Nutzungsprofile statt.
-          </p>
-          <p className="sub-text font-light">
-            Ihr Browser kann einzelne Inhalte wie Bilder, Stylesheets oder Skripte im Cache
-            zwischenspeichern, um Ladezeiten zu verbessern. Dabei handelt es sich nicht um
-            klassische Cookies, sondern um eine normale technische Funktion Ihres Browsers.
-          </p>
-          <p className="sub-text font-light">
-            Auf einzelnen Unterseiten binden wir externe Inhalte ein, insbesondere Videos der
-            Plattform YouTube. Beim Aufruf oder spätestens beim Abspielen solcher eingebetteten
-            Videos kann YouTube Cookies oder ähnliche Technologien setzen, auf die wir keinen
-            Einfluss haben. Weitere Informationen hierzu finden Sie im Abschnitt „Einbindung von
-            YouTube-Videos“ dieser Datenschutzerklärung.
-          </p>
-          <p className="sub-text font-light">
-            Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert
-            werden, Cookies nur im Einzelfall erlauben, die Annahme von Cookies ausschließen oder
-            das automatische Löschen von Cookies beim Schließen des Browsers aktivieren. Bei der
-            Deaktivierung von Cookies kann die Funktionalität anderer Websites eingeschränkt sein,
-            jedoch hat dies in der Regel keine Auswirkungen auf unsere Website.
-          </p>
-        </div>
-
-        {/* Paragraph 4 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Rechtsgrundlagen</h2>
           <p className="sub-text font-light">
@@ -102,7 +82,26 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 5 */}
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
+          <p className="sub-text font-light">
+            Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
+            Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
+            wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich rechtliche
+            Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch
+            Spam-E-Mails, vor.
+          </p>
+        </div>
+
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Cookies</h2>
+          <p className="sub-text font-light">
+            Unsere Website verwendet keine eigenen Tracking‑ oder Analyse‑Cookies. Technisch
+            notwendige Cookies können gesetzt werden, um die Funktionalität der Website
+            sicherzustellen.
+          </p>
+        </div>
+
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Verschlüsselung</h2>
           <p className="sub-text font-light">
@@ -115,109 +114,161 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 6 */}
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Zugriffsdaten</h2>
+          <h2 className="text-2xs font-semibold">Hosting & Server‑Logfiles</h2>
           <p className="sub-text font-light ">
-            Ihre Daten werden zum einen dadurch erhoben, dass Sie mir diese mitteilen. Hierbei kann
-            es sich z. B. um Daten handeln, die Sie mir per E-Mail senden. Um Ihren Besuch so
-            benutzerfreundlich wie möglich zu gestalten und sämtliche verfügbaren Funktionen
-            anbieten zu können wird ein Teil der Daten aufgrund unseres berechtigten Interesses (s.
-            Art. 6 Abs. 1 lit. f. DSGVO) erhoben, um eine fehlerfreie Bereitstellung der Website
-            durch unseren Hosting-Anbieter (Ionos) zu gewährleisten. Die Erfassung dieser Daten
-            erfolgt automatisch, sobald Sie unsere Website besuchen und unterliegt den folgenden
-            geltenden Datenschutzerklärungen der jeweiligen Anbieter:
+            Unsere Website wird bei IONOS SE gehostet. Wir haben mit IONOS einen Vertrag zur
+            Auftragsverarbeitung abgeschlossen. IONOS verarbeitet beim Aufruf der Website
+            automatisch die IP‑Adresse, Datum und Uhrzeit des Zugriffs, besuchte Seite,
+            Referrer‑URL, Browsertyp und Version, Betriebssystem und Hostname des zugreifenden
+            Rechners.
           </p>
+          <p className="sub-text font-light ">
+            Diese Daten werden in sogenannten Logfiles gespeichert und dienen der technischen
+            Bereitstellung, Stabilität und Sicherheit der Website.
+          </p>
+          <p className="sub-text font-light ">
+            <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO. <br />
+            <strong>Speicherdauer:</strong> Bis zu 8 Wochen (IONOS‑Standard).
+          </p>
+          <p className="sub-text font-light ">
+            Datenschutzerklärung von IONOS:{" "}
+            <a
+              className="font-light text-primary hover:underline"
+              href="https://www.ionos.de/hilfe/datenschutz"
+              target="_blank"
+            >
+              https://www.ionos.de/hilfe/datenschutz
+            </a>
+            .
+          </p>
+        </div>
+
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Nutzung unserer Gameserver</h2>
+          <p className="sub-text font-light ">
+            Beim Betrieb unserer kostenlosen Gameserver werden die folgenden technisch notwendige
+            Daten verarbeitet: IP‑Adresse, Spielername/Nickname, technische Verbindungsdaten,
+            Server‑ und Fehler‑Logs, Chat‑Nachrichten (falls serverseitig protokolliert), ggf.
+            Anti‑Cheat‑Daten (abhängig vom Spiel). Diese Daten sind erforderlich, um den
+            Serverbetrieb sicherzustellen, Missbrauch zu verhindern und Fehler zu analysieren.
+          </p>
+
+          <p className="sub-text font-light ">
+            <strong>Rechtsgrundlage:</strong>
+          </p>
+          <ul className="list-disc list-inside m-4 font-light">
+            <li>Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung des Dienstes)</li>
+            <li>Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Sicherheit)</li>
+          </ul>
+          <p className="sub-text font-light ">
+            <strong>Speicherdauer:</strong> Logs werden regelmäßig gelöscht. Max. 30 Tage, abhängig
+            vom Servertyp.
+          </p>
+        </div>
+
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Social‑Media‑Präsenzen</h2>
+          <p className="sub-text font-light">
+            Wir unterhalten Online‑Profile bei folgenden Anbietern:
+          </p>
+
           <ul className="list-disc list-inside m-4">
             <li>
+              YouTube:{"\u00A0"}
               <a
                 className="font-light text-primary hover:underline"
-                href="https://www.ionos.de/hilfe/datenschutz"
+                href="https://www.youtube.com/@Anti-Corona-Kartell"
                 target="_blank"
               >
-                Ionos
+                https://www.youtube.com/@Anti-Corona-Kartell
+              </a>
+            </li>
+            <li>
+              Twitch:{"\u00A0"}
+              <a
+                className="font-light text-primary hover:underline"
+                href="https://www.twitch.tv/anti_corona_kartell"
+                target="_blank"
+              >
+                https://www.twitch.tv/anti_corona_kartell
+              </a>
+            </li>
+            <li>
+              TikTok:{"\u00A0"}
+              <a
+                className="font-light text-primary hover:underline"
+                href="https://www.tiktok.com/@anticoronakartell"
+                target="_blank"
+              >
+                https://www.tiktok.com/@anticoronakartell
+              </a>
+            </li>
+            <li>
+              Discord:{"\u00A0"}
+              <a
+                className="font-light text-primary hover:underline"
+                href="https://discord.anti-corona-kartell.de"
+                target="_blank"
+              >
+                https://discord.anti-corona-kartell.de
               </a>
             </li>
           </ul>
-        </div>
 
-        {/* Paragraph 7 */}
-        <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Onlinepräsenzen</h2>
           <p className="sub-text font-light">
-            Wir unterhalten auch Onlinepräsenzen innerhalb sozialer Netzwerke und Plattformen, um
-            mit den dort aktiven Nutzern zu kommunizieren. Wir weisen darauf hin, dass dabei Daten
-            der Nutzer außerhalb des Raumes der Europäischen Union verarbeitet werden können.
-            Hierdurch können sich für die Nutzer Risiken ergeben, weil so z. B. die Durchsetzung der
-            Rechte der Nutzer erschwert werden könnte. Soweit Anbieter ihren Sitz in Drittländern
-            (insbesondere den USA) haben, weisen wir darauf hin, dass dort ggf. kein mit der EU
-            vergleichbares Datenschutzniveau besteht. Eine Datenübermittlung erfolgt nur, soweit sie
-            nach Kapitel V DSGVO zulässig ist (z. B. auf Grundlage von Standardvertragsklauseln oder
-            eines Angemessenheitsbeschlusses). Ferner werden die Daten der Nutzer im Regelfall für
-            Marktforschungs- und Werbezwecke verarbeitet. So können z. B. aus dem Nutzungsverhalten
-            und sich daraus ergebenden Interessen der Nutzer Nutzungsprofile erstellt werden. Die
-            Nutzungsprofile können wiederum verwendet werden, um z. B. Werbeanzeigen innerhalb und
-            außerhalb der Plattformen zu schalten, die mutmaßlich den Interessen der Nutzer
-            entsprechen. Zu diesen Zwecken werden im Regelfall Cookies auf den Rechnern der Nutzer
-            gespeichert, in denen das Nutzungsverhalten und die Interessen der Nutzer gespeichert
-            werden. Ferner können in den Nutzungsprofilen auch Daten unabhängig der von den Nutzern
-            verwendeten Geräte gespeichert werden (insbesondere, wenn die Nutzer Mitglieder der
-            jeweiligen Plattformen sind und bei diesen eingeloggt sind). Die Verarbeitung der
-            personenbezogenen Daten der Nutzer erfolgt auf Grundlage unseres berechtigten Interesses
-            an einer effektiven Information der Nutzer und Kommunikation mit den Nutzern gem. Art. 6
-            Abs. 1 lit. f. DSGVO. Falls die Nutzer von den jeweiligen Anbietern um eine Einwilligung
-            in die Datenverarbeitung gebeten werden (d. h. ihr Einverständnis z. B. über das Anhaken
-            eines Kontrollkästchens oder Bestätigung einer Schaltfläche erklären), ist die
-            Rechtsgrundlage der Verarbeitung Art. 6 Abs. 1 lit. a., Art. 7 DSGVO. Für eine
-            detaillierte Darstellung der jeweiligen Verarbeitungen verweisen wir auf die nachfolgend
-            verlinkten Datenschutzerklärungen der Anbieter:
+            Beim Besuch dieser Plattformen gelten die Datenschutzrichtlinien der jeweiligen
+            Anbieter. Daten können dabei auch in Drittländer (z. B. USA) übertragen werden.
           </p>
+
+          <p className="sub-text font-light">
+            <strong>Datenschutzerklärungen:</strong>
+          </p>
+
           <ul className="list-disc list-inside m-4">
             <li>
+              Google:{"\u00A0"}
               <a
                 className="font-light text-primary hover:underline"
-                href="https://policies.google.com/privacy?hl=de"
+                href="https://policies.google.com/privacy"
                 target="_blank"
               >
-                Google
+                https://policies.google.com/privacy
               </a>
             </li>
             <li>
+              Twitch:{"\u00A0"}
               <a
                 className="font-light text-primary hover:underline"
-                href="https://discord.com/privacy"
+                href="https://www.twitch.tv/p/de-de/legal/privacy-notice/"
                 target="_blank"
               >
-                Discord
+                https://www.twitch.tv/p/de-de/legal/privacy-notice
               </a>
             </li>
             <li>
+              TikTok:{"\u00A0"}
               <a
                 className="font-light text-primary hover:underline"
                 href="https://www.tiktok.com/legal/page/eea/privacy-policy/de"
                 target="_blank"
               >
-                TikTok
+                https://www.tiktok.com/legal/page/eea/privacy-policy/de
               </a>
             </li>
             <li>
+              Discord:{"\u00A0"}
               <a
                 className="font-light text-primary hover:underline"
-                href="https://www.twitch.tv/p/de-de/legal/privacy-notice"
+                href="https://discord.com/privacy"
                 target="_blank"
               >
-                Twitch
+                https://discord.com/privacy
               </a>
             </li>
           </ul>
-          <p className="sub-text font-light">
-            Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, weise ich
-            darauf hin, dass diese am effektivsten bei den Anbietern geltend gemacht werden können.
-            Nur die Anbieter haben jeweils Zugriff auf die Daten der Nutzer und können direkt
-            entsprechende Maßnahmen ergreifen und Auskünfte geben.
-          </p>
         </div>
-        {/* Paragraph 8 */}
+
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Verwendung von Schrift- und Icon-Bibliotheken</h2>
           <p className="sub-text font-light">
@@ -235,7 +286,7 @@ export default function Datenschutz() {
             unserer Website gemäß Art. 6 Abs. 1 lit. f DSGVO.
           </p>
         </div>
-        {/* Paragraph 9 */}
+
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">
             Erfassung und Verarbeitung personenbezogener Daten
@@ -258,7 +309,6 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 10 */}
         <div className="space-y-2">
           <h2 className="text-2xa font-semibold">Umgang mit Kontaktdaten</h2>
           <p className="sub-text font-light">
@@ -270,7 +320,6 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 11 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Rechte des Nutzers</h2>
           <p className="sub-text font-light">
@@ -284,7 +333,19 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 12 */}
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Beschwerderecht</h2>
+          <p className="sub-text font-light">
+            Sie haben das Recht, sich bei einer Datenschutzbehörde zu beschweren. Zuständig ist:
+          </p>
+          <p className="sub-text font-light">
+            <strong>Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)</strong> <br />
+            Promenade 18 <br />
+            91522 Ansbach <br />
+            Deutschland
+          </p>
+        </div>
+
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Löschung von Daten</h2>
           <p className="sub-text font-light">
@@ -298,7 +359,6 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 13 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Änderung unserer Datenschutzbestimmungen</h2>
           <p className="sub-text font-light">
@@ -309,7 +369,6 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Paragraph 14 */}
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Widerspruchsrecht</h2>
           <p className="sub-text font-light">
@@ -322,9 +381,8 @@ export default function Datenschutz() {
           </p>
         </div>
 
-        {/* Footer */}
         <footer className="border-t border-gray-700 pt-6">
-          <p className="text-sm text-gray-400">Stand: Januar 2026.</p>
+          <p className="text-sm text-gray-400">Stand: März 2026.</p>
         </footer>
       </div>
     </section>

@@ -66,7 +66,7 @@ export const Footer = () => {
                 Impressum{" "}
               </Link>
 
-              <Link href="/datenschutz" title="Datenschutz" className="hover:text-primary">
+              <Link href="/datenschutz" title="Datenschutzerklärung" className="hover:text-primary">
                 Datenschutzerklärung{" "}
               </Link>
             </div>
