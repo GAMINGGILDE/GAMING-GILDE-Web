@@ -58,9 +58,7 @@ export default function Imprint() {
               </h1>
             </div>
             <div className="mt-10 lg:mt-0">
-              <h1 className="text-sm mb-4">
-                Du findest uns auch auf den folgenden sozialen Netzwerken:
-              </h1>
+              <h1 className="text-sm mb-4">Unsere Social‑Media‑Kanäle:</h1>
               <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
                 <p className="font-semibold">YouTube</p>
                 <a
@@ -106,29 +104,15 @@ export default function Imprint() {
 
           <div className="mt-5">
             <h1 className="text-2xl mb-3">
-              Anbieterkennzeichnung gemäß § 5{" "}
+              Angaben nach § 5{" "}
               <a
                 className="text-primary hover:underline"
                 href="https://www.gesetze-im-internet.de/ddg/BJNR0950B0024.html"
                 target="_blank"
               >
                 DDG
-              </a>
-              :
-            </h1>
-            <p className="sub-text font-light">
-              Claus Schiroky
-              <br />
-              Ährenweg 6<br />
-              85375 Neufahrn
-            </p>
-            <div className="sub-text font-light">
-              <strong>E-Mail: </strong>
-              <span ref={emailRef} />
-            </div>
-
-            <h1 className="text-2xl mb-3 mt-5">
-              Verantwortlich für den Inhalt nach § 18 Abs. 2{" "}
+              </a>{" "}
+              und verantwortliche Person gemäß § 18 Abs. 2{" "}
               <a
                 className="text-primary hover:underline"
                 href="https://www.gesetze-bayern.de/Content/Document/MStV/true"
@@ -144,6 +128,10 @@ export default function Imprint() {
               Ährenweg 6<br />
               85375 Neufahrn
             </p>
+            <div className="sub-text font-light">
+              <strong>E-Mail: </strong>
+              <span ref={emailRef} />
+            </div>
 
             <div className="mt-10">
               <h2 className="text-2xs font-semibold">Art des Dienstes</h2>
@@ -156,49 +144,45 @@ export default function Imprint() {
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Geltungsbereich dieses Impressums</h2>
               <p className="sub-text font-light mt-2">
-                Die Angaben dieses Impressums finden auch Anwendung für unsere folgende
+                Die Angaben dieses Impressums finden auch Anwendung für unsere folgenden
                 Online‑Präsenzen:
               </p>
 
               <ul className="list-disc list-inside m-4">
                 <li>
-                  YouTube:{"\u00A0"}
                   <a
                     className="font-light text-primary hover:underline"
                     href="https://www.youtube.com/@Anti-Corona-Kartell"
                     target="_blank"
                   >
-                    https://www.youtube.com/@Anti-Corona-Kartell
+                    YouTube
                   </a>
                 </li>
                 <li>
-                  Twitch:{"\u00A0"}
                   <a
                     className="font-light text-primary hover:underline"
                     href="https://www.twitch.tv/anti_corona_kartell"
                     target="_blank"
                   >
-                    https://www.twitch.tv/anti_corona_kartell
+                    Twitch
                   </a>
                 </li>
                 <li>
-                  TikTok:{"\u00A0"}
                   <a
                     className="font-light text-primary hover:underline"
                     href="https://www.tiktok.com/@anticoronakartell"
                     target="_blank"
                   >
-                    https://www.tiktok.com/@anticoronakartell
+                    TikTok
                   </a>
                 </li>
                 <li>
-                  Discord:{"\u00A0"}
                   <a
                     className="font-light text-primary hover:underline"
                     href="https://discord.anti-corona-kartell.de"
                     target="_blank"
                   >
-                    https://discord.anti-corona-kartell.de
+                    Discord
                   </a>
                 </li>
               </ul>
@@ -220,9 +204,11 @@ export default function Imprint() {
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
               <p className="sub-text font-light mt-2">
-                Der Nutzung der im Impressum veröffentlichten Kontaktdaten zur Übersendung von nicht
-                ausdrücklich angeforderter Werbung wird widersprochen. Rechtliche Schritte bei
-                unverlangter Zusendung von Werbeinformationen bleiben vorbehalten.
+                Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
+                Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
+                wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich
+                rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa
+                durch Spam-E-Mails, vor.
               </p>
             </div>
 
@@ -247,12 +233,15 @@ export default function Imprint() {
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Urheberrecht</h2>
               <p className="sub-text font-light mt-2">
-                Alle auf dieser Website genannten Produktnamen, Produktbezeichnungen und Logos sind
-                eingetragene Warenzeichen und Eigentum der jeweiligen Rechteinhaber. Sämtliche
-                Texte, Bilder und andere veröffentlichten Informationen unterliegen, sofern nicht
-                anders gekennzeichnet, dem Copyright des Websitebetreibers. Jede Vervielfältigung,
-                Verbreitung, Speicherung, Sendung und Wieder- bzw. Weitergabe der Inhalte ist ohne
-                schriftliche Genehmigung ausdrücklich untersagt.
+                Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die
+                Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen wird
+                jedoch keine Gewähr übernommen. Diese Website enthält Links zu externen Websites
+                Dritter, auf deren Inhalte der Betreiber keinen Einfluss hat. Für die Inhalte der
+                verlinkten Seiten ist ausschließlich der jeweilige Anbieter verantwortlich. Bei
+                Bekanntwerden von Rechtsverstößen werden entsprechende Links umgehend entfernt. Die
+                Nutzung der Website erfolgt auf eigene Verantwortung. Eine Haftung für Schäden, die
+                aus der Nutzung der Website entstehen, ist – soweit gesetzlich zulässig –
+                ausgeschlossen.
               </p>
             </div>
           </div>
