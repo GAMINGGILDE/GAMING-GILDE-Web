@@ -112,14 +112,6 @@ export default function Imprint() {
               >
                 DDG
               </a>{" "}
-              und verantwortliche Person gemäß § 18 Abs. 2{" "}
-              <a
-                className="text-primary hover:underline"
-                href="https://www.gesetze-bayern.de/Content/Document/MStV/true"
-                target="_blank"
-              >
-                MStV
-              </a>
               :
             </h1>
             <p className="sub-text font-light">

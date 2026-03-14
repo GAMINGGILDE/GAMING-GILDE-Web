@@ -67,7 +67,7 @@ export const Footer = () => {
               </Link>
 
               <Link href="/datenschutz" title="Datenschutzerklärung" className="hover:text-primary">
-                Datenschutzerklärung{" "}
+                Datenschutz{" "}
               </Link>
             </div>
           </div>

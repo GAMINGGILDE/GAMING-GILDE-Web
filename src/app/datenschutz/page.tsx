@@ -67,6 +67,9 @@ export default function Datenschutz() {
             a, b, c und f. Personenbezogene Daten werden gelöscht oder gesperrt, sobald der Zweck
             der Speicherung entfällt oder gesetzliche Aufbewahrungsfristen ablaufen.
           </p>
+          <p className="sub-text font-light">
+            Eine automatisierte Entscheidungsfindung oder Profiling findet nicht statt.
+          </p>
         </div>
 
         <div className="space-y-2">
@@ -347,13 +350,6 @@ export default function Datenschutz() {
             uns gespeicherte Daten werden, sollten sie für ihre Zweckbestimmung nicht mehr vonnöten
             sein und es keine gesetzlichen Aufbewahrungsfristen geben, gelöscht. Falls eine Löschung
             nicht möglich ist, wird die Verarbeitung eingeschränkt.
-          </p>
-        </div>
-
-        <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Keine automatisierte Entscheidungsfindung</h2>
-          <p className="sub-text font-light">
-            Eine automatisierte Entscheidungsfindung oder Profiling findet nicht statt.
           </p>
         </div>
 
