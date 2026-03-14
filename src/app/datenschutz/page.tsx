@@ -196,6 +196,15 @@ export default function Datenschutz() {
             Anbieter. Es kann zu Datenübermittlungen in Drittländer (z. B. USA) kommen.
           </p>
 
+          <p className="sub-text font-light ">
+            <strong>Rechtsgrundlagen:</strong>
+          </p>
+          <ul className="list-disc list-inside m-4 font-light">
+            <li>EU US Data Privacy Framework (falls anwendbar)</li>
+            <li>Standardvertragsklauseln (SCC)</li>
+            <li>Art. 49 DSGVO (Ausnahmen)</li>
+          </ul>
+
           <p className="sub-text font-light">
             <strong>Gemeinsame Verantwortlichkeit:</strong>
           </p>
@@ -267,24 +276,9 @@ export default function Datenschutz() {
         </div>
 
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">
-            Erfassung und Verarbeitung personenbezogener Daten
-          </h2>
+          <h2 className="text-2xs font-semibold">Minderjährige</h2>
           <p className="sub-text font-light">
-            Wir erheben, nutzen und geben Ihre personenbezogenen Daten nur dann weiter, wenn dies im
-            gesetzlichen Rahmen erlaubt ist oder Sie in die Datenerhebung einwilligen. Als
-            personenbezogene Daten gelten sämtliche Informationen, welche dazu dienen, Ihre Person
-            zu bestimmen und welche zu Ihnen zurückverfolgt werden können – also beispielsweise Ihr
-            Name, Ihre E-Mail-Adresse oder Telefonnummer. Diese Website können Sie auch besuchen,
-            ohne Angaben zu Ihrer Person zu machen.
-          </p>
-          <p className="sub-text font-light">
-            Ergänzend zu den unter „Zugriffsdaten“ beschriebenen technischen Logdaten verarbeiten
-            wir personenbezogene Daten nur nach ausdrücklicher Erlaubnis der betreffenden Nutzer und
-            unter Einhaltung der geltenden Datenschutzbestimmungen. Die Verarbeitung der
-            personenbezogenen Daten erfolgt insbesondere zur Bearbeitung von Anfragen, zur Wahrung
-            unserer berechtigten Interessen sowie – soweit einschlägig – zur Erfüllung vertraglicher
-            oder vorvertraglicher Pflichten.
+            Unser Angebot richtet sich nicht an Kinder unter 16 Jahren.
           </p>
         </div>
 
@@ -309,6 +303,18 @@ export default function Datenschutz() {
 
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Rechte des Nutzers</h2>
+          <p className="sub-text font-light">Sie haben folgende Rechte:</p>
+
+          <ul className="list-disc list-inside m-4 font-light">
+            <li>Auskunft (Art. 15 DSGVO)</li>
+            <li>Berichtigung (Art. 16 DSGVO)</li>
+            <li>Löschung (Art. 17 DSGVO)</li>
+            <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+            <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+            <li>Widerspruch (Art. 21 DSGVO)</li>
+            <li>Widerruf erteilter Einwilligungen (Art. 7 Abs. 3 DSGVO)</li>
+          </ul>
+
           <p className="sub-text font-light">
             Sie haben als Nutzer das Recht, auf Antrag eine kostenlose Auskunft darüber zu erhalten,
             welche personenbezogenen Daten über Sie gespeichert wurden. Sie haben außerdem das Recht
@@ -340,9 +346,14 @@ export default function Datenschutz() {
             Vorratsdatenspeicherung) kollidiert, haben Sie ein Anrecht auf Löschung Ihrer Daten. Von
             uns gespeicherte Daten werden, sollten sie für ihre Zweckbestimmung nicht mehr vonnöten
             sein und es keine gesetzlichen Aufbewahrungsfristen geben, gelöscht. Falls eine Löschung
-            nicht durchgeführt werden kann, da die Daten für zulässige gesetzliche Zwecke
-            erforderlich sind, erfolgt eine Einschränkung der Datenverarbeitung. In diesem Fall
-            werden die Daten gesperrt und nicht für andere Zwecke verarbeitet.
+            nicht möglich ist, wird die Verarbeitung eingeschränkt.
+          </p>
+        </div>
+
+        <div className="space-y-2">
+          <h2 className="text-2xs font-semibold">Keine automatisierte Entscheidungsfindung</h2>
+          <p className="sub-text font-light">
+            Eine automatisierte Entscheidungsfindung oder Profiling findet nicht statt.
           </p>
         </div>
 
