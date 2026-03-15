@@ -59,6 +59,16 @@ export default function Datenschutz() {
         </div>
 
         <div className="space-y-2">
+          <p className="sub-text font-light">
+            <strong>Widerspruch gegen Werbe-E-Mails: </strong>Der Nutzung von im Rahmen der oben
+            genannten veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich
+            angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Der
+            Betreiber der Seiten behält sich ausdrücklich rechtliche Schritte im Falle der
+            unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+          </p>
+        </div>
+
+        <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Allgemeine Hinweise zur Datenverarbeitung</h2>
           <p className="sub-text font-light">
             Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung einer
@@ -69,17 +79,6 @@ export default function Datenschutz() {
           </p>
           <p className="sub-text font-light">
             Eine automatisierte Entscheidungsfindung oder Profiling findet nicht statt.
-          </p>
-        </div>
-
-        <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
-          <p className="sub-text font-light">
-            Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
-            Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
-            wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich rechtliche
-            Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch
-            Spam-E-Mails, vor.
           </p>
         </div>
 

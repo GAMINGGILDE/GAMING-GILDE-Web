@@ -8,6 +8,8 @@ import PreviewImage2 from "../../assets/impressum-bg-2.webp";
 import PreviewImage3 from "../../assets/impressum-bg-3.webp";
 import PreviewImage4 from "../../assets/impressum-bg-4.webp";
 import PreviewImage5 from "../../assets/impressum-bg-5.webp";
+import Link from "next/link";
+import { FaDiscord, FaTiktok, FaTwitch, FaYoutube } from "react-icons/fa6";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
@@ -59,44 +61,47 @@ export default function Imprint() {
             </div>
             <div className="mt-10 lg:mt-0">
               <h1 className="text-sm mb-4">Unsere Social‑Media‑Kanäle:</h1>
-              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
+
+              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[11rem]">
                 <p className="font-semibold">YouTube</p>
+
                 <a
                   className="text-primary hover:underline"
                   href="https://www.youtube.com/@Anti-Corona-Kartell"
                   target="_blank"
                 >
-                  Hier klicken
+                  <FaYoutube className="w-6 h-6 text-white hover:text-primary" />
                 </a>
               </div>
-              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
+
+              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[11rem]">
                 <p className="font-semibold">Twitch</p>
                 <a
                   className="text-primary hover:underline"
                   href="https://www.twitch.tv/anti_corona_kartell"
                   target="_blank"
                 >
-                  Hier klicken
+                  <FaTwitch className="w-6 h-6 text-white hover:text-primary" />
                 </a>
               </div>
-              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
+              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[11rem]">
                 <p className="font-semibold">TikTok</p>
                 <a
                   className="text-primary hover:underline"
                   href="https://www.tiktok.com/@anticoronakartell"
                   target="_blank"
                 >
-                  Hier klicken
+                  <FaTiktok className="w-6 h-6 text-white hover:text-primary" />
                 </a>
               </div>
-              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[18rem]">
+              <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[11rem]">
                 <p className="font-semibold">Discord</p>
                 <a
                   className="text-primary hover:underline"
                   href="https://discord.anti-corona-kartell.de"
                   target="_blank"
                 >
-                  Hier klicken
+                  <FaDiscord className="w-6 h-6 text-white hover:text-primary" />
                 </a>
               </div>
             </div>
@@ -125,6 +130,16 @@ export default function Imprint() {
               <span ref={emailRef} />
             </div>
 
+            <div className="mt-5">
+              <p className="sub-text font-light mt-2">
+                <strong>Widerspruch gegen Werbe-E-Mails: </strong>Der Nutzung von im Rahmen der oben
+                genannten veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich
+                angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Der
+                Betreiber der Seiten behält sich ausdrücklich rechtliche Schritte im Falle der
+                unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
+              </p>
+            </div>
+
             <div className="mt-10">
               <h2 className="text-2xs font-semibold">Art des Dienstes</h2>
               <p className="sub-text font-light mt-2">
@@ -134,7 +149,7 @@ export default function Imprint() {
             </div>
 
             <div className="mt-5">
-              <h2 className="text-2xs font-semibold">Geltungsbereich dieses Impressums</h2>
+              <h2 className="text-2xs font-semibold">Geltungsbereich</h2>
               <p className="sub-text font-light mt-2">
                 Die Angaben dieses Impressums finden auch Anwendung für unsere folgenden
                 Online‑Präsenzen:
@@ -194,17 +209,6 @@ export default function Imprint() {
             </div>
 
             <div className="mt-5">
-              <h2 className="text-2xs font-semibold">Widerspruch gegen Werbe-E-Mails</h2>
-              <p className="sub-text font-light mt-2">
-                Der Nutzung von im Rahmen der oben genannten veröffentlichten Kontaktdaten zur
-                Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien
-                wird hiermit widersprochen. Der Betreiber der Seiten behält sich ausdrücklich
-                rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa
-                durch Spam-E-Mails, vor.
-              </p>
-            </div>
-
-            <div className="mt-5">
               <h2 className="text-2xs font-semibold">Haftungsausschluss</h2>
               <p className="sub-text font-light mt-2">
                 Alle Angaben und Inhalte dieses Angebotes wurden sorgfältig erstellt und geprüft.
@@ -225,15 +229,36 @@ export default function Imprint() {
             <div className="mt-5">
               <h2 className="text-2xs font-semibold">Urheberrecht</h2>
               <p className="sub-text font-light mt-2">
-                Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die
-                Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen wird
-                jedoch keine Gewähr übernommen. Diese Website enthält Links zu externen Websites
-                Dritter, auf deren Inhalte der Betreiber keinen Einfluss hat. Für die Inhalte der
-                verlinkten Seiten ist ausschließlich der jeweilige Anbieter verantwortlich. Bei
-                Bekanntwerden von Rechtsverstößen werden entsprechende Links umgehend entfernt. Die
-                Nutzung der Website erfolgt auf eigene Verantwortung. Eine Haftung für Schäden, die
-                aus der Nutzung der Website entstehen, ist – soweit gesetzlich zulässig –
-                ausgeschlossen.
+                Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem deutschen
+                Urheberrecht, soweit nicht anders gekennzeichnet. Jede Verwertung außerhalb der
+                Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des
+                jeweiligen Urhebers oder Rechteinhabers. Inhalte Dritter werden als solche
+                gekennzeichnet. Sollten Sie dennoch auf eine Urheberrechtsverletzung aufmerksam
+                werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
+                Rechtsverletzungen werden wir die betroffenen Inhalte unverzüglich entfernen.
+              </p>
+            </div>
+
+            <div className="mt-5">
+              <h2 className="text-2xs font-semibold">Rechtshinweise</h2>
+              <p className="sub-text font-light mt-2">
+                ©Copyright Claus Schiroky. Alle Rechte vorbehalten (einschließlich Nutzungen für
+                Text und Data Mining gemäß{" "}
+                <a
+                  className="font-light text-primary hover:underline"
+                  href="https://www.gesetze-im-internet.de/urhg/__44b.html"
+                  target="_blank"
+                >
+                  §44b UrhG
+                </a>
+                ).
+              </p>
+              <p className="sub-text font-light mt-2">
+                Der Inhalt dieser Website ist urheberrechtlich geschützt. Nachdruck, Aufnahme in
+                Online-Dienste, Internet und Vervielfältigung auf Datenträger wie CD-ROM, DVD-ROM
+                usw. dürfen, auch auszugsweise, nur nach vorheriger, schriftlicher Zustimmung durch
+                den Websitebetreiber erfolgen. Jede Form der kommerziellen Weiterverwertung der
+                Inhalte ist untersagt.
               </p>
             </div>
           </div>
