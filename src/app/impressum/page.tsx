@@ -238,29 +238,6 @@ export default function Imprint() {
                 Rechtsverletzungen werden wir die betroffenen Inhalte unverzüglich entfernen.
               </p>
             </div>
-
-            <div className="mt-5">
-              <h2 className="text-2xs font-semibold">Rechtshinweise</h2>
-              <p className="sub-text font-light mt-2">
-                ©Copyright Claus Schiroky. Alle Rechte vorbehalten (einschließlich Nutzungen für
-                Text und Data Mining gemäß{" "}
-                <a
-                  className="font-light text-primary hover:underline"
-                  href="https://www.gesetze-im-internet.de/urhg/__44b.html"
-                  target="_blank"
-                >
-                  §44b UrhG
-                </a>
-                ).
-              </p>
-              <p className="sub-text font-light mt-2">
-                Der Inhalt dieser Website ist urheberrechtlich geschützt. Nachdruck, Aufnahme in
-                Online-Dienste, Internet und Vervielfältigung auf Datenträger wie CD-ROM, DVD-ROM
-                usw. dürfen, auch auszugsweise, nur nach vorheriger, schriftlicher Zustimmung durch
-                den Websitebetreiber erfolgen. Jede Form der kommerziellen Weiterverwertung der
-                Inhalte ist untersagt.
-              </p>
-            </div>
           </div>
         </div>
       </div>
