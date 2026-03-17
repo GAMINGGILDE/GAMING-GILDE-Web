@@ -44,9 +44,16 @@ export default function Datenschutz() {
           <p className="sub-text font-light">
             Claus Schiroky
             <br />
-            Ährenweg 6<br />
-            85375 Neufahrn
+            c/o flexdienst – #20588
             <br />
+            Kurt-Schumacher-Straße 76
+            <br />
+            67663 Kaiserslautern
+            <br />
+            Deutschland
+          </p>
+
+          <p className="sub-text font-light">
             E-Mail:{" "}
             <a
               className="text-primary hover:underline"

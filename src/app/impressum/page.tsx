@@ -122,10 +122,15 @@ export default function Imprint() {
             <p className="sub-text font-light">
               Claus Schiroky
               <br />
-              Ährenweg 6<br />
-              85375 Neufahrn
+              c/o flexdienst – #20588
+              <br />
+              Kurt-Schumacher-Straße 76
+              <br />
+              67663 Kaiserslautern
+              <br />
+              Deutschland
             </p>
-            <div className="sub-text font-light">
+            <div className="mt-2 sub-text font-light">
               <strong>E-Mail: </strong>
               <span ref={emailRef} />
             </div>
