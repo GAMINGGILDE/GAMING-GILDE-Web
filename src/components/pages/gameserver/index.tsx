@@ -206,7 +206,7 @@ export const GameServer = () => {
           <GameServerCard
             title={"Core Keeper"}
             image={CoreKeeperImage}
-            onClick={() => copyLink("2ihUSCz22aiuhRP8X3LUNHTrGJKF")}
+            onClick={() => copyLink("MJZjzJiPF579nAU")}
             button={
               <>
                 {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
@@ -220,10 +220,11 @@ export const GameServer = () => {
                   <strong>Name:</strong> ANTI-CORONA-KARTELL
                 </p>
                 <p>
-                  <strong>Game-ID:</strong> 2ihUSCz22aiuhRP8X3LUNHTrGJKF
+                  <strong>Game-ID:</strong> MJZjzJiPF579nAU
                 </p>
                 <p>
-                  <strong>Achtung:</strong> Es werden MODs benötigt, um sich zu verbinden.
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
                 </p>
               </>
             }
@@ -237,74 +238,6 @@ export const GameServer = () => {
                 Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige
                 Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu
                 lüften.
-              </p>
-              <p className="text-base leading-relaxed text-gray-500">
-                <strong>Benötigte Mods: </strong>
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/chatcommands3#description"
-                  target="_blank"
-                >
-                  Chat Commands
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/chestlabels#description"
-                  target="_blank"
-                >
-                  {" "}
-                  Chest Labels
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/extendedcraftingrangeplus#description"
-                  target="_blank"
-                >
-                  Extended Crafting Range+
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/core-lib#description"
-                  target="_blank"
-                >
-                  {" "}
-                  CoreLib
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/corelibcommands#description"
-                  target="_blank"
-                >
-                  {" "}
-                  CoreLib.Commands
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/coreliblocalization#description"
-                  target="_blank"
-                >
-                  {" "}
-                  CoreLib.Localization
-                </a>
-                ,{" "}
-                <a
-                  className="text-primary hover:underline"
-                  href="https://mod.io/g/corekeeper/m/corelibrewiredextension#description"
-                  target="_blank"
-                >
-                  {" "}
-                  CoreLib.RewiredExtension
-                </a>
-                .
-              </p>
-              <p className="text-base leading-relaxed text-gray-500">
-                Um sich zum Gameserver zu verbinden, müssen die Mods über das Menü 'MODS' in Core
-                Keeper installiert bzw. abonniert werden.
               </p>
             </>
           </GameServerCard>
