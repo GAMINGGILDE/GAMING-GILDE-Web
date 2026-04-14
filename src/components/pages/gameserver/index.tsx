@@ -18,6 +18,7 @@ import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-7Days.webp";
 import PreviewImage5 from "../../../assets/gameserver-moria.webp";
 import PreviewImage6 from "../../../assets/gameserver-bg-valheim.webp";
+import PreviewImage7 from "../../../assets/gameserver-windrose.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
@@ -29,6 +30,7 @@ const previews = [
   PreviewImage4,
   PreviewImage5,
   PreviewImage6,
+  PreviewImage7,
 ];
 
 export const GameServer = () => {
@@ -90,6 +92,41 @@ export const GameServer = () => {
           <h1 className="text-lg lg:text-5xl font-semibold mb-10 text-white">
             Unsere aktuellen Gameserver
           </h1>
+
+          <GameServerCard
+            title={"Windrose"}
+            image={PreviewImage7}
+            onClick={() => copyLink("80052342")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Einladungscode kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
+                <p>
+                  <strong>Name:</strong> ANTI-CORONA-KARTELL
+                </p>
+                <p>
+                  <strong>Einladungscode:</strong> 80052342
+                </p>
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Das Passwort ist auf unserem
+                  Discord-Server zu finden.
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Baue, fertige und erkunde eine riesige offene Welt voller dunkler Geheimnisse.
+                Stelle dich Soulslite-Kämpfen und herausfordernden Bossen. Befehlige dein Schiff und
+                raube unermessliche Schätze!
+              </p>
+            </>
+          </GameServerCard>
 
           <GameServerCard
             title={"Valheim Plus"}
