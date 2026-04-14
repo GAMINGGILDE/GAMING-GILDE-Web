@@ -11,6 +11,7 @@ import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
 import ValheimImage from "../../../assets/gameserver-valheim.webp";
 import MoriaImage from "../../../assets/gameserver-moria.webp";
+import WindroseImage from "../../../assets/gameserver-windrose.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
@@ -95,7 +96,7 @@ export const GameServer = () => {
 
           <GameServerCard
             title={"Windrose"}
-            image={PreviewImage7}
+            image={WindroseImage}
             onClick={() => copyLink("80052342")}
             button={
               <>
