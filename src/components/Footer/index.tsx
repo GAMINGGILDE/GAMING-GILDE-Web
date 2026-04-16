@@ -12,9 +12,9 @@ export const Footer = () => {
             <p className="lg:flex-1 text-center lg:text-left">
               &copy;{new Date().getFullYear()}{" "}
               <a href="https://schiroky.com" target="_blank">
-                Claus Schiroky{" "}
+                Claus Schiroky.{" "}
               </a>
-              . Alle Rechte vorbehalten.
+               Alle Rechte vorbehalten.
             </p>
 
             <div className="mt-3 lg:mt-0 flex justify-center items-center lg:flex-1">
