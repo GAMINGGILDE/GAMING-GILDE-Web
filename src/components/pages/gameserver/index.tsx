@@ -177,40 +177,6 @@ export const GameServer = () => {
           </GameServerCard>
 
           <GameServerCard
-            title={"The Lord of the Rings: Return to Moria"}
-            image={MoriaImage}
-            onClick={() => copyLink("D-NQVCJD-RYSL8W")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Einladungscode kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>
-                  Begib dich auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern.
-                </p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Einladungscode:</strong> D-NQVCJD-RYSL8W
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Das einzige Survival-Crafting-Game im Vierten Zeitalter von Mittelerde™. Begib dich
-                auf eine epische Reise, um die zwergische Heimat Moria zurückzuerobern. Kundschafte,
-                werke und baue als Solo-Abenteurer oder mit bis zu sieben weiteren Gefährten im
-                Koop-Modus.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
             title={"7 Days to Die"}
             image={SevenDays}
             onClick={() => copyLink("194.62.157.159:26900")}
