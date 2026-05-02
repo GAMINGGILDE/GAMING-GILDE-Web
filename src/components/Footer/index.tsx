@@ -14,7 +14,7 @@ export const Footer = () => {
               <a href="https://schiroky.com" target="_blank">
                 Claus Schiroky.{" "}
               </a>
-               Alle Rechte vorbehalten.
+              Alle Rechte vorbehalten.
             </p>
 
             <div className="mt-3 lg:mt-0 flex justify-center items-center lg:flex-1">
