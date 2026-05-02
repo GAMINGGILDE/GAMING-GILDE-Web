@@ -1,10 +1,13 @@
+import { fixupConfigRules } from "@eslint/compat";
 import nextCoreWebVitals from "eslint-config-next/core-web-vitals";
 import nextTypeScript from "eslint-config-next/typescript";
 import eslintConfigPrettier from "eslint-config-prettier";
 
 export default [
-  ...nextCoreWebVitals,
-  ...nextTypeScript,
+  // Temporäre ESLint-10-Kompatibilitatsschicht für transitive Next-Plugins,
+  // bis eslint-config-next vollständig peer-clean mit ESLint 10 ist.
+  ...fixupConfigRules(nextCoreWebVitals),
+  ...fixupConfigRules(nextTypeScript),
   eslintConfigPrettier,
   {
     rules: {
