@@ -26,7 +26,7 @@ export const Footer = () => {
 
               <div className="mx-2">
                 <Link
-                  href="https://www.tiktok.com/@anticoronakartell"
+                  href="https://www.tiktok.com/@gaminggilde"
                   title="TikTok"
                   target="_blank"
                 >
@@ -36,7 +36,7 @@ export const Footer = () => {
 
               <div className="mx-2">
                 <Link
-                  href="https://www.twitch.tv/anti_corona_kartell"
+                  href="https://www.twitch.tv/gaming_gilde"
                   title="Twitch"
                   target="_blank"
                 >
