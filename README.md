@@ -1,6 +1,6 @@
-# ANTI-CORONA-KARTELL Web
+# GAMING GILDE Web
 
-**Das Repository der privaten Website des ANTI-CORONA-KARTELLs.**
+**Das Repository der Website der GAMING GILDE.**
 
 Ursprünglich verwendete Entwicklungsumgebung (IDE):
 
@@ -34,8 +34,8 @@ Next.js kommt via Yarn als Dependency mit und wird automatisch mit Yarn installi
 Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
 
 ```bash
-git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
-cd anti-corona-kartell-web
+git clone https://github.com/GAMNINGGILDE/GAMING-GILDE-Web.git gaming-gilde-web
+cd gaming-gilde-web
 ```
 
 ## Abhängigkeiten installieren
@@ -95,7 +95,7 @@ Die für das Paket benötigten Dependencies und deren definierten bzw. benötigt
 
 Bei Fragen zur Technik oder Verwendung sind hier die betreffenden Anlaufstellen zur Recherche:
 
-- [![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://aka.ms/ComplianceUtility/Manual)
+- [![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://nodejs.org/docs/latest/api)
 - [![YarnManual](https://img.shields.io/badge/Yarn%20Documentation-2C8EBB?logo=gitbook&logoColor=white)](https://classic.yarnpkg.com/en/docs)
 - [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS%20Docs-%2338B2AC.svg?logo=gitbook&logoColor=white)](https://tailwindcss.com/docs)
 - [![GitHubManual](https://img.shields.io/badge/GitHub%20Desktop%20Dokumentation-black?logo=gitbook&logoColor=white)](https://docs.github.com/de/desktop)
