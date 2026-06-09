@@ -57,10 +57,10 @@ export default function Datenschutz() {
             E-Mail:{" "}
             <a
               className="text-primary hover:underline"
-              href="email:webmaster@anti-corona-kartell.de"
+              href="email:webmaster@gaming-gilde.org"
               target="_blank"
             >
-              webmaster@anti-corona-kartell.de
+              webmaster@gaming-gilde.org
             </a>
           </p>
         </div>
@@ -168,7 +168,7 @@ export default function Datenschutz() {
             Wir unterhalten Online‑Profile bei den Anbietern{" "}
             <a
               className="font-light text-primary hover:underline"
-              href="https://www.youtube.com/@Anti-Corona-Kartell"
+              href="https://www.youtube.com/@Gaming-Gilde"
               target="_blank"
             >
               YouTube
@@ -176,7 +176,7 @@ export default function Datenschutz() {
             ,{" "}
             <a
               className="font-light text-primary hover:underline"
-              href="https://www.twitch.tv/anti_corona_kartell"
+              href="https://www.twitch.tv/gaming_gilde"
               target="_blank"
             >
               Twitch
@@ -184,7 +184,7 @@ export default function Datenschutz() {
             ,{" "}
             <a
               className="font-light text-primary hover:underline"
-              href="https://www.tiktok.com/@anticoronakartell"
+              href="https://www.tiktok.com/@gaminggilde"
               target="_blank"
             >
               TikTok
@@ -192,7 +192,7 @@ export default function Datenschutz() {
             und{" "}
             <a
               className="font-light text-primary hover:underline"
-              href="https://discord.anti-corona-kartell.de"
+              href="https://discord.gaming-gilde.org"
               target="_blank"
             >
               Discord

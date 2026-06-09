@@ -54,7 +54,7 @@ export const Navbar = () => {
               priority={true}
               unoptimized={true}
               className="w-[75px]"
-              alt="Anti-corona-kartell Logo"
+              alt="gaming gilde logo"
             />
           </a>
           <button

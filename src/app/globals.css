@@ -3,8 +3,8 @@
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: #ffab2c;
-  --color-primaryHover: #bd4836;
+  --color-primary: #ff2d95;
+  --color-primaryHover: #00f5ff;
   --color-primaryDark: #050912;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .linear-text {
   background-color: rgb(23, 252, 3);
-  background-image: linear-gradient(to right, #ffab2c, #bd4836);
+  background-image: linear-gradient(to right, #00f5ff, #ff2d95);
   /*background-color: rgb(19, 115, 217); */
   /*background-image: linear-gradient(to right, #2493ef, #a855f7); */
   color: transparent;
@@ -82,7 +82,7 @@ body {
 }
 
 .linear-button {
-  background-image: linear-gradient(to right, #ff3d64, #de7b2f);
+  background-image: linear-gradient(to right, #ff3d64, #ff2d95);
   border: 1px solid white;
 }
 
@@ -105,17 +105,17 @@ body {
 }
 
 .card-background:hover {
-  box-shadow: inset 0px 0px 0px 1px rgba(222, 123, 47, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 44, 148, 1);
 }
 
 .card-background-linear {
-  background-image: linear-gradient(to right, #ffab2c, #bd4836);
+  background-image: linear-gradient(to right, #00f5ff, #ff2d95);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
 }
 
 .card-background-linear:hover {
-  background-image: linear-gradient(to right, #bd4836, #ffab2c);
+  background-image: linear-gradient(to right, #ff2d95, #00f5ff);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
 }
@@ -123,7 +123,7 @@ body {
 .card-background-primary {
   background-image: linear-gradient(
     180deg,
-    rgba(255, 171, 44, 0.62) 0%,
+    rgba(255, 44, 148, 0.62) 0%,
     rgba(189, 72, 54, 0.2) 100%
   );
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
@@ -164,7 +164,7 @@ body {
 }
 
 .card-inner:hover {
-  box-shadow: inset 0px 0px 0px 1px rgba(255, 171, 44, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 44, 148, 1);
 }
 
 .card-inner-total {
@@ -324,7 +324,7 @@ body {
 /* Scroll-Indikator */
 .scrollIndicator {
   width: 100%;
-  background: linear-gradient(to bottom, #ffab2c, #bd4836); /* Farbverlauf von #ffc524 zu #ff6817 */
+  background: linear-gradient(to bottom, #00f5ff, #ff2d95); /* Farbverlauf */
   border-radius: 5px;
   transition: height 0.2s ease-out; /* sanfte Animation */
 }
@@ -350,7 +350,7 @@ body {
   position: absolute;
   width: 50%;
   height: 5px;
-  background: linear-gradient(45deg, #ffffff00, #ffab2c 50%, #ffffff00);
+  background: linear-gradient(45deg, #00f5ff, #ffab2c 50%, #00f5ff);
   top: -1px;
   right: 20px;
   transition: all 1.4s ease;

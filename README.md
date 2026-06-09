@@ -1,6 +1,6 @@
-# ANTI-CORONA-KARTELL Web
+# GAMING GILDE Web
 
-**Das Repository der privaten Website des ANTI-CORONA-KARTELLs.**
+**Das Repository der Website der GAMING GILDE.**
 
 Ursprünglich verwendete Entwicklungsumgebung (IDE):
 
@@ -34,8 +34,8 @@ Next.js kommt via Yarn als Dependency mit und wird automatisch mit Yarn installi
 Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
 
 ```bash
-git clone https://github.com/ANTI-CORONA-KARTELL/ANTI-CORONA-KARTELL-Web.git anti-corona-kartell-web
-cd anti-corona-kartell-web
+git clone https://github.com/GAMINGGILDE/GAMING-GILDE-Web.git gaming-gilde-web
+cd gaming-gilde-web
 ```
 
 ## Abhängigkeiten installieren

@@ -28,7 +28,7 @@ export const TextContent = () => {
         Schau gerne später wieder vorbei oder komm auf unseren{" "}
         <a
           className="text-primary hover:underline"
-          href="https://discord.anti-corona-kartell.de"
+          href="https://discord.gaming-gilde.org"
           target="_blank"
         >
           Discord-Server
@@ -143,7 +143,7 @@ export const TextContent = () => {
         Schau dir auch gerne ein paar Videos vergangener Events auf unserem{" "}
         <a
           className="text-primary hover:underline"
-          href="https://www.youtube.com/@Anti-Corona-Kartell/videos"
+          href="https://www.youtube.com/@Gaming-Gilde/videos"
           target="_blank"
         >
           YouTube-Kanal

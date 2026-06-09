@@ -14,7 +14,7 @@ export function buildOrganizationJsonLd(): JsonLd {
     url: site.url,
     logo: {
       "@type": "ImageObject",
-      url: "https://anti-corona-kartell.de/logo.png",
+      url: "https://gaming-gilde.org/logo.png",
       width: 394,
       height: 380,
     },
@@ -22,8 +22,8 @@ export function buildOrganizationJsonLd(): JsonLd {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
-      email: "webmaster@anti-corona-kartell.de",
-      url: "https://discord.anti-corona-kartell.de",
+      email: "webmaster@gaming-gilde.org",
+      url: "https://discord.gaming-gilde.org",
       availableLanguage: "de",
     },
   };

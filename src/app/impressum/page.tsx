@@ -18,7 +18,7 @@ export default function Imprint() {
 
   useEffect(() => {
     if (emailRef.current) {
-      const domain = "anti-corona-kartell.de";
+      const domain = "gaming-gilde.org";
       const email = "webmaster@" + domain;
 
       const link = document.createElement("a");
@@ -47,17 +47,14 @@ export default function Imprint() {
           <div className="flex justify-center lg:justify-between flex-wrap lg:p-0 p-10 gap-10">
             <div className="relative">
               <Image
-                src="/logo.png"
-                className="w-50 mx-auto"
-                alt={"anti-corona-kartell logo"}
+                src="/logo-full.png"
+                className="w-70 mx-auto"
+                alt={"gaming gilde full logo"}
                 width={1000}
                 height={1000}
                 priority={true}
                 unoptimized={true}
               />
-              <h1 className="font-semibold text-sm text-center lg:text-lg">
-                <span className="text-primary">ANTI-CORONA-KARTELL</span>
-              </h1>
             </div>
             <div className="mt-10 lg:mt-0">
               <h1 className="text-sm mb-4">Unsere Social‑Media‑Kanäle:</h1>
@@ -67,7 +64,7 @@ export default function Imprint() {
 
                 <a
                   className="text-primary hover:underline"
-                  href="https://www.youtube.com/@Anti-Corona-Kartell"
+                  href="https://www.youtube.com/@Gaming-Gilde"
                   target="_blank"
                 >
                   <FaYoutube className="w-6 h-6 text-white hover:text-primary" />
@@ -78,7 +75,7 @@ export default function Imprint() {
                 <p className="font-semibold">Twitch</p>
                 <a
                   className="text-primary hover:underline"
-                  href="https://www.twitch.tv/anti_corona_kartell"
+                  href="https://www.twitch.tv/gaming_gilde"
                   target="_blank"
                 >
                   <FaTwitch className="w-6 h-6 text-white hover:text-primary" />
@@ -88,7 +85,7 @@ export default function Imprint() {
                 <p className="font-semibold">TikTok</p>
                 <a
                   className="text-primary hover:underline"
-                  href="https://www.tiktok.com/@anticoronakartell"
+                  href="https://www.tiktok.com/@gaminggilde"
                   target="_blank"
                 >
                   <FaTiktok className="w-6 h-6 text-white hover:text-primary" />
@@ -98,7 +95,7 @@ export default function Imprint() {
                 <p className="font-semibold">Discord</p>
                 <a
                   className="text-primary hover:underline"
-                  href="https://discord.anti-corona-kartell.de"
+                  href="https://discord.gaming-gilde.org"
                   target="_blank"
                 >
                   <FaDiscord className="w-6 h-6 text-white hover:text-primary" />
@@ -164,7 +161,7 @@ export default function Imprint() {
                 <li>
                   <a
                     className="font-light text-primary hover:underline"
-                    href="https://www.youtube.com/@Anti-Corona-Kartell"
+                    href="https://www.youtube.com/@Gaming-Gilde"
                     target="_blank"
                   >
                     YouTube
@@ -173,7 +170,7 @@ export default function Imprint() {
                 <li>
                   <a
                     className="font-light text-primary hover:underline"
-                    href="https://www.twitch.tv/anti_corona_kartell"
+                    href="https://www.twitch.tv/gaming_gilde"
                     target="_blank"
                   >
                     Twitch
@@ -182,7 +179,7 @@ export default function Imprint() {
                 <li>
                   <a
                     className="font-light text-primary hover:underline"
-                    href="https://www.tiktok.com/@anticoronakartell"
+                    href="https://www.tiktok.com/@gaminggilde"
                     target="_blank"
                   >
                     TikTok
@@ -191,7 +188,7 @@ export default function Imprint() {
                 <li>
                   <a
                     className="font-light text-primary hover:underline"
-                    href="https://discord.anti-corona-kartell.de"
+                    href="https://discord.gaming-gilde.org"
                     target="_blank"
                   >
                     Discord

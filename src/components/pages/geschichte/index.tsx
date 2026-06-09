@@ -139,7 +139,7 @@ export const History = () => {
             Zu einigen Events haben wir ein paar Videos auf unserem{" "}
             <a
               className="text-primary hover:underline"
-              href="https://www.youtube.com/@Anti-Corona-Kartell"
+              href="https://www.youtube.com/@Gaming-Gilde"
               target="_blank"
             >
               YouTube-Kanal
@@ -163,10 +163,10 @@ export const History = () => {
             werden willst, dann werde noch heute Mitglied beim{" "}
             <a
               className="text-primary hover:underline"
-              href="https://discord.anti-corona-kartell.de"
+              href="https://discord.gaming-gilde.org"
               target="_blank"
             >
-              ANTI-CORONA-KARTELL
+              GAMING GILDE
             </a>{" "}
             und unserem Partner, der{" "}
             <a

@@ -17,22 +17,10 @@ export const AboutUs = () => {
       <div className="mt-10 container mx-auto">
         <div className="grid grid-cols-12 gap-5 lg:gap-10">
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
+            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
               <Card
                 isRight={false}
                 className="opacity-0"
-                icon={
-                  <Image
-                    src={Logo}
-                    priority={true}
-                    unoptimized={true}
-                    alt={"logo"}
-                    width={100}
-                    height={100}
-                    className="w-40 fill-white mr-3 absolute top-0 left-0 opacity-10"
-                    loader={(loader) => `${loader.src}`}
-                  />
-                }
                 title={"Spaß"}
                 subTitle={
                   "Wir sind eine junge Gaming-Community. Von " +
@@ -47,11 +35,8 @@ export const AboutUs = () => {
           </div>
 
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
+            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
               <Card
-                icon={
-                  <FaDiscord className="w-40 h-40 fill-white mr-3 absolute top-0 left-0 opacity-10" />
-                }
                 title={"Quatschen"}
                 subTitle={
                   "Wir betreiben primär einen Discord‑Server, um " +
@@ -66,25 +51,13 @@ export const AboutUs = () => {
           </div>
 
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.anti-corona-kartell.de"} target={"_blank"}>
+            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
               <Card
                 isRight={true}
                 className="opacity-0"
-                icon={
-                  <Image
-                    src={LogoVirus}
-                    priority={true}
-                    unoptimized={true}
-                    alt={"virus logo"}
-                    width={100}
-                    height={100}
-                    className="w-40 fill-white mr-3 absolute top-0 left-0 opacity-10"
-                    loader={(loader) => `${loader.src}`}
-                  />
-                }
                 title={"Beitreten"}
                 subTitle={
-                  "Komm ins ANTI‑CORONA‑KARTELL. Hier wird " +
+                  "Komm in unsere GAMING GILDE. Hier wird " +
                   "Gaming gemeinsam gefeiert. Häng mit einer " +
                   "entspannten Gaming‑Community ab, die " +
                   "immer gute Laune auf gute Games und " +

@@ -61,7 +61,7 @@ export const GameServer = () => {
         <div className="relative block text-white">
           <div className="grid grid-cols-12 gap-x-0 lg:gap-x-10">
             <div className="col-span-12 lg:col-span-8">
-              <h2 className="linear-text font-medium uppercase text-sm">ANTI-CORONA-KARTELL</h2>
+              <h2 className="linear-text font-medium uppercase text-sm">GAMING GILDE</h2>
 
               <div className="flex flex-row m-0 p-0 uppercase mt-3 pr-5">
                 <h1 className="font-bold text-2xl lg:text-7xl tracking-widest m-0">GAME</h1>
@@ -79,7 +79,7 @@ export const GameServer = () => {
               </p>
 
               <Link
-                href="https://discord.anti-corona-kartell.de"
+                href="https://discord.gaming-gilde.org"
                 target="_blank"
                 className="inline-block mt-7 py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover"
               >
@@ -95,190 +95,7 @@ export const GameServer = () => {
           </h1>
 
           <GameServerCard
-            title={"Windrose"}
-            image={WindroseImage}
-            onClick={() => copyLink("80052342")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Einladungscode kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Einladungscode:</strong> 80052342
-                </p>
-                <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Das Passwort ist auf unserem
-                  Discord-Server zu finden.
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Baue, fertige und erkunde eine riesige offene Welt voller dunkler Geheimnisse.
-                Stelle dich Soulslite-Kämpfen und herausfordernden Bossen. Befehlige dein Schiff und
-                raube unermessliche Schätze!
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Valheim Plus"}
-            image={ValheimImage}
-            onClick={() => copyLink("194.62.157.159:2456")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>
-                  Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.
-                </p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Adresse:</strong> 194.62.157.159:2456
-                </p>
-                <p>
-                  <strong>Hinweis:</strong> Ein Passwort und ein Mod wird benötigt. Das Passwort ist
-                  auf unserem Discord-Server zu finden.
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Ein brutales 1-10 Spieler Multiplayer-Erkundungs- und Survivalspiel in einem
-                prozedural generierten Fegefeuer inspiriert von der Kultur der Wikinger.
-              </p>
-
-              <p className="text-base leading-relaxed text-gray-500">
-                <strong>Benötigter Mod: </strong>
-                <a
-                  className="text-primary hover:underline"
-                  href="https://www.nexusmods.com/valheim/mods/2323"
-                  target="_blank"
-                >
-                  Valheim Plus
-                </a>
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"7 Days to Die"}
-            image={SevenDays}
-            onClick={() => copyLink("194.62.157.159:26900")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Adresse:</strong> 194.62.157.159:26900
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
-                Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
-                Vorreiter der Zombie-Survival-Sandbox-RPGs.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Core Keeper"}
-            image={CoreKeeperImage}
-            onClick={() => copyLink("MJZjzJiPF579nAU")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">ID kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Game-ID:</strong> MJZjzJiPF579nAU
-                </p>
-                <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
-                  Discord-Server.
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                <strong>Lüfte das Geheimnis des uralten Kerns</strong>
-              </p>
-              <p className="text-base leading-relaxed text-gray-500">
-                Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem
-                Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige
-                Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu
-                lüften.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Satisfactory"}
-            image={SatisfactoryImage}
-            onClick={() => copyLink("193.203.238.158:7778")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Komm, und betrete den Fließbandhimmel!</p>
-                <p>
-                  <strong>Name:</strong> ANTI-CORONA-KARTELL
-                </p>
-                <p>
-                  <strong>Adresse:</strong> 193.203.238.158:7778
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
-                Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden
-                Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Minecraft"}
+            title={"Minecraft Gilde"}
             image={MinecraftImage}
             onClick={() => copyLink("minecraft-gilde.de")}
             button={
@@ -289,7 +106,10 @@ export const GameServer = () => {
             }
             cardText={
               <>
-                <p>Erster deutscher FOLIA Vanilla-Server!</p>
+                <p>
+                  Dein Minecraft-Server für Survival und Freebuild auf einer Langzeitwelt ohne
+                  Reset.
+                </p>
                 <p>
                   <strong>Name:</strong> Minecraft Gilde
                 </p>
@@ -337,6 +157,189 @@ export const GameServer = () => {
                 und auch die Spawnraten nahezu wie im Singleplayer. Auch bei hoher Serverlast bleibt
                 das Gameplay flüssig – mit hohen Sichtweiten, stabilen Tickraten und ohne
                 Einschränkungen für Technik oder Bauprojekte.
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Windrose"}
+            image={WindroseImage}
+            onClick={() => copyLink("80052342")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Einladungscode kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
+                <p>
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Einladungscode:</strong> 80052342
+                </p>
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Das Passwort ist auf unserem
+                  Discord-Server zu finden.
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Baue, fertige und erkunde eine riesige offene Welt voller dunkler Geheimnisse.
+                Stelle dich Soulslite-Kämpfen und herausfordernden Bossen. Befehlige dein Schiff und
+                raube unermessliche Schätze!
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Valheim Plus"}
+            image={ValheimImage}
+            onClick={() => copyLink("194.62.157.159:2456")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Adresse kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>
+                  Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.
+                </p>
+                <p>
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Adresse:</strong> 194.62.157.159:2456
+                </p>
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort und ein Mod wird benötigt. Das Passwort ist
+                  auf unserem Discord-Server zu finden.
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Ein brutales 1-10 Spieler Multiplayer-Erkundungs- und Survivalspiel in einem
+                prozedural generierten Fegefeuer inspiriert von der Kultur der Wikinger.
+              </p>
+
+              <p className="text-base leading-relaxed text-gray-500">
+                <strong>Benötigter Mod: </strong>
+                <a
+                  className="text-primary hover:underline"
+                  href="https://www.nexusmods.com/valheim/mods/2323"
+                  target="_blank"
+                >
+                  Valheim Plus
+                </a>
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"7 Days to Die"}
+            image={SevenDays}
+            onClick={() => copyLink("194.62.157.159:26900")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Adresse kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
+                <p>
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Adresse:</strong> 194.62.157.159:26900
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
+                Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
+                Vorreiter der Zombie-Survival-Sandbox-RPGs.
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Core Keeper"}
+            image={CoreKeeperImage}
+            onClick={() => copyLink("MJZjzJiPF579nAU")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">ID kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
+                <p>
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Game-ID:</strong> MJZjzJiPF579nAU
+                </p>
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                <strong>Lüfte das Geheimnis des uralten Kerns</strong>
+              </p>
+              <p className="text-base leading-relaxed text-gray-500">
+                Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem
+                Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige
+                Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu
+                lüften.
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Satisfactory"}
+            image={SatisfactoryImage}
+            onClick={() => copyLink("193.203.238.158:7778")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">Adresse kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Komm, und betrete den Fließbandhimmel!</p>
+                <p>
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Adresse:</strong> 193.203.238.158:7778
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
+                Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden
+                Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
               </p>
             </>
           </GameServerCard>

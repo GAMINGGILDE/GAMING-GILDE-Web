@@ -28,7 +28,7 @@ export const SearchEnd = () => {
             noch leichter Leute findest, die mit dir zusammen zocken, quatschen und Spaß haben.
             <br />
             <br />
-            Also, komm und steig mit ein beim ANTI-CORONA-KARTELL!
+            Also, komm und steig mit ein in die GAMING GILDE!
           </p>
         </div>
         <div className="col-span-12 lg:col-span-4 lg:mt-0 mt-7">

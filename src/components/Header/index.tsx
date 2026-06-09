@@ -5,6 +5,7 @@ import type { ImageProps } from "next/image";
 import PreviewImage from "../../assets/index-bg-3.webp";
 import React, { useCallback, useEffect, useState } from "react";
 import { Headline } from "./components/Headline/index";
+import ImageLogoText from "../../../../public/logo-text.png";
 
 export const Header = ({
   noText,
@@ -47,15 +48,12 @@ export const Header = ({
       <RenderImage />
 
       <Headline
-        preTitle={noText ? "" : "Gaming Community"}
         subTitle={
           noText ? (
             <></>
           ) : (
             <p className="uppercase">
-              <span className="linear-text font-bold text-6xl lg:text-7xl">
-                ANTI-CORONA-KARTELL
-              </span>
+              <span className="linear-text font-bold text-6xl lg:text-7xl">xGAMING GILDEx</span>
             </p>
           )
         }

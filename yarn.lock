@@ -1304,9 +1304,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"anti-corona-kartell.de@workspace:.":
+"gaming-gilde.org@workspace:.":
   version: 0.0.0-use.local
-  resolution: "anti-corona-kartell.de@workspace:."
+  resolution: "gaming-gilde.org@workspace:."
   dependencies:
     "@eslint/compat": "npm:^2.0.5"
     "@tailwindcss/postcss": "npm:^4.1.18"

@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <section className="xl:px-0 px-5 md:px-10 mt-40 max-w-[1280px] mx-auto text-white">
       <div className="card-inner--blue p-6 lg:p-10">
-        <p className="linear-text font-medium uppercase text-sm">ANTI-CORONA-KARTELL</p>
+        <p className="linear-text font-medium uppercase text-sm">GAMING GILDE</p>
 
         <div className="flex flex-row m-0 p-0 uppercase mt-3 flex-wrap gap-x-3">
           <h1 className="font-bold text-2xl lg:text-6xl tracking-widest m-0">Fehler</h1>

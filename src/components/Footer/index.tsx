@@ -19,7 +19,7 @@ export const Footer = () => {
 
             <div className="mt-3 lg:mt-0 flex justify-center items-center lg:flex-1">
               <div className="mx-2">
-                <Link href="https://discord.anti-corona-kartell.de" title="Discord" target="_blank">
+                <Link href="https://discord.gaming-gilde.org" title="Discord" target="_blank">
                   <FaDiscord className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
@@ -45,17 +45,13 @@ export const Footer = () => {
               </div>
 
               <div className="mx-2">
-                <Link
-                  href="https://www.youtube.com/@Anti-Corona-Kartell"
-                  title="YouTube"
-                  target="_blank"
-                >
+                <Link href="https://www.youtube.com/@Gaming-Gilde" title="YouTube" target="_blank">
                   <FaYoutube className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
-                <Link href="https://github.com/ANTI-CORONA-KARTELL" title="GitHub" target="_blank">
+                <Link href="https://github.com/GAMINGGILDE" title="GitHub" target="_blank">
                   <FaGithub className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
