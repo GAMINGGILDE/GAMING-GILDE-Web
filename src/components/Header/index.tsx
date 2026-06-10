@@ -5,7 +5,6 @@ import type { ImageProps } from "next/image";
 import PreviewImage from "../../assets/index-bg-3.webp";
 import React, { useCallback, useEffect, useState } from "react";
 import { Headline } from "./components/Headline/index";
-import ImageLogoText from "../../../../public/logo-text.png";
 
 export const Header = ({
   noText,
@@ -52,13 +51,20 @@ export const Header = ({
           noText ? (
             <></>
           ) : (
-            <p className="uppercase">
-              <span className="linear-text font-bold text-6xl lg:text-7xl">xGAMING GILDEx</span>
-            </p>
+            <div className="flex justify-center">
+              <Image
+                src="/logo-text.svg"
+                alt="xGAMING GILDEx"
+                width={1010}
+                height={93}
+                className="w-auto h-14 lg:h-20"
+                priority
+              />
+            </div>
           )
         }
         text={noText ? <></> : <>Eine junge Gaming-Community, für gemeinsamen Spaß beim Spielen</>}
-      ></Headline>
+      />
     </>
   );
 };
