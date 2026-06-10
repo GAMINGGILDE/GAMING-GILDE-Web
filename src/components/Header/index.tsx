@@ -54,7 +54,7 @@ export const Header = ({
             <div className="flex justify-center">
               <Image
                 src="/logo-text.svg"
-                alt="xGAMING GILDEx"
+                alt="GAMING GILDE"
                 width={1010}
                 height={93}
                 className="w-auto h-14 lg:h-20"

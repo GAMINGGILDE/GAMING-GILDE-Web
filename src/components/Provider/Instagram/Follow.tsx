@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Instagram from "../../../../public/logo.png";
+import MGLogoFull from "../../../../public/mg-logo-full.png";
 import React from "react";
 
 export const InstagramFollow = () => {
@@ -12,8 +12,8 @@ export const InstagramFollow = () => {
           <div className="grid grid-cols-12">
             <div className="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-72">
               <Image
-                src={Instagram}
-                alt={"Instagram"}
+                src={MGLogoFull}
+                alt={"Minecraft Gilde"}
                 loader={(loader) => `${loader.src}`}
                 width={1000}
                 height={100}
@@ -38,8 +38,8 @@ export const InstagramFollow = () => {
             </div>
             <div className="col-span-12 block lg:hidden lg:col-span-6 pb-1">
               <Image
-                src={Instagram}
-                alt={"Instagram"}
+                src={MGLogoFull}
+                alt={"Minecraft Gilde"}
                 loader={(loader) => `${loader.src}`}
                 width={1000}
                 height={100}
