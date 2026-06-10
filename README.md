@@ -34,11 +34,7 @@ Next.js kommt via Yarn als Dependency mit und wird automatisch mit Yarn installi
 Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
 
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/GAMINGGILDE/GAMING-GILDE-Web.git gaming-gilde-web
-=======
-git clone https://github.com/GAMNINGGILDE/GAMING-GILDE-Web.git gaming-gilde-web
->>>>>>> fe68ddda36ef8ff88da5dc8e6c784e98321f3639
 cd gaming-gilde-web
 ```
 
