@@ -19,22 +19,19 @@ jobs:
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
         with:
           node-version: 24
-          cache: yarn
-
-      - name: Enable Corepack
-        run: corepack enable
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: npm ci
 
       - name: Prettier check
-        run: yarn format:check
+        run: npm run format:check
 
       - name: Lint
-        run: yarn lint
+        run: npm run lint
 
       - name: Build
-        run: yarn build
+        run: npm run build
 
       - name: General check
-        run: yarn check
+        run: npm run check

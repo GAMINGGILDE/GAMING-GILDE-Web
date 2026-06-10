@@ -12,7 +12,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
-    "check": "yarn format:check && yarn lint"
+    "check": "npm run format:check && npm run lint"
   },
   "dependencies": {
     "@types/animejs": "^3.1.12",
@@ -28,7 +28,7 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^10.0.0",
+    "eslint": "^9.39.4",
     "eslint-config-next": "16.2.7",
     "eslint-config-prettier": "^10.1.8",
     "postcss": "^8",
@@ -36,5 +36,5 @@
     "tailwindcss": "^4.1.18",
     "typescript": "^6.0.0"
   },
-  "packageManager": "yarn@4.16.0"
+  "packageManager": "npm@11.8.0"
 }
