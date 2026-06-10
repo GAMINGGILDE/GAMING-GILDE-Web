@@ -1304,31 +1304,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gaming-gilde.org@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gaming-gilde.org@workspace:."
-  dependencies:
-    "@eslint/compat": "npm:^2.0.5"
-    "@tailwindcss/postcss": "npm:^4.1.18"
-    "@types/animejs": "npm:^3.1.12"
-    "@types/node": "npm:^24"
-    "@types/react": "npm:^19"
-    "@types/react-dom": "npm:^19"
-    animejs: "npm:^4.0.0"
-    eslint: "npm:^10.0.0"
-    eslint-config-next: "npm:16.2.7"
-    eslint-config-prettier: "npm:^10.1.8"
-    next: "npm:16.2.7"
-    postcss: "npm:^8"
-    prettier: "npm:^3.8.1"
-    react: "npm:19.2.7"
-    react-dom: "npm:19.2.7"
-    react-icons: "npm:^5.5.0"
-    tailwindcss: "npm:^4.1.18"
-    typescript: "npm:^6.0.0"
-  languageName: unknown
-  linkType: soft
-
 "aria-query@npm:^5.3.2":
   version: 5.3.2
   resolution: "aria-query@npm:5.3.2"
@@ -2355,6 +2330,31 @@ __metadata:
   checksum: 10c0/33e77fd29bddc2d9bb78ab3eb854c165909201f88c75faa8272e35899e2d35a8a642a15e7420ef945e1f64a9670d6aa3ec744106b2aa42be68ca5114025954ca
   languageName: node
   linkType: hard
+
+"gaming-gilde.org@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "gaming-gilde.org@workspace:."
+  dependencies:
+    "@eslint/compat": "npm:^2.0.5"
+    "@tailwindcss/postcss": "npm:^4.1.18"
+    "@types/animejs": "npm:^3.1.12"
+    "@types/node": "npm:^24"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    animejs: "npm:^4.0.0"
+    eslint: "npm:^10.0.0"
+    eslint-config-next: "npm:16.2.7"
+    eslint-config-prettier: "npm:^10.1.8"
+    next: "npm:16.2.7"
+    postcss: "npm:^8"
+    prettier: "npm:^3.8.1"
+    react: "npm:19.2.7"
+    react-dom: "npm:19.2.7"
+    react-icons: "npm:^5.5.0"
+    tailwindcss: "npm:^4.1.18"
+    typescript: "npm:^6.0.0"
+  languageName: unknown
+  linkType: soft
 
 "generator-function@npm:^2.0.0":
   version: 2.0.1
