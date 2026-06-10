@@ -25,21 +25,13 @@ export const Footer = () => {
               </div>
 
               <div className="mx-2">
-                <Link
-                  href="https://www.tiktok.com/@gaminggilde"
-                  title="TikTok"
-                  target="_blank"
-                >
+                <Link href="https://www.tiktok.com/@gaminggilde" title="TikTok" target="_blank">
                   <FaTiktok className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
-                <Link
-                  href="https://www.twitch.tv/gaming_gilde"
-                  title="Twitch"
-                  target="_blank"
-                >
+                <Link href="https://www.twitch.tv/gaming_gilde" title="Twitch" target="_blank">
                   <FaTwitch className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
