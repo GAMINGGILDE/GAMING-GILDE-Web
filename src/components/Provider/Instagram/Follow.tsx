@@ -29,8 +29,9 @@ export const InstagramFollow = () => {
               </p>
               <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gameserver an</h1>
               <p className="primary-text text-xs lg:text-base mb-1 lg:mb-2">
-                Wir betreiben eigene und abwechselnde Gameserver. Melde dich gerne bei uns, wenn du
-                einen bestimmten Gameserver für ein spezielles Spiel suchst.
+                Wir betreiben eigene und wechselnde Gameserver für verschiedene Spiele. Dazu gehört
+                auch unser fest etablierter Minecraft-Server der Minecraft Gilde, auf dem du
+                gemeinsam mit anderen bauen, erkunden und langfristige Projekte umsetzen kannst.
               </p>
               <a className="text-primary hover:underline" href="/gameserver">
                 Mehr erfahren

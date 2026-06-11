@@ -96,7 +96,6 @@ export const GameServer = () => {
             onClick={() => copyLink("minecraft-gilde.de")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
@@ -161,22 +160,21 @@ export const GameServer = () => {
             onClick={() => copyLink("80052342")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Einladungscode kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
                   <strong>Einladungscode:</strong> 80052342
                 </p>
                 <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Das Passwort ist auf unserem
-                  Discord-Server zu finden.
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
                 </p>
               </>
             }
@@ -196,7 +194,6 @@ export const GameServer = () => {
             onClick={() => copyLink("194.62.157.159:2456")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
@@ -205,15 +202,15 @@ export const GameServer = () => {
                 <p>
                   Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.
                 </p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
                   <strong>Adresse:</strong> 194.62.157.159:2456
                 </p>
                 <p>
-                  <strong>Hinweis:</strong> Ein Passwort und ein Mod wird benötigt. Das Passwort ist
-                  auf unserem Discord-Server zu finden.
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
                 </p>
               </>
             }
@@ -243,14 +240,13 @@ export const GameServer = () => {
             onClick={() => copyLink("194.62.157.159:26900")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
@@ -281,7 +277,7 @@ export const GameServer = () => {
             cardText={
               <>
                 <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
@@ -313,14 +309,13 @@ export const GameServer = () => {
             onClick={() => copyLink("193.203.238.158:7778")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Komm, und betrete den Fließbandhimmel!</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
