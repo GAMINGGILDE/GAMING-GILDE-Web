@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Navbar } from "../components/Navbar/index";
 import { Footer } from "../components/Footer/index";
-import { Divider } from "../components/Divider/index";
 import { JsonLd } from "../components/SEO/JsonLd";
 import { buildDefaultJsonLdGraph } from "../lib/jsonld";
 import { site } from "../lib/site";
@@ -51,27 +50,6 @@ export default function RootLayout({
         <div className="mb-40">{children}</div>
 
         <div className="mt-auto">
-          <Divider
-            images={previews}
-            texts={[
-              {
-                title: "Lust auf Minecraft wie zu Anfangszeiten?",
-                subTitle:
-                  "Dann auf geht's zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-              },
-              {
-                title: "Minecraft Spielkammeraden gesucht?",
-                subTitle:
-                  "Dann komm zur <a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-              },
-              {
-                title: "Deutschlands erster Minecraft Server auf Folia-Basis:",
-                subTitle:
-                  "<a href='https://minecraft-gilde.de' class='text-primary hover:underline' target='_blank'>Minecraft Gilde</a>!",
-              },
-            ]}
-          />
-
           <Footer />
         </div>
       </body>

@@ -4,22 +4,19 @@ import { GameServerCard } from "../../Card/GameServerCard";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Header } from "../../Header/index";
-
-import MinecraftImage from "../../../assets/gamesesrver-minecraft.webp";
+import MinecraftImage from "../../../../public/mg-logo-full.png";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";
 import SatisfactoryImage from "../../../assets/gameserver-satisfactory.webp";
 import SevenDays from "../../../assets/gameserver-7Days.webp";
 import ValheimImage from "../../../assets/gameserver-valheim.webp";
-import MoriaImage from "../../../assets/gameserver-moria.webp";
 import WindroseImage from "../../../assets/gameserver-windrose.webp";
 
 import PreviewImage1 from "../../../assets/gameserver-bg-minecraft.webp";
 import PreviewImage2 from "../../../assets/gameserver-bg-satisfactory.webp";
 import PreviewImage3 from "../../../assets/gameserver-bg-corekeeper.webp";
 import PreviewImage4 from "../../../assets/gameserver-bg-7Days.webp";
-import PreviewImage5 from "../../../assets/gameserver-moria.webp";
-import PreviewImage6 from "../../../assets/gameserver-bg-valheim.webp";
-import PreviewImage7 from "../../../assets/gameserver-windrose.webp";
+import PreviewImage5 from "../../../assets/gameserver-bg-valheim.webp";
+import PreviewImage6 from "../../../assets/gameserver-windrose.webp";
 
 import Alert from "../../Alert/index";
 import Link from "next/link";
@@ -31,7 +28,6 @@ const previews = [
   PreviewImage4,
   PreviewImage5,
   PreviewImage6,
-  PreviewImage7,
 ];
 
 export const GameServer = () => {
@@ -100,20 +96,17 @@ export const GameServer = () => {
             onClick={() => copyLink("minecraft-gilde.de")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>
-                  Dein Minecraft-Server für Survival und Freebuild auf einer Langzeitwelt ohne
-                  Reset.
+                  Dein deutschsprachiger Minecraft Vanilla SMP Server für Survival und Freebuild auf
+                  einer Langzeitwelt ohne Reset. Fair, ohne Pay2Win und mit Vanilla+ in genau dem
+                  Maß, das dir im Alltag wirklich hilft.
                 </p>
-                <p>
-                  <strong>Name:</strong> Minecraft Gilde
-                </p>
-                <p>
+                <p className="mt-4">
                   <strong>Adresse:</strong> minecraft-gilde.de
                 </p>
               </>
@@ -167,22 +160,21 @@ export const GameServer = () => {
             onClick={() => copyLink("80052342")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Einladungscode kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
                   <strong>Einladungscode:</strong> 80052342
                 </p>
                 <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Das Passwort ist auf unserem
-                  Discord-Server zu finden.
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
                 </p>
               </>
             }
@@ -202,7 +194,6 @@ export const GameServer = () => {
             onClick={() => copyLink("194.62.157.159:2456")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
@@ -211,15 +202,15 @@ export const GameServer = () => {
                 <p>
                   Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.
                 </p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
                   <strong>Adresse:</strong> 194.62.157.159:2456
                 </p>
                 <p>
-                  <strong>Hinweis:</strong> Ein Passwort und ein Mod wird benötigt. Das Passwort ist
-                  auf unserem Discord-Server zu finden.
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
                 </p>
               </>
             }
@@ -249,14 +240,13 @@ export const GameServer = () => {
             onClick={() => copyLink("194.62.157.159:26900")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
@@ -287,7 +277,7 @@ export const GameServer = () => {
             cardText={
               <>
                 <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>
@@ -319,14 +309,13 @@ export const GameServer = () => {
             onClick={() => copyLink("193.203.238.158:7778")}
             button={
               <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
                 <p className="text-sm font-light text-white">Adresse kopieren</p>
               </>
             }
             cardText={
               <>
                 <p>Komm, und betrete den Fließbandhimmel!</p>
-                <p>
+                <p className="mt-4">
                   <strong>Name:</strong> GAMING-GILDE
                 </p>
                 <p>

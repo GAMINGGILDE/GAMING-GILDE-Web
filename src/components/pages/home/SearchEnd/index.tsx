@@ -15,17 +15,27 @@ export const SearchEnd = () => {
             Was dich bei uns erwartet:
           </h1>
           <p className="text-white font-thin mt-4 mb-7">
-            Auf unserem Discord bleibst du immer up to date, was Games und Hardware angeht. Finde
-            Mitspieler für eine riesige Auswahl an Games, quatsch mit anderen über alles rund ums
-            Zocken und werde Teil unserer Community. Außerdem bekommst du kostenlosen Zugang zu
-            unseren Gameservern – plus wechselnde Gameserver für neue oder angesagte Titel.
-            <br />
-            Also jede Menge Spaß und Abwechslung mit Spielen garantiert!
+            Auf unserem Discord bleibst du immer up to date, was Games angeht, und findest schnell
+            Mitspieler für eine große Auswahl an Titeln. Tausche dich mit anderen über alles rund
+            ums Zocken aus und werde Teil einer aktiven und freundlichen Gaming Community.
             <br />
             <br />
-            Wie wäre es mit deinem eigenen Kanal auf unserem Discord‑Server? Zu deinem Gameserver
-            bekommst du bei uns direkt einen passenden, gemütlichen Platz in der Community, damit du
-            noch leichter Leute findest, die mit dir zusammen zocken, quatschen und Spaß haben.
+            Neben wechselnden Gameservern für neue oder angesagte Spiele bieten wir dir auch feste
+            Server, wie unseren deutschsprachigen Minecraft Vanilla SMP Server der Minecraft Gilde.
+            Dort erwartet dich eine beständige Langzeitwelt für Survival und Freebuild, in der du
+            deine Projekte ganz in Ruhe entwickeln kannst. Statt hektischer Minigames steht bei uns
+            entspanntes Spielen und gemeinsames Aufbauen im Mittelpunkt.
+            <br />
+            <br />
+            Bei uns bekommst du direkt einen passenden, gemütlichen Platz in der Community, sodass
+            du ganz leicht Leute findest, mit denen du gemeinsam zocken, quatschen und Spaß haben
+            kannst. Durch die Mischung aus abwechslungsreichen Games und langfristigen Projekten ist
+            für jeden etwas dabei.
+            <br />
+            <br />
+            <strong>Kurz gesagt:</strong> Eine Community, die dir sowohl Vielfalt als auch
+            Beständigkeit bietet – egal, ob du neue Spiele entdecken oder dich auf große
+            Minecraft-Projekte konzentrieren möchtest.
             <br />
             <br />
             Also, komm und steig mit ein in die GAMING GILDE!

@@ -2,6 +2,9 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
