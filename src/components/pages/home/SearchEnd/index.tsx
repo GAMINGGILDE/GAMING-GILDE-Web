@@ -21,7 +21,7 @@ export const SearchEnd = () => {
             <br />
             <br />
             Neben wechselnden Gameservern für neue oder angesagte Spiele bieten wir dir auch feste
-            Server, wie unseren deutschsprachigen Minecraft Vanilla-SMP Server der Minecraft Gilde.
+            Server, wie unseren deutschsprachigen Minecraft Vanilla SMP Server der Minecraft Gilde.
             Dort erwartet dich eine beständige Langzeitwelt für Survival und Freebuild, in der du
             deine Projekte ganz in Ruhe entwickeln kannst. Statt hektischer Minigames steht bei uns
             entspanntes Spielen und gemeinsames Aufbauen im Mittelpunkt.
