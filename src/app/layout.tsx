@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Navbar } from "../components/Navbar/index";
 import { Footer } from "../components/Footer/index";
-import { Divider } from "../components/Divider/index";
 import { JsonLd } from "../components/SEO/JsonLd";
 import { buildDefaultJsonLdGraph } from "../lib/jsonld";
 import { site } from "../lib/site";

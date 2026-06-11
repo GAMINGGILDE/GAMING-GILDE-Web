@@ -7,7 +7,7 @@ export const site = {
   locale: "de",
 
   //Stabiler Logo-Pfad (liegt in /public), damit er auch in JSON-LD genutzt werden kann.
-  logoPath: "/logo.png",
+  logoPath: "/logo.svg",
 
   //Social-Profile (sameAs). Bitte nur echte, öffentlich erreichbare Profile eintragen.
   sameAs: [

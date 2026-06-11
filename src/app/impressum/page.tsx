@@ -47,7 +47,7 @@ export default function Imprint() {
           <div className="flex justify-center lg:justify-between flex-wrap lg:p-0 p-10 gap-10">
             <div className="relative">
               <Image
-                src="/logo-full.png"
+                src="/logo-full.svg"
                 className="w-70 mx-auto"
                 alt={"gaming gilde full logo"}
                 width={1000}

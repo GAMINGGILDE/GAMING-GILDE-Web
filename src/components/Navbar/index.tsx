@@ -48,7 +48,7 @@ export const Navbar = () => {
         <div className="max-w-(--breakpoint-xl) flex flex-wrap items-center justify-between mx-auto py-3">
           <a href="/" className="flex items-center">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               width={75}
               height={75}
               priority={true}

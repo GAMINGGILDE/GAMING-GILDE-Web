@@ -14,7 +14,7 @@ export function buildOrganizationJsonLd(): JsonLd {
     url: site.url,
     logo: {
       "@type": "ImageObject",
-      url: "https://gaming-gilde.org/logo.png",
+      url: "https://gaming-gilde.org/logo.svg",
       width: 394,
       height: 380,
     },

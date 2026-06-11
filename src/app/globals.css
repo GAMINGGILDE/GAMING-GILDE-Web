@@ -109,13 +109,13 @@ body {
 }
 
 .card-background-linear {
-  background-image: linear-gradient(to right, #00f5ff, #ff2d95);
+  background-image: linear-gradient(to right, #ff2d95, #00f5ff);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
 }
 
 .card-background-linear:hover {
-  background-image: linear-gradient(to right, #ff2d95, #00f5ff);
+  background-image: linear-gradient(to right, #00f5ff, #ff2d95);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
   border-radius: 15px;
 }
@@ -398,9 +398,4 @@ body {
       transform: translate(calc(-100% + (5 * 300px)));
     }
   }
-}
-
-.carousel-focus:hover {
-  transition: all 0.8s;
-  transform: scale(1.1);
 }
