@@ -17,7 +17,9 @@ export default function Datenschutz() {
       <div className="max-w-[1280px] mx-auto space-y-5 mt-60 xl:px-0 px-5 md:px-10 w-full m-auto mb-20 text-white">
         {/* Header */}
         <header className="space-y-6">
-          <h1 className="text-xl lg:text-3xl font-bold linear-text">Datenschutzerklärung</h1>
+          <h1 className="text-xl lg:text-3xl font-bold linear-text [font-family:var(--font-nova-bold)]">
+            Datenschutzerklärung
+          </h1>
           <p className="text-gray-300">
             Diese Datenschutzerklärung informiert die Nutzer dieser Website über Art, Umfang und
             Zweck der Erhebung und Verarbeitung personenbezogener Daten durch den Websitebetreiber.

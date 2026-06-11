@@ -11,14 +11,14 @@ import PreviewImage2 from "../assets/Minecraft-Bg-1.webp";
 import PreviewImage3 from "../assets/Minecraft-Bg-2.webp";
 import PreviewImage4 from "../assets/Minecraft-Bg-3.webp";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const NovaRegular = localFont({
+  src: "./fonts/ProximaNova-regular.woff",
+  variable: "--font-nova-regular",
   weight: "100 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+const NovaBold = localFont({
+  src: "./fonts/ProximaNova-bold.woff",
+  variable: "--font-nova-bold",
   weight: "100 900",
 });
 
@@ -43,7 +43,7 @@ export default function RootLayout({
         <JsonLd id="ld-default" data={buildDefaultJsonLdGraph()} />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${NovaRegular.variable} ${NovaBold.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
 
