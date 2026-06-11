@@ -60,8 +60,8 @@ export const GameServer = () => {
               <h2 className="linear-text font-medium uppercase text-sm">GAMING GILDE</h2>
 
               <div className="flex flex-row m-0 p-0 uppercase mt-3 pr-5 [font-family:var(--font-nova-bold)]">
-                <h1 className="font-bold text-3xl lg:text-8xl tracking-widest m-0">GAME</h1>
-                <h1 className="linear-text font-bold text-3xl lg:text-8xl tracking-widest m-0">
+                <h1 className="text-3xl lg:text-7xl tracking-widest m-0">GAME</h1>
+                <h1 className="linear-text text-3xl lg:text-7xl tracking-widest m-0">
                   SERVER
                 </h1>
               </div>
