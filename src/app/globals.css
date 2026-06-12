@@ -163,6 +163,25 @@ body {
   background-color: transparent;
 }
 
+.card-inner--yellow {
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 210, 50, 0.25);
+  border-radius: 15px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(180, 130, 0, 0.18) 1%,
+    rgba(255, 210, 50, 0.08) 100%
+  ) !important;
+  background-color: transparent;
+}
+
+.card-inner.card-inner--yellow:hover {
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 210, 50, 0.6);
+}
+
+.card-inner.card-inner--home-gameserver:hover {
+  box-shadow: inset 0px 0px 0px 1.5px rgba(255, 210, 50, 0.85);
+}
+
 .card-inner:hover {
   box-shadow: inset 0px 0px 0px 1px rgba(255, 44, 148, 1);
 }
@@ -172,6 +191,17 @@ body {
   border-radius: 15px;
   background-image: linear-gradient(0deg, rgba(1, 11, 20, 1) 1%, rgba(12, 12, 12, 1) 100%);
   background-color: #010b14;
+}
+
+.card-inner--magenta {
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 45, 149, 0.22);
+  border-radius: 15px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(78, 10, 52, 0.24) 1%,
+    rgba(255, 45, 149, 0.1) 100%
+  ) !important;
+  background-color: transparent;
 }
 
 .bounce {

@@ -61,9 +61,7 @@ export const GameServer = () => {
 
               <div className="flex flex-row m-0 p-0 uppercase mt-3 pr-5 [font-family:var(--font-nova-bold)]">
                 <h1 className="text-3xl lg:text-7xl tracking-widest m-0">GAME</h1>
-                <h1 className="linear-text text-3xl lg:text-7xl tracking-widest m-0">
-                  SERVER
-                </h1>
+                <h1 className="linear-text text-3xl lg:text-7xl tracking-widest m-0">SERVER</h1>
               </div>
             </div>
             <div className="col-span-12 lg:col-span-4">
@@ -93,21 +91,28 @@ export const GameServer = () => {
           <GameServerCard
             title={"Minecraft Gilde"}
             image={MinecraftImage}
-            onClick={() => copyLink("minecraft-gilde.de")}
+            externalUrl="https://minecraft-gilde.de"
+            colorVariant="yellow"
+            cornerLabel="Langzeitserver"
+            cornerLabelClassName="absolute top-3 right-3 rounded-full bg-yellow-400/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-white ring-1 ring-yellow-300/70"
+            imageClassName="w-[24rem] object-contain rounded-lg"
+            buttonClassName="bg-yellow-500 hover:bg-yellow-400 px-5 text-center py-0.5 rounded-full flex items-center transition duration-300"
             button={
               <>
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
+                <p className="text-sm font-light text-white">Webseite öffnen</p>
               </>
             }
             cardText={
               <>
                 <p>
                   Dein deutschsprachiger Minecraft Vanilla SMP Server für Survival und Freebuild auf
-                  einer Langzeitwelt ohne Reset. Fair, ohne Pay2Win und mit Vanilla+ in genau dem
-                  Maß, das dir im Alltag wirklich hilft.
+                  einer Langzeitwelt ohne Reset.
                 </p>
                 <p className="mt-4">
-                  <strong>Adresse:</strong> minecraft-gilde.de
+                  Die Minecraft Gilde ist ein deutschsprachiger Minecraft Vanilla-SMP für Survival
+                  und Freebuild, mit einer beständigen Langzeitwelt für deine langfristigen
+                  Projekte. Statt Minigames oder Citybuild findest du bei uns einen ruhigen Server,
+                  auf dem große Projekte in ihrem eigenen Tempo wachsen dürfen.
                 </p>
               </>
             }
@@ -150,6 +155,79 @@ export const GameServer = () => {
                 und auch die Spawnraten nahezu wie im Singleplayer. Auch bei hoher Serverlast bleibt
                 das Gameplay flüssig – mit hohen Sichtweiten, stabilen Tickraten und ohne
                 Einschränkungen für Technik oder Bauprojekte.
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Core Keeper"}
+            image={CoreKeeperImage}
+            colorVariant="magenta"
+            cornerLabel="Langzeitserver"
+            onClick={() => copyLink("MJZjzJiPF579nAU")}
+            button={
+              <>
+                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
+                <p className="text-sm font-light text-white">ID kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
+                <p className="mt-4">
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Game-ID:</strong> MJZjzJiPF579nAU
+                </p>
+                <p>
+                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+                  Discord-Server.
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                <strong>Lüfte das Geheimnis des uralten Kerns</strong>
+              </p>
+              <p className="text-base leading-relaxed text-gray-500">
+                Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem
+                Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige
+                Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu
+                lüften.
+              </p>
+            </>
+          </GameServerCard>
+
+          <GameServerCard
+            title={"Satisfactory"}
+            image={SatisfactoryImage}
+            colorVariant="magenta"
+            cornerLabel="Langzeitserver"
+            onClick={() => copyLink("193.203.238.158:7778")}
+            button={
+              <>
+                <p className="text-sm font-light text-white">Adresse kopieren</p>
+              </>
+            }
+            cardText={
+              <>
+                <p>Komm, und betrete den Fließbandhimmel!</p>
+                <p className="mt-4">
+                  <strong>Name:</strong> GAMING-GILDE
+                </p>
+                <p>
+                  <strong>Adresse:</strong> 193.203.238.158:7778
+                </p>
+              </>
+            }
+          >
+            <>
+              <p className="text-base leading-relaxed text-gray-500">
+                Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
+                Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden
+                Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
               </p>
             </>
           </GameServerCard>
@@ -260,75 +338,6 @@ export const GameServer = () => {
                 7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
                 Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
                 Vorreiter der Zombie-Survival-Sandbox-RPGs.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Core Keeper"}
-            image={CoreKeeperImage}
-            onClick={() => copyLink("MJZjzJiPF579nAU")}
-            button={
-              <>
-                {/* <i className="fa fa-link text-white text-sm mr-2" style={{ fontSize: '.75rem' }} /> */}
-                <p className="text-sm font-light text-white">ID kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
-                <p className="mt-4">
-                  <strong>Name:</strong> GAMING-GILDE
-                </p>
-                <p>
-                  <strong>Game-ID:</strong> MJZjzJiPF579nAU
-                </p>
-                <p>
-                  <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
-                  Discord-Server.
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                <strong>Lüfte das Geheimnis des uralten Kerns</strong>
-              </p>
-              <p className="text-base leading-relaxed text-gray-500">
-                Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem
-                Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige
-                Gegenstände an und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu
-                lüften.
-              </p>
-            </>
-          </GameServerCard>
-
-          <GameServerCard
-            title={"Satisfactory"}
-            image={SatisfactoryImage}
-            onClick={() => copyLink("193.203.238.158:7778")}
-            button={
-              <>
-                <p className="text-sm font-light text-white">Adresse kopieren</p>
-              </>
-            }
-            cardText={
-              <>
-                <p>Komm, und betrete den Fließbandhimmel!</p>
-                <p className="mt-4">
-                  <strong>Name:</strong> GAMING-GILDE
-                </p>
-                <p>
-                  <strong>Adresse:</strong> 193.203.238.158:7778
-                </p>
-              </>
-            }
-          >
-            <>
-              <p className="text-base leading-relaxed text-gray-500">
-                Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
-                Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden
-                Planeten, baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
               </p>
             </>
           </GameServerCard>

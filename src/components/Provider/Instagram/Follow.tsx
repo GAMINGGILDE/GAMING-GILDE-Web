@@ -8,7 +8,7 @@ export const InstagramFollow = () => {
   return (
     <div className="container pb-10 m-auto">
       <div className="card-background-primary card-inner-primary mt-44">
-        <div className="card-inner text-white">
+        <div className="card-inner card-inner--home-gameserver text-white">
           <div className="grid grid-cols-12">
             <div className="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-72">
               <Image
@@ -27,13 +27,16 @@ export const InstagramFollow = () => {
               <p className="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">
                 Schau dir unsere aktuellen
               </p>
-              <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gameserver an</h1>
+              <h1 className="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">GAMESERVER an</h1>
               <p className="primary-text text-xs lg:text-base mb-1 lg:mb-2">
                 Wir betreiben eigene und wechselnde Gameserver für verschiedene Spiele. Dazu gehört
                 auch unser fest etablierter Minecraft-Server der Minecraft Gilde, auf dem du
                 gemeinsam mit anderen bauen, erkunden und langfristige Projekte umsetzen kannst.
               </p>
-              <a className="text-primary hover:underline" href="/gameserver">
+              <a
+                className="text-yellow-400 hover:text-yellow-300 hover:underline"
+                href="/gameserver"
+              >
                 Mehr erfahren
               </a>
             </div>

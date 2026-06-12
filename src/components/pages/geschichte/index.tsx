@@ -18,9 +18,7 @@ export const History = () => {
       <div className="xl:px-0 px-5 md:px-10 mt-32 max-w-[1280px] mx-auto">
         <div className="relative block text-white text-center">
           <div className="flex flex-wrap m-0 p-0 gap-x-5 uppercase [font-family:var(--font-nova-bold)]">
-            <h1 className="text-3xl lg:text-7xl tracking-widest m-0 lg:leading-none">
-              Unsere
-            </h1>
+            <h1 className="text-3xl lg:text-7xl tracking-widest m-0 lg:leading-none">Unsere</h1>
             <h1 className="text-3xl linear-text lg:text-7xl tracking-widest m-0 lg:leading-none">
               Geschichte
             </h1>
