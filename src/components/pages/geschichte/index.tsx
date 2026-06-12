@@ -27,12 +27,13 @@ export const History = () => {
 
         <div className="my-20 text-white w-full m-auto">
           <p className="text-lg mb-5">
-            Das ANTI-CORONA-KARTELL entstand während der Corona-Pandemie, als sich eine kleine
-            Gruppe Gamer regelmäßig in Age of Empires II trafen und ihre Lobby so benannten. In der
-            Zeit eingeschränkter Freizeitmöglichkeiten war das gemeinsame Online-Spiel ein Ersatz
-            für persönliche Treffen, die wir schmerzlich vermissten. Nach der Pandemie beschlossen
-            wir uns wieder persönlich zu treffen und gaben unserer Gruppe einen Namen, der unseren
-            Protest zu den damaligen Umständen symbolisierte: ANTI-CORONA-KARTELL.
+            Unsere Gaming Community startete einst unter dem Namen ANTI-CORONA-KARTELL. Dieser Name
+            entstand während der Corona-Pandemie, als sich eine kleine Gruppe Gamer regelmäßig in
+            Age of Empires II trafen und ihre Lobby so benannten. In der Zeit eingeschränkter
+            Freizeitaktivitäten war das gemeinsame Online-Spiel ein Ersatz für persönliche Treffen,
+            die wir schmerzlich vermissten. Nach der Pandemie beschlossen wir uns wieder persönlich
+            zu treffen und gaben unserer Gruppe einen Namen, der unseren Protest zu den damaligen
+            Umständen symbolisierte.
           </p>
 
           <div className="text-lg mb-5">
@@ -148,35 +149,39 @@ export const History = () => {
           </p>
 
           <p className="text-lg mb-5">
-            Im Zuge weiterer Zusammenarbeit ist im April 2024 das ANTI-CORONA-KARTELL eine
-            Partnerschaft mit der Minecraft Gilde eingegangen, welche heute fester Bestandteil
-            unserer Gaming Community ist. Sie bietet Minecraft-Begeisterten den ersten Deutschen
-            Minecraft Server auf Basis von Folia und damit stabile Tickraten mit bester Performance.
+            Im Zuge weiterer Zusammenarbeit wurde im April 2024 eine Partnerschaft mit der Minecraft
+            Gilde eingegangen, welche ein fester Bestandteil unserer Gaming Community wurde. Sie
+            bietet Minecraft-Begeisterten einen Vanilla SMP Server für Survival und Freebuild auf
+            einer Langzeitwelt ohne Reset.
           </p>
 
           <p className="text-lg mb-5">
-            Gemeinsam sind wir Garant für jede Menge Spaß und Abwechslung beim Gaming.
+            Durch die parallele Arbeit an mehreren Projekten rund um unsere beiden Discord-Server,
+            Webseiten, Gameserver und die zugrunde liegende Technik haben wir erkannt, dass es
+            effizienter und wirtschaftlicher ist, beide Communities zusammenzuführen.
+          </p>
+
+          <p className="text-lg mb-5">
+            Nachdem die Entscheidung gefallen war, haben wir im Juli 2026 beide Communities zur
+            neuen GAMING GILDE zusammengeführt. Ein gemeinsamer Discord-Server bildet nun die
+            zentrale Anlaufstelle für alle – abgestimmt auf die vielfältigen Ansprüche unserer
+            Spieler.
           </p>
 
           <p className="text-lg mb-5">
             Wenn du keinen unserer Events mehr verpassen willst und auch ein Teil unserer Geschichte
-            werden willst, dann werde noch heute Mitglied beim{" "}
+            werden willst, dann werde noch heute Mitglied der{" "}
             <a
               className="text-primary hover:underline"
               href="https://discord.gaming-gilde.org"
               target="_blank"
             >
               GAMING GILDE
-            </a>{" "}
-            und unserem Partner, der{" "}
-            <a
-              className="text-primary hover:underline"
-              href="https://discord.minecraft-gilde.de"
-              target="_blank"
-            >
-              Minecraft Gilde
             </a>
             .
+          </p>
+          <p className="text-lg mb-5">
+            Gemeinsam sind wir Garant für jede Menge Spaß und Abwechslung beim Gaming.
           </p>
         </div>
       </div>
