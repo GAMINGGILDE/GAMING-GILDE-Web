@@ -127,9 +127,9 @@ export const TextContent = () => {
           href="https://www.youtube.com/@Gaming-Gilde/videos"
           target="_blank"
         >
-          YouTube-Kanal
-        </a>{" "}
-        an 😎.
+          YouTube-Kanal an
+        </a>
+        .
       </p>
     </div>
   );
