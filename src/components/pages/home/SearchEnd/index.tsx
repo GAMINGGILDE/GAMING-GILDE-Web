@@ -9,10 +9,10 @@ export const SearchEnd = () => {
       <div className="grid grid-cols-12 items-center lg:gap-x-10">
         <div className="col-span-12 lg:col-span-8 mb-3">
           <p className="linear-text text-xs lg:text-base uppercase">
-            Betrete jetzt unseren Discord
+            Komm und Spiel mit uns!
           </p>
           <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">
-            Was dich bei uns erwartet:
+            Was dich bei uns erwartet
           </h1>
           <p className="text-white font-thin mt-4 mb-7">
             Auf unserem Discord bleibst du immer up to date, was Games angeht, und findest schnell
