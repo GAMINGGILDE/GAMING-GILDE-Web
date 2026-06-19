@@ -59,10 +59,10 @@ export default function Datenschutz() {
             E-Mail:{" "}
             <a
               className="text-primary hover:underline"
-              href="email:webmaster@gaming-gilde.org"
+              href="mailto:info@gaming-gilde.org"
               target="_blank"
             >
-              webmaster@gaming-gilde.org
+              info@gaming-gilde.org
             </a>
           </p>
         </div>

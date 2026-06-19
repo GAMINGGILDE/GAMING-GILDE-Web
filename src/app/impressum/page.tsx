@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import { Header } from "@/components/Header";
 import PreviewImage from "../../assets/impressum-bg-1.webp";
@@ -8,30 +7,11 @@ import PreviewImage2 from "../../assets/impressum-bg-2.webp";
 import PreviewImage3 from "../../assets/impressum-bg-3.webp";
 import PreviewImage4 from "../../assets/impressum-bg-4.webp";
 import PreviewImage5 from "../../assets/impressum-bg-5.webp";
-import Link from "next/link";
 import { FaDiscord, FaTiktok, FaTwitch, FaYoutube } from "react-icons/fa6";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
 
 export default function Imprint() {
-  const emailRef = useRef<HTMLSpanElement | null>(null);
-
-  useEffect(() => {
-    if (emailRef.current) {
-      const domain = "gaming-gilde.org";
-      const email = "webmaster@" + domain;
-
-      const link = document.createElement("a");
-      link.href = `mailto:${email}`;
-      link.target = "_blank";
-      link.className = "text-primary underline font-light";
-      link.textContent = email;
-
-      emailRef.current!.innerHTML = "";
-      emailRef.current!.appendChild(link);
-    }
-  }, [emailRef]);
-
   return (
     <div>
       <Header previews={previews} noText />
@@ -129,7 +109,9 @@ export default function Imprint() {
             </p>
             <div className="mt-2 sub-text font-light">
               <strong>E-Mail: </strong>
-              <span ref={emailRef} />
+              <a className="text-primary underline font-light" href="mailto:info@gaming-gilde.org">
+                info@gaming-gilde.org
+              </a>
             </div>
 
             <div className="mt-5">
