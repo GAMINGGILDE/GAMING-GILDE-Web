@@ -37,13 +37,21 @@ export const Footer = () => {
               </div>
 
               <div className="mx-2">
-                <Link href="https://www.youtube.com/@Gaming-Gilde/videos" title="YouTube" target="_blank">
+                <Link
+                  href="https://www.youtube.com/@Gaming-Gilde/videos"
+                  title="YouTube"
+                  target="_blank"
+                >
                   <FaYoutube className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
 
               <div className="mx-2">
-                <Link href="https://github.com/GAMINGGILDE?view_as=public" title="GitHub" target="_blank">
+                <Link
+                  href="https://github.com/GAMINGGILDE?view_as=public"
+                  title="GitHub"
+                  target="_blank"
+                >
                   <FaGithub className="w-5 h-5 text-white hover:text-primary" />
                 </Link>
               </div>
