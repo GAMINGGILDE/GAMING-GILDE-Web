@@ -37,7 +37,7 @@ export default function Imprint() {
               />
             </div>
             <div className="mt-10 lg:mt-0">
-              <h1 className="text-sm mb-4">Unsere Social‑Media‑Kanäle:</h1>
+              <h1 className="text-sm mb-4">Unsere Social-Media-Kanäle:</h1>
 
               <div className="bg-sub py-2 px-5 my-2 rounded-lg flex justify-between w-[11rem]">
                 <p className="font-semibold">YouTube</p>
@@ -136,7 +136,7 @@ export default function Imprint() {
               <h2 className="text-2xs font-semibold">Geltungsbereich</h2>
               <p className="sub-text font-light mt-2">
                 Die Angaben dieses Impressums finden auch Anwendung für unsere folgenden
-                Online‑Präsenzen:
+                Online-Präsenzen:
               </p>
 
               <ul className="list-disc list-inside m-4">

@@ -1,10 +1,10 @@
-"use client";
-
 import Image from "next/image";
 import type { ImageProps } from "next/image";
 import PreviewImage from "../../assets/index-bg-3.webp";
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import { Headline } from "./components/Headline/index";
+
+const getImageSrc = (image: ImageProps["src"]) => (typeof image === "string" ? image : image.src);
 
 export const Header = ({
   noText,
@@ -13,24 +13,18 @@ export const Header = ({
   noText?: boolean;
   previews: Array<ImageProps["src"]>;
 }) => {
-  const [image, setImage] = useState<ImageProps["src"]>(PreviewImage);
+  const image = PreviewImage;
+  const previewSources = JSON.stringify(previews.map(getImageSrc));
 
-  useEffect(() => {
-    if (previews.length > 0) {
-      const randomIndex = Math.floor(Math.random() * previews.length);
-      setImage(previews[randomIndex]);
-    }
-  }, [previews]);
-
-  const RenderImage = useCallback(() => {
-    return (
-      <div className="absolute top-0" style={{ zIndex: -1 }}>
+  return (
+    <>
+      <div className="absolute top-0" style={{ zIndex: -1 }} data-header-previews={previewSources}>
         <div className="img-wrap">
           <Image
             loader={(loader) => `${loader.src}`}
             width={1000}
             height={1000}
-            className="w-full"
+            className="w-full js-random-header-image"
             priority={true}
             unoptimized={true}
             src={image}
@@ -39,12 +33,22 @@ export const Header = ({
           />
         </div>
       </div>
-    );
-  }, [image]);
 
-  return (
-    <>
-      <RenderImage />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            document.querySelectorAll('[data-header-previews]').forEach((header) => {
+              const img = header.querySelector('.js-random-header-image');
+              if (!img) return;
+              try {
+                const previews = JSON.parse(header.getAttribute('data-header-previews') || '[]');
+                if (!previews.length) return;
+                img.src = previews[Math.floor(Math.random() * previews.length)];
+              } catch (_) {}
+            });
+          `,
+        }}
+      />
 
       <Headline
         subTitle={

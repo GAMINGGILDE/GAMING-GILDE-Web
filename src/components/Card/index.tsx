@@ -1,7 +1,4 @@
-"use client";
-
-import React, { useEffect, useRef, useState } from "react";
-import { animate } from "animejs";
+import React from "react";
 
 interface CardInterface {
   title: string;
@@ -15,71 +12,39 @@ interface CardInterface {
 }
 
 export const Card = (props: CardInterface) => {
-  const elementRef = useRef(null);
-  const [hasAnimated, setHasAnimated] = useState(false);
-
-  const startAnimation = () => {
-    if (hasAnimated) return;
-    if (!elementRef.current) return;
-
-    animate(elementRef.current, {
-      translateX: [props.isRight ? 150 : -150, 0],
-      easing: "easeOutExpo",
-      opacity: 1,
-      duration: 3000,
-    });
-
-    setHasAnimated(true);
-  };
-
-  useEffect(() => {
-    if (typeof props.isRight !== "boolean") {
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && !hasAnimated) {
-          observer.unobserve(entries[0].target);
-          startAnimation();
-        }
-      },
-      {
-        threshold: 0.75, // 75% des Elementes erreicht
-        rootMargin: "100px 0px", // Bereich Vergrößerung, in dem das Element erkannt wird
-      },
-    );
-
-    if (elementRef.current) {
-      observer.observe(elementRef.current as Element);
-    }
-  }, [hasAnimated]);
+  const shouldAnimate = typeof props.isRight === "boolean";
+  const translateX = props.isRight ? 150 : -150;
 
   return (
-    <div
-      ref={elementRef}
-      style={typeof props.isRight === "boolean" ? { opacity: 0 } : undefined}
-      className={`${props.isPrimary ? "card-background-primary" : "card-background"} lg:min-h-80 cursor-pointer p-1 text-white ${props.className}`}
-    >
-      <div className={` relative p-4 ${props?.innerClassName ? props.innerClassName : "lg:p-10"}`}>
-        {props.isPrimary ? (
-          <div className="grid grid-cols-12">
-            <div className="col-span-12 lg:col-span-5 mx-auto">{props?.image && props.image}</div>
-            <div className="col-span-12 lg:col-span-7">
-              <p className="text-sm lg:text-md primary-text mb-3">{props.title}</p>
-              <h2 className="text-xl lg:text-3xl font-semibold">{props.subTitle}</h2>
+    <>
+      <div
+        data-scroll-animate={shouldAnimate ? "true" : undefined}
+        data-scroll-animate-x={shouldAnimate ? String(translateX) : undefined}
+        style={shouldAnimate ? { opacity: 0 } : undefined}
+        className={`${props.isPrimary ? "card-background-primary" : "card-background"} lg:min-h-80 cursor-pointer p-1 text-white ${props.className}`}
+      >
+        <div
+          className={` relative p-4 ${props?.innerClassName ? props.innerClassName : "lg:p-10"}`}
+        >
+          {props.isPrimary ? (
+            <div className="grid grid-cols-12">
+              <div className="col-span-12 lg:col-span-5 mx-auto">{props?.image && props.image}</div>
+              <div className="col-span-12 lg:col-span-7">
+                <p className="text-sm lg:text-md primary-text mb-3">{props.title}</p>
+                <h2 className="text-xl lg:text-3xl font-semibold">{props.subTitle}</h2>
+              </div>
             </div>
-          </div>
-        ) : (
-          <>
-            <div className="flex">
-              {props.icon && props.icon}
-              <h2 className="text-xl lg:text-3xl font-bold">{props.title}</h2>
-            </div>
-            <p className="mt-2 sub-text font-thin">{props.subTitle}</p>
-          </>
-        )}
+          ) : (
+            <>
+              <div className="flex">
+                {props.icon && props.icon}
+                <h2 className="text-xl lg:text-3xl font-bold">{props.title}</h2>
+              </div>
+              <p className="mt-2 sub-text font-thin">{props.subTitle}</p>
+            </>
+          )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };

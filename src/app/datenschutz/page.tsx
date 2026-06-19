@@ -94,7 +94,7 @@ export default function Datenschutz() {
         <div className="space-y-2">
           <h2 className="text-2xs font-semibold">Cookies</h2>
           <p className="sub-text font-light">
-            Es werden keine Tracking‑ oder Analyse‑Cookies eingesetzt. Technisch notwendige Cookies
+            Es werden keine Tracking- oder Analyse-Cookies eingesetzt. Technisch notwendige Cookies
             können gesetzt werden, um die Funktionalität der Website sicherzustellen.
           </p>
           <p className="sub-text font-light ">
@@ -103,20 +103,20 @@ export default function Datenschutz() {
         </div>
 
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">SSL-/TLS‑Verschlüsselung</h2>
+          <h2 className="text-2xs font-semibold">SSL-/TLS-Verschlüsselung</h2>
           <p className="sub-text font-light">
             Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, wird nach aktuellen Stand
             der Technik ein modernes SSL- bzw. TLS-Verschlüsselungsverfahren verwendet. Eine
-            verschlüsselte Verbindung erkennen Sie an „https://“ und dem Schloss‑Symbol im Browser.
+            verschlüsselte Verbindung erkennen Sie an „https://“ und dem Schloss-Symbol im Browser.
           </p>
         </div>
 
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Hosting & Server‑Logfiles</h2>
+          <h2 className="text-2xs font-semibold">Hosting & Server-Logfiles</h2>
           <p className="sub-text font-light ">
             Unsere Website wird bei IONOS SE gehostet. Ein Auftragsverarbeitungsvertrag besteht.
-            IONOS verarbeitet beim Aufruf der Website automatisch die IP‑Adresse, Datum und Uhrzeit
-            des Zugriffs, besuchte Seite, Referrer‑URL, Browsertyp und Version, Betriebssystem und
+            IONOS verarbeitet beim Aufruf der Website automatisch die IP-Adresse, Datum und Uhrzeit
+            des Zugriffs, besuchte Seite, Referrer-URL, Browsertyp und Version, Betriebssystem und
             Hostname des zugreifenden Rechners.
           </p>
           <p className="sub-text font-light ">
@@ -126,7 +126,7 @@ export default function Datenschutz() {
           <p className="sub-text font-light ">
             <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
             <br />
-            <strong>Speicherdauer:</strong> Bis zu 8 Wochen (IONOS‑Standard).
+            <strong>Speicherdauer:</strong> Bis zu 8 Wochen (IONOS-Standard).
           </p>
           <p className="sub-text font-light ">
             IONOS SE{" "}
@@ -145,9 +145,9 @@ export default function Datenschutz() {
           <h2 className="text-2xs font-semibold">Nutzung unserer Gameserver</h2>
           <p className="sub-text font-light ">
             Beim Betrieb unserer kostenlosen Gameserver werden die folgenden technisch notwendige
-            Daten verarbeitet: IP‑Adresse, Spielername/Nickname, technische Verbindungsdaten,
-            Server‑ und Fehler‑Logs, Chat‑Nachrichten (falls serverseitig protokolliert), ggf.
-            Anti‑Cheat‑Daten (abhängig vom Spiel). Diese Daten sind erforderlich, um den
+            Daten verarbeitet: IP-Adresse, Spielername/Nickname, technische Verbindungsdaten,
+            Server- und Fehler-Logs, Chat-Nachrichten (falls serverseitig protokolliert), ggf.
+            Anti-Cheat-Daten (abhängig vom Spiel). Diese Daten sind erforderlich, um den
             Serverbetrieb sicherzustellen, Missbrauch zu verhindern und Fehler zu analysieren.
           </p>
 
@@ -165,9 +165,9 @@ export default function Datenschutz() {
         </div>
 
         <div className="space-y-2">
-          <h2 className="text-2xs font-semibold">Social‑Media‑Präsenzen</h2>
+          <h2 className="text-2xs font-semibold">Social-Media-Präsenzen</h2>
           <p className="sub-text font-light">
-            Wir unterhalten Online‑Profile bei den Anbietern{" "}
+            Wir unterhalten Online-Profile bei den Anbietern{" "}
             <a
               className="font-light text-primary hover:underline"
               href="https://www.youtube.com/@Gaming-Gilde"
@@ -220,7 +220,7 @@ export default function Datenschutz() {
             <strong>Gemeinsame Verantwortlichkeit:</strong>
           </p>
           <p className="sub-text font-light">
-            Für Social‑Media‑Seiten besteht eine gemeinsame Verantwortlichkeit zwischen uns und dem
+            Für Social-Media-Seiten besteht eine gemeinsame Verantwortlichkeit zwischen uns und dem
             jeweiligen Plattformbetreiber gemäß Art. 26 DSGVO.
           </p>
 

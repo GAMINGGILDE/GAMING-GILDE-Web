@@ -35,7 +35,7 @@ export const AboutUs = () => {
               <Card
                 title={"Quatschen"}
                 subTitle={
-                  "Wir betreiben primär einen Discord‑Server, um " +
+                  "Wir betreiben primär einen Discord-Server, um " +
                   "unseren Mitgliedern eine kostenlose Plattform " +
                   "zur lockeren Kommunikation zu ihren " +
                   "Lieblingsspielen anzubieten und um sich " +
@@ -55,7 +55,7 @@ export const AboutUs = () => {
                 subTitle={
                   "Komm in unsere GAMING GILDE. Hier wird " +
                   "Gaming gemeinsam gefeiert. Häng mit einer " +
-                  "entspannten Gaming‑Community ab, die " +
+                  "entspannten Gaming-Community ab, die " +
                   "immer gute Laune auf gute Games und " +
                   "Gespräche hat und die ihre Lieblingsspiele " +
                   "genauso feiert wie du. "
