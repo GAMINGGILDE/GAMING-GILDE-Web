@@ -50,11 +50,15 @@ export const Footer = () => {
             </div>
 
             <div className="mt-3 lg:mt-0 lg:flex-1 text-center lg:text-right">
-              <Link href="/impressum" title="Impressum" className="mr-4 hover:text-primary">
+              <Link href="/impressum/" title="Impressum" className="mr-4 hover:text-primary">
                 Impressum{" "}
               </Link>
 
-              <Link href="/datenschutz" title="Datenschutzerklärung" className="hover:text-primary">
+              <Link
+                href="/datenschutz/"
+                title="Datenschutzerklärung"
+                className="hover:text-primary"
+              >
                 Datenschutz{" "}
               </Link>
             </div>

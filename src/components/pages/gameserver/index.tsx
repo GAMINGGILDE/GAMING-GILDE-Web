@@ -2,7 +2,6 @@
 
 import { GameServerCard } from "../../Card/GameServerCard";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import { Header } from "../../Header/index";
 import MinecraftImage from "../../../../public/mg-logo-full.png";
 import CoreKeeperImage from "../../../assets/gameserver-corekeeper.webp";

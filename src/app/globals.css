@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("./fonts/ProximaNova-regular.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("./fonts/ProximaNova-bold.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -33,6 +49,8 @@ html {
 
 body {
   background-color: #010b14;
+  --font-nova-regular: "Proxima Nova Regular";
+  --font-nova-bold: "Proxima Nova Bold";
 }
 
 .modal {

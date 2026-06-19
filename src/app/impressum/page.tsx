@@ -183,7 +183,7 @@ export default function Imprint() {
               <h2 className="text-2xs font-semibold">Datenschutz & Cookies</h2>
               <p className="sub-text font-light mt-2">
                 Ihre Privatsphäre ist uns sehr wichtig. Unsere{" "}
-                <a className="text-primary hover:underline" href="../datenschutz">
+                <a className="text-primary hover:underline" href="/datenschutz/">
                   Datenschutzerklärung
                 </a>{" "}
                 erläutert, welche persönlichen Daten von ihnen erhoben werden und wie sie von uns

@@ -35,7 +35,7 @@ export const InstagramFollow = () => {
               </p>
               <a
                 className="text-yellow-400 hover:text-yellow-300 hover:underline"
-                href="/gameserver"
+                href="/gameserver/"
               >
                 Mehr erfahren
               </a>

@@ -1,0 +1,33 @@
+---
+import { Navbar } from "../components/Navbar";
+import { Footer } from "../components/Footer";
+import { buildDefaultJsonLdGraph } from "../lib/jsonld";
+import { site } from "../lib/site";
+import "../app/globals.css";
+
+const title = Astro.props.title ?? site.name;
+const description = Astro.props.description ?? site.description;
+const jsonLd = JSON.stringify(buildDefaultJsonLdGraph());
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <script is:inline id="ld-default" type="application/ld+json" set:html={jsonLd}></script>
+  </head>
+  <body class="antialiased min-h-screen flex flex-col">
+    <Navbar client:load />
+
+    <div class="mb-40">
+      <slot />
+    </div>
+
+    <div class="mt-auto">
+      <Footer />
+    </div>
+  </body>
+</html>

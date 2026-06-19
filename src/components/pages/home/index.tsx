@@ -1,9 +1,6 @@
 "use client";
 
 import { Card } from "../../Card/index";
-import { FaDiscord } from "react-icons/fa6";
-import Image from "next/image";
-import Logo from "../../../../public/logo.svg";
 import Link from "next/link";
 
 export const AboutUs = () => {

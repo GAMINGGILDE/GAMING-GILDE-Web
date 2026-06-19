@@ -45,7 +45,7 @@ export const DiscordFrame = () => {
         src="https://discord.com/widget?id=1219625244906754093&theme=dark"
         className="w-full"
         height="600"
-        frameBorder="0"
+        style={{ border: 0 }}
       ></iframe>
     </div>
   );

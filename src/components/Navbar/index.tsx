@@ -99,7 +99,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href="/gameserver"
+                  href="/gameserver/"
                   onClick={() => setShow(false)}
                   className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
                 >
@@ -108,7 +108,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/event"
+                  href="/event/"
                   className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
                 >
                   Event
@@ -116,7 +116,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/geschichte"
+                  href="/geschichte/"
                   className="block py-2 px-3 text-primary rounded-sm hover:bg-transparent md:border-0 hover:text-primaryHover p-0 bg-transparent"
                 >
                   Geschichte
