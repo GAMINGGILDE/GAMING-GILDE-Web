@@ -7,7 +7,14 @@ import "../styles/globals.css";
 
 const title = Astro.props.title ?? site.name;
 const description = Astro.props.description ?? site.description;
-const jsonLd = JSON.stringify(buildDefaultJsonLdGraph());
+const canonicalUrl = new URL(Astro.url.pathname, site.url).toString();
+const jsonLd = JSON.stringify(
+  buildDefaultJsonLdGraph({
+    path: Astro.url.pathname,
+    title,
+    description,
+  }),
+);
 ---
 
 <!doctype html>
@@ -16,6 +23,14 @@ const jsonLd = JSON.stringify(buildDefaultJsonLdGraph());
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <title>{title}</title>
     <script is:inline id="ld-default" type="application/ld+json" set:html={jsonLd}></script>
   </head>

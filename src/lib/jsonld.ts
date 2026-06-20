@@ -82,28 +82,19 @@ export function buildGraphJsonLd(nodes: JsonLd[]): JsonLd {
   };
 }
 
-//Standard-Graph für alle Seiten (global).
-export function buildDefaultJsonLdGraph(): JsonLd {
+// Standard-Graph für alle Seiten (global).
+export function buildDefaultJsonLdGraph(args?: {
+  path?: string;
+  title?: string;
+  description?: string;
+}): JsonLd {
   return buildGraphJsonLd([
     buildOrganizationJsonLd(),
     buildWebSiteJsonLd(),
     buildWebPageJsonLd({
-      path: "/",
-      title: site.name,
-      description: site.description,
+      path: args?.path ?? "/",
+      title: args?.title ?? site.name,
+      description: args?.description ?? site.description,
     }),
-
-    {
-      /*
-    buildBreadcrumbJsonLd({
-      items: [
-        {
-          name: site.name,
-          path: "/",
-        },
-      ],
-    }),
-    */
-    },
   ]);
 }
