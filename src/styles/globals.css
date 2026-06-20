@@ -82,15 +82,15 @@ body {
 
 .navbar {
   background: rgba(15, 52, 90, 0.2);
-  backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
   transition: 2s;
 }
 
 .alert {
   background: rgba(100, 50, 255, 0.4);
-  backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
   transition: 2s;
 }
 
