@@ -1,0 +1,363 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header/Header.astro";
+import GameServerCard from "../components/Card/GameServerCard.astro";
+import CoreKeeperImage from "../assets/gameserver-corekeeper.webp";
+import SatisfactoryImage from "../assets/gameserver-satisfactory.webp";
+import SevenDays from "../assets/gameserver-7Days.webp";
+import ValheimImage from "../assets/gameserver-valheim.webp";
+import WindroseImage from "../assets/gameserver-windrose.webp";
+
+import PreviewImage1 from "../assets/gameserver-bg-minecraft.webp";
+import PreviewImage2 from "../assets/gameserver-bg-satisfactory.webp";
+import PreviewImage3 from "../assets/gameserver-bg-corekeeper.webp";
+import PreviewImage4 from "../assets/gameserver-bg-7Days.webp";
+import PreviewImage5 from "../assets/gameserver-bg-valheim.webp";
+import PreviewImage6 from "../assets/gameserver-windrose.webp";
+
+const previews = [
+  PreviewImage1,
+  PreviewImage2,
+  PreviewImage3,
+  PreviewImage4,
+  PreviewImage5,
+  PreviewImage6,
+];
+---
+
+<BaseLayout
+  title="Gameserver | GAMING GILDE"
+  description="Aktuelle GAMING GILDE Gameserver für Minecraft, Core Keeper, Satisfactory, Valheim und weitere Spiele."
+>
+  <div>
+    <Header previews={previews} noText />
+
+    <div
+      id="gameserver-copy-alert"
+      style="z-index: 99999"
+      class="fixed top-5 right-5 z-50 hidden bg-green-500 text-white px-4 py-2 rounded-sm shadow-lg transition-opacity duration-300"
+    >
+      Die Adresse wurde in die Zwischenablage kopiert
+    </div>
+
+    <div class="xl:px-0 px-5 md:px-10 mt-40 max-w-[1280px] mx-auto">
+      <div class="relative block text-white">
+        <div class="grid grid-cols-12 gap-x-0 lg:gap-x-10">
+          <div class="col-span-12 lg:col-span-8">
+            <h2 class="linear-text font-medium uppercase text-sm">GAMING GILDE</h2>
+
+            <div class="flex flex-row m-0 p-0 uppercase mt-3 pr-5 [font-family:var(--font-nova-bold)]">
+              <h1 class="text-3xl lg:text-7xl tracking-widest m-0">GAME</h1>
+              <h1 class="linear-text text-3xl lg:text-7xl tracking-widest m-0">SERVER</h1>
+            </div>
+          </div>
+          <div class="col-span-12 lg:col-span-4">
+            <p class="mt-8 font-light">
+              <strong>Nice, dass du uns gefunden hast!</strong>
+              <br />
+              Check mal ab, ob wir dein Vibe sind und ob du hier andocken willst. Wir warten schon
+              auf dich.
+            </p>
+
+            <a
+              href="https://discord.gaming-gilde.org"
+              target="_blank"
+              class="inline-block mt-7 py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover"
+            >
+              Discord beitreten
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-30 my-20">
+        <h1 class="text-lg lg:text-5xl font-semibold mb-10 text-white">
+          Unsere aktuellen Gameserver
+        </h1>
+
+        <GameServerCard
+          title="Minecraft Gilde"
+          image="/mg-logo-full.png"
+          externalUrl="https://minecraft-gilde.de"
+          colorVariant="yellow"
+          cornerLabel="Langzeitserver"
+          cornerLabelClassName="absolute top-3 right-3 rounded-full bg-yellow-400/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-white ring-1 ring-yellow-300/70"
+          imageClassName="w-[24rem] object-contain rounded-lg"
+          buttonClassName="bg-yellow-500 hover:bg-yellow-400 px-5 text-center py-0.5 rounded-full flex items-center transition duration-300"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">Webseite öffnen</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>
+              Dein deutschsprachiger Minecraft Vanilla SMP Server für Survival und Freebuild auf
+              einer Langzeitwelt ohne Reset.
+            </p>
+            <p class="mt-4">
+              Die Minecraft Gilde ist ein deutschsprachiger Minecraft Vanilla-SMP für Survival und
+              Freebuild, mit einer beständigen Langzeitwelt für deine langfristigen Projekte. Statt
+              Minigames oder Citybuild findest du bei uns einen ruhigen Server, auf dem große
+              Projekte in ihrem eigenen Tempo wachsen dürfen.
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            Dein gemütlicher Minecraft-Vanilla-Server - ohne Minigames, ohne Citybuild, nur pures
+            Minecraft!
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            Die <a
+              class="text-primary hover:underline"
+              href="https://minecraft-gilde.de"
+              target="_blank">Minecraft Gilde</a
+            > ist ein deutscher Vanilla-Server, der sich ganz auf das pure Survival- und
+            Freebuild-Erlebnis konzentriert. Hier gibt es keine Minigames, kein Citybuild und keine
+            anderen Ablenkungen - du spielst Minecraft in seiner ursprünglichsten Form. Der Fokus
+            liegt auf echtem Vanilla-Survival-Gameplay. Als neuer Spieler erhältst du ein
+            Starter-Kit, das dir den Einstieg erleichtert. Gespielt wird auf einer einzigen Welt
+            (inklusive separater Farmwelten). Ein World-Reset hat bisher nicht stattgefunden und ist
+            auch in Zukunft nicht geplant. Der Server ist auf Langzeit ausgelegt - deine Bauwerke
+            bleiben dauerhaft erhalten.
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            Seit Mai 2025 ist die Minecraft Gilde der erste deutschsprachige Server auf <a
+              class="text-primary hover:underline"
+              href="https://papermc.io/software/folia"
+              target="_blank">Folia</a
+            >-Basis. Durch die Verlagerung von Aufgaben in parallele Threads bietet Folia eine
+            deutlich bessere Performance - besonders bei vielen Spielern oder Entitäten. Lag ist
+            nicht mehr global, sondern regional begrenzt. So laufen Redstone-Maschinen, Farmen und
+            auch die Spawnraten nahezu wie im Singleplayer. Auch bei hoher Serverlast bleibt das
+            Gameplay flüssig - mit hohen Sichtweiten, stabilen Tickraten und ohne Einschränkungen für
+            Technik oder Bauprojekte.
+          </p>
+        </GameServerCard>
+
+        <GameServerCard
+          title="Core Keeper"
+          image={CoreKeeperImage}
+          colorVariant="magenta"
+          cornerLabel="Langzeitserver"
+          copyValue="MJZjzJiPF579nAU"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">ID kopieren</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>Hilf mit, um das Geheimnis des uralten KERNS zu lüften!</p>
+            <p class="mt-4">
+              <strong>Name:</strong> GAMING-GILDE
+            </p>
+            <p>
+              <strong>Game-ID:</strong> MJZjzJiPF579nAU
+            </p>
+            <p>
+              <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+              Discord-Server.
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            <strong>Lüfte das Geheimnis des uralten Kerns</strong>
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            Erforsche eine endlose Höhle voller Kreaturen, Relikte und Ressourcen in einem
+            Bergbau-Sandbox-Abenteuer für 1-8 Spieler. Schürfe, baue, kämpfe, fertige Gegenstände an
+            und betreibe Landwirtschaft, um das Geheimnis des uralten KERNS zu lüften.
+          </p>
+        </GameServerCard>
+
+        <GameServerCard
+          title="Satisfactory"
+          image={SatisfactoryImage}
+          colorVariant="magenta"
+          cornerLabel="Langzeitserver"
+          copyValue="193.203.238.158:7778"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">Adresse kopieren</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>Komm, und betrete den Fließbandhimmel!</p>
+            <p class="mt-4">
+              <strong>Name:</strong> GAMING-GILDE
+            </p>
+            <p>
+              <strong>Adresse:</strong> 193.203.238.158:7778
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
+            Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden Planeten,
+            baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
+          </p>
+        </GameServerCard>
+
+        <GameServerCard
+          title="Windrose"
+          image={WindroseImage}
+          copyValue="80052342"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">Einladungscode kopieren</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>Gehe auf ein PvE-Survival-Abenteuer im Piratenzeitalter.</p>
+            <p class="mt-4">
+              <strong>Name:</strong> GAMING-GILDE
+            </p>
+            <p>
+              <strong>Einladungscode:</strong> 80052342
+            </p>
+            <p>
+              <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+              Discord-Server.
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            Baue, fertige und erkunde eine riesige offene Welt voller dunkler Geheimnisse. Stelle
+            dich Soulslite-Kämpfen und herausfordernden Bossen. Befehlige dein Schiff und raube
+            unermessliche Schätze!
+          </p>
+        </GameServerCard>
+
+        <GameServerCard
+          title="Valheim Plus"
+          image={ValheimImage}
+          copyValue="194.62.157.159:2456"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">Adresse kopieren</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>Schreibe beim Kämpfen, Bauen und Erobern eine Saga, die Odins Gunst würdig ist.</p>
+            <p class="mt-4">
+              <strong>Name:</strong> GAMING-GILDE
+            </p>
+            <p>
+              <strong>Adresse:</strong> 194.62.157.159:2456
+            </p>
+            <p>
+              <strong>Hinweis:</strong> Ein Passwort wird benötigt. Zu finden auf unserem
+              Discord-Server.
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            Ein brutales 1-10 Spieler Multiplayer-Erkundungs- und Survivalspiel in einem prozedural
+            generierten Fegefeuer inspiriert von der Kultur der Wikinger.
+          </p>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            <strong>Benötigter Mod: </strong>
+            <a
+              class="text-primary hover:underline"
+              href="https://www.nexusmods.com/valheim/mods/2323"
+              target="_blank">Valheim Plus</a
+            >
+          </p>
+        </GameServerCard>
+
+        <GameServerCard
+          title="7 Days to Die"
+          image={SevenDays}
+          copyValue="194.62.157.159:26900"
+        >
+          <Fragment slot="button">
+            <p class="text-sm font-light text-white">Adresse kopieren</p>
+          </Fragment>
+
+          <Fragment slot="cardText">
+            <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
+            <p class="mt-4">
+              <strong>Name:</strong> GAMING-GILDE
+            </p>
+            <p>
+              <strong>Adresse:</strong> 194.62.157.159:26900
+            </p>
+          </Fragment>
+
+          <p class="text-base leading-relaxed text-gray-500">
+            7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
+            Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
+            Vorreiter der Zombie-Survival-Sandbox-RPGs.
+          </p>
+        </GameServerCard>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const alert = document.getElementById("gameserver-copy-alert");
+      let alertTimer;
+
+      const showAlert = () => {
+        if (!alert) return;
+        window.clearTimeout(alertTimer);
+        alert.classList.remove("hidden");
+        alertTimer = window.setTimeout(() => {
+          alert.classList.add("hidden");
+        }, 3000);
+      };
+
+      const copyText = async (value) => {
+        if (!value) return;
+
+        await navigator.clipboard.writeText(value);
+        showAlert();
+      };
+
+      const openModal = (id) => {
+        const modal = document.getElementById(id);
+        if (!modal) return;
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        modal.setAttribute("aria-hidden", "false");
+      };
+
+      const closeModal = (modal) => {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        modal.setAttribute("aria-hidden", "true");
+      };
+
+      document.addEventListener("click", (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+
+        const copyTarget = target.closest("[data-copy-value]");
+        if (copyTarget) {
+          const value = copyTarget.getAttribute("data-copy-value");
+          void copyText(value);
+        }
+
+        const trigger = target.closest("[data-gameserver-modal-trigger]");
+        if (trigger) {
+          event.preventDefault();
+          const modalId = trigger.getAttribute("data-gameserver-modal-trigger");
+          if (modalId) openModal(modalId);
+          return;
+        }
+
+        const closeButton = target.closest("[data-gameserver-modal-close]");
+        if (closeButton) {
+          const modal = closeButton.closest("[data-gameserver-modal]");
+          if (modal) closeModal(modal);
+          return;
+        }
+
+        if (target.matches("[data-gameserver-modal]")) {
+          closeModal(target);
+        }
+      });
+    })();
+  </script>
+</BaseLayout>

@@ -1,0 +1,58 @@
+---
+import { Icon } from "astro-icon/components";
+
+const year = new Date().getFullYear();
+---
+
+<div>
+  <div class="mt-5 text-white container m-auto px-10">
+    <div class="my-24">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between flex-wrap font-extralight text-xs">
+        <p class="lg:flex-1 text-center lg:text-left">
+          &copy;{year} <a href="https://schiroky.com" target="_blank">Claus Schiroky. </a> Alle
+          Rechte vorbehalten.
+        </p>
+
+        <div class="mt-3 lg:mt-0 flex justify-center items-center lg:flex-1">
+          <div class="mx-2">
+            <a href="https://discord.gaming-gilde.org" title="Discord" target="_blank">
+              <Icon name="fa6-brands:discord" class="w-5 h-5 text-white hover:text-primary" />
+            </a>
+          </div>
+
+          <div class="mx-2">
+            <a href="https://www.tiktok.com/@gaminggilde" title="TikTok" target="_blank">
+              <Icon name="fa6-brands:tiktok" class="w-5 h-5 text-white hover:text-primary" />
+            </a>
+          </div>
+
+          <div class="mx-2">
+            <a href="https://www.twitch.tv/gaming_gilde" title="Twitch" target="_blank">
+              <Icon name="fa6-brands:twitch" class="w-5 h-5 text-white hover:text-primary" />
+            </a>
+          </div>
+
+          <div class="mx-2">
+            <a href="https://www.youtube.com/@Gaming-Gilde" title="YouTube" target="_blank">
+              <Icon name="fa6-brands:youtube" class="w-5 h-5 text-white hover:text-primary" />
+            </a>
+          </div>
+
+          <div class="mx-2">
+            <a href="https://github.com/GAMINGGILDE" title="GitHub" target="_blank">
+              <Icon name="fa6-brands:github" class="w-5 h-5 text-white hover:text-primary" />
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-3 lg:mt-0 lg:flex-1 text-center lg:text-right">
+          <a href="/impressum/" title="Impressum" class="mr-4 hover:text-primary">Impressum </a>
+
+          <a href="/datenschutz/" title="Datenschutzerklärung" class="hover:text-primary">
+            Datenschutz
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

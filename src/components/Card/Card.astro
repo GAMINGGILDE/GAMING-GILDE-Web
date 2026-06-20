@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  subTitle: string;
+  isRight?: boolean;
+  class?: string;
+  innerClassName?: string;
+}
+
+const { title, subTitle, isRight, class: className = "", innerClassName } = Astro.props;
+const shouldAnimate = typeof isRight === "boolean";
+const translateX = isRight ? 150 : -150;
+---
+
+<div
+  data-scroll-animate={shouldAnimate ? "true" : undefined}
+  data-scroll-animate-x={shouldAnimate ? String(translateX) : undefined}
+  style={shouldAnimate ? "opacity: 0" : undefined}
+  class={`card-background lg:min-h-80 cursor-pointer p-1 text-white ${className}`}
+>
+  <div class={` relative p-4 ${innerClassName ? innerClassName : "lg:p-10"}`}>
+    <div class="flex">
+      <h2 class="text-xl lg:text-3xl font-bold">{title}</h2>
+    </div>
+    <p class="mt-2 sub-text font-thin">{subTitle}</p>
+  </div>
+</div>

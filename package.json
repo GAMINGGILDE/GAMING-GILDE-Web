@@ -3,38 +3,34 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "dev:turbo": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "astro preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "astro check",
     "check": "npm run format:check && npm run lint"
   },
   "dependencies": {
-    "@types/animejs": "^3.1.12",
-    "animejs": "^4.0.0",
-    "next": "^16.2.9",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
-    "react-icons": "^5.5.0"
+    "@iconify-json/fa6-brands": "^1.2.6",
+    "astro": "^6.4.8",
+    "astro-icon": "^1.1.5"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
     "@eslint/compat": "^2.0.5",
+    "@eslint/js": "^10.0.1",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^24",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
     "eslint": "^10.0.0",
-    "eslint-config-next": "16.2.9",
     "eslint-config-prettier": "^10.1.8",
     "postcss": "^8",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.1.18",
-    "typescript": "^6.0.0"
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.61.1"
   },
   "packageManager": "npm@11.17.0"
 }

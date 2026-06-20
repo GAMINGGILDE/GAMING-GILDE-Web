@@ -1,0 +1,95 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer/Footer.astro";
+import { buildDefaultJsonLdGraph } from "../lib/jsonld";
+import { site } from "../lib/site";
+import "../styles/globals.css";
+
+const title = Astro.props.title ?? site.name;
+const description = Astro.props.description ?? site.description;
+const canonicalUrl = new URL(Astro.url.pathname, site.url).toString();
+const jsonLd = JSON.stringify(
+  buildDefaultJsonLdGraph({
+    path: Astro.url.pathname,
+    title,
+    description,
+  }),
+);
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <title>{title}</title>
+    <script is:inline id="ld-default" type="application/ld+json" set:html={jsonLd}></script>
+  </head>
+  <body class="antialiased min-h-screen flex flex-col">
+    <Navbar />
+
+    <div class="mb-40">
+      <slot />
+    </div>
+
+    <script is:inline>
+      (() => {
+        const initScrollAnimations = () => {
+          const elements = document.querySelectorAll("[data-scroll-animate]");
+          if (!elements.length) return;
+
+          const show = (element) => {
+            const offset = Number(element.getAttribute("data-scroll-animate-x") ?? 0);
+            element.classList.remove("opacity-0");
+            element.style.transition = "none";
+            element.style.transform = offset ? `translateX(${offset}px)` : "translateX(0)";
+            element.style.opacity = "0";
+
+            element.getBoundingClientRect();
+
+            element.style.transition =
+              "transform 3000ms cubic-bezier(0.16, 1, 0.3, 1), opacity 3000ms ease-out";
+            requestAnimationFrame(() => {
+              element.style.opacity = "1";
+              element.style.transform = "translateX(0)";
+            });
+          };
+
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                observer.unobserve(entry.target);
+                show(entry.target);
+              });
+            },
+            { threshold: 0.75, rootMargin: "100px 0px" },
+          );
+
+          elements.forEach((element) => {
+            observer.observe(element);
+          });
+        };
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", initScrollAnimations, { once: true });
+        } else {
+          initScrollAnimations();
+        }
+      })();
+    </script>
+
+    <div class="mt-auto">
+      <Footer />
+    </div>
+  </body>
+</html>
