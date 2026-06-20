@@ -11,12 +11,11 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.astro", "src/**/*.ts", "src/**/*.tsx", "astro.config.mjs"],
+  "include": ["src/**/*.astro", "src/**/*.ts", "astro.config.mjs"],
   "exclude": ["node_modules", "dist", ".astro", ".next", "out"]
 }

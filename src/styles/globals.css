@@ -9,11 +9,29 @@
 }
 
 @font-face {
+  font-family: "Proxima Nova Regular Fallback";
+  src: local("Arial");
+  ascent-override: 92.8%;
+  descent-override: 30.06%;
+  line-gap-override: 0%;
+  size-adjust: 99.14%;
+}
+
+@font-face {
   font-family: "Proxima Nova Bold";
   src: url("./fonts/ProximaNova-bold.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold Fallback";
+  src: local("Arial");
+  ascent-override: 89.71%;
+  descent-override: 29.06%;
+  line-gap-override: 0%;
+  size-adjust: 102.55%;
 }
 
 @theme {
@@ -49,8 +67,8 @@ html {
 
 body {
   background-color: #010b14;
-  --font-nova-regular: "Proxima Nova Regular";
-  --font-nova-bold: "Proxima Nova Bold";
+  --font-nova-regular: "Proxima Nova Regular", "Proxima Nova Regular Fallback";
+  --font-nova-bold: "Proxima Nova Bold", "Proxima Nova Bold Fallback";
 }
 
 .modal {

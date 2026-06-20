@@ -1,0 +1,67 @@
+---
+import PreviewImage from "../../assets/index-bg-3.webp";
+
+type HeaderImage = string | { src: string };
+
+interface Props {
+  noText?: boolean;
+  previews: HeaderImage[];
+}
+
+const { noText = false, previews } = Astro.props;
+const getImageSrc = (image: HeaderImage) => (typeof image === "string" ? image : image.src);
+const previewSources = JSON.stringify(previews.map(getImageSrc));
+---
+
+<div class="absolute top-0" style="z-index: -1" data-header-previews={previewSources}>
+  <div class="img-wrap">
+    <img
+      width="1000"
+      height="1000"
+      class="w-full js-random-header-image"
+      src={PreviewImage.src}
+      alt="header preview"
+      style="border-radius: 10px"
+      loading="eager"
+    />
+  </div>
+</div>
+
+<script is:inline>
+  document.querySelectorAll("[data-header-previews]").forEach((header) => {
+    const img = header.querySelector(".js-random-header-image");
+    if (!img) return;
+    try {
+      const previews = JSON.parse(header.getAttribute("data-header-previews") || "[]");
+      if (!previews.length) return;
+      img.src = previews[Math.floor(Math.random() * previews.length)];
+    } catch (_) {}
+  });
+</script>
+
+<div class="mt-60 px-3 lg:px-0 text-center w-full m-auto lg:w-[75%]">
+  <div class="mt-2 lg:mt-2">
+    <h1 class="text-4xl lg:text-7xl text-white font-semibold wrap-break-word">
+      {
+        noText ? (
+          <Fragment />
+        ) : (
+          <div class="flex justify-center">
+            <img
+              src="/logo-text.svg"
+              alt="GAMING GILDE"
+              width="1010"
+              height="93"
+              class="w-auto h-14 lg:h-20"
+              loading="eager"
+            />
+          </div>
+        )
+      }
+    </h1>
+
+    <p class="w-full mb-7 m-auto lg:w-[75%] sub-text mt-7 font-light text-md lg:text-2xl wrap-break-word">
+      {noText ? "" : "Eine junge Gaming-Community, für gemeinsamen Spaß beim Spielen"}
+    </p>
+  </div>
+</div>

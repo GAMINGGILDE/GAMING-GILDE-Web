@@ -1,16 +1,15 @@
-import { DiscordFrame } from "../../../IFrame/DiscordFrame";
-import React from "react";
+---
+import DiscordFrame from "../../IFrame/DiscordFrame.astro";
+---
 
-export const SearchEnd = () => {
-  return (
-    <div className="container m-auto mt-16">
-      <div className="grid grid-cols-12 items-center lg:gap-x-10">
-        <div className="col-span-12 lg:col-span-8 mb-3">
-          <p className="linear-text text-xs lg:text-base uppercase">Komm und Spiel mit uns!</p>
-          <h1 className="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">
+    <div class="container m-auto mt-16">
+      <div class="grid grid-cols-12 items-center lg:gap-x-10">
+        <div class="col-span-12 lg:col-span-8 mb-3">
+          <p class="linear-text text-xs lg:text-base uppercase">Komm und Spiel mit uns!</p>
+          <h1 class="text-white text-3xl lg:text-4xl font-semibold mt-2 lg:mt-5">
             Was dich bei uns erwartet
           </h1>
-          <p className="text-white font-thin mt-4 mb-7">
+          <p class="text-white font-thin mt-4 mb-7">
             Auf unserem Discord bleibst du immer up to date, was Games angeht, und findest schnell
             Mitspieler für eine große Auswahl an Titeln. Tausche dich mit anderen über alles rund
             ums Zocken aus und werde Teil einer aktiven und freundlichen Gaming Community.
@@ -37,10 +36,8 @@ export const SearchEnd = () => {
             Also, komm und steig mit ein in die GAMING GILDE!
           </p>
         </div>
-        <div className="col-span-12 lg:col-span-4 lg:mt-0 mt-7">
+        <div class="col-span-12 lg:col-span-4 lg:mt-0 mt-7">
           <DiscordFrame />
         </div>
       </div>
     </div>
-  );
-};

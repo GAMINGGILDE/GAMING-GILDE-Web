@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
-import react from "@astrojs/react";
+import icon from "astro-icon";
 import { fileURLToPath, URL } from "node:url";
 
 const resolvePath = (path) => fileURLToPath(new URL(path, import.meta.url));
@@ -7,7 +7,7 @@ const resolvePath = (path) => fileURLToPath(new URL(path, import.meta.url));
 export default defineConfig({
   output: "static",
   trailingSlash: "ignore",
-  integrations: [react()],
+  integrations: [icon()],
   vite: {
     resolve: {
       alias: {

@@ -1,5 +1,6 @@
-import { Header } from "../../Header/index";
-import { InstagramFollow } from "../../Provider/Instagram/Follow";
+---
+import Header from "../../Header/Header.astro";
+import InstagramFollow from "../../Provider/Instagram/Follow.astro";
 import PreviewImage from "../../../assets/index-bg-1.webp";
 import PreviewImage2 from "../../../assets/index-bg-2.webp";
 import PreviewImage3 from "../../../assets/index-bg-3.webp";
@@ -13,8 +14,8 @@ import PreviewImage10 from "../../../assets/index-bg-10.webp";
 import PreviewImage11 from "../../../assets/index-bg-11.webp";
 import PreviewImage12 from "../../../assets/index-bg-12.webp";
 import PreviewImage13 from "../../../assets/index-bg-13.webp";
-import { SearchEnd } from "./SearchEnd/index";
-import { AboutUs } from "./index";
+import SearchEnd from "./SearchEnd.astro";
+import AboutUs from "./AboutUs.astro";
 
 const previews = [
   PreviewImage,
@@ -31,13 +32,12 @@ const previews = [
   PreviewImage12,
   PreviewImage13,
 ];
+---
 
-export default function Home() {
-  return (
     <div>
       <Header previews={previews} />
 
-      <div className="max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10">
+      <div class="max-w-[1280px] mx-auto xl:px-0 px-5 md:px-10">
         <AboutUs />
 
         <SearchEnd />
@@ -45,5 +45,3 @@ export default function Home() {
         <InstagramFollow />
       </div>
     </div>
-  );
-}
