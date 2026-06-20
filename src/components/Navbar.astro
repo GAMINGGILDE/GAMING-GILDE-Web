@@ -86,7 +86,7 @@
       const menu = document.getElementById("navbar-default");
       if (!nav || !toggle || !menu) return;
 
-      nav.classList.toggle("navbar", isOpen || window.scrollY >= 100);
+      nav.classList.toggle("navbar", isOpen || window.scrollY > 0);
       menu.classList.toggle("hidden", !isOpen);
       menu.classList.toggle("block", isOpen);
       toggle.setAttribute("aria-expanded", String(isOpen));
