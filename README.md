@@ -90,6 +90,8 @@ CI-Workflow: `.github/workflows/quality-build.yml`
 
 ## Deployment
 
+Die Website wird als statische Astro-Seite über Cloudflare Pages ausgeliefert.
+
 - `npm run build` erzeugt die statische Ausgabe in `dist/`.
 - Inhalte aus `public/` werden 1:1 nach `dist/` kopiert.
-- Der Inhalt von `dist/` kann auf den Webspace veröffentlicht werden.
+- Apache-Dateien wie `.htaccess` werden von Cloudflare Pages nicht ausgewertet. Redirects oder Header müssen bei Bedarf über `public/_redirects` oder `public/_headers` gepflegt werden.

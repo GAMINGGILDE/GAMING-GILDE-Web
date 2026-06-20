@@ -111,28 +111,38 @@ const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
         <div class="space-y-2">
           <h2 class="text-2xs font-semibold">Hosting & Server-Logfiles</h2>
           <p class="sub-text font-light ">
-            Unsere Website wird bei IONOS SE gehostet. Ein Auftragsverarbeitungsvertrag besteht.
-            IONOS verarbeitet beim Aufruf der Website automatisch die IP-Adresse, Datum und Uhrzeit
-            des Zugriffs, besuchte Seite, Referrer-URL, Browsertyp und Version, Betriebssystem und
-            Hostname des zugreifenden Rechners.
+            Unsere Website wird über Cloudflare Pages bereitgestellt. Anbieter ist Cloudflare, Inc.,
+            101 Townsend St, San Francisco, CA 94107, USA. Cloudflare kann beim Aufruf der Website
+            technisch notwendige Verbindungs- und Zugriffsdaten verarbeiten, zum Beispiel IP-Adresse,
+            Datum und Uhrzeit des Zugriffs, angefragte Ressourcen, Referrer-URL, Browsertyp und
+            Version sowie Betriebssystem.
           </p>
           <p class="sub-text font-light ">
-            Diese Daten werden in sogenannten Logfiles gespeichert und dienen der technischen
-            Bereitstellung, Stabilität, Sicherheit und Missbrauchserkennung.
+            Diese Daten dienen der technischen Bereitstellung, Stabilität, Sicherheit,
+            Performance-Optimierung und Missbrauchserkennung der Website.
           </p>
           <p class="sub-text font-light ">
             <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
             <br />
-            <strong>Speicherdauer:</strong> Bis zu 8 Wochen (IONOS-Standard).
+            <strong>Speicherdauer:</strong> Die Speicherdauer richtet sich nach den jeweiligen
+            Cloudflare-Diensten und -Einstellungen sowie gesetzlichen Aufbewahrungspflichten.
           </p>
           <p class="sub-text font-light ">
-            IONOS SE{" "}
+            Weitere Informationen finden Sie in der{" "}
             <a
               class="font-light text-primary hover:underline"
-              href="https://www.ionos.de/hilfe/datenschutz"
+              href="https://www.cloudflare.com/privacypolicy/"
               target="_blank"
             >
-              Datenschutzerklärung
+              Datenschutzerklärung von Cloudflare
+            </a>{" "}
+            und im{" "}
+            <a
+              class="font-light text-primary hover:underline"
+              href="https://www.cloudflare.com/cloudflare-customer-dpa/"
+              target="_blank"
+            >
+              Cloudflare Data Processing Addendum
             </a>
             .
           </p>
@@ -268,8 +278,10 @@ const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4];
         <div class="space-y-2">
           <h2 class="text-2xs font-semibold">Verwendung von Schrift- und Icon-Bibliotheken</h2>
           <p class="sub-text font-light">
-            Zur einheitlichen und ansprechenden Darstellung verwenden wir Schriftarten und Icons,
-            die lokal innerhalb unseres Webprojekts eingebunden sind.
+            Zur einheitlichen und ansprechenden Darstellung verwenden wir lokal eingebundene
+            Schriftdateien sowie Icon-Bibliotheken. Die verwendeten Icons werden beim Build der
+            Website in das Projekt eingebunden und nicht erst beim Aufruf der Website von externen
+            Icon-Diensten geladen.
           </p>
           <p class="sub-text font-light">
             Für diese lokal eingebundenen Ressourcen erfolgt beim Aufruf unserer Website keine
