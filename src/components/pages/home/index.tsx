@@ -1,7 +1,4 @@
-"use client";
-
 import { Card } from "../../Card/index";
-import Link from "next/link";
 
 export const AboutUs = () => {
   return (
@@ -13,7 +10,7 @@ export const AboutUs = () => {
       <div className="mt-10 container mx-auto">
         <div className="grid grid-cols-12 gap-5 lg:gap-10">
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
+            <a href="https://discord.gaming-gilde.org" target="_blank">
               <Card
                 isRight={false}
                 className="opacity-0"
@@ -27,11 +24,11 @@ export const AboutUs = () => {
                   "Stress, Ruhm oder Profitgedanken."
                 }
               />
-            </Link>
+            </a>
           </div>
 
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
+            <a href="https://discord.gaming-gilde.org" target="_blank">
               <Card
                 title={"Quatschen"}
                 subTitle={
@@ -43,11 +40,11 @@ export const AboutUs = () => {
                   "auszutauschen."
                 }
               />
-            </Link>
+            </a>
           </div>
 
           <div className="col-span-12 lg:col-span-4 text-left">
-            <Link href={"https://discord.gaming-gilde.org"} target={"_blank"}>
+            <a href="https://discord.gaming-gilde.org" target="_blank">
               <Card
                 isRight={true}
                 className="opacity-0"
@@ -61,7 +58,7 @@ export const AboutUs = () => {
                   "genauso feiert wie du. "
                 }
               />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

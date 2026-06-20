@@ -12,8 +12,6 @@ export default defineConfig({
     resolve: {
       alias: {
         "@": resolvePath("./src"),
-        "next/image": resolvePath("./src/compat/next-image.tsx"),
-        "next/link": resolvePath("./src/compat/next-link.tsx"),
       },
     },
   },

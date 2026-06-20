@@ -1,6 +1,3 @@
-"use client";
-
-import Image from "next/image";
 import { Header } from "@/components/Header";
 import PreviewImage from "../../assets/impressum-bg-1.webp";
 import PreviewImage2 from "../../assets/impressum-bg-2.webp";
@@ -26,14 +23,13 @@ export default function Imprint() {
         <div className="mt-10 text-white">
           <div className="flex justify-center lg:justify-between flex-wrap lg:p-0 p-10 gap-10">
             <div className="relative">
-              <Image
+              <img
                 src="/logo-full.svg"
                 className="w-70 mx-auto"
                 alt={"gaming gilde full logo"}
                 width={1000}
                 height={1000}
-                priority={true}
-                unoptimized={true}
+                loading="eager"
               />
             </div>
             <div className="mt-10 lg:mt-0">

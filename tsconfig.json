@@ -14,9 +14,7 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"],
-      "next/image": ["./src/compat/next-image.tsx"],
-      "next/link": ["./src/compat/next-link.tsx"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src/**/*.astro", "src/**/*.ts", "src/**/*.tsx", "astro.config.mjs"],

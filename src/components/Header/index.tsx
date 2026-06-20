@@ -1,17 +1,17 @@
-import Image from "next/image";
-import type { ImageProps } from "next/image";
 import PreviewImage from "../../assets/index-bg-3.webp";
 import React from "react";
 import { Headline } from "./components/Headline/index";
 
-const getImageSrc = (image: ImageProps["src"]) => (typeof image === "string" ? image : image.src);
+type HeaderImage = string | { src: string };
+
+const getImageSrc = (image: HeaderImage) => (typeof image === "string" ? image : image.src);
 
 export const Header = ({
   noText,
   previews,
 }: {
   noText?: boolean;
-  previews: Array<ImageProps["src"]>;
+  previews: Array<HeaderImage>;
 }) => {
   const image = PreviewImage;
   const previewSources = JSON.stringify(previews.map(getImageSrc));
@@ -20,16 +20,14 @@ export const Header = ({
     <>
       <div className="absolute top-0" style={{ zIndex: -1 }} data-header-previews={previewSources}>
         <div className="img-wrap">
-          <Image
-            loader={(loader) => `${loader.src}`}
+          <img
             width={1000}
             height={1000}
             className="w-full js-random-header-image"
-            priority={true}
-            unoptimized={true}
-            src={image}
+            src={getImageSrc(image)}
             alt={"header preview"}
             style={{ borderRadius: "10px" }}
+            loading="eager"
           />
         </div>
       </div>
@@ -56,13 +54,13 @@ export const Header = ({
             <></>
           ) : (
             <div className="flex justify-center">
-              <Image
+              <img
                 src="/logo-text.svg"
                 alt="GAMING GILDE"
                 width={1010}
                 height={93}
                 className="w-auto h-14 lg:h-20"
-                priority
+                loading="eager"
               />
             </div>
           )

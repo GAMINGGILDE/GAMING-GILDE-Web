@@ -1,7 +1,3 @@
-"use client";
-
-import Image from "next/image";
-import MGLogoFull from "../../../../public/mg-logo-full.png";
 import React from "react";
 
 export const InstagramFollow = () => {
@@ -11,16 +7,14 @@ export const InstagramFollow = () => {
         <div className="card-inner card-inner--home-gameserver text-white">
           <div className="grid grid-cols-12">
             <div className="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-72">
-              <Image
-                src={MGLogoFull}
+              <img
+                src="/mg-logo-full.png"
                 alt={"Minecraft Gilde"}
-                loader={(loader) => `${loader.src}`}
                 width={1000}
                 height={100}
-                priority={true}
-                unoptimized={true}
                 className="w-[85%] h-108 px-7 relative bottom-32"
                 style={{ objectFit: "contain" }}
+                loading="eager"
               />
             </div>
             <div className="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-10">
@@ -41,16 +35,14 @@ export const InstagramFollow = () => {
               </a>
             </div>
             <div className="col-span-12 block lg:hidden lg:col-span-6 pb-1">
-              <Image
-                src={MGLogoFull}
+              <img
+                src="/mg-logo-full.png"
                 alt={"Minecraft Gilde"}
-                loader={(loader) => `${loader.src}`}
                 width={1000}
                 height={100}
-                priority={true}
-                unoptimized={true}
                 className="w-400 h-40 md:h-60 relative"
                 style={{ objectFit: "cover", objectPosition: "top" }}
+                loading="eager"
               />
             </div>
           </div>

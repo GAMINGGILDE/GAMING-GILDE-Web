@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function NotFound() {
   return (
     <section className="xl:px-0 px-5 md:px-10 mt-40 max-w-[1280px] mx-auto text-white">
@@ -18,18 +16,18 @@ export default function NotFound() {
         </p>
 
         <div className="flex flex-wrap gap-3 mt-7">
-          <Link
+          <a
             href="/"
             className="inline-block py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover"
           >
             Zur Startseite
-          </Link>
-          <Link
+          </a>
+          <a
             href="/gameserver/"
             className="inline-block py-2 px-3 text-white rounded-lg transition duration-300 md:border-0 p-0 bg-primary hover:bg-primaryHover"
           >
             Zu den Gameservern
-          </Link>
+          </a>
         </div>
       </div>
     </section>
