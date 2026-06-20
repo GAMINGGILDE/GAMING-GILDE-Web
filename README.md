@@ -1,141 +1,95 @@
+<p align="center">
+  <a href="https://gaming-gilde.org">
+    <img src="./public/logo-full.svg" alt="GAMING GILDE" width="420">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://discord.minecraft-gilde.de"><img alt="Discord" src="https://img.shields.io/discord/1219625244906754093?label=Discord&amp;logo=discord&amp;logoColor=white&amp;color=5865F2" /></a>&nbsp;
+  <a href="https://github.com/GAMINGGILDE/GAMING-GILDE-Web/actions/workflows/quality-build.yml"><img src="https://github.com/GAMINGGILDE/GAMING-GILDE-Web/actions/workflows/quality-build.yml/badge.svg" alt="Quality & Build"></a>&nbsp;
+  <a href="https://www.codefactor.io/repository/github/gaminggilde/gaming-gilde-web"><img src="https://www.codefactor.io/repository/github/gaminggilde/gaming-gilde-web/badge" alt="CodeFactor" /></a>
+</p>
+
 # GAMING GILDE Web
 
-**Das Repository der Website der GAMING GILDE.**
+Offizielle Website von **gaming-gilde.org**, gebaut mit **Astro**.
 
-Ursprünglich verwendete Entwicklungsumgebung (IDE):
+## Tech-Stack
 
-- [![PhpStorm](https://img.shields.io/badge/PhpStorm-000?logo=phpstorm&logoColor=fff)](https://www.jetbrains.com/phpstorm)[![Abo](https://img.shields.io/badge/Kostenpflichiges%20Abonnement-red?)](#)
+- Astro (statische Seite)
+- TypeScript (strict)
+- Tailwind CSS
+- astro-icon / Iconify
+- Node.js 24 und npm
 
-Als Alternative empfehle ich eine der folgenden IDEs:
-
-- [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](https://code.visualstudio.com/download)[![OpenSourc](https://img.shields.io/badge/Kostenlos%20und%20basierend%20auf%20Open%20Source-green?)](#)
-- [![WebStorm](https://img.shields.io/badge/WebStorm-000?logo=webstorm&logoColor=fff)](https://www.jetbrains.com/webstorm)[![Free](https://img.shields.io/badge/Kostenlos%20für%20nichtkommerzielle%20Nutzung-fbfe50?)](#)
-
-Dieses Dokument beschreibt in Kürze die notwendigen Schritte, um die Website zu erstellen und zu veröffentlichen.
-
-## Voraussetzungen
-
-Stelle sicher, dass du immer die aktuellsten Versionen der folgenden Komponenten installiert hast (Git ist hier optional):
-
-[![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](https://nodejs.org/en/download/current) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) [![GitHub](https://img.shields.io/badge/GitHub%20Desktop-%23121011.svg?logo=github&logoColor=white)](https://desktop.github.com/download) [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](https://gitforwindows.org) [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](https://nextjs.org)
-
-Aktuell installierte Versionen können im Terminal der verwendeten IDE mit folgenden Befehlen ausgegeben werden:
-
-`node -v`, `npm -v`, `git -v` und `next -v`
-
-Mit dem Aufruf des Befehls `github` wird die aktuell installierte Version von GitHub Desktop geöffent.<br>
-Wähle darin das Menü 'Help' -> 'About GitHub Desktop', dann 'Check for Updates' und installiere etwaige Aktualisierungen.
-
-**Besonderheit:** <br>
-Next.js kommt via npm als Dependency mit und wird automatisch mit npm installiert. Es muss nicht separat installiert werden. Bei einem etwaigen Upgrade auf eine neuere Version muss lediglich darauf geachtet werden ("am Besten Testen"), dass die neue Version kompatibel ist.
-
-## Repository klonen
-
-Verwende folgenden Befehl im Terminal, um sich den aktuellen Stand der Website lokal zu klonen:
-
-```bash
-git clone https://github.com/GAMINGGILDE/GAMING-GILDE-Web.git gaming-gilde-web
-cd gaming-gilde-web
-```
-
-## Abhängigkeiten installieren
-
-Um sich die benötigten Dependencies von npm in sein Projekt zu installieren, führe folgenden Befehl im Terminal aus:
+## Schnellstart
 
 ```bash
 npm install
-```
-
-Besteht schon ein lokal geklontes Repository, können die Dependencies zu npm mit folgendem Befehl aktualisiert werden:
-
-```bash
-npm update
-```
-
-> **Tipp:** Mit dem Terminal Befehl: `npm list` können die Versionen aller bestehenden Dependencies ausgegeben werden.
-
-### Renovate Bot
-
-Renovate Bot ist eine GitHub-App die automatisch Abhängigkeiten in Repositories aktualliert, indem Paketdateien erkannt und bei neuen Versionen selbstständig Pull Requests erstellt:
-
-- [![RenovateBot](https://img.shields.io/badge/RenovateBot-1A1F6C?logo=renovate&logoColor=fff)](https://github.com/apps/renovate)
-
-Installation und Verwendung dringend empfohlen.
-
-## Testing
-
-Mit folgendem Terminal-Befehl kann ein lokaler Webserver gestartet werden, mit dem die Website via Browser-Vorschau überprüft werden kann:
-
-```bash
 npm run dev
 ```
 
-Der lokale Webserver kann via [STRG]+[C] wieder beendet werden.
+Dev-Server: `http://localhost:4321`
 
-## Build-Prozess
+## Wichtige Befehle
 
-Um die Webseite via Next.js erstellen zu lassen, muss dieser Befehl eingegeben werden:
+| Befehl                 | Zweck                           |
+| :--------------------- | :------------------------------ |
+| `npm run dev`          | Lokale Entwicklung mit Astro    |
+| `npm run build`        | Produktionsbuild nach `dist/`   |
+| `npm run start`        | Lokale Vorschau des Builds      |
+| `npm run lint`         | ESLint                          |
+| `npm run lint:fix`     | ESLint mit automatischen Fixes  |
+| `npm run format`       | Prettier formatiert das Projekt |
+| `npm run format:check` | Prettier-Check für CI           |
+| `npm run typecheck`    | Astro Type-/Template-Check      |
+| `npm run check`        | Format- und Lint-Check          |
+
+## Wann `dev` und wann `start`?
+
+- `npm run dev` für die tägliche Entwicklung mit schnellem Feedback.
+- `npm run build` und danach `npm run start` für eine produktionsnahe lokale Vorschau.
+
+## Inhalte Pflegen
+
+- Seiten: `src/pages/`
+- Seiten-Komponenten: `src/components/pages/`
+- Wiederverwendbare UI-Komponenten: `src/components/`
+- Globale Site-Daten: `src/lib/site.ts`
+- Statische Assets: `public/`
+- Build-Assets: `src/assets/`
+
+## Projektbereiche
+
+- `src/pages/` für Astro-Routen
+- `src/layouts/` für Layouts
+- `src/components/` für UI-Komponenten
+- `src/lib/` für geteilte Hilfslogik und Site-Metadaten
+- `src/styles/` für globale Styles und Fonts
+- `src/assets/` für importierte Bilder und Grafiken
+- `public/` für statische Dateien, die unverändert ausgeliefert werden
+
+## Doku Unter `docs/`
+
+- [Doku-Index](./docs/index.md)
+- [Entwicklung](./docs/development.md)
+- [Projektstruktur](./docs/project-structure.md)
+
+## Qualität
+
+Empfohlener lokaler Gate-Run:
 
 ```bash
+npm run format:check
+npm run lint
+npm run typecheck
 npm run build
 ```
 
-Die fertige Webseite wird im Projekt im Ordner 'out' gespeichert.
+CI-Workflow: `.github/workflows/quality-build.yml`
 
 ## Deployment
 
-Lade den Inhalt des Ordners 'out' auf deinen Webspace. Ich verwende dazu [FileZilla](https://filezilla-project.org/download.php?type=client).<br>
-Alle Dateien im out-Ordner müssen auf den Server übertragen werden.
-
-## Sonstiges
-
-Die für das Paket benötigten Dependencies und deren definierten bzw. benötigten Versionen sind in der Datei `package.json` im Hauptverzeichnis des Projekts aufgelistet. Dort können auch die Skripte für die Befehle `npm run dev`, `npm run build` und `npm update` hinterlegt sein.
-
-## Hilfe & Support
-
-Bei Fragen zur Technik oder Verwendung sind hier die betreffenden Anlaufstellen zur Recherche:
-
-- [![NodeManual](https://img.shields.io/badge/Node.js%20Documentation-6DA55F?logo=gitbook&logoColor=white)](https://nodejs.org/docs/latest/api)
-- [![npmManual](https://img.shields.io/badge/npm%20Documentation-CB3837?logo=gitbook&logoColor=white)](https://docs.npmjs.com)
-- [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS%20Docs-%2338B2AC.svg?logo=gitbook&logoColor=white)](https://tailwindcss.com/docs)
-- [![GitHubManual](https://img.shields.io/badge/GitHub%20Desktop%20Dokumentation-black?logo=gitbook&logoColor=white)](https://docs.github.com/de/desktop)
-- [![GitManual](https://img.shields.io/badge/Git%20Discussions-F05032?logo=gitbook&logoColor=white)](https://github.com/git-for-windows/git/discussions)
-- [![Next.js](https://img.shields.io/badge/Next.js%20Docs-black?logo=gitbook&logoColor=white)](https://nextjs.org/docs)
-
-## Off-Topic: Tipps zum Editieren
-
-Beispiel-Syntax zur Erstellung von Links zum Öffnen in neuem Tab:
-
-```
-<a href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">Zap-Hosting</a>
-```
-
-```
-<a className="text-primary hover:underline" href="https://zap-hosting.com/anticoronakartellbanner" target="_blank">20% Rabatt</a>
-```
-
-Beispiel zum Auskommentieren vom Java-Code (JSX-Specific Comment):
-
-```
-{/* <div className="sm:mx-10 lg:mx-20">
-    <Carousel/>
-</div> */}
-```
-
-Änderungen von GitHub abrufen (via Terminal):
-
-```
-git pull
-```
-
-Änderung auf GitHub hochladen/pushen (Commits, WebStorm spezifisch):
-
-```
-[STRG]+[K]
-```
-
-Regulärer Befehl im Terminal um Änderungen zum GitHub Repository zu übertragen:
-
-```
-git push
-```
+- `npm run build` erzeugt die statische Ausgabe in `dist/`.
+- Inhalte aus `public/` werden 1:1 nach `dist/` kopiert.
+- Der Inhalt von `dist/` kann auf den Webspace veröffentlicht werden.
