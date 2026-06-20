@@ -1,10 +1,9 @@
-// import {Carousel} from "@/components/Carousel";
-import { Header } from "@/components/Header";
-import PreviewImage from "../../assets/LvlUpBackground-1.webp";
-import PreviewImage2 from "../../assets/LvlUpBackground-2.webp";
-import PreviewImage3 from "../../assets/LvlUpBackground-3.webp";
+import { Header } from "../../Header";
+import PreviewImage from "../../../assets/LvlUpBackground-1.webp";
+import PreviewImage2 from "../../../assets/LvlUpBackground-2.webp";
+import PreviewImage3 from "../../../assets/LvlUpBackground-3.webp";
 import React from "react";
-import { TextContent } from "../../components/pages/event/TextContent";
+import { TextContent } from "./TextContent";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3];
 

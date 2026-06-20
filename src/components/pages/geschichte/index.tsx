@@ -1,5 +1,3 @@
-"use client";
-
 import { Header } from "../../Header/index";
 import React from "react";
 import PreviewImage from "../../../assets/impressum-bg-1.webp";

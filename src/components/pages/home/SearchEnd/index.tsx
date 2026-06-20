@@ -1,5 +1,3 @@
-"use client";
-
 import { DiscordFrame } from "../../../IFrame/DiscordFrame";
 import React from "react";
 

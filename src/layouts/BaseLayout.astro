@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar.astro";
 import { Footer } from "../components/Footer";
 import { buildDefaultJsonLdGraph } from "../lib/jsonld";
 import { site } from "../lib/site";
-import "../app/globals.css";
+import "../styles/globals.css";
 
 const title = Astro.props.title ?? site.name;
 const description = Astro.props.description ?? site.description;

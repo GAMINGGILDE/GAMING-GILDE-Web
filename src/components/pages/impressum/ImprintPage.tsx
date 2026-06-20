@@ -1,9 +1,9 @@
-import { Header } from "@/components/Header";
-import PreviewImage from "../../assets/impressum-bg-1.webp";
-import PreviewImage2 from "../../assets/impressum-bg-2.webp";
-import PreviewImage3 from "../../assets/impressum-bg-3.webp";
-import PreviewImage4 from "../../assets/impressum-bg-4.webp";
-import PreviewImage5 from "../../assets/impressum-bg-5.webp";
+import { Header } from "../../Header";
+import PreviewImage from "../../../assets/impressum-bg-1.webp";
+import PreviewImage2 from "../../../assets/impressum-bg-2.webp";
+import PreviewImage3 from "../../../assets/impressum-bg-3.webp";
+import PreviewImage4 from "../../../assets/impressum-bg-4.webp";
+import PreviewImage5 from "../../../assets/impressum-bg-5.webp";
 import { FaDiscord, FaTiktok, FaTwitch, FaYoutube } from "react-icons/fa6";
 
 const previews = [PreviewImage, PreviewImage2, PreviewImage3, PreviewImage4, PreviewImage5];
