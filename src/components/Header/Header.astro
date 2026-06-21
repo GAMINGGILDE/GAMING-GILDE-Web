@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import PreviewImage from "../../assets/index-bg-3.webp";
 
 type HeaderImage = string | { src: string };
@@ -15,11 +16,11 @@ const previewSources = JSON.stringify(previews.map(getImageSrc));
 
 <div class="absolute top-0" style="z-index: -1" data-header-previews={previewSources}>
   <div class="img-wrap">
-    <img
+    <Image
       width="1000"
       height="1000"
       class="w-full js-random-header-image"
-      src={PreviewImage.src}
+      src={PreviewImage}
       alt="header preview"
       style="border-radius: 10px"
       loading="eager"
