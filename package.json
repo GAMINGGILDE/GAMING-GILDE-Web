@@ -2,6 +2,10 @@
   "name": "gaming-gilde.org",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=24 <25",
+    "npm": ">=11 <12"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

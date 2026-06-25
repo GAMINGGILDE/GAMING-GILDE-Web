@@ -1,12 +1,13 @@
 ---
-type ImageLike = string | { src: string };
+import { Image } from "astro:assets";
 
 interface Props {
   title: string;
-  image: ImageLike;
+  image: ImageMetadata;
   externalUrl?: string;
   colorVariant?: "blue" | "yellow" | "magenta";
   imageClassName?: string;
+  imageLoading?: "eager" | "lazy";
   buttonClassName?: string;
   cornerLabel?: string;
   cornerLabelClassName?: string;
@@ -20,6 +21,7 @@ const {
   externalUrl,
   colorVariant = "blue",
   imageClassName,
+  imageLoading = "lazy",
   buttonClassName,
   cornerLabel,
   cornerLabelClassName,
@@ -27,7 +29,6 @@ const {
   modalId = `gameserver-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
 } = Astro.props;
 
-const imageSrc = typeof image === "string" ? image : image.src;
 const cardHref = externalUrl ?? "#!";
 const cardAttributes = externalUrl
   ? {
@@ -63,13 +64,12 @@ const cardAttributes = externalUrl
 
       <div class="grid grid-cols-12">
         <div class="col-span-12 lg:col-span-6 mx-auto lg:hidden block mb-7">
-          <img
-            src={imageSrc}
+          <Image
+            src={image}
             alt="gameserver preview"
             class={imageClassName ?? "w-[20rem] object-contain rounded-lg"}
-            width="100"
-            height="100"
-            loading="lazy"
+            width="640"
+            loading={imageLoading}
           />
         </div>
 
@@ -94,13 +94,12 @@ const cardAttributes = externalUrl
         </div>
 
         <div class="col-span-12 lg:col-span-6 mx-auto lg:block hidden my-auto">
-          <img
-            src={imageSrc}
+          <Image
+            src={image}
             alt="gameserver preview"
             class={imageClassName ?? "w-70 object-contain rounded-lg"}
-            width="100"
-            height="100"
-            loading="lazy"
+            width="640"
+            loading={imageLoading}
           />
         </div>
       </div>

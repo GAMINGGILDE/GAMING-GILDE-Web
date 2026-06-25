@@ -1,0 +1,7 @@
+# Project-scoped Codex configuration.
+#
+# Durable repository guidance lives in ../AGENTS.md.
+# Keep secrets, tokens, and personal settings out of this file.
+#
+# Add shared Codex settings here only when the whole team should inherit them,
+# for example project MCP servers, hooks, or instruction discovery settings.
