@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header/Header.astro";
 import GameServerCard from "../components/Card/GameServerCard.astro";
 import CoreKeeperImage from "../assets/gameserver-corekeeper.webp";
+import MinecraftGildeLogo from "../assets/mg-logo-full.png";
 import SatisfactoryImage from "../assets/gameserver-satisfactory.webp";
 import SevenDays from "../assets/gameserver-7Days.webp";
 import ValheimImage from "../assets/gameserver-valheim.webp";
@@ -77,12 +78,13 @@ const previews = [
 
         <GameServerCard
           title="Minecraft Gilde"
-          image="/mg-logo-full.png"
+          image={MinecraftGildeLogo}
           externalUrl="https://minecraft-gilde.de"
           colorVariant="yellow"
           cornerLabel="Langzeitserver"
           cornerLabelClassName="absolute top-3 right-3 rounded-full bg-yellow-400/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-white ring-1 ring-yellow-300/70"
           imageClassName="w-[24rem] object-contain rounded-lg"
+          imageLoading="eager"
           buttonClassName="bg-yellow-500 hover:bg-yellow-400 px-5 text-center py-0.5 rounded-full flex items-center transition duration-300"
         >
           <Fragment slot="button">

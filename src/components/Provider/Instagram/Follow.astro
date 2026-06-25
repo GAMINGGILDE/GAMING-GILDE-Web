@@ -1,23 +1,27 @@
+---
+import { Image } from "astro:assets";
+import MinecraftGildeLogo from "../../../assets/mg-logo-full.png";
+---
+
 <div class="container pb-10 m-auto">
-  <div class="card-background-primary card-inner-primary mt-44">
-    <div class="card-inner card-inner--home-gameserver text-white">
+  <div class="card-background-primary card-inner-primary mt-44 overflow-visible">
+    <div class="card-inner card-inner--home-gameserver text-white overflow-visible">
       <div class="grid grid-cols-12">
         <div class="col-span-12 hidden lg:block lg:col-span-6 pb-1 h-72">
-          <img
-            src="/mg-logo-full.png"
+          <Image
+            src={MinecraftGildeLogo}
             alt="Minecraft Gilde"
             width="1000"
-            height="100"
             class="w-[85%] h-108 px-7 relative bottom-32"
             style="object-fit: contain"
-            loading="eager"
+            loading="lazy"
           />
         </div>
-        <div class="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-10">
+        <div class="col-span-12 lg:col-span-6 py-0 pt-10 lg:py-20 px-8 sm:px-10">
           <p class="primary-text text-xs lg:text-base uppercase mb-1 lg:mb-3">
             Schau dir unsere aktuellen
           </p>
-          <h1 class="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">GAMESERVER an</h1>
+          <h1 class="text-xl lg:text-3xl font-semibold mb-2 lg:mb-3">Gameserver an</h1>
           <p class="primary-text text-xs lg:text-base mb-1 lg:mb-2">
             Wir betreiben eigene und wechselnde Gameserver für verschiedene Spiele. Dazu gehört
             auch unser fest etablierter Minecraft-Server der Minecraft Gilde, auf dem du gemeinsam
@@ -27,15 +31,13 @@
             Mehr erfahren
           </a>
         </div>
-        <div class="col-span-12 block lg:hidden lg:col-span-6 pb-1">
-          <img
-            src="/mg-logo-full.png"
+        <div class="col-span-12 block lg:hidden mt-3 -mb-8 px-4 pb-0 sm:-mb-10">
+          <Image
+            src={MinecraftGildeLogo}
             alt="Minecraft Gilde"
             width="1000"
-            height="100"
-            class="w-400 h-40 md:h-60 relative"
-            style="object-fit: cover; object-position: top"
-            loading="eager"
+            class="mx-auto h-auto max-h-44 w-full max-w-[30rem] object-contain drop-shadow-[0_0_18px_rgba(242,201,76,0.45)] sm:max-h-56"
+            loading="lazy"
           />
         </div>
       </div>
