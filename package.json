@@ -18,6 +18,7 @@
     "check": "npm run format:check && npm run lint"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@iconify-json/fa6-brands": "^1.2.6",
     "astro": "^6.4.8",
     "astro-icon": "^1.1.5"
