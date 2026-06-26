@@ -4,7 +4,6 @@ import Header from "../components/Header/Header.astro";
 import GameServerCard from "../components/Card/GameServerCard.astro";
 import CoreKeeperImage from "../assets/gameserver-corekeeper.webp";
 import MinecraftGildeLogo from "../assets/mg-logo-full.png";
-import SatisfactoryImage from "../assets/gameserver-satisfactory.webp";
 import SevenDays from "../assets/gameserver-7Days.webp";
 import ValheimImage from "../assets/gameserver-valheim.webp";
 import WindroseImage from "../assets/gameserver-windrose.webp";
@@ -172,30 +171,30 @@ const previews = [
         </GameServerCard>
 
         <GameServerCard
-          title="Satisfactory"
-          image={SatisfactoryImage}
+          title="7 Days to Die"
+          image={SevenDays}
           colorVariant="magenta"
           cornerLabel="Langzeitserver"
-          copyValue="193.203.238.158:7778"
+          copyValue="193.203.238.158:7777"
         >
           <Fragment slot="button">
             <p class="text-sm font-light text-white">Adresse kopieren</p>
           </Fragment>
 
           <Fragment slot="cardText">
-            <p>Komm, und betrete den Fließbandhimmel!</p>
+            <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
             <p class="mt-4">
               <strong>Name:</strong> GAMING GILDE
             </p>
             <p>
-              <strong>Adresse:</strong> 193.203.238.158:7778
+              <strong>Adresse:</strong> 193.203.238.158:7777
             </p>
           </Fragment>
 
           <p class="text-base leading-relaxed text-gray-500">
-            Satisfactory ist ein Fabrik-Aufbauspiel aus der Ego-Perspektive mit einer Prise
-            Erkundung und Kampf. Spiele allein oder mit Freunden, erkunde einen fremden Planeten,
-            baue mehrstöckige Fabriken und betrete den Fließbandhimmel!
+            7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
+            Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
+            Vorreiter der Zombie-Survival-Sandbox-RPGs.
           </p>
         </GameServerCard>
 
@@ -267,31 +266,6 @@ const previews = [
           </p>
         </GameServerCard>
 
-        <GameServerCard
-          title="7 Days to Die"
-          image={SevenDays}
-          copyValue="194.62.157.159:26900"
-        >
-          <Fragment slot="button">
-            <p class="text-sm font-light text-white">Adresse kopieren</p>
-          </Fragment>
-
-          <Fragment slot="cardText">
-            <p>Stelle dich den Zombie-Horden beim Blutmond.</p>
-            <p class="mt-4">
-              <strong>Name:</strong> GAMING GILDE
-            </p>
-            <p>
-              <strong>Adresse:</strong> 194.62.157.159:26900
-            </p>
-          </Fragment>
-
-          <p class="text-base leading-relaxed text-gray-500">
-            7 Days to Die ist ein Open-World-Spiel, das auf einzigartige Weise Ego-Shooter,
-            Survival-Horror, Tower Defense und Rollenspiel kombiniert. Spiele den ultimativen
-            Vorreiter der Zombie-Survival-Sandbox-RPGs.
-          </p>
-        </GameServerCard>
       </div>
     </div>
   </div>
