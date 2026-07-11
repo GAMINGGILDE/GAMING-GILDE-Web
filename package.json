@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": ">=24 <25",
-    "npm": ">=11 <12"
+    "npm": ">=11 <13"
   },
   "scripts": {
     "dev": "astro dev",
@@ -36,5 +36,5 @@
     "typescript": "^6.0.0",
     "typescript-eslint": "^8.61.1"
   },
-  "packageManager": "npm@11.18.0"
+  "packageManager": "npm@12.0.0"
 }
