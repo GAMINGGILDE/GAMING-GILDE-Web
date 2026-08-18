@@ -12,6 +12,7 @@ export function buildOrganizationJsonLd(): JsonLd {
     "@id": `${site.url}/#organization`,
     name: site.name,
     url: site.url,
+    description: site.description,
     logo: {
       "@type": "ImageObject",
       url: "https://gaming-gilde.org/logo.svg",
@@ -19,6 +20,18 @@ export function buildOrganizationJsonLd(): JsonLd {
       height: 380,
     },
     sameAs: [...site.sameAs],
+    areaServed: {
+      "@type": "Place",
+      name: "Deutschsprachiger Raum",
+    },
+    knowsAbout: [
+      "Gaming-Community",
+      "Discord-Community",
+      "Gameserver",
+      "Minecraft Vanilla SMP",
+      "Survival Games",
+      "Community-Events",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "customer service",
@@ -88,13 +101,28 @@ export function buildDefaultJsonLdGraph(args?: {
   title?: string;
   description?: string;
 }): JsonLd {
-  return buildGraphJsonLd([
+  const path = args?.path ?? "/";
+  const title = args?.title ?? site.name;
+  const nodes = [
     buildOrganizationJsonLd(),
     buildWebSiteJsonLd(),
     buildWebPageJsonLd({
-      path: args?.path ?? "/",
-      title: args?.title ?? site.name,
+      path,
+      title,
       description: args?.description ?? site.description,
     }),
-  ]);
+  ];
+
+  if (path !== "/" && path !== "/404") {
+    nodes.push(
+      buildBreadcrumbJsonLd({
+        items: [
+          { name: "Startseite", path: "/" },
+          { name: title.replace(/\s*\|.*$/, ""), path },
+        ],
+      }),
+    );
+  }
+
+  return buildGraphJsonLd(nodes);
 }

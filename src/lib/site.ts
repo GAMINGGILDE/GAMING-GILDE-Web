@@ -8,6 +8,7 @@ export const site = {
 
   //Stabiler Logo-Pfad (liegt in /public), damit er auch in JSON-LD genutzt werden kann.
   logoPath: "/logo.svg",
+  socialImagePath: "/mg-logo-full.png",
 
   //Social-Profile (sameAs). Bitte nur echte, öffentlich erreichbare Profile eintragen.
   sameAs: [
