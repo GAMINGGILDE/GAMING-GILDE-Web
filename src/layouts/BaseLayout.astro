@@ -5,16 +5,28 @@ import { buildDefaultJsonLdGraph } from "../lib/jsonld";
 import { site } from "../lib/site";
 import "../styles/globals.css";
 
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+}
+
 const title = Astro.props.title ?? site.name;
 const description = Astro.props.description ?? site.description;
+const image = Astro.props.image ?? site.socialImagePath;
+const noindex = Astro.props.noindex ?? false;
 const canonicalUrl = new URL(Astro.url.pathname, site.url).toString();
-const jsonLd = JSON.stringify(
-  buildDefaultJsonLdGraph({
-    path: Astro.url.pathname,
-    title,
-    description,
-  }),
-);
+const socialImageUrl = new URL(image, site.url).toString();
+const jsonLd = noindex
+  ? undefined
+  : JSON.stringify(
+      buildDefaultJsonLdGraph({
+        path: Astro.url.pathname,
+        title,
+        description,
+      }),
+    );
 ---
 
 <!doctype html>
@@ -23,16 +35,31 @@ const jsonLd = JSON.stringify(
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
+    <meta name="googlebot" content={noindex ? "noindex, nofollow" : "index, follow"} />
+    <meta name="theme-color" content="#111827" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content="de_DE" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImageUrl} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="2337" />
+    <meta property="og:image:height" content="1629" />
+    <meta property="og:image:alt" content={`${site.name} – deutsche Gaming-Community`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageUrl} />
+    <meta name="twitter:image:alt" content={`${site.name} – deutsche Gaming-Community`} />
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="de" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <title>{title}</title>
-    <script is:inline id="ld-default" type="application/ld+json" set:html={jsonLd}></script>
+    {jsonLd && <script is:inline id="ld-default" type="application/ld+json" set:html={jsonLd} />}
   </head>
   <body class="antialiased min-h-screen flex flex-col">
     <Navbar />
