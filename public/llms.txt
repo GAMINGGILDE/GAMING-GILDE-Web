@@ -1,0 +1,25 @@
+# GAMING GILDE
+
+> GAMING GILDE ist eine deutschsprachige Gaming-Community für gemeinsames Spielen, Austausch auf Discord, Community-Events und eigene Gameserver.
+
+Die zentrale Anlaufstelle der Community ist der Discord-Server. Zum Gameserver-Angebot gehören derzeit die Minecraft Gilde als Vanilla-SMP-Langzeitserver sowie Server für Valheim Plus und 7 Days to Die. Inhalte der Website sind auf Deutsch verfasst.
+
+## Zentrale Seiten
+
+- [Startseite](https://gaming-gilde.org/): Überblick über Community, Discord und Angebote
+- [Gameserver](https://gaming-gilde.org/gameserver/): Aktuelle Server, Spielbeschreibungen und Verbindungsinformationen
+- [Events](https://gaming-gilde.org/event/): Informationen zu aktuellen Community-Events
+- [Geschichte](https://gaming-gilde.org/geschichte/): Entwicklung der Community und Zusammenschluss zur GAMING GILDE
+
+## Offizielle Profile
+
+- [Discord](https://discord.gaming-gilde.org): Zentraler Community-Treffpunkt
+- [YouTube](https://www.youtube.com/@Gaming-Gilde): Offizieller Videokanal
+- [Twitch](https://www.twitch.tv/gaming_gilde): Offizieller Twitch-Kanal
+- [TikTok](https://www.tiktok.com/@gaminggilde): Offizielles TikTok-Profil
+
+## Weitere Informationen
+
+- [Impressum](https://gaming-gilde.org/impressum/): Anbieter- und Kontaktinformationen
+- [Datenschutz](https://gaming-gilde.org/datenschutz/): Informationen zur Datenverarbeitung
+- [Sitemap](https://gaming-gilde.org/sitemap-index.xml): Übersicht der indexierbaren Seiten
